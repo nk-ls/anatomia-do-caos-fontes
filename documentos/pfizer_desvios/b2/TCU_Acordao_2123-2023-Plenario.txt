@@ -1,0 +1,955 @@
+=== TITULO
+ACÓRDÃO 2123/2023 ATA 44/2023 - 
+PLENÁRIO
+
+=== DATASESSAO
+18/10/2023
+=== PROC
+
+031.627/2022-6
+
+=== RELATOR
+VITAL DO RÊGO
+=== ENTIDADE
+ Ministério da Saúde.
+=== SUMARIO
+REPRESENTAÇÃO. INDÍCIOS DE IRREGULARIDADES ACERCA DE PERDA DE VACINAS CONTRA A COVID19, POR EXPIRAÇÃO DE VALIDADE, ARMAZENADAS NOS ESTOQUES DOS ENTES SUBNACIONAIS. CONHECIMENTO. PROCEDÊNCIA. DETERMINAÇÕES E RECOMENDAÇÃO.
+=== ACORDAO
+
+VISTOS, relatados e discutidos estes autos relativos à representação formulada por equipe de auditoria, em face de possíveis irregularidades acerca de perda de vacinas contra a covid-19, por expiração de validade, armazenadas nos estoques dos entes subnacionais;
+ACORDAM os Ministros do Tribunal de Contas da União, reunidos em sessão de 
+Plenário,
+ ante as razões expostas pelo Relator, em:
+9.1. conhecer, com fulcro no art. 237, inciso V, do Regimento Interno do TCU (RITCU), da presente representação para, no mérito, considerá-la procedente;
+9.2. determinar ao Ministério da Saúde que:
+9.2.1. no prazo de 15 (quinze) dias, apresente planilhas de imunizantes atualizadas, referentes aos anos de 2022, 
+2023
+ e 2024, com os seguintes dados de vacinas contra a covid-19, distribuídas ou a distribuir aos Estados, Municípios e Distrito Federal, categorizando os dados por "UF de destino", "Município de destino", "Fabricante", "Quantidade de doses", "Número do lote", "Data de validade", "vencidas", e "a vencer", em formato .xlsx ou .xls;
+9.2.2. no prazo de 30 (trinta) dias, apresente plano de ação, identificando as medidas a serem adotadas, os responsáveis por cada uma delas e os prazos para a implementação, com vistas ao monitoramento do processo de distribuição-vacinação-registro de vacinas contra a covid-19, definindo as intervenções necessárias, incluindo, dentre essas, os acertos pertinentes junto ao Conselho Nacional de Secretários de Saúde (Conass) e ao Conselho Nacional das Secretarias Municipais de Saúde (Conasems) e as a seguir apontadas:
+9.2.2.1. identificação de imunizantes 
+vencidos
+ contra a covid-19 nos Estados, Municípios e Distrito Federal, referentes aos anos de 2022 e 
+2023,
+ utilizando-se os sistemas corporativos de registro, categorizando os dados por "UF de destino", "Município de destino", "Fabricante", "Quantidade de doses", "Número do lote" e "Data de validade", em formato .xlsx ou .xls;
+9.2.2.2. correção das inconsistências de registro, como duplicidade, falta ou atraso de informações, adotando medidas junto às secretarias de saúde envolvidas, com apoio, se necessário, do Conass e Conasems;
+9.2.2.3. levantamento das causas das perdas de imunizantes contra a covid-19, identificando as devidas responsabilidades;
+9.2.2.4. estabelecimento de diretrizes para correção das inconsistências, a fim de identificar o quantitativo efetivo de perdas de vacinas por expiração de validade;
+9.2.2.5. identificação dos imunizantes contra a covid-19, 
+a vencer no ano de 
+2023
+ e 2024, 
+nos Estados, Municípios e Distrito Federal, utilizando-se os sistemas corporativos de registro, categorizando os dados por "UF de destino", "Município de destino", "Fabricante", "Quantidade de doses", "Número do lote" e "Data de validade", em formato .xlsx ou .xls; e 
+9.2.2.6. estabelecimento de orientações gerais para Estados, Municípios e Distrito Federal para mitigar perdas de vacinas contra a covid-19 por expiração de data de validade, subsidiariamente às já produzidas pela Nota Técnica 1/2023-CGICI/DIMU/SVSA/MS, para situações em que a cobertura vacinal não apresente demanda suficiente para consumo das vacinas em estoques no almoxarifado desses entes subnacionais;
+9.3. determinar à AudSaúde que dê prosseguimento às apurações relativas à perda de vacina por expiração de validade e, se for o caso, em decorrência das informações obtidas a partir do cumprimento do presente acórdão, promova a identificação dos responsáveis; 
+9.4. recomendar ao Ministério da Saúde o desenvolvimento de ferramentas que possibilitem conhecer os estoques dos entes subnacionais para promoção de ações coordenadas, inclusive com o Conselho Nacional de Secretários de Saúde (Conass) e o Conselho Nacional das Secretarias Municipais de Saúde (Conasems), para mitigação das perdas de vacina por expiração de validade e proporcione maior eficiência na utilização dos recursos empreendidos na aquisição de vacinas da covid-19.
+
+=== VOTO
+
+Em exame, representação formulada por equipe de auditoria, nos termos do art. 237, inciso V, do Regimento Interno do TCU (RITCU), em face de possíveis irregularidades acerca de perda de vacinas contra a covid-19, por expiração de validade, armazenadas nos estoques dos entes subnacionais.
+Inicialmente, registro que o volume de imunizantes contratados e recebidos em doação no Brasil alcançou cerca de 820 milhões de vacinas até dezembro de 2022.
+As vacinas adquiridas são distribuídas aos estados após pactuação na Câmara Técnica e homologadas na Comissão Intergestores Tripartite (CIT), para estabelecimento de quantitativos a serem destinados a cada uma das unidades federativas, as quais, por sua vez, são distribuídas aos municípios de acordo com as pactuações realizadas no âmbito das Comissões Intergestores Bipartite (CIB) e das Comissões Intergestores Regionais (CIR). 
+Nos municípios, ocorre todo o processo operacional da vacinação contra a covid-19, a exemplo de armazenamento, diluição, aplicação, registro na carteira de vacinação do paciente, descarte de seringas e informação das vacinas aplicadas no Sistema de Informações do Programa Nacional de Imunizações (SIPNI). 
+A unidade técnica, quando realizava o oitavo ciclo de acompanhamento da estrutura de governança adotada pelo Ministério da Saúde (MS) para o combate à crise gerada pela covid-19, verificou que foram encaminhadas 573.498.244 doses de vacinas contra a covid-19 para os entes subnacionais e aplicadas 492.102.883 doses, sendo que 22.038.313 desses registros de aplicação se mostraram inconsistentes (por doses aplicadas a mais ou por aplicação de vacinas de lotes não repassados pelo Ministério da Saúde). Tais registros inconsistentes se concentraram principalmente em São Paulo (11,18%) e Espírito Santo (6,95%), ao passo que Roraima e Alagoas tiveram os menores percentuais de registros inconsistentes, com percentuais respectivos de 0,68% e 0,69%.
+A unidade constatou também a existência, até 30/9/2022, de 54.276.447 doses de vacinas vencidas nos almoxarifados dos entes subnacionais (9,5% do repassado pelo governo federal), perfazendo dano potencial de mais de dois bilhões de reais.
+Essas doses vencidas e não aplicadas se concentraram predominantemente no Rio de Janeiro (32,27%) e Roraima (19,69%), ao passo que Piauí, com 3,03%, e Goiás, com 3,47%, apresentaram os menores percentuais.
+À época, também foi levantada a possibilidade de perda de mais 128.562.450 doses de vacinas contra a covid-19, até o final do ano de 2022, caso essas vacinas não fossem utilizadas. 
+Além das perdas das vacinas distribuídas para os entes subnacionais, foram verificadas, nos depósitos do Ministério da Saúde em Guarulhos/SP, vacinas vencidas no total de 660.438 doses, dados de 3/11/2022, portanto, ainda não distribuídas aos entes subnacionais. Ainda, em relatório de descarte de vacinas até agosto de 2022, constam 2 milhões de doses com valor estimado de R$ 30,8 milhões.
+ Dessa forma, em sintonia com a proposta da AudSaúde, concedi medida cautelar, em 28/12/2022, referendada por este 
+Plenário
+ por meio do 
+Acórdão 107/2023-TCU-Plenário
+, para que o Ministério da Saúde, em 30 dias, estabelecesse procedimento para informar/levantar os volumes de vacinas contra a covid-19 existentes no seu próprio estoque/depósito e os de posse dos entes subnacionais com prazo expirado de validade e a expirar (em 
+2023),
+ adotando, para esses últimos, procedimentos para impedir ou mitigar as perdas, dando conhecimento a este Tribunal das medidas adotadas em igual prazo.
+Além disso, determinei a oitiva da pasta ministerial para que se manifestasse sobre os fatos apontados nesta representação, bem assim apresentasse planilha de imunizantes atualizadas, referentes aos anos de 2022 e 
+2023,
+ com os dados de vacinas contra a covid-19 distribuídas ou a distribuir aos entes subnacionais.
+II
+Em cumprimento à diligência feita, o Ministério da Saúde encaminhou nove Planilhas dos Estoques (documentos SEI 0031975390, 0031975414 e 0031975475, peça 23, dados não digitalizáveis), com as informações atualizadas de estoques vencidos e a vencer, tanto no seu almoxarifado central quanto nas Secretarias Estaduais de Saúde (SES) e Secretarias Municipais de saúde (SMS), com dados extraídos em 17/2/2023 do Sistema de Insumos Estratégicos (SIES) - sem incluir, no entanto, dados do Distrito Federal.
+O quantitativo de perdas de vacinas por expiração de validade foi levantado pela unidade técnica a partir dos dados do sistema SIES, cotejando-os com as datas de validade das vacinas após sua prorrogação. Foi observado um cenário elevado de perdas de vacinas nas secretarias municipais e estaduais de saúde, bem assim no almoxarifado do Ministério da Saúde.
+Contudo, a unidade técnica ressalvou que os dados indicados no sistema SIES podem conter inconsistências decorrentes de falta ou atraso de registro da vacinação, especialmente quando se verificou que o maior quantitativo de perdas não ocorreu em secretarias municipais de saúde de capitais. Dessa forma, a falta ou o atraso de registro de vacinação pode alterar para mais o número de vacinados indicados nos sistemas oficiais.
+Seguem os resultados apurados, cuja data de corte foi 30/9/2022.
+II.1 - nas secretarias estaduais de saúde
+Foi verificada a existência, nas secretarias estaduais de saúde, de 2.296.096 doses vencidas por expiração de validade, sendo que 78,6% deste quantitativo ocorreu no Paraná, seguido de São Paulo (13%), Rio de Janeiro (5,4%), Piauí (1%), Roraima (0,9%) e Alagoas, Sergipe, Goiás, Maranhão e Rio Grande do Norte, que, juntos, somam 0,74%.
+A vacina da AstraZeneca/Fiocruz foi o imunizante que mais teve perda por expiração de validade nessas secretarias estaduais de saúde (2.248.865 doses, correspondendo a 97,95% da ocorrência e R$ 56,5 milhões). A vacina CoronaVac/Butantan teve perda de 24.041 doses (1,05% da ocorrência e R$ 1,35 milhão) e a Comirnaty/Pfizer, 23.190 doses (1% da ocorrência e R$ 1,39 milhão). 
+Segundo os dados, no Paraná, 80,3% das vacinas perdidas se referiram à AstraZeneca; em São Paulo, 13,35%; e no Rio de Janeiro, 4,9%.
+Em relação aos imunizantes a vencer até 31/12/2023, foi verificado nas SES o quantitativo de 9.171.793 doses, correspondendo a R$ 531.537.707,61, sendo quase 90% da Pfizer (8.212.810 doses, no valor de R$ 493.343.496,70). Os outros 10% são da AstraZeneca/Fiocruz (449.300 doses, R$ 11.290.909,00), CoronaVac/Butantan (261.213 doses, R$ 14.698.455,51), e Janssen (248.470 doses, R$ 12.204.846,40).
+II.2 - nas secretarias municipais de saúde
+Por sua vez, nas secretarias municipais de saúde, foi verificada a existência de 23.668.198 de doses vencidas por expiração de validade em 2.316 municípios, correspondendo, em danos financeiros, em R$ 1.118.887.691,87 (de acordo com a metodologia adotada pela equipe). As maiores perdas concentraram-se em municípios dos estados de Minas Gerais (407 municípios, 4.062.119 doses), Bahia (203 municípios, 3.462.098 doses), Maranhão (127 municípios, 2.797.767 doses), Ceará (117 municípios, 2.698.631 doses) e Rio Grande do Sul (206 municípios, 2.520.079 doses), representando 65,6% do total das perdas.
+As secretarias municipais de saúde das capitais participaram com 4,1% dessas perdas de vacinas por expiração de validade, correspondente a 971.822 doses de imunizantes. O maior número de perdas foi verificado nas SMS do Rio de Janeiro (411.072), seguido de Fortaleza (145.895), Salvador (125.095) e Aracaju (117.572), representando 82,2% do total das perdas. Registre-se que não foi constatada ocorrência de perdas de vacinas por expiração de validade nas SMS de Manaus, Macapá, Vitória, Belo Horizonte, Belém, Recife, Teresina, Porto Velho, Boa Vista, Florianópolis e Palmas.
+Das vacinas vencidas nas Secretarias Municipais de Saúde, quase 80% foram da Comirnaty/Pfizer (10.734.987 doses, 45,3% das perdas, valores financeiros de R$ 644.850.669,09) e da AstraZeneca/Fiocruz (8.072.921 doses, 34,10% das perdas e R$ 202.872.504,73). Os quase 20% restantes são da CoronaVac/Butantan (4.535.255 doses, 19,2% da ocorrência e R$ 255.198.798,85) e a Jansen (325.035 doses, 1,4% da ocorrência e R$ 15.965.719,20).
+Nas SMS, verificou-se o quantitativo de 7.734.632 doses de imunizantes a vencer até 31/12/2023, correspondendo a R$ 439.849.701,44, sendo da Pfizer 5.356.179 doses (R$ 321.745.672,53), representando 69,3% do total; da Jansen 1.364.180 doses (17,6%, R$ 67.008.521,60), da CoronaVac 822.313 doses (10,6%, R$ 46.271.552,51) e da AstraZeneca, 191.960 doses (2,5%, R$ 4.823.954,80).  
+II.3 - no almoxarifado do Ministério da Saúde
+No almoxarifado do Ministério da Saúde em Guarulhos, constavam, até a data do levantamento das planilhas (17/2/2023), 31.235.258 doses de vacinas, estando vencidas por expiração de validade 2.215.000 doses, todas do imunizante da AstraZeneca, correspondendo a perdas financeiras de R$ 55.662.950,00.
+Verificou-se ainda o quantitativo de 29.020.258 doses de imunizantes a vencer até 31/12/2023. 
+III
+Após análise dos esclarecimentos feitos pelo Ministério da Saúde em resposta à oitiva promovida, a unidade técnica concluiu que as medidas adotadas por aquele órgão não indicam formas de monitoramento dos estoques de vacinas.
+O referido ministério não apresentou qualquer ação ou procedimento para quantificar efetivamente as perdas de imunizantes por expiração de validade, identificar suas causas ou orientar os entes subnacionais acerca do volume de perdas de vacina por expiração de validade, considerando as informações produzidas pelos sistemas corporativos de registro de distribuição e aplicação de imunizantes, levantados pelo Tribunal e pelo próprio ministério (SIES e SIPNI).
+A unidade apontou que, para a pasta ministerial, a causa das perdas verificadas seria a não cobertura vacinal, sem se aprofundar, entretanto, sobre outros pontos que poderiam refletir no quantitativo de perdas por expiração de validade, a exemplo de falta ou atraso de registro das aplicações feitas, de não utilização total do frasco depois de aberto, de preferências ou receio de o cidadão ser imunizado por certo tipo de vacina contra a covid-19, e das perdas efetivamente ocorridas.
+Segundo o MS, não é de sua competência exercer o monitoramento ou qualquer outro tipo de controle sobre os imunizantes distribuídos aos entes subnacionais para mitigar as perdas de vacinas contra a covid-19, mas sim dos próprios entes.
+Sua ação nesse aspecto, segundo a pasta, foi o encaminhamento, aos estados, de documentos técnicos reforçando as medidas para aumentar a adesão à vacinação e disponibilização de imunizantes para a população, integrando o trabalho com a Atenção Primária em Saúde e demais entidades, com as sociedades científicas para o engajamento dos profissionais de saúde, e com o setor educacional para o envolvimento dos professores, das famílias e das entidades não governamentais para o apoio na divulgação da importância e segurança das vacinas, para reverter o quadro de baixas coberturas vacinais. 
+Para seus estoques, o Ministério registrou a elaboração de normativo que objetiva prevenir perdas de insumos estratégicos em saúde com datas de validade a expirar, a exemplo da Portaria GM/MS 4.777/2022 (arts. 22, parágrafo único, 23/25), a qual dispõe sobre os procedimentos de planejamento, aquisição e gestão de insumos estratégicos em saúde, o que representou um avanço na busca de mitigar as perdas no tocante aos imunizantes estocados no almoxarifado do órgão, pois estabeleceu procedimentos que podem reduzir essa ocorrência, formalizando a rotina que deve ser adotada pelos órgãos demandantes e DLOG. Além disso, conforme registrado no relatório do oitavo acompanhamento, houve solicitação, em 9/11/2022, ao Instituto de Tecnologia em Imunobiológico (Bio-Manguinhos) para suspensão da produção e entrega da vacina AstraZeneca/Fiocruz, sob a alegação, dentre outras, de diminuição das solicitações do referido imunizante pelos entes federativos e a robustez do estoque, sob risco de perecimento.
+Para a unidade técnica, considerando que não foi observada orientação ou estabelecimento de procedimentos gerais ou específicos a respeito dos imunizantes que foram enviados para os entes subnacionais, deve o Ministério da Saúde, como órgão central da política de saúde do país, monitorar o processo de distribuição-vacinação-registro de vacinas, a fim de adotar medidas para evitar ou mitigar, tempestivamente, a eventual perda dos imunizantes por expiração do prazo de validade, nos entes subnacionais.
+Segundo apontou, deixar de monitorar o processo distribuição-vacinação-registro é possibilitar, novamente, a ocorrência de perdas de imunizantes por expiração de prazo de validade em quantidades significativas, desperdiçando recursos públicos destinados à saúde.
+Registrou jurisprudência do TCU (
+Acórdão 571/2023-TCU-Plenário
+, 
+Acórdão 107/2023-TCU-Plenário
+ e 
+Acórdão 2228/2021-TCU-Plenário
+), acerca do controle e monitoramento das vacinas enviadas aos estados para atender o Plano Nacional de Operacionalização de vacinação contra a Covid-19 (PNO), no sentido de que cabe ao Ministério da Saúde realizar procedimentos de controle e monitoramento dos insumos distribuídos em razão da natureza federal dos recursos para sua aquisição.
+Pontuou que o controle é princípio fundamental da Administração Pública (art. 6º, 10 e 13 do Decreto-Lei 200/1967) e que deixar de exercê-lo ou exercê-lo de forma parcial ou inadequadamente compromete os resultados, o que ficou demonstrado no presente caso, com perdas de imunizantes por expiração da data de validade, em que foram constatadas ausência de monitoramento do volume de estoque distribuído aos entes subnacionais e falta de medidas concretas destes para evitar ou mitigar perdas.
+Neste contexto, reforçou, nos termos do art. 16, inciso XVII, da Lei 8.080/1990, a atribuição do Ministério da Saúde para acompanhar, controlar e avaliar as ações e os serviços de saúde, respeitadas as competências estaduais e municipais, mandamento este, como concluiu, não foi cumprido acerca do volume de vacinas distribuídas, aplicadas e registradas pelos entes subnacionais.
+IV
+Diante de suas conclusões e considerando, em relação às medidas para evitar ou mitigar perdas de vacinas contra a covid-19 nos entes subnacionais, que não foram identificadas outras medidas, além de reforço da vacinação, a serem adotadas antes de os imunizantes vencerem por expiração de validade, no caso de a cobertura vacinal não apresentar demanda suficiente para consumir os estoques dos entes subnacionais, a AudSaúde propôs a manutenção da medida cautelar referendada por meio do 
+Acórdão 107/2023-TCU-Plenário
+,  renovando-se seu conteúdo, para que o Ministério da Saúde, no prazo de 30 dias, apresente plano de ação, identificando as medidas a serem adotadas, os responsáveis por cada uma delas e os prazos para a implementação, com vistas ao monitoramento do processo de distribuição-vacinação-registro de vacinas contra a covid-19, definindo as intervenções necessárias, considerando as medidas exemplificadas a seguir: 
+	a) identificação de imunizantes 
+vencidos
+ contra a covid-19 nos Estados, Municípios e Distrito Federal, referentes aos anos de 2022 e 
+2023,
+ utilizando-se os sistemas corporativos de registro, categorizando os dados por "UF de destino", "Município de destino", "Fabricante", "Quantidade de doses", "Número do lote" e "Data de validade", em formato .xlsx ou .xls;
+	b) correção das inconsistências de registro, como duplicidade, falta ou atraso de informações, adotando medidas junto às secretarias de saúde envolvidas, com apoio, se necessário, do Conass e Conasems;
+	c) levantamento das causas das perdas de imunizantes contra a covid-19;
+	d) estabelecimento de diretrizes para correção das inconsistências, a fim de identificar o quantitativo efetivo de perdas de vacinas por expiração de validade;
+	e) identificação dos imunizantes contra a covid-19 
+a vencer no ano de 
+2023
+ nos Estados, Municípios e Distrito Federal, utilizando-se os sistemas corporativos de registro, categorizando os dados por "UF de destino", "Município de destino", "Fabricante", "Quantidade de doses", "Número do lote" e "Data de validade", em formato .xlsx ou .xls; e
+	f) estabelecimento de orientações gerais para Estados, Municípios e Distrito Federal para mitigar perdas de vacinas contra a covid-19 por expiração de data de validade, subsidiariamente às já produzidas pela Nota Técnica 1/2023-CGICI/DIMU/SVSA/MS, para situações em que a cobertura vacinal não apresente demanda suficiente para consumo das vacinas em estoques no almoxarifado desses entes subnacionais.
+Além disso, propôs a oitiva do Conselho Nacional de Secretários de Saúde e do Conselho Nacional de Secretarias Municipais de Saúde, considerando serem instâncias que congregam os órgãos estaduais e municipais de saúde e que a complexidade e o número de estados e municípios envolvidos em perdas de imunizantes ou a vencer por expiração de validade são elevadas, para que se manifestem sobre os presentes fatos; como também a realização de diligência ao Ministério da Saúde para que, no prazo de 15 dias, apresente planilhas de imunizantes atualizadas, referentes aos anos de 2022 e 
+2023,
+ com os seguintes dados de vacinas contra a covid-19: distribuídas ou a distribuir aos Estados, Municípios e Distrito Federal, categorizando os dados por "UF de destino", "Município de destino", "Fabricante", "Quantidade de doses", "Número do lote", "Data de validade", "vencidas" e "a vencer", em formato .xlsx ou .xls.
+V
+O contexto apresentado no presente trabalho revelou expressiva perda de vacina contra a covid-19 por expiração de validade nos entes subnacionais. Conforme os dados de 17/2/2023, nas secretarias municipais de saúde foram 23.668.168 doses e nas secretarias estaduais de saúde, 2.296.096 doses.
+Ainda, em relação aos municípios, aqueles que não são capitais abarcaram a grande maioria das perdas (22.696.346 doses) comparados com os dados das capitais (971.822 doses, apenas 4,1% das perdas identificadas). A par de considerar que pode ter ocorrido distorções e inconsistências nos registros, a exemplo de falta ou atraso de alimentação nas bases corporativas de registro de vacinas aplicadas, tal diferença indica ponto de fragilidade relevante naquelas unidades locais. 
+As causas para tais perdas, como visto, não foram efetiva e individualmente identificadas pelo Ministério da Saúde, que as credita tão somente ao não atingimento da meta vacinal. A unidade técnica, por outro lado, acertadamente a meu ver, ponderou que devem ser decorrentes de múltiplas causas, a exemplo de falta ou atraso de registro de vacinação, não utilização do quantitativo de doses indicadas no frasco (perda de validade das vacinas por positivação de temperatura e/ou perdas decorrentes de manuseio), inconsistência de registro de vacinação, rejeição de uso pela população de certo tipo de vacina.
+Por isso, com razão o órgão instrutivo quando asseverou que o Ministério da Saúde deve ter ferramentas para conhecer os estoques dos entes subnacionais e promover ações coordenadas que mitigassem perdas e proporcionasse maior eficiência na utilização dos recursos empreendidos na aquisição de vacinas da covid-19, diante dos valores e quantitativos envolvidos.
+Igualmente, com razão o órgão instrutivo quando frisou que, em decorrência da elevada materialidade e relevância e pelo envolvimento de 2.316 secretarias municipais de saúde e dez estados da Federação, a adoção das medidas necessárias deve ser feita pelo Ministério da Saúde, em conjunto com outros órgãos, a exemplo do Conselho Nacional de Secretários de Saúde (Conass) e do Conselho Nacional das Secretarias Municipais de Saúde (Conasems), para garantir a fidedignidade das informações.
+A cautelar concedida em 28/12/2022, referendada por este 
+Plenário
+ por meio do 
+Acórdão 107/2023-TCU-Plenário
+, foi para que o Ministério da Saúde estabelecesse procedimento para informar/levantar os volumes de vacinas contra a covid-19 existentes no seu próprio estoque/depósito e os de posse dos entes subnacionais com prazo expirado de validade e a expirar (em 
+2023),
+ adotando, para esses últimos, procedimentos para impedir ou mitigar as perdas, dando conhecimento a este Tribunal das medidas adotadas.
+Veja-se que, com os trabalhos até aqui desenvolvidos, já se tem conhecimento da situação das perdas de vacina por expiração de validade ocorridas em 2022 e 
+2023
+ e as projeções para esse último exercício, bem assim da ausência de medidas do órgão central em relação ao monitoramento da situação nos entes subnacionais em relação às causas das perdas verificadas. Nesse contexto, considero não mais ser pertinente a proposta interlocutória feita pela unidade técnica, devendo este Tribunal, desde já, decidir no mérito da presente representação.
+Dessa forma, propugno que se considere procedente a presente representação e que se determine ao Ministério da Saúde as medidas propostas pela unidade técnica no sentido de que apresente plano de ação, identificando as medidas a serem adotadas, os responsáveis por cada uma delas e os prazos para a implementação, com vistas ao monitoramento do processo de distribuição-vacinação-registro de vacinas contra a covid-19, definindo as intervenções necessárias, incluindo, dentre essas, inclusive, os acertos pertinentes junto ao Conselho Nacional de Secretários de Saúde (Conass) e ao Conselho Nacional das Secretarias Municipais de Saúde (Conasems) para esse fim.
+Além disso, deve tomar forma de determinação a proposta feita pela unidade técnica de diligência ao Ministério da Saúde para que apresente planilhas de imunizantes atualizadas, referentes aos anos de 2022 e 
+2023,
+ inclusive de 2024, com os seguintes dados de vacinas contra a covid-19: distribuídas ou a distribuir aos Estados, Municípios e Distrito Federal, categorizando os dados por "UF de destino", "Município de destino", "Fabricante", "Quantidade de doses", "Número do lote", "Data de validade", "vencidas", e "a vencer", em formato .xlsx ou .xls.
+A partir dessas medidas, pode a unidade técnica considerar possível desdobramento processual, se for o caso, no sentido de identificar os responsáveis pelas perdas evitáveis de vacinas. 
+Por último, entendo oportuno expedir recomendação ao Ministério da Saúde para que desenvolva ferramentas que possibilitem conhecer os estoques dos entes subnacionais para promoção de ações coordenadas, inclusive com o Conselho Nacional de Secretários de Saúde (Conass) e o Conselho Nacional das Secretarias Municipais de Saúde (Conasems), para mitigação das perdas de vacina por expiração de validade e proporcione maior eficiência na utilização dos recursos empreendidos na aquisição de vacinas da covid-19.
+	Com essas considerações, voto para que o Tribunal aprove a minuta de acórdão que ora submeto à consideração deste Colegiado.
+TCU, Sala das Sessões, em 18 de outubro de 
+2023.
+Ministro VITAL DO RÊGO 
+Relator
+
+=== RELATORIO
+
+Trata-se de representação formulada por equipe de auditoria, com fulcro no art. 237, inciso V, do Regimento Interno do TCU (RI/TCU), em razão de possíveis irregularidades acerca de perda de vacinas contra a covid-19, por expiração de validade, armazenadas nos estoques dos entes subnacionais.
+No âmbito da AudSaúde, foi elaborada a instrução à peça 28, a seguir transcrita com os ajustes de forma pertinentes, cujo encaminhamento foi encampado pelos dirigentes da unidade (peças 29 e 30):
+A equipe de auditoria, designada pela a Portaria de Fiscalização 424, de 17 de agosto de 2022, alterada pela Portaria de Fiscalização - SecexSaúde 510, de 29 de setembro de 2022, posteriormente alterada pela Portaria de Fiscalização AudSaúde 165, de 19 de abril de 
+2023
+ (Registro Fiscalis 154/2022), para realizar acompanhamento das ações realizadas pelo Ministério da Saúde para enfrentamento da Covid-19, no âmbito do processo TC 
+Processo 015.125/2021-1
+, analisou, dentre outros temas, a distribuição, a aplicação e as datas de validade dos imunizantes distribuídos pelo Ministério da Saúde, ao longo do período de vacinação de 2021 a 2022, para os entes subnacionais.
+DOS FATOS E HISTÓRICO
+O Ministério da Saúde celebrou os Contratos 5/2021, 14/2021 e 50/2022 com o Instituto Butantan para aquisição de vacinas CoronaVac, os TED 1/2021 e 35/2021 firmados junto à Fiocruz, para compra das vacinas da AstraZeneca, o Contrato 51/2021 com a Janssen, os Contratos 52/2021, 117/2021 e 281/2021 para aquisição de vacinas da Pfizer (adulta, pediátrica e bivalente), e os termos 85° TC / 8° TA / 2° TRR junto ao Consórcio 
+Covax Facility
+. Além das compras, foram recebidas vacinas em doação da Janssen, dos Estados Unidos da América, da Conmebol e do Instituto Butantan. O volume de imunizantes contratados ou recebidos em doação alcançou cerca de 820 milhões de vacinas, até dezembro de 2022. 
+As vacinas adquiridas são distribuídas para os estados após pactuação na Câmara Técnica e homologadas na Comissão Intergestores Tripartite (CIT), para estabelecimento de quantitativos a serem destinados a cada uma das unidades federativas. As vacinas recebidas pelos estados são distribuídas para os municípios de acordo com as pactuações realizadas no âmbito das Comissões Intergestores Bipartite (CIB) e das Comissões Intergestores Regionais (CIR). 
+Nos municípios, ocorre todo o processo operacional da vacinação contra Covid-19, a exemplo de armazenamento na temperatura de 2ºC a 8ºC, diluição, aplicação, registro na carteira de vacinação do paciente, descarte de seringas, e informação das vacinas aplicadas no Sistema de Informações do Programa Nacional de Imunizações (SIPNI). 
+Até o sétimo ciclo do acompanhamento realizado no processo TC 
+Processo 015.125/2021-1
+, haviam sido analisadas as aquisições dos imunizantes, a produção interna de vacinas por incorporação de tecnologia, e a distribuição de vacinas para os entes subnacionais.
+No oitavo ciclo do acompanhamento, buscaram-se informações acerca da existência de estoques nos entes subnacionais, considerando as vacinas contra Covid-19 distribuídas, os registros de aplicação realizadas e as datas de validade dos lotes dos imunizantes, cotejando-se, neste caso, as eventuais prorrogações de validade autorizadas pela Anvisa.
+Verificou-se, ao se realizar o cruzamento de dados entre as doses de vacinas distribuídas pelo Ministério da Saúde aos Estados e as doses aplicadas no público elegível, registradas nos Sistema de Informações do Programa Nacional de Imunizações (SIPNI), considerando-se as datas de validade dos imunizantes, 
+a existência de 54.276.447 doses vencidas de vacinas, perfazendo dano potencial de mais de dois bilhões de reais (R$ 2.167.926.230,96) desperdiçados
+.
+Quanto ao 
+risco
+, o cruzamento de dados, além de revelar as possíveis perdas de vacinas por expiração de validade de 54.276.447 doses, também levantou a possibilidade de perda de vacinas contra a Covid-19 de 128.562.450 doses, até o final do ano de 2022, caso essas vacinas não fossem utilizadas. 
+Diante do quantitativo obtido no cruzamento de dados, da relevância do tema e da materialidade envolvida, a equipe de auditoria considerou pertinente representar sobre o fato, para apuração, em processo específico, as eventuais responsabilidades e o dano efetivo.
+Naquela oportunidade, foram propostas, com anuência da direção da Unidade Técnica, a decretação de medida cautelar, a oitiva e diligência ao Ministério da Saúde, nos termos abaixo (peça 7-9):
+Ante o exposto, submetem-se os autos à consideração superior, propondo:
+conhecer a presente documentação como representação, com fulcro nos arts. 235, parágrafo único, e 237, inciso V, do Regimento Interno do TCU e no art. 103, § 1º, da Resolução - TCU 259/2014;
+b) determinar cautelarmente, nos termos do art. 276, caput, do Regimento Interno/TCU, ao Ministério da Saúde que, tendo em vista o consignado no art. 16, inciso XVII da Lei 8.080/1990, estabeleça procedimento, no prazo de 30 dias, para levantar os volumes de vacinas contra Covid-19 de posse dos entes subnacionais com prazo expirado de validade e a expirar, adotando procedimentos para impedir ou mitigar as perdas, dando conhecimento a este Tribunal das medidas adotadas em igual prazo;
+c) determinar, nos termos do art. 276, § 3º, do Regimento Interno/TCU, a oitiva do Ministério da Saúde, para, no prazo de até 15 dias, manifestar-se sobre os fatos apontados na representação;
+d) realizar diligência ao Ministério da Saúde, com fundamento no art. 157 do RI/TCU, para que, no prazo de 15 dias, apresente planilha de imunizantes atualizadas até o final do ano de 2022, com os seguintes dados de vacinas contra a Covid-19 distribuídas aos entes subnacionais, categorizando os dados por "UF de destino", "Município de destino", "Fabricante", "Quantidade de doses", "Número do lote" e "Data de validade", em formato .xlsx ou .xls; e
+e) encaminhar cópia da presente instrução ao Ministério da Saúde, a fim de subsidiar as respostas dessa diligência.
+12. Em Despacho de 28/12/2022, o Ministro Relator, Vital do Rêgo, conheceu da representação, concedeu a medida cautelar e determinou a realização de oitivas e diligências do Ministério da Saúde nos termos do excerto abaixo (peça 10):
+Conheço, com fulcro nos arts. 235, caput, e 237, inciso V, do Regimento Interno do TCU, da presente representação e determino: 
+i) cautelarmente, nos termos do art. 276, caput, do Regimento Interno/TCU, ao Ministério da Saúde que, tendo em vista o consignado no art. 16, inciso XVII, da Lei 8.080/1990, estabeleça procedimento, no prazo de 30 (trinta) dias, para informar/levantar os volumes de vacinas contra Covid-19 existentes no seu próprio estoque/depósito e os de posse dos entes subnacionais com prazo expirado de validade e a expirar (em 
+2023),
+ adotando, para esses últimos, procedimentos para impedir ou mitigar as perdas, dando conhecimento a este Tribunal das medidas adotadas em igual prazo; 
+ii) oitiva do Ministério da Saúde, nos termos do art. 276, § 3º, do Regimento Interno/TCU, para, no prazo de até 15 (quinze) dias, manifestar-se sobre os fatos apontados nesta representação; 
+iii) realização de diligência ao Ministério da Saúde, com fundamento no art. 157 do RI/TCU, para que, no prazo de 15 (quinze) dias, apresente planilha de imunizantes atualizadas, referentes aos anos de 2022 e 
+2023,
+ com os seguintes dados de vacinas contra a Covid-19 distribuídas ou a distribuir aos entes subnacionais, categorizando os dados por "UF de destino", "Município de destino", "Fabricante", "Quantidade de doses", "Número do lote" e "Data de validade", em formato .xlsx ou .xls; e 
+ (iv) a remessa de cópia deste despacho e da instrução da SecexSaúde ao Ministério da Saúde, a fim de subsidiar as respostas às medidas ora adotadas
+Por meio do Ofício 66956/2022-TCU/Seproc, de 29/12/2022, foram comunicadas a oitiva e a diligência ao Ministério da Saúde, com ciência em 30/12/2022 (peças 11 e 12). 
+O Tribunal referendou a decisão monocrática nos termos do 
+Acórdão 107/2023-TCU-Plenário
+, de relatoria do Ministro Vital do Rêgo, em sessão de 1º/2/2023 (peças 13 a 15).
+A comunicação da deliberação do Tribunal foi enviada ao Ministério da Saúde pelo Ofício 3117/2023-TCU/Seproc, de 6/2/2023, com ciência da pasta ministerial no dia 7/2/2023 (peças 16-17).
+Em razão de o Ministério da Saúde não ter atendido a diligência e oitiva determinada pelo Ministro Relator, a AudSaúde em Pronunciamento de 7/2/2023, reiterou as medidas saneadoras (peça 18).
+ Por meio do Ofício 4438/2023-TCU/Seproc (peça 19) foram reiteradas a diligência e a oitiva, sendo dada ciência pela pasta ministerial em 14/2/2023 (peça 20). O Ministério da Saúde respondeu nos termos do Ofício 151/2023/CGINTE/AECI/MS, de 23/2/2023, juntando documentos e planilhas de vacinas (peças 21-23).
+EXAME TÉCNICO 
+Por ocasião da análise das informações colhidas para elaboração do Relatório de Acompanhamento do oitavo ciclo, verificou-se, ao se realizar o cruzamento de dados entre as doses de vacinas distribuídas pelo Ministério da Saúde aos Estados e as doses aplicadas no público elegível, registradas nos Sistema de Informações do Programa Nacional de Imunizações (SIPNI), considerando-se as datas de validade dos imunizantes, a existência de 54.276.447 doses vencidas, perfazendo dano potencial de mais de dois bilhões de reais (R$ 2.167.926.230,96) desperdiçados.
+Para avaliar o impacto decorrente de perdas de doses de vacinas contra a Covid-19 distribuídas a entes subnacionais, realizou-se levantamento de todos os lotes de vacinas encaminhadas pelo Ministério da Saúde aos Estados e ao Distrito Federal, a partir de planilhas elaboradas pelo Departamento de Logística em Saúde (DLOG), em 28/8/2022 (peça 5), em relação aos respectivos lotes de vacinas aplicados na população com base nos dados do Sistema de Informações do Programa Nacional de Imunizações, disponibilizado no portal 
+OpenDatasus
+ (https://opendatasus.saude.gov.br/).
+A análise empreendida nas planilhas identificou um total de 1.146 lotes distribuídos dos fabricantes, assim discriminados: 23 de AstraZeneca AB, 264 de Bio-Manguinhos, 299 da Fiocruz, 189 da Fundação Butantan, 23 de 
+Janssen Biologics
+ BV, 19 de 
+Janssen Pharmaceutica
+ NV, 75 da Pfizer 
+Export
+ BV, 60 de Pfizer 
+Manufacturing Belgium
+ NV, 189 de Sinovac 
+Life Sciences
+, 4 de 
+Us Dept Of Health & Human Services
+ (Janssen) e 1 de fornecedor não informado, o qual, ao se analisar o número do lote (FD7222), constatou-se ser da Pfizer.
+Em posse destes lotes e das respectivas datas de validade apresentados pelo Ministério da Saúde, foram extraídas do SIPNI as doses de vacinas para a Covid-19 aplicadas no Brasil por UF (Estado/DF), relativas ao campo discriminado como "vacina_lote", e subtraíram-se as doses aplicadas das doses distribuídas, para constatar o quantitativo não utilizado dos imunizantes. Todas as extrações do SIPNI, via portal 
+OpenDatasus 
+ (https://opendatasus.saude.gov.br/), foram realizadas em 17/10/2022.
+Para se calcular eventuais perdas de doses por vencimento, estabeleceu-se como data de corte o dia 
+30/9/2022
+, ou seja, foram filtrados os lotes que se encontravam vencidos nessa data, para os quais não constasse registros de aplicação. Caso o lote se encontrasse vencido, e não constasse aplicação no sistema oficial, subentendeu-se que a referida dose foi perdida. 
+As análises de dados levaram em consideração que, em 10/10/2022, após o encaminhamento das tabelas com as datas de validade pelo DLOG/MS, a Diretoria Colegiada da Anvisa aprovou a ampliação do prazo de validade de 15 meses aos lotes da vacina contra a Covid-19 Comirnaty (Pfizer/Wyeth), na apresentação adulto, já importados e distribuídos pelo Ministério da Saúde, independentemente do prazo de validade impresso na embalagem da vacina (9 ou 12 meses) (peça 27).
+Em virtude disso, especificamente para as vacinas da Pfizer, foi feita uma atualização das datas de validade, para as datas informadas pela empresa farmacêutica em documento atualizado em 14/10/2022. Tal documento menciona as novas datas de validade apenas por mês e ano (sem especificar o dia). Logo, para tornar as projeções mais conservadoras, considerou-se como referência o último dia de cada mês (peça 25).
+A fim de calcular eventuais impactos financeiros, realizou-se uma média das aquisições feitas e das doações recebidas pelo governo federal, considerando os contratos informados, chegando-se aos respectivos valores de R$ 56,27 para Coronavac, R$ 25,13 para AstraZeneca, R$ 49,12 para a 
+Janssen 
+e R$ 60,07 para Pfizer. O Ministério da Saúde aplicou o valor de conversão de aproximadamente US$ 1,00, equivalente a R$ 5,30. O detalhamento dos cálculos pode ser visto na tabela a seguir:
+Figura 1 - Valores Médios de Aquisição de Doses de Vacinas Contra a Covid-19
+ Fonte
+: Elaboração própria a partir de dados do Ministério da Saúde.
+Ao se realizar o cruzamento de dados, observou-se que, em alguns casos, os entes subnacionais registraram a aplicação de mais doses de vacinas de Covid-19 do que o Ministério da Saúde informou ter encaminhado, bem como houve lançamentos em que o número do lote da vacina aplicada não correspondia aos lotes repassados pelo governo federal. Não foi possível fazer uma análise individualizada desses registros inconsistentes, mas acredita-se que sejam decorrentes, predominantemente, por erros na alimentação de dados.
+O cruzamento de dados para avaliar doses de vacinas vencidas junto às unidades federadas só foi possível por conta de uma inovação no SIPNI, implementada durante a pandemia de Covid-19, que permite a identificação individual do registro da vacina. 
+Feitas essas considerações iniciais, e considerando a data de corte de 30/9/2022, os dados indicaram terem sido encaminhadas 573.498.244 doses de vacinas contra a Covid-19, e aplicadas 492.102.883 doses, sendo que 22.038.313 desses registros de aplicação se mostraram inconsistentes (por doses aplicadas a maior ou por aplicação de vacinas de lotes não repassados pelo Ministério da Saúde). Esses registros inconsistentes se concentraram principalmente em São Paulo (11,18%) e Espírito Santo (6,95%), ao passo que Roraima e Alagoas tiveram os menores percentuais de registros inconsistentes, com percentuais respectivos de 0,68% e 0,69%.
+Figura 2 - Registros de Vacinas Contra a Covid-19 com Inconsistências nos Lotes
+ Fonte
+: Elaboração própria com dados do SIPNI/OpenDatasus e DLOG/MS. Dados obtidos em 17/10/2022.
+Ao se filtrar os lotes que tiveram a sua validade vencida em até 30/9/2022, observou-se a existência de 54.276.447 doses vencidas (9,5% do repassado pelo governo federal), com perdas estimadas em mais de dois bilhões de reais (R$ 2.167.926.230,96), conforme valores de referência indicados acima.
+As doses vencidas se concentram predominantemente no Rio de Janeiro (32,27%) e Roraima (19,69%), ao passo que Piauí, com 3,03%, e Goiás, com 3,47%, apresentam os menores percentuais de vacinas vencidas e não aplicadas.
+Figura 3 - Registros de Vacinas Contra a Covid-19 Distribuídas e Vencidas até 30/9/2022 Sem Registro de Aplicação
+  Fonte
+: Elaboração própria com dados do SIPNI/
+OpenDatasus
+ e DLOG/MS. Dados obtidos em 17/10/2022.
+Na tabela abaixo, apresentam-se os percentuais de perdas e de inconsistências levantadas, por Estados, e a estimativa dos valores envolvidos por unidade da federação, com dados extraídos em 17/10/2022.
+Tabela 1 - Valores Médios de Aquisição de Doses de Vacinas Contra a Covid-19
+ Fonte
+: Elaboração própria com dados do SIPNI/
+OpenDatasus
+ e DLOG/MS. 
+Naquela oportunidade, verificou-se, ainda, que na planilha encaminhada ao TCU pelo Ministério da Saúde, cerca de 22,4% de doses de imunizantes tinham vencimento entre 6/10/2022 e 31/12/2022, correspondendo em termos absolutos a 128.562.450 doses (peça 5).
+Além das perdas das vacinas distribuídas para os entes subnacionais, foram verificadas, nos depósitos do Ministério da Saúde em Guarulhos/SP, vacinas vencidas no total de 660.438 doses, dados de 3/11/2022, portanto, ainda não distribuídas aos entes subnacionais (peça 4).
+Ainda, em relatório de descarte de vacinas até agosto de 2022, constam 2 milhões de doses com valor estimado de R$ 30,8 milhões (peça 26, planilha em 'item não digitalizável, aba 
+).
+Análise da diligência
+Acerca da diligência determinada pelo Tribunal, o Ministério da Saúde apresentou as Planilhas dos Estoques nos documentos SEI 0031975390, 0031975414 e 0031975475 (peça 23, dados não digitalizáveis, nove planilhas listadas), com as informações atualizadas de estoques vencidos e a vencer, tanto no almoxarifado central do Ministério da Saúde quanto das Secretarias Estaduais e Municipais de Saúde. Os dados foram extraídos dia 17/2/2023 do SIES e não foram incluídos dados do Distrito Federal.
+Perdas de vacinas nas Secretarias Estaduais de Saúde (SES) por expiração de validade
+Examinando-se a planilha de vacinas das Secretarias Estaduais de Saúde (SES), elaborada com os dados do Sistema de Informação Insumos Estratégicos (SIES), verificou-se a existência de 2.296.096 doses vencidas por expiração de validade, sendo que 78,6% deste quantitativo ocorreu na SES do Paraná. Na tabela abaixo, apresentam-se os Estados onde ocorreram essas perdas.
+Tabela 2: Perdas de vacinas contra Covid-19 na SES por expiração de validade
+Secretarias Estaduais de Saúde
+Doses perdidas por expiração de validade
+% de perdas
+Acumulado
+ (%) 
+Paraná
+1.806.624
+78,6824
+78,6824
+São Paulo
+300.000
+13,0656
+91,7480
+Rio de Janeiro
+125.746
+5,4765
+97,2245
+Piauí
+23.840
+1,0382
+98,2627
+Roraima
+22.850
+0,9951
+99,2578
+Alagoas
+9.110
+0,3967
+99,6545
+Sergipe
+7.475
+0,3255
+99,9800
+Goiás
+350
+0,0156
+99,9956
+Maranhão
+66
+0,0029
+99,9985
+Rio Grande do Norte 
+35
+0,0015
+100,0000
+Total
+2.296.096
+100,000
+Fonte: Planilha do Ministério da Saúde de 17/2/2023
+Fazendo-se o recorte por tipos de imunizantes que mais tiveram perdas de vacina por expiração de validade nestas Secretarias Estaduais de Saúde, constata-se que a vacina da AstraZeneca/Fiocruz apresentou o quantitativo de perdas de 2.248.865 doses, correspondendo a 97,95% da ocorrência. Na tabela abaixo, apresentam-se as perdas por imunizantes para cada fabricante, com valor financeiro das perdas de R$ 59.259.787,82, considerando a metodologia adotada para levantamento dos dados (parágrafo 25):
+Tabela 3: Perda de imunizante contra Covid-19 por fabricante nas SES
+Imunizantes
+Doses perdidas por expiração de validade
+% de perdas
+Acumulado
+ (%) 
+Perdas
+R$
+AstraZeneca/Fiocruz
+2.248.865
+97,95
+97,95
+56.513.977,45
+CoronaVac/Butantan
+24.041
+1,05
+99,00
+1.352.787,07
+Comirnaty/Pfizer
+23.190
+1,00
+100,00
+1.393.023,30
+Total
+2.296.096
+100,000
+59.259.787,82
+Fonte: Planilha do Ministério da Saúde de 17/2/2023
+Na Secretaria Estadual de Saúde do Paraná, as perdas das vacinas da AstraZeneca alcançaram 80,30% do quantitativo total de perdas deste imunizante, correspondendo ao montante de R$ 45.385.533,90, conforme tabela abaixo:
+Tabela 4: SES com maiores perdas do imunizante da AstraZeneca
+Secretarias Estaduais de Saúde
+Doses perdidas por expiração de validade do imunizante AstraZeneca
+% de perdas
+Acumulado
+ (%) 
+Perdas
+R$
+Paraná
+1.806.030
+80,30
+80,30
+45.385.533,90
+São Paulo
+300.000
+13,35
+93,65
+7.539.000,00
+Rio de Janeiro
+112.125
+4,986
+98,636
+2.817.701,25
+Roraima
+22.850
+1,02
+99,656
+574.220,50
+Sergipe
+7.475
+0,332
+99,988
+187.846,75
+Goiás
+350
+0,01
+99,998
+8.795,50
+Rio Grande do Norte 
+35
+0,002
+100,0000
+879,55
+Total
+2.248.865
+100,000
+56.513.977,45
+Fonte: Planilha do Ministério da Saúde de 17/2/2023
+Perdas de vacinas nas Secretarias Municipais de Saúde (SMS) por expiração de validade
+Examinando-se a planilha de vacinas das Secretarias Municipais de Saúde (SMS), verificou a existência de 23.668.198 de doses vencidas por expiração de validade em 2.316 municípios. As maiores perdas concentraram-se nas SMS dos Estados de Minas Gerais (4.062.119), Bahia (3.462.098), Maranhão (2.797.767), Ceará (2.698.631) e Rio Grande do Sul (2.520.079), representando 65,6% do total das perdas.
+Nas SMS das capitais ocorreram perdas de 971.822 doses de imunizantes por expiração de validade. O maior número de perdas foi verificado nas SMS do Rio de Janeiro (411.072), seguido de Fortaleza (145.895), Salvador (125.095) e Aracaju (117.572), representando 82,2% do total das perdas. 
+Não houve ocorrência de perdas de vacinas por expiração de validade nas SMS de onze capitais (Manaus, Macapá, Vitória, Belo Horizonte, Belém, Recife, Teresina, Porto Velho, Boa Vista, Florianópolis e Palmas). Na tabela abaixo, apresentam-se as perdas nas SMS dos estados e as perdas nas capitais dos Estados. 
+Tabela 5: Perdas de imunizantes contra Covid-19 nas SMS e nas capitais dos Estados
+SMS nos Estados
+Vacina vencida
+Municípios com vacina vencida
+Capitais
+Vacina vencida
+nas Capitais
+% de perdas nas Capitais
+Acre
+132.715
+11
+Rio Branco
+500
+0,37
+Alagoas
+338.047
+40
+Maceió
+70
+0,02
+Amazonas
+275217
+11
+Manaus
+0
+0
+Amapá
+151.391
+12
+Macapá
+0
+0
+Bahia
+3.462.098
+203
+Salvador
+125.095
+3,61
+Ceará
+2.698.631
+117
+Fortaleza
+145.895
+5,40
+Espírito Santo
+753.180
+58
+Vitória
+0
+0
+Goiás
+327.538
+74
+Goiania
+50.230
+15,33
+Maranhão
+2.797.767
+127
+São Luis
+12.720
+0,45
+Minas Gerais
+4.062.119
+407
+Belo Horizonte
+0
+0
+Mato Grosso do Sul 
+488.711
+39
+Campo Grande
+7.855
+1,60
+Mato Grosso
+103.434
+38
+Cuiabá
+9.210
+8,90
+Pará
+191.685
+61
+Belém
+0
+0
+Paraíba
+1.382.176 
+138
+João Pessoa
+28.260
+2,04
+Pernambuco
+501.846
+28
+Recife
+0
+0
+Piauí
+124.302
+19
+Teresina
+0
+0
+Paraná
+260.991
+220
+Curitiba
+20.000
+7,66
+Rio de Janeiro
+411.456
+2
+Rio de Janeiro
+411.072
+99,90
+Rio Grande do Norte
+309.711
+18
+Natal
+40.675
+13,13
+Rondônia
+126.387
+27
+Porto Velho
+0
+0
+Roraima
+105.012
+11
+Boa Vista
+0
+0
+Rio Grande do Sul
+2.520.079
+206
+Porto Alegre
+2.665
+0,10
+Santa Catarina
+242.856
+134
+Florianópolis 
+0
+0
+Sergipe
+117.572
+1
+Aracaju
+117.572
+100
+São Paulo
+1.646.607
+229
+São Paulo
+3
+0
+Tocantins
+136.670
+85
+Palmas 
+0
+0
+Total
+23.668.168
+2.316
+971.822
+Fonte: Planilha do Ministério da Saúde de 17/2/2023
+O volume de perdas de imunizantes por expiração de validade nas SMS foi de 23.668.168 doses, resultando em danos financeiros de R$ 1.118.887.691,87, de acordo com a metodologia adotada. 
+Fazendo-se o recorte por tipos de imunizantes que mais tiveram perdas nestas Secretarias Municipais de Saúde, constata-se que a vacina da Comirnaty/Pfizer apresentou o quantitativo de perdas de 10.734.987 doses, correspondendo a 45,3% das perdas por expiração de validade e valores financeiros de R$ 644.850.669,09. Na tabela abaixo, apresentam-se as perdas de imunizante por fabricante.
+Tabela 6: Perdas de imunizantes contra Covid-19 por fabricante nas SMS
+Imunizantes
+Doses perdidas por expiração de validade
+% de perdas
+Acumulado
+ (%) 
+Perdas
+R$
+Comirnaty/Pfizer
+10.734.987
+45,3
+45,3
+644.850.669,09
+AstraZeneca/Fiocruz
+8.072.921
+34,10
+79,4
+202.872.504,73
+CoronaVac/Butantan
+4.535.255
+19,2
+98,6
+255.198.798,85
+Janssen
+325.035
+1,4
+100
+15.965.719,20
+Total
+23.668.198
+100,000
+1.118.887.691,87
+Fonte: Planilha do Ministério da Saúde de 17/2/2023
+Imunizantes a vencer nas SES e SMS
+Em relação aos imunizantes a vencer até 31/12/2023, foi verificado nas SES o quantitativo de 9.171.793 doses, correspondendo a R$ 531.537.707,61, sendo da Pfizer 8.212.810 doses (R$ 493.343.496,70). Dados completos na tabela abaixo:
+Tabela 7: Imunizantes a vencer até 31/12/2023 nas SES
+Imunizantes
+Doses perdidas por expiração de validade
+% de perdas
+Acumulado
+ (%) 
+Perdas
+R$
+Comirnaty/Pfizer
+8.212.810
+89,5
+89,5
+493.343.496,70
+AstraZeneca/Fiocruz
+449.300
+5,0
+94,5
+11.290.909,00
+CoronaVac/Butantan
+261.213
+2,8
+97,3
+14.698.455,51
+Janssen
+248.470
+2,7
+100
+12.204.846,40
+Total
+9.171.793
+100,000
+531.537.707,61
+Fonte: Planilha do Ministério da Saúde de 17/2/2023
+O cronograma de vencimento dos imunizantes, conforme dados da planilha do Ministério da Saúde, indica que cerca de 2.216.898 doses possuem expiração de validade até final de agosto de 
+2023
+ nas SES. Dados completos na tabela abaixo:
+Tabela 8: Vencimento dos imunizantes contra Covid-19 até 12/2023 nas SES
+Vencimento de imunizante até
+Quantidade
+Acumulado
+Meses anteriores
+721.184
+Junho
+90.144
+811.328
+Julho
+679.550
+1.490.878
+Agosto
+726.020
+2.216.898
+Setembro
+157.933
+2.374.831
+Outubro
+2.071.110
+4.445.941
+Novembro
+3.389.892
+7.835.833
+Dezembro
+1.335.960
+9.171.793
+Total
+9.171.793
+Fonte: Planilha do Ministério da Saúde de 17/2/2023
+Nas SMS verificou-se o quantitativo de 7.734.632 doses de imunizantes a vencer até 31/12/2023, correspondendo a R$ 439.849.701,44, sendo da Pfizer 5.356.179 doses (R$ 321.745.672,53), representando 69,3% do total. 
+Tabela 9: Imunizantes a vencer até 31/12/2023 nas SMS
+Imunizantes
+Doses perdidas por expiração de validade
+% de perdas
+Acumulado
+ (%) 
+Perdas
+R$
+Comirnaty/Pfizer
+5.356.179
+69,3
+69,3
+321.745.672,53
+Janssen
+1.364.180
+17,6
+86,9
+67.008.521,60
+CoronaVac/Butantan
+822.313
+10,6
+97,5
+46.271.552,51
+AstraZeneca/Fiocruz
+191.960
+2,5
+100,0
+4.823.954,80
+Total
+7.734.632
+100,000
+439.849.701,44
+Fonte: Planilha do Ministério da Saúde de 17/2/2023
+O cronograma de vencimento dos imunizantes, conforme dados da planilha do Ministério da Saúde, indica que cerca de 5.130.279 doses possuem expiração de validade até final de agosto de 
+2023
+ nas SMS. Dados completos na tabela abaixo:
+Tabela 10: Vencimento dos imunizantes contra Covid-19 até 12/2023 nas SMS
+Vencimento de imunizante até
+Quantidade
+Acumulado
+Meses anteriores
+2.553.737
+Junho
+5.512
+2.559.249
+Julho
+738.099
+3.297.348
+Agosto
+1.832.931
+5.130.279
+Setembro
+805.272
+5.935.551
+Outubro
+1.701.187
+7.636.738
+Novembro
+67.676
+7.704.414
+Dezembro
+30.228
+7.734.642
+Total
+7.734.642
+Fonte: Planilha do Ministério da Saúde de 17/2/2023
+No almoxarifado do Ministério da Saúde em Guarulhos, constavam, até a data do levantamento das planilhas (17/2/2023), 31.235.258 doses de vacinas, estando vencidas por expiração de validade 2.215.000 doses, todas do imunizante da AstraZeneca, correspondendo a perdas financeiras de R$ 55.662.950,00. 
+Na tabela abaixo, apresenta-se o cronograma de vencimento até 12/2023, com previsão de vencimento por expiração de validade até julho de 12.094.918 doses.
+Tabela 11: Vencimento dos imunizantes contra Covid-19 até 12/2023 nos estoques do MS
+Vencimento de imunizante até
+Quantidade
+Acumulado
+Meses anteriores
+6.744.630
+Junho
+6.744.630
+Julho
+5.350.288
+12.094.918
+Agosto
+4.443.660
+16.538.578
+Setembro
+5.172.690
+21.711.268
+Outubro
+2.976.510
+24.687.778
+Novembro
+24.687.778
+Dezembro
+4.332.480
+29.020.258
+Total
+29.020.258
+Fonte: Planilha do Ministério da Saúde de 17/2/2023
+As informações levantadas acima, com os dados apresentados pelas planilhas do Ministério da Saúde extraídas do SIES, demonstram um cenário elevado de perdas de vacinas nas SMS (23.668.198) e SES (2.248.865), e de 2.215.000 no almoxarifado do órgão central, dos quatro imunizantes contra Covid-19.
+Destaque-se que as perdas de imunizantes por expiração de validade nas SES e SMS foram levantadas segundo dados do sistema SIES, cotejando-se com as datas de validade das vacinas, após sua prorrogação. Contudo, os dados indicados no sistema SIES podem conter inconsistências decorrentes de falta ou atraso de registro da vacinação, especialmente quando se verifica que o maior quantitativo de perdas não ocorreu em SMS de capital.
+Todavia, o Ministério da Saúde não apresentou qualquer ação que possa levantar as causas das possíveis perdas verificadas na análise dos dados das planilhas obtidas junto ao sistema SIES, com os dados de remessas das vacinas para os entes subnacionais e dados de validade das vacinas, comparados com a imunização efetiva.
+Como analisado abaixo, no exame da oitiva, o Ministério da Saúde aponta a não cobertura vacinal como causa. Vale ressaltar que a falta ou o atraso de registro de vacinação pode alterar para mais o número de vacinados indicados nos sistemas oficiais.
+Análise da Oitiva
+Acerca da oitiva para manifestação sobre os fatos consignados na representação, o Ministério da Saúde, por meio do Departamento de Logística em Saúde, apresentou as seguintes informações nos termos do Despacho de 22/2/2023 (peça 21, p. 5-7):
+3. 	Primeiramente, cumpre esclarecer que este Departamento de Logística em Saúde (DLOG) é parte operacional e atua realizando as atividades de aquisição, armazenagem e distribuição de Insumos Estratégicos para Saúde (IES) somente após solicitações e orientações recebidas da Secretarias Finalísticas desta Pasta. 
+4. 	Assim, conforme já informado por este Departamento, as áreas técnicas deste Ministério são responsáveis por realizar o controle e gestão envolvendo número de pacientes, percentuais do uso do insumo que se pretende adquirir, análise de quantitativos já adquiridos, bem como eventual estoque e quantitativo a ser encaminhado para cada estado da federação. 
+5. 	Portanto, foge às competências deste DLOG implementar procedimentos para impedir ou mitigar as perdas das vacinas em questão, tendo em vista que, conforme já dito, este Departamento atua somente após solicitações e orientações recebidas da Secretarias Finalísticas desta Pasta.
+6. 	Entretanto, após esclarecidas as competências regimentais acima, vale informar que este Departamento atuou em conjunto com as Secretarias Finalísticas do Ministério da Saúde para dar ensejo à Portaria GM/MS nº 4.777, de 30 de dezembro de 2022 (0031975199), que dispõe sobre os procedimentos de planejamento, aquisição e gestão de insumos estratégicos em saúde, no âmbito do Ministério da Saúde. Esse normativo, em suma, visa diminuir as ocorrências de perdas de IES por perda de validade, expondo orientações acerca do planejamento para as aquisições e tratando, ainda, acerca da responsabilização dos agentes da Administração, envolvidos nesses processos.
+O órgão registrou ainda o art. 22, parágrafo único, da Portaria GM/MS 4.777/2022, que estabelece que, quando houver insumos estratégicos em saúde no almoxarifado do Ministério da Saúde com data para expirar inferior a 240 dias, ações preventivas deverão ser adotadas em tempo, como supressão de até 25% do valor atualizado do contrato, acionar empresa acerca da substituição de medicamento com prazo próximo a expirar, quando houver carta de troca, verificar junto ao fabricante a possibilidade de extensão da validade, com ratificação do agente regulador e doação; o art. 23, que trata dos alertas mensais que o DLOG deve fazer aos órgãos requisitantes sobre o vencimento dos insumos estratégicos estocados; e o art. 24, com as expectativas de utilização, providências para evitar perdas, descarte; e o art. 25, que dispõe sobre as providências a serem adotadas pelo DLOG e pela Secretaria-Executiva no caso de ausência de manifestação dos requisitantes para evitar potenciais perdas (peça 21, p. 7-11).
+A Secretaria de Vigilância em Saúde e Ambiente (SVSA), nos termos do Despacho de 23/2/2023, ratificou as informações produzidas pelo Departamento de Imunização e Doenças Imunopreveníveis (DIMU/SVSA), que se manifestou por meio do Despacho CGGI 0031976774, nos termos seguintes (peça 21, p. 14-20):
+Em atendimento ao Ofício 4438/2023-TCU/Seproc (0031874615), a Coordenação-Geral de Insumos Estratégicos (CGGI) junto com a Coordenação-Geral de Incorporação Científica e Imunização (CGICI) do Departamento de Imunizações e Doenças Imunopreveníveis (DIMU) esclarece: 
+Encaminha-se, conforme solicitado, a Planilha dos Estoques atualizados (0031975390), (0031975414) e (0031975475), com as informações atualizadas de estoques vencidos e a vencer, tanto no almoxarifado central do Ministério da Saúde quanto das Secretarias Estaduais e Municipais de Saúde, dados extraídos dia 17/02/2023 do SIES. 
+No que tange as ações realizadas para minimizar as perdas de insumos, o Ministério da Saúde encaminhou aos estados documentos técnicos reforçando a importância de que sejam tomadas todas as medidas para que se aumente a adesão à vacinação e disponibilização de imunizantes para toda população, com um trabalho integrado com a Atenção Primária em Saúde e demais entidades, para que os serviços tenham como ofertar imunizantes para as faixas etárias recomendadas; com as Sociedades Científicas para o engajamento dos profissionais de saúde, com o setor educacional para o envolvimento dos professores e das famílias, entidades não governamentais para o apoio na divulgação da importância e segurança das vacinas, para que se possa reverter o quadro de baixas coberturas vacinais. No início do ano foi encaminhado a NOTA TÉCNICA Nº 1/2023-CGICI/DIMU/SVSA/MS (0031976730), contento a nova estratégia de Intensificação da vacinação contra a covid-19 no ano de 
+2023.
+ Atualmente está em curso a vacinação contra a covid-19 para toda a população elegível, a partir de seis meses de idade, sendo o esquema recomendado para crianças entre seis meses e quatro anos de idade de três doses com a vacina Pfizer pediátrica, frasco vinho, (esquema primário), 03 (03 e 04 anos de idade que receberam a vacina CoronaVac) a 39 anos de idade está indicado o esquema primário de duas doses e uma dose de reforço. E para a população acima de 40 anos de idade está indicada o esquema primário de duas doses e duas doses de reforço, proporcionando assim, maior proteção da população brasileira frente à doença. Destaca-se que há quantitativos de vacinas suficientes de vacinas monovalentes para atender as recomendações vigentes no PNI, tanto para os esquemas primários quanto para as doses de reforços dos grupos elegíveis. 
+Ainda nesta seara, encaminhamos as Planilhas de distribuição dos imunizantes atualizadas do Ministério da Saúde para o Estado (0031975723) e do Estado para o Município (0031975866), referentes aos anos de 2021 e 
+2023,
+ categorizada conforme solicitado. 
+Em tempo, vale ressaltar que a recentemente a Agência Nacional de Vigilância Sanitária (ANVISA) concedeu a extensão dos prazos de validade das vacinas para 18 meses para a Vacina da Pfizer.
+A Secretaria de Atenção Primária à Saúde (SAPS), por meio do Despacho de 23/2/2023, informou que a demanda não se encontra entre as atribuições desse órgão finalístico, e sim à Secretaria de Vigilância em Saúde e Ambiente e Departamento de Logística em Saúde (peça 21, p. 20-22):
+Ademais cabe deixar assente que a demanda em comento, nos termos do decreto acima referido, cabe à Secretaria de Vigilância em Saúde e Ambiente - SVSA/MS e ao Departamento de Logística em Saúde - DLOG/MS, haja vista suas competências institucionais.
+Analisando-se as informações oferecidas pelo Ministério da Saúde, em sede de oitiva, por meio do Departamento de Logística em Saúde, da Secretaria de Vigilância em Saúde e Ambiente e da Secretaria de Atenção Primária à Saúde, constata-se que não foram apresentadas medidas para mitigar as perdas de vacinas nos estoques dos entes subnacionais e para dimensionar, efetivamente, o tamanho das perdas.
+Inicialmente, o DLOG argumentou que foge às suas competências implementar procedimentos para impedir ou mitigar as perdas das vacinas distribuídas para os entes subnacionais, uma vez que sua atuação ocorre após solicitações e orientações recebidas das secretarias finalísticas.
+Em seguida, informou que atuou junto a estas unidades para elaboração da Portaria GM/MS 4.777, de 30 de dezembro de 2022, que dispõe sobre os procedimentos de planejamento, aquisição e gestão de insumos estratégicos em saúde no almoxarifado do Ministério da Saúde.
+Na concepção do DLOG, não compete ao órgão exercer o monitoramento ou qualquer outro tipo de controle sobre os imunizantes distribuídos aos entes subnacionais para mitigar as perdas de vacinas contra a Covid-19.
+A Portaria GM/MS 4.777, de 30 de dezembro de 2022, trata do controle dos insumos estratégicos de saúde (IES) armazenados no almoxarifado do Ministério da Saúde, indicando medidas e prazos a serem adotados pelas unidades finalísticas e pelo DLOG para mitigar eventuais perdas por expiração de validade.
+Todavia, o citado normativo não apresenta qualquer medida acerca de monitoramento ou outro tipo de controle do Ministério da Saúde para mitigar perdas de vacinas distribuídas para os entes subnacionais por expiração de validade ou produzir orientações ou diretrizes neste sentido.
+A Secretaria de Vigilância em Saúde e Ambiente informou que, para reduzir as perdas, encaminhou aos estados documentos técnicos reforçando as medidas para aumentar a adesão à vacinação e disponibilização de imunizantes para população, integrando o trabalho com a Atenção Primária em Saúde e demais entidades, com as sociedades científicas para o engajamento dos profissionais de saúde, e com o setor educacional para o envolvimento dos professores, das famílias e das entidades não governamentais para o apoio na divulgação da importância e segurança das vacinas, para reverter o quadro de baixas coberturas vacinais.
+A informação prestada pela referida unidade finalística considera, como única causa, que as perdas de vacinas nos entes subnacionais ocorrem devido à baixa cobertura vacinal. Todavia, não apresentou ações e informações acerca do quantitativo de perdas nos entes subnacionais, sequer fazendo referência a quantitativos e valores envolvidos.
+Como analisado anteriormente no exame da diligência, os dados das novas planilhas apresentadas pelo Ministério da Saúde demonstram quantitativo expressivo de vacinas que se perderam por expiração de sua validade até o final de 2022, e outro quantitativo de alto volume que pode se perder durante o exercício de 
+2023.
+As respostas apresentadas pela SVSA, assim como pelo DLOG e SAPS, não indicam ações de formas de monitoramento destes estoques, sugerindo que seu controle seria apenas dos entes subnacionais que receberam os imunizantes e promovem ações operacionais para sua aplicação.
+Análise do cumprimento da medida cautelar
+A medida cautelar adotada pelo Ministro Relator Vital do Rego e referendada pelo 
+Plenário
+ do Tribunal determinava ao Ministério da Saúde que estabelecesse procedimento, no prazo de 30 (trinta) dias, para informar/levantar os volumes de vacinas contra Covid-19 existentes no seu próprio estoque/depósito e os de posse dos entes subnacionais com prazo expirado de validade e a expirar (em 
+2023),
+ adotando, para esses últimos, procedimentos para impedir ou mitigar as perdas, dando conhecimento a este Tribunal das medidas adotadas em igual prazo.
+O Ministério da Saúde apresentou planilhas com informações levantadas tendo a data de 17/2/2023 como referencial, apresentando o volume de vacinas em seu estoque e os de posse dos entes subnacionais (SES e SMS) com prazo expirado de validade e a expirar no exercício de 
+2023
+ (peça 23, item não digitalizável).
+Quanto aos procedimentos para impedir ou mitigar perdas, apresentou informação acerca da emissão da Nota Técnica 1/2023-CGICI/DIMU/SVSA/MS, contento a estratégia de Intensificação da vacinação contra a Covid-19 no ano de 
+2023
+ para os grupos elegíveis.
+Como analisado anteriormente, o Ministério da Saúde não apresentou qualquer ação ou procedimento para quantificar efetivamente as perdas de imunizantes por expiração de validade, identificar suas causas ou orientar os entes subnacionais acerca do volume de perdas de vacina por expiração de validade, considerando as informações produzidas pelos sistemas corporativos de registro de distribuição e aplicação de imunizantes, levantados pelo Tribunal e pelo próprio ministério (SIES e SIPNI).
+A SVSA atribuiu como causa aos estoques elevados e às perdas nos entes subnacionais a hipótese de baixa cobertura vacinal, sem aprofundar os seus levantamentos sobre outros pontos que podem refletir no quantitativo de perdas por expiração de validade, a exemplo de falta ou atraso de registro das aplicações feitas, de não utilização total do frasco depois de aberto, preferências ou receio de o cidadão ser imunizado por certo tipo de vacina contra Covid-19, e as perdas efetivamente ocorridas.
+As planilhas levantadas pelo Ministério da Saúde no sistema SIES, conforme análise da diligência, podem conter distorções e inconsistências que levam a quantidades elevadas de perdas de imunizantes e, consequentemente, de valores envolvidos.
+Vale ressaltar que, por ocasião do acompanhamento feito sobre as ações realizadas pelo Ministério da Saúde quanto ao enfrentamento da Covid-19, no seu oitavo ciclo (TC 
+Processo 015.125/2021-1
+), verificou-se que o órgão ministerial encaminhou o Ofício 496/2022/SVS/CGOEX/SVS/MS, datado de 9/11/2022, ao Instituto de Tecnologia em Imunobiológico (Bio-Manquinhos), por meio do qual solicitou a suspensão da produção e entregas da vacina Covid-19, AstraZeneca/Fiocruz, alegando a importância da atualização da composição do imunizante, visando obter maior eficácia quanto às variantes do vírus, e a diminuição das solicitações pelos entes federativos, via Sistema de Informação Insumos Estratégicos (SIES), e que o Ministério encontrava-se com estoque elevado deste imunizante, sobre risco de perecimento (peça 6).
+A solicitação é uma medida mitigadora para as perdas de imunizantes aqui tratadas, mas sequer foi apresentada como medida implementada pelo Ministério da Saúde na resposta da oitiva.
+Em relação às medidas para evitar ou mitigar perdas de vacinas contra Covid-19, a expedição da Nota Técnica 1/2023-CGICI/DIMU/SVSA/MS, contento a estratégia de Intensificação da vacinação contra a Covid-19 no ano de 
+2023,
+ traz orientação acerca da importância e da segurança do processo de vacina, todavia, não há outras medidas a serem adotadas antes de os imunizantes vencerem por expiração de validade, no caso de a cobertura vacinal não apresentar demanda suficiente para consumir os estoques dos entes subnacionais.
+Em outras palavras, não há um plano B, que contemple o momento e as medidas que devem ser adotadas pelo Ministério da Saúde, SES e SMS, na sinalização de possibilidade de perdas elevadas de imunizantes. Todavia, para que isso ocorra, faz-se necessário o uso de ferramenta de monitoramento para obtenção de informações tempestivas e diretrizes das providências a serem adotadas.
+Não monitorar o processo distribuição-vacinação-registro é possibilitar, novamente, a ocorrência de perdas de imunizantes por expiração de prazo de validade em quantidades significativas, desperdiçando recursos públicos destinados à saúde. 
+Assim, o Ministério da Saúde não demonstrou elementos que comprovem que identificou as causas das perdas e o quantitativo efetivamente perdido, e que mitiguem a ocorrência de novas perdas, salvo a produção da Nota Técnica 1/2023-CGICI/DIMU/SVSA/MS, como medida para intensificar a vacinação.
+Conforme a jurisprudência do TCU que vem se firmando acerca do controle e monitoramento das vacinas enviadas para os Estados para atender o Plano Nacional de Operacionalização de vacinação contra a Covid-19 (PNO), cabe ao Ministério da Saúde realizar procedimentos de controle e monitoramento dos insumos distribuídos em razão da natureza federal dos recursos para sua aquisição, citando-se as seguintes deliberações do Tribunal, a título exemplificativo:
+I. 
+Acórdão 571/2023-TCU-Plenário
+, de relatoria do Ministro Vital do Rêgo:
+ (...) 
+c) dar ciência ao Ministério da Saúde, com fundamento no art. 9º, inciso I, da Resolução-TCU 315/2020, que a apuração de danos com perda de vacinas utilizadas no âmbito do Plano Nacional de Operacionalização da Vacinação contra a Covid-19 (PNO-Covid-19), a exemplo da ocorrida no Município de Lucena/PB, compete originariamente ao Ministério da Saúde, nos termos do art. 8° da Lei 8.443/1992 e dos 
+Acórdão 2545/2022-TCU-Primeira Câmara
+ e 2.228/2021-TCU-Plenário; 
+II.  Relatório do 
+Acórdão 107/2023-TCU-Plenário
+, de relatoria do Ministro Vital do Rêgo:
+ (...) 
+Considerando que, conforme apontou a unidade técnica, a aquisição de vacinas é um instrumento da política de saúde pública para combater a pandemia da Covid-19, sendo despendido mais de R$ 33 bilhões de recursos públicos para sua aquisição e disponibilização para população, o que impõe à administração pública o poder-dever de controlar o objeto para evitar desperdícios e otimizar o processo de vacinação; 
+Considerando que o Ministério da Saúde, como órgão central da política de saúde do país, em virtude da aquisição significativa de imunizantes contra a Covid-19, deve realizar controle acerca dos elevados estoques dos entes subnacionais, especialmente quando os indicadores de vacinação no SIPNI, a fim de adotar medidas para mitigar, tempestivamente, a eventual perda dos imunizantes por expiração do prazo de validade, face aos princípios gerais estabelecidos no caput do art. 37 da Constituição da República de 1988 (legalidade, impessoalidade, moralidade, publicidade, economicidade e eficiência);
+Considerando, da mesma forma, que os Estados, Distrito Federal e municípios, ao receberem os imunizantes, devem exercer os controles adequados para disponibilização das vacinas à população (registros nos sistemas, logística interna, armazenamento nas temperaturas indicadas, datas de validade) para prestar serviço adequado de saúde e impedir ou mitigar perdas de insumos, medicamentos e equipamentos; Considerando que evitar perdas e desperdícios é dever da administração pública, especialmente considerando-se a relevância dos imunizantes no combate da Covid-19 e no volume dos recursos e quantitativos envolvidos; 
+III. 
+Acórdão 2228/2021-TCU-Plenário
+, de Relatoria do Ministro Benjamim Zymler: 
+ (...) 
+Considerando que o Ministério da Saúde, na condição de repassador dos recursos em análise, detém a competência originária para a apuração de eventual malversação no uso desses valores, de modo que a atuação do TCU, neste caso, seria oportuna após o esgotamento das providências administrativas internas de responsabilidade da referida pasta ministerial; 
+O controle é princípio fundamental da Administração Pública, estando estabelecido no art. 6º do Decreto-Lei 200/1967, com forma de atuação pelos órgãos públicos nos artigos 10 e 13 do mesmo diploma legal. Deixar de exercê-lo ou exercê-lo de forma parcial ou inadequadamente compromete os resultados, e, como analisado nesta instrução, ocorreram perdas de imunizantes por expiração da data de validade em razão de ausência de monitoramento do volume de estoque distribuído aos entes subnacionais e da falta de medidas concretas destes para evitar ou mitigar perdas. 
+Neste sentido, o art. 16, inciso XVII, da Lei 8.080/1990, atribui competência ao Ministério da Saúde para acompanhar, controlar e avaliar as ações e os serviços de saúde, respeitadas as competências estaduais e municipais, mandamento este que não foi cumprido acerca do volume de vacinas distribuídas, aplicadas e registradas pelos entes subnacionais. Neste sentido, persiste o 
+fumus boni iuris
+. 
+Por outro lado, 
+como visto na análise da diligência, o quantitativo de vacinas contra Covid-19 a vencer até agosto de 
+2023
+ envolve 2.216.898 doses nas SES, 5.130.279 de doses nas SMS e 16.538.578 de doses no almoxarifado do Ministério da Saúde, que podem se perder por expiração data de validade
+, caso a demanda pelos imunizantes pela população seja menor que os estoques dos entes públicos e não sejam adotadas ações efetivas pelos órgãos públicos para mitigar ou evitar as perdas, caracterizando a presença do 
+periculum in mora
+.
+Da mesma forma, não se vislumbra a existência de 
+periculum in mora
+ reverso, caso se decida pela manutenção da medida cautelar, pois não interfere no processo de vacinação, de compra de imunizantes ou de sua distribuição, uma vez que as medidas a serem adotadas pelo Ministério da Saúde possuem a finalidade de evitar ou mitigar perdas, gerando eficiência em todo o processo de aquisição-distribuição-vacinação-registro de vacinas contra Covid-19.
+Por fim, verifica-se a existência do interesse público no trato da suposta irregularidade/ilegalidade, pois a falta de controle nos estoques de imunizantes de vacinas contra Covid-19 gera desperdícios públicos, confirma falhas no processo da campanha de vacinação pelo não atingimento das metas de cobertura vacinal, sugere inconsistência de registros e afeta outras ações de saúde que foram preteridas em função da destinação de mais recursos para satisfação das aquisições de imunizantes.
+Acerca do controle dos imunizantes no almoxarifado do Ministério da Saúde para evitar perdas por expiração de validade, a Portaria GM/MS 4.777, de 30 de dezembro de 2022, apresenta elementos que podem proporcionar alertas aos órgãos requisitantes e ao Dlog, os quais podem intervir de forma tempestiva adotando medidas necessárias. 
+No mesmo sentido de melhorar os controles dos estoques do Ministério da Saúde, no processo TC 
+Processo 038.216/2021-3
+, que versa sobre possíveis perdas de insumos estratégicos em saúde nos estoques do Ministério da Saúde, o Tribunal exarou o 
+Acórdão 313/2023-TCU-Plenário
+, de relatoria do Ministro Vital do Rêgo, conforme excerto abaixo:
+9.4. determinar ao Ministério da Saúde, com fundamento na Resolução -TCU 315/2020, art. 7º, § 3º, inciso I, que apresente plano de ação no prazo de 180 (cento e oitenta) dias, identificando as ações a serem adotadas, os responsáveis por cada uma delas e prazos para a implementação, com vistas à substituição do Sistema Integrado de Administração de Material - Sismat, seja iniciando processo de aquisição de sistema de gestão de estoque disponível no mercado - WMS (Warehouse Management Systems), ou solicitando ao Datasus o desenvolvimento de novo sistema informatizado, promovendo e documentando a análise de custo-benefício das alternativas possíveis, a fim de corrigir as vulnerabilidades constatadas e permitir funcionalidades que garantam o controle pleno do estoque de maneira independente da empresa de operação logística contratada, a exemplo de: 
+9.4.1. integração com os sistemas de WMS das empresas contratadas para operação logística e com os demais sistemas informatizados do MS, inclusive o sistema contábil e o sistema de nota fiscal eletrônica; 
+9.4.2. manutenção de registro (log) de todas as inserções e alterações realizadas em informações do sistema; 
+9.4.3. controle da regra FEFO (first to expire, first out) com alerta e bloqueio da operação em caso de não atendimento do princípio, a ser analisado pela instância máxima competente; 
+9.4.4. controle da proximidade da validade dos IES com envio de alerta regular às áreas demandantes; 
+9.4.5. gestão de insumos para descarte, com informações de peso e tamanho das embalagens para permitir a definição quanto ao melhor momento de encaminhar para incineração; 
+9.4.6. identificação dos lotes dos insumos com a correspondente localização nas prateleiras do estoque; 
+9.4.7. extração de relatórios gerenciais não apenas em formato PDF, que permitam auxiliar no planejamento e otimização das compras e na logística do estoque, tais como relatórios de entrada, saída, consumo médio mensal, medicamentos e insumos próximos do vencimento etc.; 
+9.4.8. demais funcionalidades necessárias à gestão de estoque e prevenção de perdas de insumos sem utilização, permitindo que o Ministério da Saúde que exerça o controle automatizado dos seus insumos sem depender de sistemas de empresas contratadas.
+Em resumo, em relação às perdas ocorridas e ao quantitativo de imunizantes com prazo de validade a vencer no exercício de 
+2023,
+ identificados nesta instrução, o Ministério da Saúde, como órgão central da política de saúde do país, deveria monitorar o processo de distribuição-vacinação-registro de vacinas, a fim de adotar medidas para evitar ou mitigar, tempestivamente, a eventual perda dos imunizantes por expiração do prazo de validade. 
+Em relação ao cumprimento da medida cautelar, o Ministério da Saúde informou e levantou os volumes de vacinas contra Covid-19 existentes no seu próprio estoque e os de posse dos entes subnacionais com prazo expirado de validade e a expirar (em 
+2023),
+ porém a única medida adotada para impedir ou mitigar perdas foi a elaboração da Nota Técnica 1/2023-CGICI/DIMU/SVSA/MS, tratando de intensificação da vacinação contra a Covid-19 neste exercício, deixando de apresentar outras ações corretivas, caso a demanda por imunizante seja menor que a quantidade estocada, o que resultaria em novas perdas por expiração de validade, não sendo, portanto, a medida apresentada suficiente para resolver o problema.
+Diante de todo o exposto, propõe-se a manutenção da medida cautelar referendada por meio do 
+Acórdão 107/2023-TCU-Plenário
+, de relatoria do Ministro Vital do Rêgo, renovando-se seu conteúdo, para que o Ministério da Saúde, no prazo de 30 dias, apresente plano de ação, identificando as medidas a serem adotadas, os responsáveis por cada uma delas e os prazos para a implementação, com vistas ao monitoramento do processo de distribuição-vacinação-registro de vacinas contra Covid-19, definindo as intervenções necessárias, considerando as medidas exemplificadas a seguir: 
+	a) identificação de imunizantes 
+vencidos
+ contra Covid-19 nos Estados, Municípios e Distrito Federal, referentes aos anos de 2022 e 
+2023,
+ utilizando-se os sistemas corporativos de registro, categorizando os dados por "UF de destino", "Município de destino", "Fabricante", "Quantidade de doses", "Número do lote" e "Data de validade", em formato .xlsx ou .xls;
+	b) correção das inconsistências de registro, como duplicidade, falta ou atraso de informações, adotando medidas junto às secretarias de saúde envolvidas, com apoio, se necessário, do Conass e Conasems;
+	c) levantamento das causas das perdas de imunizantes contra Covid-19;
+	d) estabelecimento de diretrizes para correção das inconsistências, a fim de identificar o quantitativo efetivo de perdas de vacinas por expiração de validade;
+	e) identificação dos imunizantes contra Covid-19 
+a vencer no ano de 
+2023
+ nos Estados, Municípios e Distrito Federal, utilizando-se os sistemas corporativos de registro, categorizando os dados por "UF de destino", "Município de destino", "Fabricante", "Quantidade de doses", "Número do lote" e "Data de validade", em formato .xlsx ou .xls; e
+	f) estabelecimento de orientações gerais para Estados, Municípios e Distrito Federal para mitigar perdas de vacinas contra Covid-19 por expiração de data de validade, subsidiariamente às já produzidas pela Nota Técnica 1/2023-CGICI/DIMU/SVSA/MS, para situações em que a cobertura vacinal não apresente demanda suficiente para consumo das vacinas em estoques no almoxarifado desses entes subnacionais.
+Considerando que o Conselho Nacional de Secretários de Saúde e o Conselho Nacional de Secretarias Municipais de Saúde são instâncias que congregam os órgãos estaduais e municipais de saúde e que a complexidade e o número de estados e municípios envolvidos em  perdas de imunizantes ou a vencer por expiração de validade são elevadas, faz-se necessário realizar oitiva destes órgãos, juntamente com o Ministério da Saúde, para que, no prazo de até 15 (quinze) dias, manifestem-se sobre os fatos apontados nesta representação.
+Por fim, propõe-se realizar diligência ao Ministério da Saúde para que, no prazo de 15 (quinze) dias, apresente planilhas de imunizantes atualizadas, referentes aos anos de 2022 e 
+2023,
+ com os seguintes dados de vacinas contra a Covid-19 distribuídas ou a distribuir aos Estados, Distrito Federal e Municípios, categorizando os dados por "UF de destino", "Município de destino", "Fabricante", "Quantidade de doses", "Número do lote", "Data de validade", "vencidas", e "a vencer", em formato .xlsx ou .xls.
+CONCLUSÃO
+O presente processo de representação apura perdas de vacina contra Covid-19 por expiração de validade, identificadas no acompanhamento das ações realizadas pelo Ministério da Saúde para o enfrentamento da pandemia no seu oitavo ciclo (Racom Covid-19) que tramita no processo TC 
+Processo 015.125/2021-1
+.
+Em razão do volume de perdas de vacina por expiração de validade levantada no Racom Covid-19, foram propostas medida cautelar, oitiva e diligência ao Ministério da Saúde, sendo acolhidas pelo Ministro Relator, Vital do Rêgo, e referendada pelo Tribunal pelo 
+Acórdão 107/2023-TCU-Plenário
+, de relatoria do Ministro Vital do Rêgo.
+O Ministério da Saúde atendeu a diligência apresentando as planilhas de imunizantes com dados das SMS, SES, e do estoque de seu almoxarifado, sendo analisadas nos parágrafos 35-53 desta instrução. As informações relativas à oitiva e ao cumprimento da medida cautelar foram examinadas nos parágrafos 54-67 e 68-92, respectivamente.
+As planilhas levantadas pelo Ministério da Saúde, com dados de 17/2/2023, indicam perdas nas SMS de 23.668.168 doses e nas SES de 971.822 doses de vacinas por expiração da data de validade.
+Os dados de perdas de vacina por expiração de validade apresentados pelas SMS que não são capitais [22.696.346 (23.668.168 - 971.822) doses] comparados com dados das SMS das capitais (971.822 doses) indicam um volume expressivo de perdas naquelas unidades locais. Não obstante, podem ter ocorrido distorções e inconsistências nos registros, a exemplo de falta ou atraso de alimentação nas bases corporativas de registro de vacinas aplicadas.
+As perdas de imunizantes por expiração de validade levantadas pelo Tribunal com dados de 17/10/2022, com data de corte de 30/9/2022 (54.276.447 doses), foram reduzidas de acordo com os quantitativos apresentados pelas novas planilhas do Ministério da Saúde, com dados coletados em 17/2/2023 (SES = 2.296.096 doses e SMS = 23.668.198 doses), todavia o quantitativo identificado nas SMS e em algumas SES, como a do Paraná (1.806.030 doses), exigem medidas para confirmar e/ou corrigir os dados.
+A matéria tratada neste processo em decorrência de sua elevada materialidade e relevância e pelo envolvimento de 2.316 SMS e 10 Estados necessita de adoção de medidas pelo Ministério da Saúde e por outros órgãos que possuem ligação efetiva, como é o caso do Conselho Nacional de Secretários de Saúde (Conass) e Conselho Nacional das Secretarias Municipais de Saúde (Conasems), para conferir fidedignidade às informações obtidas e apresentadas pela pasta ministerial.
+Como dito antes, entende-se que as perdas de vacinas indicadas no SIES, relacionadas às SMS e às SES, são decorrentes de processo multicausal, a exemplo de falta ou atraso de registro de vacinação, não utilização do quantitativo de doses indicadas no frasco, em razão da perda de validade das vacinas por positivação de temperatura, perdas decorrentes de manuseio (quebras), inconsistência de registro de vacinação, rejeição de uso pela população de certo tipo de vacina, e não apenas do não atingimento das metas de vacinação, sem prejuízo da perda efetiva de imunizantes. 
+O Ministério da Saúde não informou as medidas adotadas junto a SMS e SES para validar os dados sobre o quantitativo elevado de vacinas, cotejando envio, registro de vacinação e validade, como realizado neste processo.
+Acerca das ações para evitar ou mitigar perdas no exercício de 
+2023,
+ o órgão apresentou a Nota Técnica 1/2023-CGICI/DIMU/SVSA/MS, com orientações sobre a importância e segurança das vacinas como meio para aumentar a cobertura vacinal. Todavia, não apresentou nenhuma outra medida, caso a demanda por vacinação contra a Covid-19 não venha consumir os estoques de vacinas nos entes subnacionais.
+Neste sentido, entende-se que as medidas apresentadas pelo Ministério da Saúde não atenderam plenamente ao que foi determinado pela medida cautelar, sendo proposta sua manutenção, com renovação de seu conteúdo. Ainda, está sendo proposta oitiva do Conass e Conasems, além da pasta ministerial, para se manifestarem sobre os fatos apresentados nesta instrução, e diligência para atualização de informações. 
+INFORMAÇÕES ADICIONAIS
+Cabe registrar que tramitam no Tribunal os seguintes processos que versam sobre matéria correlata:
+	a) TC 
+Processo 009.240/2022-5
+, com pedido de medida cautelar, oferecida pelos parlamentares Senador Alessandro Vieira, Deputada Federal Tábata Claudia Amaral e Deputado Federal Felipe Rigoni Lopes, em face de supostas irregularidades ocorridas na política de estocagem e descarte de produtos vencidos do Ministério da Saúde. O processo teve medida cautelar para suspender o sigilo das informações dos estoques do Ministério da Saúde, que ingressou com agravo, deferido, para suspender a decisão do Tribunal, encontrando-se com proposta de mérito, e
+	b) TC 
+Processo 045.428/2021-2
+, que trata de solicitação do Congresso Nacional (SCN), cujo objeto requer a realização de auditoria no Ministério da Saúde para verificar potencial malversação de recursos pela perda de aproximadamente 243 milhões de reais em medicamentos, vacinas e testes que venceram em posse daquela Pasta. Atendido por meio do 
+Acórdão 313/2023-TCU-Plenário
+, de relatoria do Ministro Vital do Rêgo, consoante determinação proferida no 
+Acórdão 339/2022-TCU-Plenário
+, da relatoria do Ministro Vital do Rêgo. 
+As perdas de vacinas indicadas nos processos acima se referem às armazenadas nos estoques do almoxarifado de medicamentos do Ministério da Saúde em Guarulhos/SP.
+PROPOSTA DE ENCAMINHAMENTO
+106. Ante o exposto, submetem-se os autos à consideração superior, propondo:
+	I) manutenção da medida cautelar referendada por meio do 
+Acórdão 107/2023-TCU-Plenário
+, de relatoria do Ministro Vital do Rêgo, nos termos do art. 276, caput, do Regimento Interno/TCU, determinando-se ao Ministério da Saúde, tendo em vista o consignado no art. 16, inciso XVII, da Lei 8.080/1990, que, no prazo de 30 (trinta), apresente plano de ação, identificando as medidas a serem adotadas, os responsáveis por cada uma delas e os prazos para a implementação, com vistas ao monitoramento do processo de distribuição-vacinação-registro de vacinas contra Covid-19, definindo as intervenções necessárias, considerando as medidas exemplificadas a seguir: 
+	a) identificação de imunizantes 
+vencidos
+ contra Covid-19 nos Estados, Municípios e Distrito Federal, referentes aos anos de 2022 e 
+2023,
+ utilizando-se os sistemas corporativos de registro, categorizando os dados por "UF de destino", "Município de destino", "Fabricante", "Quantidade de doses", "Número do lote" e "Data de validade", em formato .xlsx ou .xls;
+	b) correção das inconsistências de registro, como duplicidade, falta ou atraso de informações, adotando medidas junto às secretarias de saúde envolvidas, com apoio, se necessário, do Conass e Conasems;
+	c) levantamento das causas das perdas de imunizantes contra Covid-19;
+	d) estabelecimentos de diretrizes para correção das inconsistências, a fim de identificar o quantitativo efetivo de perdas de vacinas por expiração de validade;
+	e) identificação dos imunizantes contra Covid-19 
+a vencer no ano de 
+2023
+ nos Estados, Municípios e Distrito Federal, utilizando-se os sistemas corporativos de registro, categorizando os dados por "UF de destino", "Município de destino", "Fabricante", "Quantidade de doses", "Número do lote" e "Data de validade", em formato .xlsx ou .xls; e
+	f) estabelecimento de orientações gerais para Estados, Municípios e Distrito Federal para mitigar perdas de vacinas contra Covid-19 por expiração de data de validade, subsidiariamente às já produzidas pela Nota Técnica 1/2023-CGICI/DIMU/SVSA/MS, para situações em que a cobertura vacinal não apresente demanda suficiente para consumo das vacinas em estoques no almoxarifado destes entes subnacionais; 
+	II) oitiva do Ministério da Saúde, do Conselho Nacional de Secretários de Saúde e do Conselho Nacional das Secretarias Municipais de Saúde, nos termos do art. 276, § 3º, do Regimento Interno/TCU, para, no prazo de até 15 (quinze) dias, manifestem-se sobre os fatos apontados nesta representação;
+	III) diligência ao Ministério da Saúde, com fundamento no art. 157 do RI/TCU, para que, no prazo de 15 (quinze) dias, apresente planilha de imunizantes atualizadas, referentes aos anos de 2022 e 
+2023,
+ com os seguintes dados de vacinas contra a Covid-19 distribuídas ou a distribuir 
+aos Estados, Distrito Federal e Municípios
+, categorizando os dados por "UF de destino", "Município de destino", "Fabricante", "Quantidade de doses", "Número do lote", "Data de validade", "vencidas", e "a vencer", em formato .xlsx ou .xls; e
+	IV) Comunicar ao Ministério da Saúde a decisão que vier a ser adotada nestes autos, e encaminhar cópia da presente instrução, a fim de subsidiar as manifestações requeridas.
+É o relatório.
+
+=== URLARQUIVOPDF
+https://contas.tcu.gov.br/sagas/SvlVisualizarRelVotoAc?codFiltro=SAGAS-SESSAO-ENCERRADA&seOcultaPagina=S&item0=837173
