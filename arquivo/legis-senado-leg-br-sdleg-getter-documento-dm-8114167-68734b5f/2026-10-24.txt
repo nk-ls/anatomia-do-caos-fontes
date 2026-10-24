@@ -1,0 +1,10 @@
+URL: https://legis.senado.leg.br/sdleg-getter/documento?dm=8114167
+Coletado em: 2026-10-24T19:51:27Z
+SHA-256: 1666ff7bd584e7069d0c103ee09083adaaa895a1b29467c8489ab9e1317bf9b1
+
+Verificando sua conexão
+Estamos confirmando que este acesso é legítimo antes de liberar o conteúdo. Isso leva apenas alguns segundos.
+Conexão verificada
+Tudo certo. Você será redirecionado automaticamente em instantes.
+Não foi possível verificar
+Tente novamente ou use outro navegador.

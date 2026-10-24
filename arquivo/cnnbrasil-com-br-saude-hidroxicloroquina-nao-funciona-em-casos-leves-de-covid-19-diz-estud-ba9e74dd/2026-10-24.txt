@@ -1,0 +1,30 @@
+URL: https://www.cnnbrasil.com.br/saude/hidroxicloroquina-nao-funciona-em-casos-leves-de-covid-19-diz-estudo-brasileiro/
+Coletado em: 2026-10-24T19:51:27Z
+SHA-256: 1ee7e485e47d6fc44d63074df913c595b967f63e7d2fbc9bf93db81707c9657d
+
+Hidroxicloroquina não funciona em casos leves de Covid-19, diz estudo brasileiro
+Estudo verificou que o uso de hidroxicloroquina, sozinha ou associada com azitromicina, não mostrou efeito favorável na evolução clínica dos pacientes
+Uma pesquisa liderada pelos principais hospitais privados do Brasil e publicada nesta quinta-feira (23) no The New England Journal of Medicine descobriu que o uso da hidroxicloroquina não melhorou as condições de pacientes hospitalizados com a Covid-19 que apresentavam quadros leves ou moderados.
+O estudo verificou que o uso de hidroxicloroquina, sozinha ou associada com azitromicina, não mostrou efeito favorável na evolução clínica dos pacientes.
+A hidroxicloroquina foi usada durante 7 dias na dose de 400 mg a cada 12 horas, e a azitromicina foi usada na dose de 500 mg a cada 24h, pelo mesmo período.
+O resultado mostrou que o status clínico dos pacientes após 15 dias de pesquisa foi similar nos três grupos. Ou seja, a utilização do medicamento não promoveu melhoria na evolução clínica dos pacientes.
+Leia também:
+Saúde diz acompanhar estudos e pode mudar orientação sobre cloroquina
+Presidente do Conselho de Saúde pede suspensão da cloroquina: 'Vidas em risco'
+Associação defende autonomia de médicos para uso de hidroxicloroquina
+Além disso, efeitos adversos foram observados em pacientes que utilizaram a droga. A pesquisa mostra alterações em exames de eletrocardiograma, que indicam arritmia, foram mais frequente nos grupos que utilizaram hidroxicloroquina, com ou sem azitromicina, comparada ao grupo que recebeu apenas atendimento padrão.
+Há registro também de alteração de exames que podem representar lesão hepática nos grupos que utilizaram hidroxicloroquina.
+A farmacêutica EMS forneceu os medicamentos para a realização do estudo, que foi aprovado pela Comissão Nacional de Ética em Pesquisa (Conep) e Agência Nacional de Vigilância Sanitária (Anvisa).
+O estudo foi feito com 667 pacientes com quadros leves ou moderados em 55 hospitais brasileiros. Por meio de sorteio, 271 pacientes receberam uma combinação de hidroxicloroquina, azitromicina e suporte clínico padrão. Outros 221 receberam apenas a hidroxicloroquina e o atendimento clínico. Além deles, um grupo de 227 pacientes, chamado de "grupo controle", não recebeu nenhum dos medicamentos, apenas o atendimento clínico.
+Denominada Coalizão Covid-19 Brasil, a aliança formada para a pesquisa tem como membros os hospitais Albert Einstein, HCor, Sírio-Libanês, Moinhos de Vento, Oswaldo Cruz e a Beneficência Portuguesa de São Paulo. Além deles, também fazem parte da coalizão o Brazilian Clinical Research Institute (BCRI) e a Rede Brasileira de Pesquisa em Terapia Intensiva (BRICNet). A iniciativa conduz nove estudos voltados a diferentes populações de pacientes infectados pelo novo coronavírus.
+Na semana passada, foi publicado um estudo americano segundo o qual a hidroxicloroquina não beneficiou pacientes não hospitalizados com sintomas leves da Covid-19 que foram tratados no início da infecção.
+Uso da hidroxicloroquina
+Nas últimas semanas, entidades do setor de saúde no Brasil têm se manifestado sobre o uso da hidroxicloroquina no tratamento de pacientes com Covid-19.
+A Sociedade Brasileira de Infectologia considerou "urgente e necessário" que a hidroxicloroquina "seja abandonada no tratamento de qualquer fase da Covid-19".
+O presidente do Conselho Nacional de Saúde (CNS), Fernando Pigatto, divulgou nota defendendo a suspensão do uso da hidroxicloroquina em pacientes com a Covid-19.
+“Milhares de vidas estão em risco. Os efeitos colaterais podem ser severos. A ciência não pode ser negligenciada. São instituições renomadas que estão alertando, mas o governo parece não se importar”, disse Pigatto.
+A Associação Médica Brasileira (AMB), por sua vez, divulgou uma nota pública na qual defende a autonomia dos profissionais para receitarem a hidroxicloroquina para pacientes da Covid-19. A diretoria da entidade vê motivação política nas críticas ao fármaco e aponta risco de “legado sombrio para a medicina brasileira, caso a autonomia do médico seja restringida, como querem os que pregam a proibição da hidroxicloroquina”.
+Apesar da falta de comprovação científica de eficácia em casos de Covid-19, o presidente Jair Bolsonaro (sem partido) é um defensor do uso da hidroxicloroquina no tratamento da doença, e afirmou ter usado o medicamento após seu diagnóstico.
+Na semana passada, o Ministério da Saúde chegou a encaminhar um ofício à Fundação Oswaldo Cruz solicitando a divulgação da cloroquina e da hidroxicloroquina como tratamento precoce para a Covid-19, desde os primeiros dias de sintomas. No entanto, a pasta não citou nenhum estudo que embase a adoção dessa estratégia.
+Em paralelo, o mesmo Ministério da Saúde afirmou na sexta-feira (17) que avaliava diariamente as novas evidências relativas ao uso da cloroquina no tratamento da Covid-19 e reconheceu que provavelmente mudará sua orientação atual.
+"Estamos vendo quais são as evidências mais novas publicadas na literatura universal, então já somamos mais de 1 mil evidências em quase 70 boletins de evidências científicas, esses boletins são atualizados diariamente. E se mudará as orientações? Provavelmente sim. A ciência, ela muda dia após dia", disse Hélio Angotti Neto, secretário de Ciência, Tecnologia, Inovação e Insumos Estratégicos do ministério, em entrevista coletiva.

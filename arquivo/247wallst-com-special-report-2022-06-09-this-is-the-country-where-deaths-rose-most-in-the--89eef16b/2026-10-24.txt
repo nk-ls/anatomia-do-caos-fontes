@@ -1,0 +1,197 @@
+URL: https://247wallst.com/special-report/2022/06/09/this-is-the-country-where-deaths-rose-most-in-the-first-two-years-of-covid/
+Coletado em: 2026-10-24T19:51:27Z
+SHA-256: ccf5709a885298af7787cbb0028d1cfdf02c0eb5a79a949d8df13aa83751dd6a
+
+This Is the Country Where Deaths Rose Most in the First 2 Years of COVID-19
+More and more countries are eliminating COVID-19 restrictions, for residents and visitors alike, as the world tries to adjust to life with the virus – to a post-COVID reality of sorts. And though the pandemic is far from over, vaccines…
+More and more countries are eliminating COVID-19 restrictions, for residents and visitors alike, as the world tries to adjust to life with the virus – to a post-COVID reality of sorts. And though the pandemic is far from over, vaccines and other measures are allowing us to look ahead – and maybe also to look back, at how the pandemic disturbed or burdened different nations. (These are the countries where the most people have died from COVID-19.)
+To assess the mortality burden of COVID-19 in countries worldwide, researchers have examined “excess deaths” in 2020 and 2021. Excess death is the number of deaths in a particular period, relative to what is expected based on historical data. And by this measure, the country where deaths rose the most during the first two years of the pandemic is Peru.
+To determine this, 24/7 Wall St. reviewed a New York Times analysis of a World Health Organization report called Estimating Global and Country-Specific Excess Mortality During the COVID-19 Pandemic. Nations were ranked based on the percentage increase of deaths above normal levels in 2020 and 2021. When two countries tied in percentages, we ranked the one with the higher COVID-19 death rate higher (i.e., worse) on the list.
+Only countries with sufficient mortality data and with populations of at least 10 million were considered. COVID-19 case and death counts and rates came from the WHO. (Many countries, including a number of lower-income ones in Africa, were omitted because WHO considered their data to be unreliable.) Population data came from the World Bank.
+Peru not only has the highest excess deaths – nearly 100% more in 2020 and 2021 than were expected – but also the highest COVID-19 death rate of all 236 countries included in the report with 647 deaths per 100,000 people. There are several explanations why Peru was so hard hit, despite having imposed one of the earliest and strictest lockdowns in March 2020. One reason could be economic, specifically the country’s dependence on imports, which left it scrambling to get PPE and even oxygen early on.
+Another reason is likely the country’s underfunded health care system and slow vaccination rollout. Yet another is most probably the combination of overcrowded housing, high poverty levels, and the fact that many Peruvians hold informal jobs, meaning that they need to go out to work.
+Click here to see the countries where deaths rose most in the first two years of COVID
+The U.S., meanwhile, ranks 25th on the list, with 16% more deaths than expected. The country’s COVID-19 death rate of 301.4 per 100,000 people ranks even higher, 20th of all countries considered. Among high-income countries, the U.S. has the fifth highest percentage of excess deaths. (These are countries doing the best job handling COVID.)
+26. Tunisia
+> Excess death rate: +16%
+> Total COVID-19 cases: 1,042,872 
+> COVID-19 case rate: 8,824 per 100,000 people (#127 out of 236)
+> Total COVID-19 deaths: 28,641 
+> COVID-19 death rate: 242.3 per 100,000 people (#35 out of 236)
+> Population: 11,818,620
+25. United States of America
+> Excess death rate: +15%
+> Total COVID-19 cases: 83,414,864 
+> COVID-19 case rate: 25,201 per 100,000 people (#63 out of 236)
+> Total COVID-19 deaths: 997,512 
+> COVID-19 death rate: 301.4 per 100,000 people (#20 out of 236)
+> Population: 331,501,080
+24. Czech Republic
+> Excess death rate: +16%
+> Total COVID-19 cases: 3,920,550 
+> COVID-19 case rate: 36,661 per 100,000 people (#34 out of 236)
+> Total COVID-19 deaths: 40,289 
+> COVID-19 death rate: 376.7 per 100,000 people (#9 out of 236)
+> Population: 10,697,860
+23. Algeria
+> Excess death rate: +17%
+> Total COVID-19 cases: 265,887 
+> COVID-19 case rate: 606 per 100,000 people (#183 out of 236)
+> Total COVID-19 deaths: 6,875 
+> COVID-19 death rate: 15.7 per 100,000 people (#172 out of 236)
+> Population: 43,851,040
+22. Ukraine
+> Excess death rate: +17%
+> Total COVID-19 cases: 5,011,433 
+> COVID-19 case rate: 11,459 per 100,000 people (#113 out of 236)
+> Total COVID-19 deaths: 108,538 
+> COVID-19 death rate: 248.2 per 100,000 people (#34 out of 236)
+> Population: 44,134,690
+21. Chile
+> Excess death rate: +17%
+> Total COVID-19 cases: 3,710,521 
+> COVID-19 case rate: 19,410 per 100,000 people (#82 out of 236)
+> Total COVID-19 deaths: 57,897 
+> COVID-19 death rate: 302.9 per 100,000 people (#18 out of 236)
+> Population: 19,116,210
+20. Poland
+> Excess death rate: +19%
+> Total COVID-19 cases: 6,008,059 
+> COVID-19 case rate: 15,828 per 100,000 people (#91 out of 236)
+> Total COVID-19 deaths: 116,333 
+> COVID-19 death rate: 306.5 per 100,000 people (#16 out of 236)
+> Population: 37,899,070
+19. Iraq
+> Excess death rate: +20%
+> Total COVID-19 cases: 2,328,264 
+> COVID-19 case rate: 5,788 per 100,000 people (#145 out of 236)
+> Total COVID-19 deaths: 25,219 
+> COVID-19 death rate: 62.7 per 100,000 people (#124 out of 236)
+> Population: 40,222,500
+18. Jordan
+> Excess death rate: +20%
+> Total COVID-19 cases: 1,696,937 
+> COVID-19 case rate: 16,632 per 100,000 people (#89 out of 236)
+> Total COVID-19 deaths: 14,066 
+> COVID-19 death rate: 137.9 per 100,000 people (#81 out of 236)
+> Population: 10,203,140
+17. Romania
+> Excess death rate: +20%
+> Total COVID-19 cases: 2,909,495 
+> COVID-19 case rate: 15,053 per 100,000 people (#94 out of 236)
+> Total COVID-19 deaths: 65,685 
+> COVID-19 death rate: 339.8 per 100,000 people (#12 out of 236)
+> Population: 19,257,520
+16. Egypt
+> Excess death rate: +21%
+> Total COVID-19 cases: 513,944 
+> COVID-19 case rate: 502 per 100,000 people (#187 out of 236)
+> Total COVID-19 deaths: 24,718 
+> COVID-19 death rate: 24.2 per 100,000 people (#156 out of 236)
+> Population: 102,334,400
+15. South Africa
+> Excess death rate: +23%
+> Total COVID-19 cases: 3,960,424 
+> COVID-19 case rate: 6,678 per 100,000 people (#141 out of 236)
+> Total COVID-19 deaths: 101,219 
+> COVID-19 death rate: 170.7 per 100,000 people (#62 out of 236)
+> Population: 59,308,690
+14. Brazil
+> Excess death rate: +24%
+> Total COVID-19 cases: 31,019,038 
+> COVID-19 case rate: 14,593 per 100,000 people (#98 out of 236)
+> Total COVID-19 deaths: 666,676 
+> COVID-19 death rate: 313.6 per 100,000 people (#15 out of 236)
+> Population: 212,559,410
+13. Guatemala
+> Excess death rate: +25%
+> Total COVID-19 cases: 861,002 
+> COVID-19 case rate: 4,806 per 100,000 people (#148 out of 236)
+> Total COVID-19 deaths: 18,152 
+> COVID-19 death rate: 101.3 per 100,000 people (#102 out of 236)
+> Population: 16,858,330
+12. India
+> Excess death rate: +26%
+> Total COVID-19 cases: 43,164,544 
+> COVID-19 case rate: 3,128 per 100,000 people (#155 out of 236)
+> Total COVID-19 deaths: 524,641 
+> COVID-19 death rate: 38.0 per 100,000 people (#145 out of 236)
+> Population: 1,380,004,390
+11. Indonesia
+> Excess death rate: +28%
+> Total COVID-19 cases: 6,055,645 
+> COVID-19 case rate: 2,214 per 100,000 people (#164 out of 236)
+> Total COVID-19 deaths: 156,600 
+> COVID-19 death rate: 57.3 per 100,000 people (#131 out of 236)
+> Population: 273,523,620
+10. Kazakhstan
+> Excess death rate: +29%
+> Total COVID-19 cases: 1,394,918 
+> COVID-19 case rate: 7,429 per 100,000 people (#136 out of 236)
+> Total COVID-19 deaths: 19,016 
+> COVID-19 death rate: 101.3 per 100,000 people (#103 out of 236)
+> Population: 18,754,440
+9. Iran
+> Excess death rate: +29%
+> Total COVID-19 cases: 7,232,268 
+> COVID-19 case rate: 8,611 per 100,000 people (#128 out of 236)
+> Total COVID-19 deaths: 141,318 
+> COVID-19 death rate: 168.3 per 100,000 people (#66 out of 236)
+> Population: 83,992,950
+8. Turkey
+> Excess death rate: +30%
+> Total COVID-19 cases: 15,073,722 
+> COVID-19 case rate: 17,873 per 100,000 people (#85 out of 236)
+> Total COVID-19 deaths: 98,969 
+> COVID-19 death rate: 117.3 per 100,000 people (#91 out of 236)
+> Population: 84,339,070
+7. Russia
+> Excess death rate: +31%
+> Total COVID-19 cases: 18,339,776 
+> COVID-19 case rate: 12,567 per 100,000 people (#109 out of 236)
+> Total COVID-19 deaths: 379,285 
+> COVID-19 death rate: 259.9 per 100,000 people (#31 out of 236)
+> Population: 144,104,080
+6. Colombia
+> Excess death rate: +33%
+> Total COVID-19 cases: 6,103,455 
+> COVID-19 case rate: 11,995 per 100,000 people (#110 out of 236)
+> Total COVID-19 deaths: 139,854 
+> COVID-19 death rate: 274.9 per 100,000 people (#28 out of 236)
+> Population: 50,882,880
+5. Azerbaijan
+> Excess death rate: +35%
+> Total COVID-19 cases: 792,778 
+> COVID-19 case rate: 7,819 per 100,000 people (#132 out of 236)
+> Total COVID-19 deaths: 9,713 
+> COVID-19 death rate: 95.8 per 100,000 people (#106 out of 236)
+> Population: 10,093,120
+4. Mexico
+> Excess death rate: +41%
+> Total COVID-19 cases: 5,779,027 
+> COVID-19 case rate: 4,482 per 100,000 people (#150 out of 236)
+> Total COVID-19 deaths: 324,951 
+> COVID-19 death rate: 252.0 per 100,000 people (#32 out of 236)
+> Population: 128,932,750
+3. Bolivia
+> Excess death rate: +49%
+> Total COVID-19 cases: 908,862 
+> COVID-19 case rate: 7,786 per 100,000 people (#133 out of 236)
+> Total COVID-19 deaths: 21,948 
+> COVID-19 death rate: 188.0 per 100,000 people (#58 out of 236)
+> Population: 11,673,030
+2. Ecuador
+> Excess death rate: +51%
+> Total COVID-19 cases: 877,381 
+> COVID-19 case rate: 4,973 per 100,000 people (#147 out of 236)
+> Total COVID-19 deaths: 35,638 
+> COVID-19 death rate: 202.0 per 100,000 people (#51 out of 236)
+> Population: 17,643,060
+1. Peru
+> Excess death rate: +97%
+> Total COVID-19 cases: 3,581,524 
+> COVID-19 case rate: 10,862 per 100,000 people (#117 out of 236)
+> Total COVID-19 deaths: 213,205 
+> COVID-19 death rate: 646.6 per 100,000 people (#1 out of 236)
+> Population: 32,971,850
+Contact [email protected] for any questions or corrections.

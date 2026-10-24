@@ -1,0 +1,422 @@
+URL: https://www.conjur.com.br/wp-content/uploads/2023/09/adpf-754-stf.pdf
+Coletado em: 2026-10-24T19:51:27Z
+SHA-256: bcf6842f41f5f892678ddee67b7ebf3ca637b2c3bbfb32caaf55053b49a06c43
+
+                        ARGUIÇÃO DE DESCUMPRIMENTO DE PRECEITO FUNDAMENTAL 754
+                        DISTRITO FEDERAL
+
+                        RELATOR                              : MIN. RICARDO LEWANDOWSKI
+                        REQTE.(S)                            : REDE SUSTENTABILIDADE
+                        ADV.(A/S)                            : CASSIO DOS SANTOS ARAUJO
+                        INTDO.(A/S)                          : PRESIDENTE DA REPÚBLICA
+                        PROC.(A/S)(ES)                       : ADVOGADO -GERAL DA UNIÃO
+                        AM. CURIAE.                          : SINDICATO DOS MEDICOS NO ESTADO DO
+                                                               PARANA
+                        ADV.(A/S)                            : LUIZ GUSTAVO DE ANDRADE
+                        ADV.(A/S)                            : LUIZ FERNANDO ZORNIG FILHO
+
+
+                               Ref. Petição STF 19.689/2021
+
+                             Por meio da Petição STF 4.890/2021, o partido político Rede
+                        Sustentabilidade atravessou pedido de tutela de urgência na qual alegou
+                        que, dada a escassez de vacinas disponíveis no país, o Novo Plano
+                        Nacional de Imunização é ainda muito genérico, de forma que, sem uma
+                        adequada operacionalização da vacina em fases bem distintas, com “uma
+                        ordem de preferências dentro de todos os grupos preferenciais” (pág. 5
+                        do documento eletrônico 260), poderá ensejar várias situações de
+                        injustiça, a exemplo da vacinação de médicos que não estão na linha de
+                        frente da Covid-19 em detrimento daqueles que estão.
+
+                             Requereu, em síntese, (i) a previsão de organização, com critérios
+                        objetivos, dentro do extenso grupo de risco, para que haja uma ordem de
+                        preferência entre classes e subclasses, e (ii) a publicidade dos nomes dos
+                        vacinados para que as pessoas “furadoras de fila” possam ser sujeitas à
+                        responsabilização, nos seguintes termos:
+
+                                                    “1) que o Ministério da Saúde, as secretarias estaduais e
+                                              distrital de saúde e as secretarias municipais de saúde que
+                                              tenham Planos próprios de Imunização contra a Covid-19
+                                              editem e publiquem com grande transparência, (i) a nível
+                                              macro, critérios e subcritérios claros de vacinação por classes e
+                                              subclasses no Plano de Vacinação, para que não haja
+
+
+Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001. O documento pode ser acessado pelo endereço
+http://www.stf.jus.br/portal/autenticacao/autenticarDocumento.asp sob o código C6D7-3726-02C0-66D6 e senha 11F6-BD00-AF46-83C7
+                        ADPF 754 / DF
+
+                                              preterimento de um cidadão sobre outro por falta de
+                                              metodologia clara, baseada em critérios técnicos, científicos e
+                                              publicamente cognoscíveis, e, (ii) a nível micro, a ordem de
+                                              preferência dentro de cada classe e subclasse (quais, dentre os
+                                              inúmeros profissionais de saúde, terão preferência em relação
+                                              aos demais, por exemplo; e assim sucessivamente para cada
+                                              classe);
+                                                    2) que o Ministério da Saúde organize e divulgue, pública
+                                              e efetivamente, as listas dos vacinados, e que cada dirigente de
+                                              unidade do SUS (Lei 8.080/90) informe diariamente o nome das
+                                              pessoas vacinadas e a respectiva categoria em que foi
+                                              imunizada (garantindo-se o sigilo sobre eventuais informações
+                                              de índole meramente pessoal, como o CPF, a idade, o tipo de
+                                              eventual comorbidade, etc.). Sugere-se a utilização,
+                                              preferencialmente, do Sistema de Informação do Programa
+                                              Nacional de Imunização (Novo SI-PNI - online) - que já deveria
+                                              estar em funcionamento -, respeitada a possibilidade de acesso
+                                              a todos os cidadãos.
+                                                    Na hipótese de não ser factível o acesso de todos os
+                                              cidadãos, que seja, ao menos, concedido o acesso às instituições
+                                              de controle (Tribunais de Contas, órgão de auditoria interna,
+                                              Ministérios Públicos Estaduais e Federal, Polícias Civil e
+                                              Federal, etc.);
+                                                    3) que seja determinada que a vacinação se dê
+                                              estritamente dentro da ordem de prioridades e preferências
+                                              estabelecidas no Plano Nacional de Imunização ou nos
+                                              correspondentes estaduais e municipais, sempre à luz de
+                                              critérios técnicos e científicos, sob pena de multa/ astreinte no
+                                              valor de R$ 30.000,00 (trinta mil reais), a serem revertidos em
+                                              favor do orçamento utilizado para o controle da pandemia no
+                                              Brasil, para o caso de inobservância da lista de prioridades e
+                                              preferências, aplicável tanto ao agente público que, tendo
+                                              conhecimento da ilegalidade, aplicou ou autorizou a aplicação
+                                              do imunizante, quanto ao indivíduo que se beneficiou com a
+                                              inobservância da lista de vacinação, salvo quando se tratar de
+                                              cidadão hipossuficiente, e sem prejuízo de apuração de
+
+
+                                                                                                                                 2
+
+Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001. O documento pode ser acessado pelo endereço
+http://www.stf.jus.br/portal/autenticacao/autenticarDocumento.asp sob o código C6D7-3726-02C0-66D6 e senha 11F6-BD00-AF46-83C7
+                        ADPF 754 / DF
+
+                                              eventuais ilícitos outros de ordem penal, civil ou
+                                              administrativa, bem como de improbidade administrativa;
+                                                     4) que sejam oficiados, pelas respectivas Secretarias de
+                                              Saúde e pelo Ministério da Saúde, o Ministério Público e a
+                                              Polícia em cada caso de descumprimento da ordem da lista de
+                                              preferências e prioridades de vacinação, de modo a
+                                              deflagrarem inquérito ou outros instrumentos processuais para
+                                              a apuração de crimes (peculato, infração de medida sanitária e
+                                              quaisquer outros tipos penais porventura materializados),
+                                              ilícitos administrativos, civis ou de ordem de improbidade
+                                              administrativa” (págs. 13-15 do documento eletrônico 260;
+                                              grifei).
+
+
+                             Em 8/2/2021, deferi “parcialmente a cautelar requerida, ad referendum
+                        do Plenário desta Suprema Corte, para determinar ao Governo Federal
+                        que divulgue, no prazo de 5 (cinco) dias, com base em critérios técnico-
+                        científicos, a ordem de preferência entre os grupos prioritários,
+                        especificando, com clareza, dentro dos respectivos grupos, a ordem de
+                        precedência dos subgrupos nas distintas fases de imunização contra a
+                        Covid-19” (pág. 15 do documento eletrônico 289). Para tanto, assentei
+                        que:
+
+                                                   “A requerente, com pertinência, alerta que ‘na primeira
+                                              versão do plano de imunização, parecia haver a organização
+                                              das populações de risco em fases de vacinação, organizadas de
+                                              acordo com o grau de risco do coronavírus àquelas populações
+                                              específicas’ (pág. 4 do documento eletrônico 260), ao passo que
+                                              ‘na atualização do referido plano, contudo, não há qualquer
+                                              indicativo de fácil compreensão sobre a operacionalização da
+                                              vacina em fases’ (pág. 4 do documento eletrônico 260).
+                                                   Como se vê, na 2ª edição estabeleceu-se a população que
+                                              será imunizada prioritariamente, sem, no entanto, detalhar
+                                              adequadamente, dentro daquele universo de cerca de setenta e
+                                              sete milhões de pessoas, qual a ordem de cada grupo de
+                                              pessoas.
+                                                   […]
+
+                                                                                                                                 3
+
+Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001. O documento pode ser acessado pelo endereço
+http://www.stf.jus.br/portal/autenticacao/autenticarDocumento.asp sob o código C6D7-3726-02C0-66D6 e senha 11F6-BD00-AF46-83C7
+                        ADPF 754 / DF
+
+                                                    Ao que parece, faltaram parâmetros aptos a guiar os
+                                              agentes públicos na difícil tarefa decisória diante da enorme
+                                              demanda e da escassez de imunizantes, os quais estarão diante
+                                              de escolhas trágicas a respeito de quais subgrupos de
+                                              prioritários serão vacinados antes dos outros. Os noticiários têm
+                                              dado conta de que não há uma racionalidade nessa primeira
+                                              distribuição, insuficiente para todos os milhões de brasileiros
+                                              com perfil de prioridade” (págs. 8-9 do documento eletrônico
+                                              289).
+
+
+                            Por sua vez, o Advogado-Geral da União apresentou manifestação,
+                        requerendo o que segue:
+
+                                                    “A primeira atualização do plano foi apresentada no
+                                              âmbito da ADPF nº 756, na data de 21 de janeiro de 2021, em
+                                              petição (doc. 183 do processo eletrônico) que também trouxe ao
+                                              conhecimento dessa Suprema Corte o Primeiro Informe Técnico
+                                              produzido pelo Ministério da Saúde (formato utilizado pela
+                                              pasta para a atualização das diretrizes, estratégias e orientações
+                                              técnicas do PNOVC, bem como dos seus respectivos
+                                              cronogramas).
+                                                    Desde então, o Ministério da Saúde tem atualizado de
+                                              forma periódica e on line a evolução no programa de
+                                              imunização, por meio de Informes e Notas Técnicas
+                                              disponibilizados para consulta pública no sítio institucional da
+                                              pasta1. A última atualização desse portal foi realizada em 15 de
+                                              fevereiro do presente ano (doc. anexo), contando com 2
+                                              Informes Técnicos e 2 Notas Informativas que tratam
+                                              especificamente da distribuição de vacinas, e que foram
+                                              incorporadas como Anexos à 4ª edição do PNOVC.
+                                                    O Anexo II dessa edição do PNOVC elucida informações
+                                              requeridas pelo eminente Relator. Em primeiro plano, ele
+                                              apresenta quadro com a ordem de grupos prioritários que está
+                                              sendo praticada dentro da campanha de vacinação em curso,
+                                              destacando que ‘todos os grupos elencados serão contemplados
+                                              com a vacinação, entretanto de forma escalonada e na sequência
+
+
+                                                                                                                                 4
+
+Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001. O documento pode ser acessado pelo endereço
+http://www.stf.jus.br/portal/autenticacao/autenticarDocumento.asp sob o código C6D7-3726-02C0-66D6 e senha 11F6-BD00-AF46-83C7
+                        ADPF 754 / DF
+
+                                              definida no quadro 1 por conta de não dispor de doses de
+                                              vacinas imediatas para vacinar todos os grupos em etapa única’.
+                                                    […]
+                                                    Além de apresentar esse quadro, o referido anexo
+                                              descreve as 4 (quatro) etapas da campanha até agora
+                                              executadas.
+                                                    Essas etapas traduzem a alocação de doses que foi
+                                              definida para cada um dos lotes de vacinas até aqui recebidas
+                                              pelo Ministério da Saúde. Assim, a primeira etapa compreende
+                                              às cerca de 6 (seis) milhões de doses recebidas em 18 de janeiro
+                                              de 2021 do instituto Butantan; a segunda etapa diz respeito a 2
+                                              (dois) milhões de doses recebidas em 22 de janeiro de 2021 do
+                                              Laboratório Serum; a terceira etapa, organizada em 25 de
+                                              janeiro de 2021, diz respeito a 906.540 (novecentos e seis mil,
+                                              quinhentos e quarenta mil) doses provenientes do Instituto
+                                              Butantan; e a quarta etapa, programada em 5 de fevereiro de
+                                              2021, considerou 2.905.600 (dois milhões, novecentos e cinco mil
+                                              e seiscentos) doses.
+                                                    O Anexo II destaca que, na primeira etapa, as doses foram
+                                              destinadas a abarcar os 4 primeiros grupos prioritários do
+                                              quadro geral, que integra (i) pessoas idosas residentes em
+                                              instituições de longa permanência; (ii) pessoas a partir de 18
+                                              anos com deficiência, residentes em residências inclusivas; (iii)
+                                              população indígena vivendo em terras indígenas; e (iv)
+                                              trabalhadores da saúde.
+                                                    Como não seria possível atender todos os trabalhadores
+                                              de saúde já num primeiro momento, recomendou-se a
+                                              priorização – que pode ser entendida como um subgrupo – no
+                                              seguinte sentido: ‘equipes de vacinação que estivessem
+                                              inicialmente envolvidas na vacinação dos grupos; trabalhadores
+                                              das Instituições de Longa Permanência de Idosos e de
+                                              Residências Inclusivas; trabalhadores dos serviços de saúde
+                                              públicos e privados em unidades de referência para
+                                              atendimento aos casos suspeitos e confirmados de covid-19’.
+                                                    O Anexo II também explica que, a partir da segunda
+                                              etapa, a situação de crise epidemiológica especialmente aguda
+
+
+                                                                                                                                 5
+
+Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001. O documento pode ser acessado pelo endereço
+http://www.stf.jus.br/portal/autenticacao/autenticarDocumento.asp sob o código C6D7-3726-02C0-66D6 e senha 11F6-BD00-AF46-83C7
+                        ADPF 754 / DF
+
+                                              experimentada no Estado do Amazonas resultou no destaque
+                                              de 5% do total das doses para um fundo estratégico para
+                                              antecipação da vacinação da população idosa local. Na terceira
+                                              etapa, esse fundo passou a contemplar, proporcionalmente, a
+                                              população idosa de todos os Estados da Região Norte; e na
+                                              quarta etapa o fundo foi destinado à população idosa dos
+                                              Estados de Rondônia, Amapá e Tocantins.
+                                                    Após as 4 etapas, o Ministério da Saúde calcula que já
+                                              foram atendidos os seguintes objetivos:
+                                                    […]
+                                                    Do que se vem de expor, fica evidenciado que o Ministério
+                                              da Saúde tem seguido como ordem geral o escalonamento
+                                              estabelecido no Quadro 1 do Anexo II do PNOVC.
+                                                    Apenas excepcionalmente é que foram estabelecidos
+                                              subgrupos, o que sucedeu no caso dos Trabalhadores em Saúde,
+                                              que – dada a dimensão do segmento – teve de observar novo
+                                              escalonamento, de acordo com os diferentes locais de serviço.
+                                              Houve, ainda, antecipação da vacinação dos idosos na Região
+                                              Norte, tendo em vista os índices epidemiológicos observados
+                                              nos Estados da localidade, em especial no Amazonas.
+                                                    Sem prejuízo do que foi até aqui informado – e que
+                                              corresponde a uma síntese do relato contido na 4ª edição do
+                                              PNOVC        e     na    Nota     Informativa     nº    16/2021-
+                                              CGPNI/DEIDT/SVS/MS (anexo) – a Secretaria de Vigilância em
+                                              Saúde do Ministério da Saúde observou que seria auspicioso
+                                              obter uma oportunidade de complementação das informações
+                                              prestadas. Isso porque nos últimos dias foram recebidos novos
+                                              dados e novos pleitos de reajustamento no Programa Nacional
+                                              de Imunização (PNI), cuja consideração seria importante para
+                                              permitir o atendimento mais detalhado da requisição feita pelo
+                                              eminente Relator na decisão de 8 de fevereiro de 2021.
+                                                    São essas, Excelentíssimo Senhor Relator, as informações a
+                                              serem prestadas no presente momento, cuja juntada aos autos
+                                              ora se requer, juntamente com a postulação de dilação de
+                                              prazo para complementação futura” (págs. 2-7 do documento
+                                              eletrônico 309; grifei).
+
+
+                                                                                                                                 6
+
+Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001. O documento pode ser acessado pelo endereço
+http://www.stf.jus.br/portal/autenticacao/autenticarDocumento.asp sob o código C6D7-3726-02C0-66D6 e senha 11F6-BD00-AF46-83C7
+                        ADPF 754 / DF
+
+
+
+                             Pois bem. Observo, desde logo, que as informações juntadas aos
+                        autos não se mostram suficientes para atender à determinação que expedi
+                        no dia 8/2/2021, já que deixou de esclarecer, pormenorizadamente, quais
+                        os subgrupos que terão preferência na vacinação, dentro dos grupos
+                        considerados prioritários, com a indicação dos critérios técnico-
+                        científicos para uma tal opção, apontando, em particular, as pessoas ou
+                        profissionais que serão imunizados antes dos outros, por exemplo,
+                        dentro do Grupo 4 (Trabalhadores de Saúde), do Grupo 19
+                        (Trabalhadores de Educação do Ensino Básico), do Grupo 20
+                        (Trabalhadores de Educação do Ensino Superior), do Grupo 21 (Forças de
+                        Segurança e Salvamento), do Grupo 22 (Forças Armadas), do Grupo 23
+                        (Trabalhadores de Transporte Coletivo Rodoviário de Passageiros) e do
+                        Grupo 27 (Caminhoneiros), considerada a enorme heterogeneidade dos
+                        indivíduos que integram esses Grupos, em termos de idade, saúde,
+                        atividade e – mais importante – contato direto com a doença.
+
+                             Lembro, mais uma vez, que cabe à União, nos termos do art. 198 da
+                        CF, a coordenação das atividades do setor, incumbindo-lhe, em especial,
+                        “executar ações de vigilância epidemiológica e sanitária em
+                        circunstâncias especiais, como na ocorrência de agravos inusitados à
+                        saúde, que possam escapar do controle da direção estadual do Sistema
+                        Único de Saúde (SUS) ou que representem risco de disseminação
+                        nacional”, conforme estabelece o disposto no art. 16, III, a, e parágrafo
+                        único, da Lei 8.080/1990 (Lei Orgânica da Saúde).
+
+                             Ora, no afã de combater a pandemia, têm sido desencadeadas no
+                        País distintas iniciativas visando levar a cabo a inadiável e relevantíssima
+                        imunização dos Trabalhadores da Saúde, por iniciativa de distintos entes
+                        públicos, porém nem sempre baseada em critérios adequados. Nesse
+                        sentido, constato que, em recente matéria jornalística, foi ressaltada
+
+                                                   “[a] ausência de uma coordenação federal que elenque
+                                              os critérios de prioridade para a vacinação contra a covid-19
+
+                                                                                                                                 7
+
+Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001. O documento pode ser acessado pelo endereço
+http://www.stf.jus.br/portal/autenticacao/autenticarDocumento.asp sob o código C6D7-3726-02C0-66D6 e senha 11F6-BD00-AF46-83C7
+                        ADPF 754 / DF
+
+                                              no Brasil fez com que a responsabilidade de definir os grupos
+                                              a serem vacinados prioritariamente caísse no colo dos estados
+                                              e municípios. O resultado disso é que cada cidade elabora um
+                                              plano diferente e vacina pessoas jovens fora de qualquer
+                                              grupo de risco, desde esteticistas até professores de pilates.
+                                                    Todos os estados estão seguindo o Plano Nacional de
+                                              Imunização, que estabeleceu entre as prioridades ‘profissionais
+                                              da saúde’, sem definir quais setores integram o grupo ou a
+                                              prioridade de cada setor — levando em conta que ainda não há
+                                              doses de vacina para todos.
+                                                    Isso abriu margem para que, na ponta da linha, cada
+                                              cidade estabelecesse quem pode ser considerado um
+                                              profissional da saúde, mesmo que eles trabalhem bem longe de
+                                              um hospital.
+                                                    O UOL recebeu fotos e relatos de diferentes casos de
+                                              pessoas fora do grupo de risco e de diferentes profissões sendo
+                                              vacinadas em municípios do interior e do litoral de São Paulo.
+                                              Em Itapuí, cidade do interior paulista de 14 mil habitantes, uma
+                                              esteticista de 40 anos se vacinou e mandou um e-mail para os
+                                              clientes com a foto da carteirinha de vacinação. No status do
+                                              WhatsApp, também avisou a clientela de que estava
+                                              ‘protegendo’ seus clientes e a família. Moradores de Monte Mor,
+                                              também no interior, relataram que instrutores de academia e
+                                              estudantes de veterinária foram vacinados. Uma mulher que,
+                                              nas suas redes sociais, se identifica como funcionária da Ambev,
+                                              maior produtora de bebidas do país, foi vacinada e publicou
+                                              uma foto em seu perfil no Instagram comemorando a primeira
+                                              dose da CoronaVac.
+                                                    Em Peruíbe, no litoral paulista, a reportagem recebeu
+                                              imagens de outras esteticistas que foram vacinadas em uma
+                                              clínica. A prefeitura, neste caso, definiu que está vacinando
+                                              profissionais de saúde da rede privada nas empresas
+                                              cadastradas junto ao executivo municipal. Diversos
+                                              profissionais que trabalham em farmácias, inclusive, já estão
+                                              sendo vacinados.
+                                                    A prefeitura emitiu uma nota na última semana dizendo
+
+
+                                                                                                                                 8
+
+Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001. O documento pode ser acessado pelo endereço
+http://www.stf.jus.br/portal/autenticacao/autenticarDocumento.asp sob o código C6D7-3726-02C0-66D6 e senha 11F6-BD00-AF46-83C7
+                        ADPF 754 / DF
+
+                                              que ‘até o momento foram aplicadas 314 doses nos grupos
+                                              prioritários, seguindo estritamente as recomendações do Plano
+                                              Nacional de Vacinação’ e disse ter vacinado 100% do público-
+                                              alvo da primeira fase.
+                                                    A reportagem procurou a prefeitura de Itapuí por telefone,
+                                              mas não obteve retorno. Não há contatos da assessoria de
+                                              imprensa disponíveis em nenhuma rede social do município. Se
+                                              enviado um posicionamento, ele será publicado.
+                                                    Na avaliação de Ana Maria Britto, médica epidemiologista
+                                              da Fiocruz Pernambuco (Fundação Oswaldo Cruz), a culpa da
+                                              falta de critério para definição de grupos prioritários é do
+                                              governo federal, não das prefeituras. ‘Houve uma renúncia na
+                                              condução — ou 'descondução' — do enfrentamento da
+                                              pandemia. Não tendo uma liderança nacional coordenada e
+                                              responsável, o que tem acontecido é uma distribuição de
+                                              vacina proporcional à população de cada estado e município,
+                                              simplesmente uma distribuição matemática, sem levar os
+                                              fatores epidemiológicos de cada local’, diz a pesquisadora”
+                                              (Disponível em: <https://noticias.uol.com.br/saude/ultimas-
+                                              noticias/redacao/2021/02/17/sem-criterios-prefeituras-vacinam-
+                                              de-esteticistas-a-instrutores-de-pilates.htm>. Acesso: fev.2021,
+                                              grifei).
+
+
+                             Por esses motivos, mostra-se imperioso que a União, por meio do
+                        Ministério da Saúde, informe, minudentemente, a ordem de preferência
+                        na vacinação dentro dos grupos prioritários, especificando, com clareza,
+                        quem dentro deles terá precedência, nas distintas fases de imunização
+                        contra a Covid-19, evidenciando os motivos em que tal escolha se apoia.
+
+                             Somente assim se mostrará factível racionalizar a distribuição
+                        equitativa das vacinas notoriamente escassas em todo território nacional,
+                        bem assim estabelecer paradigmas que deverão ser seguidos pelas
+                        autoridades sanitárias pertencentes aos diversos níveis político-
+                        administrativos do País, ressalvadas eventuais particularidades locais.
+                        Ademais, apenas com a implementação de tal providência será possível
+
+
+                                                                                                                                 9
+
+Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001. O documento pode ser acessado pelo endereço
+http://www.stf.jus.br/portal/autenticacao/autenticarDocumento.asp sob o código C6D7-3726-02C0-66D6 e senha 11F6-BD00-AF46-83C7
+                        ADPF 754 / DF
+
+                        evitar e reprimir a repetição dos nefastos comportamentos antissociais - e
+                        até mesmo criminosos - dos desabusados “fura-filas”.
+
+                             Isso posto, atendendo ao pedido da AGU concedo a dilação do prazo
+                        para complementação das informações por mais 5 (cinco) dias para que
+                        sejam divulgas as ordens de preferência dentro dos grupos prioritários,
+                        nos termos acima reiterados.
+
+                               Publique-se.
+
+                               Brasília, 19 de fevereiro de 2021.
+
+                                                       Ministro Ricardo Lewandowski
+                                                                   Relator
+
+
+
+
+                                                                                                                                 10
+
+Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001. O documento pode ser acessado pelo endereço
+http://www.stf.jus.br/portal/autenticacao/autenticarDocumento.asp sob o código C6D7-3726-02C0-66D6 e senha 11F6-BD00-AF46-83C7
+

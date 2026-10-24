@@ -1,0 +1,13 @@
+URL: https://www.eluniverso.com/noticias/2020/06/17/nota/7875615/oms-descarta-completo-hidroxicloroquina
+Coletado em: 2026-10-24T19:51:27Z
+SHA-256: 422902dc6006191133a1ecd6b7339cdb32c2dc65f0235f824a25851f1ac52f95
+
+En medio de las preocupaciones mundiales por posibles rebrotes casos de coronavirus, la Organización Mundial de la Salud (OMS) indicó este miércoles que puso fin definitivo de los ensayos clínicos con hidroxicloroquina en tratamientos de pacientes con COVID-19, dos días después de que se revocara su uso en Estados Unidos, uno de los países que más había apostado por este fármaco.
+"Basados en evidencias publicadas por los ensayos Solidarity (patrocinados por la OMS) y Recovery (llevados a cabo por la Universidad de Oxford), hemos concluido que se interrumpirán las pruebas con hidroxicloroquina", dijo Ana María Henao, directora del Plan de Acción para Investigación y Desarrollo del organismo.
+La experta colombiana subrayó, en rueda de prensa, que las dos investigaciones han mostrado que el uso de hidroxicloroquina "no reduce la mortalidad de los pacientes con COVID-19".
+La OMS ya detuvo a finales de mayo y primeros de junio los ensayos con hidroxicloroquina, tras publicarse un estudio en la revista "The Lancet" que advertía de un aumento en la mortalidad de pacientes tratados con este fármaco, pero los reanudó después de que tres de los cuatro autores del artículo se retractaran.
+Coincidiendo con la reanudación, los ensayos Recovery de la Universidad de Oxford publicaron entonces sus propias conclusiones, en las que se señalaba que el tratamiento con hidroxicloroquina no había reportado beneficios a los pacientes estudiados por su parte, lo que aumentó la confusión en torno al fármaco.
+Este lunes, la Administración de Alimentos y Fármacos estadounidense (FDA) revocó su autorización para el uso de urgencia de hidroxicloroquina en pacientes graves con la COVID-19, al concluir igualmente que no estaba siendo efectivo.
+La hidroxicloroquina es un medicamento utilizado desde hace décadas en enfermos de malaria y de afecciones reumáticas.
+Durante los días en que la OMS paralizó sus ensayos, siguió siendo ampliamente utilizado en Brasil y Estados Unidos, los dos países con mayor número de casos de la COVID-19.
+El fin de los ensayos coincide con el descubrimiento, también por parte de la Universidad de Oxford, de que el uso de la dexametasona puede reducir considerablemente la mortalidad de pacientes graves de la COVID-19, un hallazgo que la OMS ha celebrado como un gran paso adelante en la lucha contra la pandemia. (I)

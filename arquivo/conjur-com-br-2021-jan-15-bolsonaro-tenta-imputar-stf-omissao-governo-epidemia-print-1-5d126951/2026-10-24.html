@@ -1,0 +1,1597 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style id="conjur-print-mode-css">
+		/* header e footer do Elementor Pro */
+		.elementor-location-header,
+		.elementor-location-footer,
+		/* fallback para o tema estático */
+		#site-header,
+		.site-header,
+		#site-footer,
+		.site-footer,
+		/* admin bar */
+		#wpadminbar,
+		/* oculta a própria barra de compartilhamento na versão de impressão */
+		.conjur-social-share,
+		/* tags de categoria/área do JetEngine */
+		.jet-listing-dynamic-terms,
+		/* botão e seção de comentários */
+		#btn-comentario,
+		.conjur-comments-wrapper,
+		/* bloco "Leia também" + listagem de posts relacionados */
+		.elementor-element-281b177,
+		.posts-relacionados-listing,
+		/* classe livre para marcar no Elementor qualquer bloco a ocultar em ?print=1 / ?pdf=1 */
+		.conjur-hide-on-print {
+			display: none !important;
+		}
+
+		body.conjur-print-mode,
+		body.conjur-print-mode #page,
+		body.conjur-print-mode #content,
+		body.conjur-print-mode .site-content {
+			margin-top: 0 !important;
+			padding-top: 0 !important;
+		}
+
+		/* remove espaçamento dos containers Elementor que ficaram sem conteúdo visível */
+		body.conjur-print-mode .e-con,
+		body.conjur-print-mode .e-con-inner,
+		body.conjur-print-mode .elementor-section,
+		body.conjur-print-mode .elementor-container {
+			padding-top: 0 !important;
+			padding-bottom: 0 !important;
+			margin-top: 0 !important;
+			margin-bottom: 0 !important;
+		}
+
+		/* mantém espaçamento interno dos parágrafos do conteúdo */
+		body.conjur-print-mode #conjur-content .elementor-widget-container {
+			padding: 0 !important;
+		}
+
+		/* fonte do rodapé de impressão */
+		#conjur-print-footer {
+			font-size: 25px !important;
+		}
+
+		#conjur-print-btn-wrap {
+			display: flex;
+			justify-content: flex-end;
+			margin-bottom: 16px;
+		}
+
+		#conjur-print-btn {
+			display: inline-flex;
+			align-items: center;
+			gap: 8px;
+			padding: 9px 18px;
+			background: #003d7c;
+			color: #fff;
+			border: none;
+			border-radius: 4px;
+			font-size: 14px;
+			font-weight: 600;
+			cursor: pointer;
+			font-family: inherit;
+			-webkit-appearance: none;
+			appearance: none;
+		}
+
+		#conjur-print-btn svg {
+			width: 16px;
+			height: 16px;
+			fill: none;
+			stroke: #fff;
+			stroke-width: 2;
+			stroke-linecap: round;
+			stroke-linejoin: round;
+			flex-shrink: 0;
+		}
+
+		.conjur-print-head {
+			display: block;
+			border-bottom: 3px solid #d9b26c;
+			position: relative;
+			height: 16px;
+			background: #122f4d;
+			width: 100vw;
+			left: 50%;
+			margin-left: -50vw;
+			margin-bottom: 24px;
+			-webkit-print-color-adjust: exact;
+			print-color-adjust: exact;
+		}
+
+		.conjur-print-head img {
+			position: absolute;
+			left: 50%;
+			margin-left: -25px;
+			top: -16px;
+			width: 50px;
+		}
+
+		#conjur-print-footer {
+			width: 100vw;
+			position: relative;
+			left: 50%;
+			margin-left: -50vw;
+			margin-top: 20px;
+			background: #122f4d;
+			color: #fff;
+			text-align: center;
+			padding: 6px 10px;
+			border-top: 3px solid #d9b26c;
+			box-sizing: border-box;
+			clear: both;
+			-webkit-print-color-adjust: exact;
+			print-color-adjust: exact;
+		}
+
+		@media print {
+			#conjur-print-btn-wrap { display: none; }
+		}
+	</style>
+	<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		var target = document.getElementById('conjur-content');
+		if (!target) return;
+
+		/* cabeçalho com logo */
+		var head = document.createElement('div');
+		head.className = 'conjur-print-head';
+		head.innerHTML = '<img width="50" height="50" src="https://conjur.com.br/wp-content/uploads/2025/09/logo-circular-2.png" alt="Consultor Jurídico">';
+		target.parentNode.insertBefore(head, target.parentNode.firstChild);
+
+		/* botão imprimir */
+		var wrap = document.createElement('div');
+		wrap.id = 'conjur-print-btn-wrap';
+
+		var btn = document.createElement('button');
+		btn.id = 'conjur-print-btn';
+		btn.type = 'button';
+		btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg> Imprimir';
+		btn.onclick = function () { window.print(); };
+
+		wrap.appendChild(btn);
+		target.parentNode.insertBefore(wrap, target);
+
+
+		/* rodapé de impressão */
+		var footer = document.createElement('div');
+		footer.id = 'conjur-print-footer';
+		var year = new Date().getFullYear();
+		footer.textContent = 'Copyright © ' + year + ' Consultor Jurídico';
+		target.parentNode.appendChild(footer);
+	});
+	</script>
+	<link rel="preload" as="font" type="font/woff2" href="/wp-content/plugins/conjur-manager/assets/fonts/merriweather/woff2/merriweather-conjur-regular.woff2" crossorigin>
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.7 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Bolsonaro tenta imputar ao STF omissão do governo na epidemia - Consultor Jurídico</title>
+	<link rel="canonical" href="https://conjur.com.br/2021-jan-15/bolsonaro-tenta-imputar-stf-omissao-governo-epidemia/" />
+	<meta property="og:locale" content="pt_BR" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Bolsonaro tenta imputar ao STF omissão do governo na epidemia - Consultor Jurídico" />
+	<meta property="og:description" content="Para rebater cr&iacute;ticas referentes &agrave;&nbsp;omiss&atilde;o do governo federal no combate &agrave; epidemia de Covid-19, o presidente da Rep&uacute;blica se vale de interpreta&ccedil;&atilde;o&nbsp;sui generis&nbsp;de uma decis&atilde;o do Supremo Tribunal Federal. José Cruz/Agência BrasilSem m&aacute;scara, Bolsonaro cumprimenta apoiador&nbsp;em ato pr&oacute;-governo Jos&eacute; Cruz/Ag&ecirc;ncia Brasil Isso porque, nesta sexta-feira, em entrevista a Jos&eacute; Luiz Datena no programa Brasil Urgente, [&hellip;]" />
+	<meta property="og:url" content="https://conjur.com.br/2021-jan-15/bolsonaro-tenta-imputar-stf-omissao-governo-epidemia/" />
+	<meta property="og:site_name" content="Consultor Jurídico" />
+	<meta property="article:published_time" content="2021-01-15T22:55:00+00:00" />
+	<meta property="article:modified_time" content="2026-05-31T17:09:32+00:00" />
+	<meta property="og:image" content="https://cdn-conjur.s3.amazonaws.com/uploads/2020/03/jair-bolsonaro-cumprimenta-manifestantes.jpeg" />
+	<meta property="og:image:width" content="800" />
+	<meta property="og:image:height" content="533" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Conjur" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Escrito por" />
+	<meta name="twitter:data1" content="Conjur" />
+	<meta name="twitter:label2" content="Est. tempo de leitura" />
+	<meta name="twitter:data2" content="7 minutos" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/conjur.com.br\/2021-jan-15\/bolsonaro-tenta-imputar-stf-omissao-governo-epidemia\/#article","isPartOf":{"@id":"https:\/\/conjur.com.br\/2021-jan-15\/bolsonaro-tenta-imputar-stf-omissao-governo-epidemia\/"},"author":{"name":"Conjur","@id":"https:\/\/conjur.com.br\/#\/schema\/person\/f0c692c075325373cfc72b53c792d0bf"},"headline":"Bolsonaro tenta imputar ao STF omissão do governo na epidemia","datePublished":"2021-01-15T22:55:00+00:00","dateModified":"2026-05-31T17:09:32+00:00","mainEntityOfPage":{"@id":"https:\/\/conjur.com.br\/2021-jan-15\/bolsonaro-tenta-imputar-stf-omissao-governo-epidemia\/"},"wordCount":1477,"commentCount":30,"publisher":{"@id":"https:\/\/conjur.com.br\/#organization"},"image":{"@id":"https:\/\/conjur.com.br\/2021-jan-15\/bolsonaro-tenta-imputar-stf-omissao-governo-epidemia\/#primaryimage"},"thumbnailUrl":"https:\/\/conjur.com.br\/wp-content\/uploads\/2020\/03\/jair-bolsonaro-cumprimenta-manifestantes.jpeg","keywords":["Coronavírus"],"articleSection":["Constitucional","Judiciário","Política"],"inLanguage":"pt-BR","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https:\/\/conjur.com.br\/2021-jan-15\/bolsonaro-tenta-imputar-stf-omissao-governo-epidemia\/#respond"]}]},{"@type":"WebPage","@id":"https:\/\/conjur.com.br\/2021-jan-15\/bolsonaro-tenta-imputar-stf-omissao-governo-epidemia\/","url":"https:\/\/conjur.com.br\/2021-jan-15\/bolsonaro-tenta-imputar-stf-omissao-governo-epidemia\/","name":"Bolsonaro tenta imputar ao STF omissão do governo na epidemia - Consultor Jurídico","isPartOf":{"@id":"https:\/\/conjur.com.br\/#website"},"primaryImageOfPage":{"@id":"https:\/\/conjur.com.br\/2021-jan-15\/bolsonaro-tenta-imputar-stf-omissao-governo-epidemia\/#primaryimage"},"image":{"@id":"https:\/\/conjur.com.br\/2021-jan-15\/bolsonaro-tenta-imputar-stf-omissao-governo-epidemia\/#primaryimage"},"thumbnailUrl":"https:\/\/conjur.com.br\/wp-content\/uploads\/2020\/03\/jair-bolsonaro-cumprimenta-manifestantes.jpeg","datePublished":"2021-01-15T22:55:00+00:00","dateModified":"2026-05-31T17:09:32+00:00","breadcrumb":{"@id":"https:\/\/conjur.com.br\/2021-jan-15\/bolsonaro-tenta-imputar-stf-omissao-governo-epidemia\/#breadcrumb"},"inLanguage":"pt-BR","potentialAction":[{"@type":"ReadAction","target":["https:\/\/conjur.com.br\/2021-jan-15\/bolsonaro-tenta-imputar-stf-omissao-governo-epidemia\/"]}]},{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https:\/\/conjur.com.br\/2021-jan-15\/bolsonaro-tenta-imputar-stf-omissao-governo-epidemia\/#primaryimage","url":"https:\/\/conjur.com.br\/wp-content\/uploads\/2020\/03\/jair-bolsonaro-cumprimenta-manifestantes.jpeg","contentUrl":"https:\/\/conjur.com.br\/wp-content\/uploads\/2020\/03\/jair-bolsonaro-cumprimenta-manifestantes.jpeg","width":800,"height":533,"caption":"Jair Bolsonaro cumprimenta manifestantes em ato pró-governo"},{"@type":"BreadcrumbList","@id":"https:\/\/conjur.com.br\/2021-jan-15\/bolsonaro-tenta-imputar-stf-omissao-governo-epidemia\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https:\/\/conjur.com.br\/"},{"@type":"ListItem","position":2,"name":"Bolsonaro tenta imputar ao STF omissão do governo na epidemia"}]},{"@type":"WebSite","@id":"https:\/\/conjur.com.br\/#website","url":"https:\/\/conjur.com.br\/","name":"Consultor Jurídico","description":"O mais completo veículo independente sobre Direito e Justiça em língua portuguesa. Dezenas de notícias, artigos e entrevistas diariamente.","publisher":{"@id":"https:\/\/conjur.com.br\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/conjur.com.br\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"pt-BR"},{"@type":"Organization","@id":"https:\/\/conjur.com.br\/#organization","name":"Consultor Jurídico","url":"https:\/\/conjur.com.br\/","logo":{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https:\/\/conjur.com.br\/#\/schema\/logo\/image\/","url":"https:\/\/conjur.com.br\/wp-content\/uploads\/2026\/07\/Conjur-circular.png","contentUrl":"https:\/\/conjur.com.br\/wp-content\/uploads\/2026\/07\/Conjur-circular.png","width":459,"height":458,"caption":"Consultor Jurídico"},"image":{"@id":"https:\/\/conjur.com.br\/#\/schema\/logo\/image\/"}},{"@type":"Person","@id":"https:\/\/conjur.com.br\/#\/schema\/person\/f0c692c075325373cfc72b53c792d0bf","name":"Conjur","image":{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https:\/\/secure.gravatar.com\/avatar\/27c2ae94060e861740ba31e73a6b2802a49313d0b4921a1789e3bbbf376accf0?s=96&d=mm&r=g","url":"https:\/\/secure.gravatar.com\/avatar\/27c2ae94060e861740ba31e73a6b2802a49313d0b4921a1789e3bbbf376accf0?s=96&d=mm&r=g","contentUrl":"https:\/\/secure.gravatar.com\/avatar\/27c2ae94060e861740ba31e73a6b2802a49313d0b4921a1789e3bbbf376accf0?s=96&d=mm&r=g","caption":"Conjur"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//conjur.com.br' />
+<link rel="alternate" type="application/rss+xml" title="Feed para Consultor Jurídico &raquo;" href="https://conjur.com.br/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Consultor Jurídico &raquo;" href="https://conjur.com.br/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Consultor Jurídico &raquo; Bolsonaro tenta imputar ao STF omissão do governo na epidemia" href="https://conjur.com.br/2021-jan-15/bolsonaro-tenta-imputar-stf-omissao-governo-epidemia/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://conjur.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fconjur.com.br%2F2021-jan-15%2Fbolsonaro-tenta-imputar-stf-omissao-governo-epidemia%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://conjur.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fconjur.com.br%2F2021-jan-15%2Fbolsonaro-tenta-imputar-stf-omissao-governo-epidemia%2F&#038;format=xml" />
+
+<!-- Conjur Scripts (CSS) -->
+<style id="conjur-site-scripts-css">
+/* ===== DESKTOP (min-width: 992px) ===== */
+
+/* desktop-leaderboard-cat-noticias*/
+@media (min-width: 992px) .r89-desktop-leaderboard-cat-noticias { min-height: 100px; text-align: center; } }
+
+/* desktop-rectangle-atf-small */
+@media (min-width: 992px) .r89-desktop-rectangle-atf-small{ min-height: 100px; text-align: center; } }
+
+/* desktop-leaderboard-cat-noticias*/
+@media (min-width: 992px) .r89-desktop-leaderboard-cat-noticias { min-height: 100px; text-align: center; } }
+
+/* desktop-billboard-cat-noticias*/
+@media (min-width: 992px) .r89-desktop-billboard-cat-noticias { min-height: 100px; text-align: center; } }
+
+/* desktop-leaderboard-atf */
+@media (min-width: 992px) { .r89-desktop-leaderboard-atf { min-height: 90px; margin-top: 20px; margin-bottom: 20px } }
+
+/* desktop-leaderboard-noticias*/
+@media (min-width: 992px) .r89-desktop-leaderboard-noticias { min-height: 100px; text-align: center; } }
+
+/* desktop-hpa-atf-noticias*/
+@media (min-width: 992px) .r89-desktop-hpa-atf-noticias { min-height: 600px; text-align: center; } }
+
+/* desktop-billboard-btf */
+ @media (min-width: 992px) .r89-desktop-billboard-btf { min-height: 250px; text-align: center; } }
+
+/* desktop-leaderboard-btf */
+@media (min-width: 992px) { .r89-desktop-leaderboard-btf { min-height: 100px; margin-top: 20px; margin-bottom: 20px } }
+
+/* desktop-rectangle-atf */
+@media (min-width: 992px) { .r89-desktop-rectangle-atf { min-height: 250px; margin-top: 20px; margin-bottom: 20px } }
+
+/* desktop-hpa-atf (lateral; aplicar position:sticky en el contenedor de la barra lateral) */
+@media (min-width: 992px) { .r89-desktop-hpa-atf { min-height: 600px; margin-top: 20px; margin-bottom: 20px } }
+
+/* desktop-billboard-atf */
+@media (min-width: 992px) { .r89-desktop-billboard-atf { min-height: 250px; margin-top: 20px; margin-bottom: 20px } }
+
+/* desktop-billboard-btf */
+@media (min-width: 992px) { .r89-desktop-billboard-btf { min-height: 250px; margin-top: 20px; margin-bottom: 20px } }
+
+
+/* ===== MOBILE (max-width: 991px) ===== */
+
+/* mobile-billboard-top-home */
+@media (max-width: 991px) { .r89-mobile-billboard-top-home { min-height: 100px; margin-top: 20px; margin-bottom: 20px } }
+
+/* mobile-billboard-top-noticias */
+@media (max-width: 991px) { .r89-mobile-billboard-top-noticias { min-height: 100px; margin-top: 20px; margin-bottom: 20px } }
+
+/* mobile-rectangle-mid-home-1 */
+@media (max-width: 991px) { .r89-mobile-rectangle-mid-home-1 { min-height: 250px; margin-top: 20px; margin-bottom: 20px } }
+
+/* mobile-rectangle-mid-home-2 */
+@media (max-width: 991px) { .r89-mobile-rectangle-mid-home-2 { min-height: 250px; margin-top: 20px; margin-bottom: 20px } }
+
+/* mobile-rectangle-mid-home-3 */
+@media (max-width: 991px) { .r89-mobile-rectangle-mid-home-3 { min-height: 250px; margin-top: 20px; margin-bottom: 20px } }
+
+/* mobile-rectangle-mid-home-4 */
+@media (max-width: 991px) { .r89-mobile-rectangle-mid-home-4 { min-height: 250px; margin-top: 20px; margin-bottom: 20px } }
+
+/* mobile-rectangle-mid-home-5 */
+ @media (max-width: 991px) { .r89-mobile-rectangle-mid-5 { min-height: 250px; margin-top: 20px; margin-bottom: 20px } }
+
+/* mobile-rectangle-mid--300x600 */
+@media (max-width: 991px) { .r89-mobile-rectangle-mid--300x600 { min-height: 600px; margin-top: 20px; margin-bottom: 20px } }
+
+/* mobile-rectangle-mid-cat-noticias */
+@media (max-width: 991px) { .r89-mobile-rectangle-mid-cat-noticias { min-height: 250px; margin-top: 20px; margin-bottom: 20px } }
+
+/* mobile-rectangle-mid-colunas */
+@media (max-width: 991px) { .r89-mobile-rectangle-mid-colunas { min-height: 250px; margin-top: 20px; margin-bottom: 20px } }
+
+/* mobile-rectangle-infinite */
+@media (max-width: 991px) { .r89-mobile-rectangle-infinite { min-height: 250px; margin-top: 20px; margin-bottom: 20px } }
+
+/* mobile-rectangle-infinite-cat-noticias */
+@media (max-width: 991px) { .r89-mobile-rectangle-infinite-cat-noticias { min-height: 250px; margin-top: 20px; margin-bottom: 20px } }
+
+/* mobile-rectangle-infinite-colunas */
+@media (max-width: 991px) { .r89-mobile-rectangle-infinite-colunas { min-height: 250px; margin-top: 20px; margin-bottom: 20px } }
+
+/* mobile-rectangle-low */
+@media (max-width: 991px) { .r89-mobile-rectangle-low { min-height: 250px; margin-top: 20px; margin-bottom: 20px } }
+
+/* mobile-rectangle-low-colunas */
+@media (max-width: 991px) { .r89-mobile-rectangle-low-colunas { min-height: 250px; margin-top: 20px; margin-bottom: 20px } }
+
+/* mobile-video-outstream */
+@media (max-width: 991px) { .r89-mobile-video-outstream { min-height: 250px; margin-top: 20px; margin-bottom: 20px } }
+</style>
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='conjur-merriweather-css' href='https://conjur.com.br/wp-content/plugins/conjur-manager/assets/fonts/merriweather.css?ver=4.3.317' media='all' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="wp-block-styles-placeholder-inline-css">
+:root { --wp-internal-comment: "Placeholder for wp_hoist_late_printed_styles() to replace with the block styles printed at wp_footer." }
+/*# sourceURL=wp-block-styles-placeholder-inline-css */
+</style>
+<link rel='stylesheet' id='jet-engine-frontend-css' href='https://conjur.com.br/wp-content/plugins/jet-engine/assets/css/frontend.css?ver=3.8.15.4' media='all' />
+<style id="wp-global-styles-placeholder-inline-css">
+:root { --wp-internal-comment: "Placeholder for wp_hoist_late_printed_styles() to replace with the global-styles printed at wp_footer." }
+/*# sourceURL=wp-global-styles-placeholder-inline-css */
+</style>
+<link rel='stylesheet' id='conjur-assinantes-css' href='https://conjur.com.br/wp-content/plugins/conjur-manager/assets/assinantes.css?ver=4.3.317' media='all' />
+<link rel='stylesheet' id='conjur-posts-relacionados-css' href='https://conjur.com.br/wp-content/plugins/conjur-manager/assets/related-posts.css?ver=4.3.317' media='all' />
+<link rel='stylesheet' id='conjur-banners-css' href='https://conjur.com.br/wp-content/plugins/conjur-manager/assets/banners.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='conjur-apoiadores-css' href='https://conjur.com.br/wp-content/plugins/conjur-manager/assets/apoiadores.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='conjur-social-share-css' href='https://conjur.com.br/wp-content/plugins/conjur-manager/assets/social-share.css?ver=4.3.317' media='all' />
+<link rel='stylesheet' id='conjur-content-typography-css' href='https://conjur.com.br/wp-content/plugins/conjur-manager/assets/content-typography.css?ver=4.3.317' media='all' />
+<link rel='stylesheet' id='conjur-homepage-shortcodes-css' href='https://conjur.com.br/wp-content/plugins/conjur-manager/homepage/assets/shortcodes.4.3.317.css?ver=1791910083' media='all' />
+<style id="conjur-homepage-shortcodes-inline-css">
+.conjur-homenagem{width:100%;max-width:100%;box-sizing:border-box;padding:10px 0;margin-bottom:10px}@media (max-width:767px){.conjur-homenagem{padding:5px 0}.conjur-homenagem .conjur-homenagem-conteudo,.conjur-homenagem .conjur-homenagem-conteudo *{font-size:18px !important}}
+/*# sourceURL=conjur-homepage-shortcodes-inline-css */
+</style>
+<link rel='stylesheet' id='jumps-theme-css' href='https://conjur.com.br/wp-content/themes/jumps-theme/assets/css/reset.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='jumps-theme-theme-style-css' href='https://conjur.com.br/wp-content/themes/jumps-theme/assets/css/theme.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='jumps-theme-header-footer-css' href='https://conjur.com.br/wp-content/themes/jumps-theme/assets/css/header-footer.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://conjur.com.br/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.3.2' media='all' />
+<link rel='stylesheet' id='elementor-post-10-css' href='https://conjur.com.br/wp-content/uploads/elementor/css/post-10.css?ver=1792716185' media='all' />
+<link rel='stylesheet' id='elementor-post-660-css' href='https://conjur.com.br/wp-content/uploads/elementor/css/post-660.css?ver=1792716184' media='all' />
+<link rel='stylesheet' id='widget-icon-box-css' href='https://conjur.com.br/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css?ver=4.3.2' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='https://conjur.com.br/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.3.2' media='all' />
+<link rel='stylesheet' id='widget-nav-menu-css' href='https://conjur.com.br/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css?ver=4.3.2' media='all' />
+<link rel='stylesheet' id='e-sticky-css' href='https://conjur.com.br/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=4.3.2' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://conjur.com.br/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.3.2' media='all' />
+<link rel='stylesheet' id='widget-icon-list-css' href='https://conjur.com.br/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.3.2' media='all' />
+<link rel='stylesheet' id='widget-social-icons-css' href='https://conjur.com.br/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=4.3.2' media='all' />
+<link rel='stylesheet' id='e-apple-webkit-css' href='https://conjur.com.br/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=4.3.2' media='all' />
+<link rel='stylesheet' id='elementor-post-1954662-css' href='https://conjur.com.br/wp-content/uploads/elementor/css/post-1954662.css?ver=1792716198' media='all' />
+<link rel='stylesheet' id='elementor-post-365-css' href='https://conjur.com.br/wp-content/uploads/elementor/css/post-365.css?ver=1792716281' media='all' />
+<link rel='stylesheet' id='elementor-post-517-css' href='https://conjur.com.br/wp-content/uploads/elementor/css/post-517.css?ver=1792716282' media='all' />
+<style id="elementor-pro-custom-fonts-inline-css">
+@font-face {
+	font-family: 'Merriweather Conjur';
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url('/wp-content/plugins/conjur-manager/assets/fonts/merriweather/woff2/merriweather-conjur-regular.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Merriweather Conjur';
+	font-style: italic;
+	font-weight: normal;
+	font-display: swap;
+	src: url('/wp-content/plugins/conjur-manager/assets/fonts/merriweather/woff2/merriweather-conjur-italic.woff2') format('woff2');
+}
+
+/*# sourceURL=elementor-pro-custom-fonts-inline-css */
+</style>
+<link rel='stylesheet' id='conjur-myarea-account-css' href='https://conjur.com.br/wp-content/plugins/conjur-manager/myarea/assets/css/account-switcher.css?ver=4.3.317' media='all' />
+<link rel='stylesheet' id='jquery-chosen-css' href='https://conjur.com.br/wp-content/plugins/jet-search/assets/lib/chosen/chosen.min.css?ver=1.8.7' media='all' />
+<link rel='stylesheet' id='jet-search-css' href='https://conjur.com.br/wp-content/plugins/jet-search/assets/css/jet-search.css?ver=3.6.3.1' media='all' />
+<script id="jquery-core-js" src="https://conjur.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://conjur.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<link rel="https://api.w.org/" href="https://conjur.com.br/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://conjur.com.br/wp-json/wp/v2/posts/1430390" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://conjur.com.br/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.3" />
+<link rel='shortlink' href='https://conjur.com.br/?p=1430390' />
+<meta name="description" content="Para rebater cr&iacute;ticas referentes &agrave;&nbsp;omiss&atilde;o do governo federal no combate &agrave; epidemia de Covid-19, o presidente da Rep&uacute;blica se vale de interpreta&ccedil;&atilde;o&nbsp;sui generis&nbsp;de uma decis&atilde;o do Supremo Tribunal Federal. José Cruz/Agência BrasilSem m&aacute;scara, Bolsonaro cumprimenta apoiador&nbsp;em ato pr&oacute;-governo Jos&eacute; Cruz/Ag&ecirc;ncia Brasil Isso porque, nesta sexta-feira, em entrevista a Jos&eacute; Luiz Datena no programa Brasil Urgente, [&hellip;]">
+<meta name="generator" content="Elementor 4.3.2; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-disabled, font_display-swap">
+<script src="https://tags.refinery89.com/conjurcombr.js" async></script> 
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<link rel="icon" href="https://conjur.com.br/wp-content/uploads/2026/07/Conjur-circular-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://conjur.com.br/wp-content/uploads/2026/07/Conjur-circular-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://conjur.com.br/wp-content/uploads/2026/07/Conjur-circular-300x300.png" />
+<meta name="msapplication-TileImage" content="https://conjur.com.br/wp-content/uploads/2026/07/Conjur-circular-300x300.png" />
+
+<!-- Conjur Scripts (header) -->
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-666836498"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-666836498');
+</script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-666836498');
+  gtag('config', 'G-455HDK5TDP');
+</script>
+
+<script type="text/javascript" src="https://ads.vidoomy.com/conjur_15651.js" async></script>
+<style id="wp-custom-css">
+.wp-caption > .image-credit-new,
+.wp-caption > .image-credit {
+    top: 0px;
+    right: 0px;
+}
+</style>
+</head>
+<body class="wp-singular post-template-default single single-post postid-1430390 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-jumps-theme conjur-print-mode jumps-theme-default elementor-default elementor-kit-10 elementor-page-517">
+
+
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<header data-elementor-type="header" data-elementor-id="1954662" class="elementor elementor-1954662 elementor-location-header" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-70516b17 e-con-full elementor-hidden-mobile e-flex e-con e-parent" data-id="70516b17" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
+		<div class="elementor-element elementor-element-414fac35 e-con-full e-flex e-con e-child" data-id="414fac35" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-1b7c7888 e-con-full e-flex e-con e-child" data-id="1b7c7888" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-60d765d3 elementor-position-inline-start elementor-view-default elementor-mobile-position-block-start elementor-widget elementor-widget-icon-box" data-id="60d765d3" data-element_type="widget" data-e-type="widget" data-widget_type="icon-box.default">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<a href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY2MCIsInRvZ2dsZSI6ZmFsc2V9" class="elementor-icon" tabindex="-1" aria-label="Menu">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fas-bars" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>				</a>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<span class="elementor-icon-box-title">
+						<a href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY2MCIsInRvZ2dsZSI6ZmFsc2V9" >
+							Menu						</a>
+					</span>
+				
+				
+			</div>
+			
+		</div>
+						</div>
+				<div class="elementor-element elementor-element-818bd82 elementor-widget elementor-widget-shortcode" data-id="818bd82" data-element_type="widget" data-e-type="widget" data-widget_type="shortcode.default">
+							<div class="elementor-shortcode">	<nav class="conjur-traduzir skiptranslate" aria-label="Traduzir página">
+		<ul class="conjur-traduzir__flags">
+							<li>
+					<button
+						type="button"
+						class="conjur-traduzir__flag"
+						data-lang="pt"
+						aria-label="Português"
+						title="Português"
+					>
+						<span class="conjur-traduzir__flag-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 24" aria-hidden="true" focusable="false"><rect width="36" height="24" fill="#009c3b"/><polygon points="18,2.4 33.2,12 18,21.6 2.8,12" fill="#ffdf00"/><circle cx="18" cy="12" r="5.2" fill="#002776"/><path d="M12.2 12.4c1.9-1.4 4.1-2.15 6.4-2.2.9 0 1.75.12 2.55.35" fill="none" stroke="#fff" stroke-width="1.2" stroke-linecap="round"/></svg>						</span>
+					</button>
+				</li>
+							<li>
+					<button
+						type="button"
+						class="conjur-traduzir__flag"
+						data-lang="en"
+						aria-label="English"
+						title="English"
+					>
+						<span class="conjur-traduzir__flag-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 24" aria-hidden="true" focusable="false"><rect width="36" height="24" fill="#b22234"/><rect y="1.85" width="36" height="1.85" fill="#fff"/><rect y="5.54" width="36" height="1.85" fill="#fff"/><rect y="9.23" width="36" height="1.85" fill="#fff"/><rect y="12.92" width="36" height="1.85" fill="#fff"/><rect y="16.62" width="36" height="1.85" fill="#fff"/><rect y="20.31" width="36" height="1.85" fill="#fff"/><rect width="14.5" height="12.9" fill="#3c3b6e"/><g fill="#fff"><circle cx="2.2" cy="2" r="0.55"/><circle cx="4.4" cy="2" r="0.55"/><circle cx="6.6" cy="2" r="0.55"/><circle cx="8.8" cy="2" r="0.55"/><circle cx="11" cy="2" r="0.55"/><circle cx="3.3" cy="3.5" r="0.55"/><circle cx="5.5" cy="3.5" r="0.55"/><circle cx="7.7" cy="3.5" r="0.55"/><circle cx="9.9" cy="3.5" r="0.55"/><circle cx="2.2" cy="5" r="0.55"/><circle cx="4.4" cy="5" r="0.55"/><circle cx="6.6" cy="5" r="0.55"/><circle cx="8.8" cy="5" r="0.55"/><circle cx="11" cy="5" r="0.55"/><circle cx="3.3" cy="6.5" r="0.55"/><circle cx="5.5" cy="6.5" r="0.55"/><circle cx="7.7" cy="6.5" r="0.55"/><circle cx="9.9" cy="6.5" r="0.55"/><circle cx="2.2" cy="8" r="0.55"/><circle cx="4.4" cy="8" r="0.55"/><circle cx="6.6" cy="8" r="0.55"/><circle cx="8.8" cy="8" r="0.55"/><circle cx="11" cy="8" r="0.55"/><circle cx="3.3" cy="9.5" r="0.55"/><circle cx="5.5" cy="9.5" r="0.55"/><circle cx="7.7" cy="9.5" r="0.55"/><circle cx="9.9" cy="9.5" r="0.55"/><circle cx="2.2" cy="11" r="0.55"/><circle cx="4.4" cy="11" r="0.55"/><circle cx="6.6" cy="11" r="0.55"/><circle cx="8.8" cy="11" r="0.55"/><circle cx="11" cy="11" r="0.55"/></g></svg>						</span>
+					</button>
+				</li>
+							<li>
+					<button
+						type="button"
+						class="conjur-traduzir__flag"
+						data-lang="es"
+						aria-label="Español"
+						title="Español"
+					>
+						<span class="conjur-traduzir__flag-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 24" aria-hidden="true" focusable="false"><rect width="36" height="24" fill="#c60b1e"/><rect y="6" width="36" height="12" fill="#ffc400"/><rect x="7" y="9" width="3.2" height="6" rx="0.3" fill="#c60b1e" opacity="0.85"/></svg>						</span>
+					</button>
+				</li>
+							<li>
+					<button
+						type="button"
+						class="conjur-traduzir__flag"
+						data-lang="ja"
+						aria-label="日本語"
+						title="日本語"
+					>
+						<span class="conjur-traduzir__flag-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 24" aria-hidden="true" focusable="false"><rect width="36" height="24" fill="#fff"/><circle cx="18" cy="12" r="6" fill="#bc002d"/></svg>						</span>
+					</button>
+				</li>
+					</ul>
+	</nav>
+	</div>
+						</div>
+				</div>
+		<div class="elementor-element elementor-element-56bd82e0 e-con-full e-flex e-con e-child" data-id="56bd82e0" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-527fcd52 elementor-align-right elementor-widget elementor-widget-button" data-id="527fcd52" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="https://conjur.com.br/anuncie-na-conjur/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fas-bullhorn" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M576 240c0-23.63-12.95-44.04-32-55.12V32.01C544 23.26 537.02 0 512 0c-7.12 0-14.19 2.38-19.98 7.02l-85.03 68.03C364.28 109.19 310.66 128 256 128H64c-35.35 0-64 28.65-64 64v96c0 35.35 28.65 64 64 64h33.7c-1.39 10.48-2.18 21.14-2.18 32 0 39.77 9.26 77.35 25.56 110.94 5.19 10.69 16.52 17.06 28.4 17.06h74.28c26.05 0 41.69-29.84 25.9-50.56-16.4-21.52-26.15-48.36-26.15-77.44 0-11.11 1.62-21.79 4.41-32H256c54.66 0 108.28 18.81 150.98 52.95l85.03 68.03a32.023 32.023 0 0 0 19.98 7.02c24.92 0 32-22.78 32-32V295.13C563.05 284.04 576 263.63 576 240zm-96 141.42l-33.05-26.44C392.95 311.78 325.12 288 256 288v-96c69.12 0 136.95-23.78 190.95-66.98L480 98.58v282.84z"></path></svg>			</span>
+									<span class="elementor-button-text">Anuncie</span>
+					</span>
+					</a>
+								</div>
+				<div class="elementor-element elementor-element-4b3cbac0 elementor-align-right elementor-widget elementor-widget-button" data-id="4b3cbac0" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="/minha-area/entrar">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-far-user" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"></path></svg>			</span>
+									<span class="elementor-button-text">Login</span>
+					</span>
+					</a>
+								</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-2248a695 e-flex e-con-boxed e-con e-child" data-id="2248a695" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-a3f4a0f e-con-full e-flex e-con e-child" data-id="a3f4a0f" data-element_type="container" data-e-type="container">
+				</div>
+		<div class="elementor-element elementor-element-1cc04dc2 e-con-full e-flex e-con e-child" data-id="1cc04dc2" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-78aade39 elementor-widget elementor-widget-image" data-id="78aade39" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+																<a href="/">
+							<img fetchpriority="high" width="1536" height="730" src="https://conjur.com.br/wp-content/uploads/2026/08/logo-consultor-juridico.png" class="attachment-full size-full wp-image-1980934" alt="" srcset="https://conjur.com.br/wp-content/uploads/2026/08/logo-consultor-juridico.png 1536w, https://conjur.com.br/wp-content/uploads/2026/08/logo-consultor-juridico-300x143.png 300w, https://conjur.com.br/wp-content/uploads/2026/08/logo-consultor-juridico-1024x487.png 1024w, https://conjur.com.br/wp-content/uploads/2026/08/logo-consultor-juridico-768x365.png 768w" sizes="(max-width: 1536px) 100vw, 1536px" />								</a>
+															</div>
+				</div>
+		<div class="elementor-element elementor-element-47c596d0 e-con-full e-flex e-con e-child" data-id="47c596d0" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-75c502e4 conjur-search-item elementor-hidden-mobile elementor-widget elementor-widget-shortcode" data-id="75c502e4" data-element_type="widget" data-e-type="widget" data-widget_type="shortcode.default">
+							<div class="elementor-shortcode">	<form class="conjur-busca-exata-lateral" action="https://conjur.com.br/busca/" method="get"
+		role="search">
+		<input type="text" name="q" value=""
+			placeholder="Pesquisar..." />
+		<button type="submit" aria-label="Buscar">
+			<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+				<path
+					d="M10 2a8 8 0 105.293 14.293l4.707 4.707a1 1 0 001.414-1.414l-4.707-4.707A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z" />
+			</svg>
+					</button>
+	</form>
+	</div>
+						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-19a8fdaf e-flex e-con-boxed e-con e-child" data-id="19a8fdaf" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-47200542 elementor-nav-menu--dropdown-mobile elementor-nav-menu--stretch elementor-widget-tablet__width-initial elementor-nav-menu__align-justify elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="47200542" data-element_type="widget" data-e-type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;svg aria-hidden=\&quot;true\&quot; class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;&gt;&lt;path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;&gt;&lt;\/path&gt;&lt;\/svg&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-text e--animation-none">
+				<ul id="menu-1-47200542" class="elementor-nav-menu"><li class="btn-capa menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-697917"><a href="https://conjur.com.br/" class="elementor-item">Capa</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-569"><a href="https://conjur.com.br/noticias/" class="elementor-item">Notícias</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1745"><a href="https://conjur.com.br/colunas/" class="elementor-item">Colunas</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-579"><a href="https://conjur.com.br/artigos/" class="elementor-item">Artigos</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1763"><a href="https://conjur.com.br/entrevistas/" class="elementor-item">Entrevistas</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-589"><a href="https://conjur.com.br/estudio-conjur/" class="elementor-item">Estúdio</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716825"><a href="https://conjur.com.br/areas/" class="elementor-item">Áreas</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71"><a target="_blank" href="https://anuariodajustica.com.br/" class="elementor-item">Anuários</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-72"><a href="https://loja.conjur.com.br/" class="elementor-item">Loja</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Alternar menu" aria-expanded="false">
+			<svg aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open e-font-icon-svg e-eicon-menu-bar" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M104 333H896C929 333 958 304 958 271S929 208 896 208H104C71 208 42 237 42 271S71 333 104 333ZM104 583H896C929 583 958 554 958 521S929 458 896 458H104C71 458 42 487 42 521S71 583 104 583ZM104 833H896C929 833 958 804 958 771S929 708 896 708H104C71 708 42 737 42 771S71 833 104 833Z"></path></svg><svg aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close e-font-icon-svg e-eicon-close" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z"></path></svg>		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-47200542" class="elementor-nav-menu"><li class="btn-capa menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-697917"><a href="https://conjur.com.br/" class="elementor-item" tabindex="-1">Capa</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-569"><a href="https://conjur.com.br/noticias/" class="elementor-item" tabindex="-1">Notícias</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1745"><a href="https://conjur.com.br/colunas/" class="elementor-item" tabindex="-1">Colunas</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-579"><a href="https://conjur.com.br/artigos/" class="elementor-item" tabindex="-1">Artigos</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1763"><a href="https://conjur.com.br/entrevistas/" class="elementor-item" tabindex="-1">Entrevistas</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-589"><a href="https://conjur.com.br/estudio-conjur/" class="elementor-item" tabindex="-1">Estúdio</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716825"><a href="https://conjur.com.br/areas/" class="elementor-item" tabindex="-1">Áreas</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71"><a target="_blank" href="https://anuariodajustica.com.br/" class="elementor-item" tabindex="-1">Anuários</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-72"><a href="https://loja.conjur.com.br/" class="elementor-item" tabindex="-1">Loja</a></li>
+</ul>			</nav>
+						</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-22f8f128 e-con-full elementor-hidden-desktop elementor-hidden-tablet e-flex e-con e-parent" data-id="22f8f128" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
+		<div class="elementor-element elementor-element-5d08874d e-con-full e-flex e-con e-child" data-id="5d08874d" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-1f0324cf e-con-full e-flex e-con e-child" data-id="1f0324cf" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-3beab559 elementor-position-inline-start elementor-view-default elementor-mobile-position-block-start elementor-widget elementor-widget-icon-box" data-id="3beab559" data-element_type="widget" data-e-type="widget" data-widget_type="icon-box.default">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<a href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY2MCIsInRvZ2dsZSI6ZmFsc2V9" class="elementor-icon" tabindex="-1">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fas-bars" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>				</a>
+			</div>
+			
+			
+		</div>
+						</div>
+				</div>
+		<div class="elementor-element elementor-element-da47efc e-con-full e-flex e-con e-child" data-id="da47efc" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-3c2ff5f8 elementor-align-right elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="3c2ff5f8" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="/minha-area/entrar">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fas-user-lock" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128zm96 64a63.08 63.08 0 0 1 8.1-30.5c-4.8-.5-9.5-1.5-14.5-1.5h-16.7a174.08 174.08 0 0 1-145.8 0h-16.7A134.43 134.43 0 0 0 0 422.4V464a48 48 0 0 0 48 48h280.9a63.54 63.54 0 0 1-8.9-32zm288-32h-32v-80a80 80 0 0 0-160 0v80h-32a32 32 0 0 0-32 32v160a32 32 0 0 0 32 32h224a32 32 0 0 0 32-32V320a32 32 0 0 0-32-32zM496 432a32 32 0 1 1 32-32 32 32 0 0 1-32 32zm32-144h-64v-80a32 32 0 0 1 64 0z"></path></svg>			</span>
+								</span>
+					</a>
+								</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-7f9bce6 e-flex e-con-boxed e-con e-child" data-id="7f9bce6" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-16fe0ecf elementor-widget elementor-widget-image" data-id="16fe0ecf" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+																<a href="/">
+							<img fetchpriority="high" width="1536" height="730" src="https://conjur.com.br/wp-content/uploads/2026/08/logo-consultor-juridico.png" class="attachment-full size-full wp-image-1980934" alt="" srcset="https://conjur.com.br/wp-content/uploads/2026/08/logo-consultor-juridico.png 1536w, https://conjur.com.br/wp-content/uploads/2026/08/logo-consultor-juridico-300x143.png 300w, https://conjur.com.br/wp-content/uploads/2026/08/logo-consultor-juridico-1024x487.png 1024w, https://conjur.com.br/wp-content/uploads/2026/08/logo-consultor-juridico-768x365.png 768w" sizes="(max-width: 1536px) 100vw, 1536px" />								</a>
+															</div>
+				<div class="elementor-element elementor-element-1e27116b conjur-search-item elementor-widget-mobile__width-inherit elementor-widget elementor-widget-shortcode" data-id="1e27116b" data-element_type="widget" data-e-type="widget" data-widget_type="shortcode.default">
+							<div class="elementor-shortcode">	<form class="conjur-busca-exata-lateral" action="https://conjur.com.br/busca/" method="get"
+		role="search">
+		<input type="text" name="q" value=""
+			placeholder="Pesquisar..." />
+		<button type="submit" aria-label="Buscar">
+			<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+				<path
+					d="M10 2a8 8 0 105.293 14.293l4.707 4.707a1 1 0 001.414-1.414l-4.707-4.707A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z" />
+			</svg>
+					</button>
+	</form>
+	</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				</header>
+				<div data-elementor-type="single-post" data-elementor-id="517" class="elementor elementor-517 elementor-location-single post-1430390 post type-post status-publish format-standard has-post-thumbnail hentry category-constitucional category-judiciario category-politica tag-coronavirus tipos-noticias" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-7edc24c conjur-hide-on-print e-flex e-con-boxed e-con e-parent" data-id="7edc24c" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-11045b6 elementor-widget elementor-widget-html" data-id="11045b6" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
+					<div class="r89-mobile-billboard-top-noticias"></div>
+<div class="r89-desktop-leaderboard-noticias"></div>				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-57ce2d9 e-flex e-con-boxed e-con e-parent" data-id="57ce2d9" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-fbe1b34 e-con-full e-flex e-con e-child" data-id="fbe1b34" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-aebc2f1 elementor-widget elementor-widget-shortcode" data-id="aebc2f1" data-element_type="widget" data-e-type="widget" data-widget_type="shortcode.default">
+							<div class="elementor-shortcode"><h1 class="conjur-titulo-post" style="font-weight:900;line-height:110%;text-align:center;font-size:37px;letter-spacing:-0.02em;color:#003975;">Bolsonaro tenta imputar ao STF omissão do governo na epidemia</h1></div>
+						</div>
+		<div class="elementor-element elementor-element-2e9c139 e-con-full e-flex e-con e-child" data-id="2e9c139" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-6319e62 elementor-widget elementor-widget-shortcode" data-id="6319e62" data-element_type="widget" data-e-type="widget" id="conjur-post-autores" data-widget_type="shortcode.default">
+							<div class="elementor-shortcode"><span class="assinantes-links"><a href="https://conjur.com.br/assinaturas/redacao-conjur/" class="assinante-link">Redação ConJur</a></span></div>
+						</div>
+				<div class="elementor-element elementor-element-22b67e4 elementor-widget elementor-widget-jet-listing-dynamic-meta" data-id="22b67e4" data-element_type="widget" data-e-type="widget" id="conjur-post-date" data-widget_type="jet-listing-dynamic-meta.default">
+				<div class="elementor-widget-container">
+					<div class="jet-listing jet-listing-dynamic-meta meta-layout-inline"><div class="jet-listing-dynamic-meta__date jet-listing-dynamic-meta__item"><span class="jet-listing-dynamic-meta__item-val"><time datetime="2021-01-15T19:55:00-03:00">15 de janeiro de 2021, 19h55</time></span></div></div>				</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-43f3cf3 elementor-widget elementor-widget-jet-listing-dynamic-terms" data-id="43f3cf3" data-element_type="widget" data-e-type="widget" data-widget_type="jet-listing-dynamic-terms.default">
+				<div class="elementor-widget-container">
+					<div class="jet-listing jet-listing-dynamic-terms"><a href="https://conjur.com.br/areas-do-direito/constitucional/" class="jet-listing-dynamic-terms__link">Constitucional</a><span class="jet-listing-dynamic-terms__delimiter"> </span> <a href="https://conjur.com.br/judiciario/" class="jet-listing-dynamic-terms__link">Judiciário</a><span class="jet-listing-dynamic-terms__delimiter"> </span> <a href="https://conjur.com.br/politica/" class="jet-listing-dynamic-terms__link">Política</a></div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-5619915 elementor-widget elementor-widget-theme-post-content" data-id="5619915" data-element_type="widget" data-e-type="widget" id="conjur-content" data-widget_type="theme-post-content.default">
+					<p>Para rebater críticas referentes à omissão do governo federal no combate à epidemia de Covid-19, o presidente da República se vale de interpretação <em>sui generis</em> de uma decisão do Supremo Tribunal Federal.</p>
+<figure class="image direita">
+<div class="image-credit">José Cruz/Agência Brasil</div>
+<p><img loading="lazy" loading="lazy" decoding="async" alt="" height="200" src="https://conjur.com.br/wp-content/uploads/2020/03/jair-bolsonaro-cumprimenta-manifestantes.jpeg" class="" width="300" data-credit="José Cruz/Agência Brasil" data-guid="jair-bolsonaro-cumprimenta-manifestantes.jpeg"><figcaption>Sem máscara, Bolsonaro cumprimenta apoiador em ato pró-governo<br>
+<sup>José Cruz/Agência Brasil</sup></figcaption></p></figure>
+<p>Isso porque, nesta sexta-feira, em entrevista a José Luiz Datena no programa <em>Brasil Urgente</em>, da <em>Rede Bandeirantes</em>, o presidente fez repetidas referências à decisão da corte na <a href="/2020-abr-15/stf-referenda-liminar-competencia-concorrente-mp-926" target="_blank" rel="noopener">ADI 6.341</a> como uma proibição de o governo federal atuar no enfrentamento à epidemia.</p><div class="r89-mobile-video-outstream"></div>
+<p>"Se o Supremo não tivesse me proibido, eu teria um plano diferente do que foi feito, e o Brasil estaria em situação completamente diferente", disse Bolsonaro, em uma clara tentativa de imputar ao Supremo a omissão da qual seu governo é recorrentemente acusado no combate à doença.</p>
+<p>As declarações foram dadas no contexto de resposta a uma crítica feita pelo governador de São Paulo, João Doria, que chamou Bolsonaro de "facínora". O presidente indagou se o governador de São Paulo teria a "coragem moral" de criticar o STF. "Cobre da pessoa certa", disse.</p>
+<p>"Estou cometendo um crime, Datena, por interferir e por ajudar. Se ele tem coragem moral, que critique o Supremo Tribunal Federal, que falou que eu estou proibido de interferir em ações de combate à Covid em estados e municípios", bradou.</p>
+<p>"Pelo Supremo Tribunal Federal, eu tinha que estar na praia, Datena, tomando uma cerveja. O Supremo falou isso para mim. O erro meu foi não atender o Supremo e estar interferindo", reforçou Bolsonaro.</p><div class="r89-mobile-rectangle-infinite"></div>
+<figure class="image esquerda">
+<div class="image-credit">Divulgação</div>
+<p><img decoding="async" alt="" src="https://conjur.com.br/wp-content/uploads/2017/12/stf2.jpeg" class="" data-credit="Divulgação" data-guid="stf2.jpeg"><figcaption>Para Bolsonaro, STF o impediu de criar planos melhores para Brasil enfrentar a crise</figcaption></p></figure>
+<p><strong>O que o Supremo decidiu</strong><br>
+A decisão citada por Bolsonaro foi consolidada em 15 de abril de 2020, quando o Plenário do STF <a href="/2020-abr-15/stf-referenda-liminar-competencia-concorrente-mp-926" target="_blank" rel="noopener">referendou a liminar</a> do relator da <strong>ADI</strong> <strong>6.341</strong>, ministro Marco Aurélio, segundo a qual as <a href="/2020-mar-24/marco-aurelio-reafirma-competencia-excepcional-anvisa" target="_blank" rel="noopener">competências</a> concedidas pelo governo à Agência Nacional de Vigilância Sanitária (Anvisa) no combate à Covid-19 não afastam a competência concorrente de estados e municípios sobre saúde pública.</p>
+<p>A ação atacou a Medida Provisória 926/2020, que alterou dispositivos da Lei 13.979/2020, editada para tratar de medidas para enfrentamento da emergência de saúde pública causada pela epidemia. Na prática, a decisão permitiu que governadores e prefeitos pudessem impor restrições mais duras do que as defendidas pelo governo federal.</p>
+<p>E <a href="j%C3%A1%20estavam%20fechadas%20e%20assim%20permanecer%C3%A3o">assim ocorreu</a>. Quando Bolsonaro, por decreto, incluiu salões de beleza, barbearias e academias como estabelecimentos que poderiam abrir ainda em maio de 2020, ao menos 14 estados se valeram da decisão do STF para avisar que essas atividades já estavam fechadas e assim permaneceriam naquele momento.</p>
+<p>O que também ocorreu, como <a href="/2020-ago-05/stf-assume-protagonismo-busca-saidas-crise">mostrou a <strong>ConJur</strong></a>, é que enquanto o país diminuía o ritmo para tentar conter o avanço do novo coronavírus, o Supremo assumiu o protagonismo na busca por saídas para a crise. Esse protagonismo é fruto, também, das omissões governamentais.</p><div class="r89-mobile-rectangle-infinite"></div>
+<figure class="image direita">
+<div class="image-credit">Carlos Moura/SCO/STF</div>
+<p><img decoding="async" alt="" src="https://conjur.com.br/wp-content/uploads/2020/06/ministro-marco-aurelio-2020.jpeg" class="" data-credit="Carlos Moura/SCO/STF" data-guid="ministro-marco-aurelio-2020.jpeg"><figcaption>Em abril de 2020, STF ratificou liminar do ministro Marco Aurélio e reconheceu a competência concorrente de estados e municípios para enfrentar a epidemia</figcaption></p></figure>
+<p><strong>Omissões do governo</strong><br>
+Surpreende saber que Bolsonaro acredita estar há exatos nove meses proibido pela Corte Constitucional de interferir no combate à Covid-19 nos estados e municípios. A Datena, ele afirmou que as "ações são privativas dos governadores e prefeitos" e que, apesar disso, ajudou com "meios e recursos" todo esse tempo.</p>
+<p>Essa visão de mundo é altamente contestada no próprio Judiciário, que tem recebido demandas denunciando a omissão da União no enfrentamento à epidemia. Em julho, sete entidades civis <a href="/2020-jul-29/entidades-denunciam-omissao-governo-combate-epidemia" target="_blank" rel="noopener">encaminharam representação</a> ao Ministério Público Federal e ao MP do Tribunal de Contas da União com notícia de oito fatos relacionados a falhas do governo de Bolsonaro.</p>
+<p>Alvo de <a href="/2020-mar-31/desestimular-protocolo-covid-fere-constituicao-oab" target="_blank" rel="noopener">ações sobre o tema</a> no Supremo e até <a href="/2020-jun-08/tribunal-penal-internacional-ira-analisar-denuncia-bolsonaro" target="_blank" rel="noopener">no Tribunal Penal Internacional</a> (TPI) e criticado por <a href="/2021-jan-13/bolsonaro-tentou-sabotar-combate-coronavirus-ong" target="_blank" rel="noopener">organismos internacionais</a>, o governo ainda editou uma medida provisória para se eximir de erros no período. A <a href="/2020-mai-14/bolsonaro-edita-mp-isentar-erros-durante-epidemia" target="_blank" rel="noopener">MP 966</a> restringiu a responsabilização dos agentes públicos a hipóteses de dolo ou erro grosseiro e foi alvo de críticas e de <a href="/2020-mai-14/mp-966-inconstitucional-gera-impunidade-dizem-partidos" target="_blank" rel="noopener">mais judicialização</a>.</p>
+<p>Novamente chamado a decidir, o Supremo <a href="/2020-mai-21/agente-publico-comete-erro-grosseiro-descumpre-norma-cientifica" target="_blank" rel="noopener">manteve sua vigência</a>, mas com a ressalva de que seria considerado erro grosseiro de agentes públicos atos administrativos que violem o direito à vida, à saúde ou ao meio ambiente por descumprimento de normas e critérios científicos e técnicos. Ela perdeu validade em 10 de setembro.</p><div class="r89-mobile-rectangle-infinite"></div>
+<p><strong>Exemplo de Manaus</strong><br>
+Outro exemplo de como o Judiciário é instado a atuar nos momentos em que o Executivo se omite é o de Manaus. A situação caótica vivida no Amazonas devido ao pico de infecções de Covid-19 levou à falta de oxigênio nos hospitais da capital do estado. Por isso, na quinta (14/1), a Justiça Federal amazonense determinou que a União fizesse a <a href="/2021-jan-15/juiza-manda-transferir-pacientes-spor-falta-oxigenio-am" target="_blank" rel="noopener">transferência dos pacientes</a> sob risco de morte.</p>
+<figure class="image esquerda">
+<div class="image-credit">Nelson Jr./SCO/STF</div>
+<p><img decoding="async" alt="" src="https://conjur.com.br/wp-content/uploads/2020/07/ministro-ricardo-lewandowski-2021.jpeg" class="" data-credit="Nelson Jr./SCO/STF" data-guid="ministro-ricardo-lewandowski-2021.jpeg"><figcaption>Diante da crise no Amazonas, ministro Lewandowski mandou União criar plano de ação e atualizá-lo a cada 48 horas</figcaption></p></figure>
+<p>Durante a entrevista, Bolsonaro citou esse caso como prova da proatividade do governo: disse que o ministro da Saúde, Eduardo Pazuello, visitou Manaus, e que aviões da Força Aérea entregaram cilindros de oxigênio. "Estamos fazendo todo o possível, apesar de o Supremo ter me proibido de fazer isso", afirmou.</p>
+<p>Já no início da noite desta sexta-feira (15/1), o ministro Ricardo Lewandowski <a href="/2021-jan-15/lewandowski-nega-pedido-lockdown-manaus-manda-uniao-agir" target="_blank" rel="noopener">concedeu tutela de urgência</a> em ação ajuizada por partidos políticos para mandar a União a apresentar, no prazo de 48 horas, um plano compreensivo e detalhado acerca das estratégias que está colocando em prática ou pretende desenvolver para o enfrentamento da situação de emergência em Manaus. Esse plano deverá ser atualizado a cada 48 horas.</p>
+<p>No despacho, o ministro reforça o principal papel da União no combate à epidemia, correspondente à "magna e indeclinável tarefa de planejar e promover, em caráter permanente, a defesa de todos os brasileiros e estrangeiros residentes no País contra as calamidades públicas".</p><div class="r89-mobile-rectangle-infinite"></div>
+<p>A decisão ressalva expressamente a possibilidade da atuação das autoridades estaduais e municipais no âmbito das respectivas competências. Isso não quer dizer que um ou outro — governo federal, estado do Amazonas ou prefeitura da cidade — estejam proibidos de agir em Manaus contra a crise.</p>
+<p><strong>Reação</strong><br>
+Ex-presidente da Associação dos Juízes Federais do Brasil,<strong> Fernando Mendes</strong> reagiu no <em>Twitter</em> às declarações de Bolsonaro e ressaltou que a "inexistência de planejamento estratégico por parte da União contra a pandemia — fato reconhecido pelo TCU — não pode ser imputada ao STF".</p>
+<p>Colunista da <em>Rádio Band News</em>, <strong>Rodrigo Haidar</strong> mais cedo<a href="https://twitter.com/RodrigoHaidar/status/1350138047455784963" target="_blank" rel="noopener"> abordou o tema</a> e explicou como o governo jogou para o Judiciário, desde o começo da epidemia, a responsabilidade de decidir aspectos claramente políticos.</p>
+<p>"A Justiça deu as respostas possíveis, mas tem atuação limitada porque não substitui o Poder Executivo. O resultado da omissão do governo é o que vemos em Manaus", afirmou.</p><div class="r89-mobile-rectangle-infinite"></div>
+	<div class="conjur-social-share" aria-label="Compartilhar este conteúdo">
+		<span class="conjur-social-share__label">Compartilhar:</span>
+		<div class="conjur-social-share__buttons">
+						<a
+				href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconjur.com.br%2F2021-jan-15%2Fbolsonaro-tenta-imputar-stf-omissao-governo-epidemia%2F"
+				class="conjur-social-share__btn conjur-social-share__btn--facebook"
+				target="_blank"
+				rel="noopener noreferrer"
+				aria-label="Compartilhar no Facebook"
+				title="Compartilhar no Facebook"
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>				<span class="conjur-social-share__btn-text">Facebook</span>
+			</a>
+						<a
+				href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fconjur.com.br%2F2021-jan-15%2Fbolsonaro-tenta-imputar-stf-omissao-governo-epidemia%2F&#038;text=Bolsonaro%20tenta%20imputar%20ao%20STF%20omiss%C3%A3o%20do%20governo%20na%20epidemia"
+				class="conjur-social-share__btn conjur-social-share__btn--twitter"
+				target="_blank"
+				rel="noopener noreferrer"
+				aria-label="Compartilhar no X (Twitter)"
+				title="Compartilhar no X (Twitter)"
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>				<span class="conjur-social-share__btn-text">X (Twitter)</span>
+			</a>
+						<a
+				href="https://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Fconjur.com.br%2F2021-jan-15%2Fbolsonaro-tenta-imputar-stf-omissao-governo-epidemia%2F&#038;title=Bolsonaro%20tenta%20imputar%20ao%20STF%20omiss%C3%A3o%20do%20governo%20na%20epidemia"
+				class="conjur-social-share__btn conjur-social-share__btn--linkedin"
+				target="_blank"
+				rel="noopener noreferrer"
+				aria-label="Compartilhar no LinkedIn"
+				title="Compartilhar no LinkedIn"
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>				<span class="conjur-social-share__btn-text">LinkedIn</span>
+			</a>
+						<a
+				href="https://wa.me/?text=Bolsonaro%20tenta%20imputar%20ao%20STF%20omiss%C3%A3o%20do%20governo%20na%20epidemia%20https%3A%2F%2Fconjur.com.br%2F2021-jan-15%2Fbolsonaro-tenta-imputar-stf-omissao-governo-epidemia%2F"
+				class="conjur-social-share__btn conjur-social-share__btn--whatsapp"
+				target="_blank"
+				rel="noopener noreferrer"
+				aria-label="Compartilhar no WhatsApp"
+				title="Compartilhar no WhatsApp"
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>				<span class="conjur-social-share__btn-text">WhatsApp</span>
+			</a>
+						<a
+				href="https://t.me/share/url?url=https%3A%2F%2Fconjur.com.br%2F2021-jan-15%2Fbolsonaro-tenta-imputar-stf-omissao-governo-epidemia%2F&#038;text=Bolsonaro%20tenta%20imputar%20ao%20STF%20omiss%C3%A3o%20do%20governo%20na%20epidemia"
+				class="conjur-social-share__btn conjur-social-share__btn--telegram"
+				target="_blank"
+				rel="noopener noreferrer"
+				aria-label="Compartilhar no Telegram"
+				title="Compartilhar no Telegram"
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>				<span class="conjur-social-share__btn-text">Telegram</span>
+			</a>
+			
+			<button
+				type="button"
+				class="conjur-social-share__btn conjur-social-share__btn--copy"
+				data-url="https://conjur.com.br/2021-jan-15/bolsonaro-tenta-imputar-stf-omissao-governo-epidemia/"
+				aria-label="Copiar link"
+				title="Copiar link"
+				onclick="conjurCopyShareLink(this)"
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>				<span class="conjur-social-share__btn-text">Copiar link</span>
+			</button>
+
+			<button
+				type="button"
+				class="conjur-social-share__btn conjur-social-share__btn--bookmark"
+				data-post-id="1430390"
+				data-bookmarked="0"
+				aria-pressed="false"
+				aria-label="Salvar nos favoritos"
+				title="Salvar nos favoritos"
+			>
+				<span class="conjur-social-share__bookmark-icon" aria-hidden="true">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><line x1="12" y1="7" x2="12" y2="13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="9" y1="10" x2="15" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>				</span>
+			</button>
+
+			<a
+				href="https://conjur.com.br/conjur-pdf/1430390/"
+				class="conjur-social-share__btn conjur-social-share__btn--pdf"
+				target="_blank"
+				rel="noopener noreferrer"
+				aria-label="Salvar como PDF"
+				title="Salvar como PDF"
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z" fill="currentColor" stroke="none"/><polyline points="14 2 14 8 20 8" fill="none" stroke="#003d7c" stroke-width="1.5" stroke-linejoin="round"/><text x="12" y="17" font-family="Arial,Helvetica,sans-serif" font-size="5.5" font-weight="900" fill="#003d7c" stroke="none" text-anchor="middle">PDF</text></svg>				<span class="conjur-social-share__btn-text">PDF</span>
+			</a>
+
+			<a
+				href="https://conjur.com.br/conjur-pdf/1430390/"
+				class="conjur-social-share__btn conjur-social-share__btn--print"
+				target="_blank"
+				rel="noopener noreferrer"
+				aria-label="Imprimir (PDF)"
+				title="Imprimir (PDF)"
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>				<span class="conjur-social-share__btn-text">Imprimir</span>
+			</a>
+		</div>
+	</div>
+	<script>
+	function conjurCopyShareLink(btn) {
+		var url = btn.getAttribute('data-url');
+		if (navigator.clipboard && navigator.clipboard.writeText) {
+			navigator.clipboard.writeText(url).then(function() {
+				conjurShareLinkCopied(btn);
+			});
+		} else {
+			var ta = document.createElement('textarea');
+			ta.value = url;
+			ta.style.position = 'fixed';
+			ta.style.opacity = '0';
+			document.body.appendChild(ta);
+			ta.select();
+			document.execCommand('copy');
+			document.body.removeChild(ta);
+			conjurShareLinkCopied(btn);
+		}
+	}
+	function conjurShareLinkCopied(btn) {
+		var text = btn.querySelector('.conjur-social-share__btn-text');
+		var original = text ? text.textContent : '';
+		if (text) text.textContent = 'Link copiado!';
+		btn.classList.add('conjur-social-share__btn--copied');
+		setTimeout(function() {
+			if (text) text.textContent = original;
+			btn.classList.remove('conjur-social-share__btn--copied');
+		}, 2000);
+	}
+	</script>
+					</div>
+				<div class="elementor-element elementor-element-2d4460f elementor-widget elementor-widget-html" data-id="2d4460f" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
+					<div id="youtube-embed"></div>
+<div class="truvidPos">
+<script async type="text/javascript" src="https://cnt.trvdp.com/js/1049/10378.js"></script>
+</div>				</div>
+				<div class="elementor-element elementor-element-de29a67 elementor-widget elementor-widget-shortcode" data-id="de29a67" data-element_type="widget" data-e-type="widget" id="conjur-content-assinantes-info" data-widget_type="shortcode.default">
+							<div class="elementor-shortcode"><div class="assinantes-wrapper" style="width:100%;"><div class="assinante-card" style="background:#f4f0ed; border-radius:8px; border-left:4px solid #003d7c; padding:15px; width:100%; box-shadow:0 2px 5px rgba(0,0,0,0.1); margin-bottom:15px;"><p class="assinante-title" style="margin:0 0 5px 0; font-family:Merriweather; font-size:1.1em;"><a href="https://conjur.com.br/assinaturas/redacao-conjur/" style="text-decoration:none; color:#0073aa;">Redação ConJur</a></p></div></div></div>
+						</div>
+		<div class="elementor-element elementor-element-b6f85b2 e-con-full e-flex e-con e-child" data-id="b6f85b2" data-element_type="container" data-e-type="container" id="box-comentario">
+				<div class="elementor-element elementor-element-dac5036 elementor-widget elementor-widget-shortcode" data-id="dac5036" data-element_type="widget" data-e-type="widget" data-widget_type="shortcode.default">
+							<div class="elementor-shortcode">
+    <div class="conjur-comments-wrapper">
+
+                    <div class="conjur-comments">
+                <div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Moura.advocacia <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">15 de janeiro de 2021 às 20:10</div></div><div class="conjur-comment__content"><p>E quem foi que delegou poderes a Governadores e prefeitos para o combate ao Covid-19??<br />Bom, pela matéria deve ter sido o coelhinho da Páscoa!<br />Ponham a culpa agora na turma da lacração!</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Moura.advocacia <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">15 de janeiro de 2021 às 20:10</div></div><div class="conjur-comment__content"><p>E quem foi que delegou poderes a Governadores e prefeitos para o combate ao Covid-19??<br />Bom, pela matéria deve ter sido o coelhinho da Páscoa!<br />Ponham a culpa agora na turma da lacração!</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Eudson <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">15 de janeiro de 2021 às 23:33</div></div><div class="conjur-comment__content"><p>Somente restou ao governo federal pagar a conta , ficou a cargo dos governadores o combate, o que se viu foi roubos para todos os lados , compras de respiradores em Nova Iguaçu ou vinícolas , equipamentos com superfaturamento , político fazendo comercial de equipamentos manuais que vendem em qualquer brechó como equipamentos essenciais no combate a covid ( a vergonha foi tamanha que acabou devolvendo), no RJ se uniram direita esquerda centro etc para divisão da grana inclusive com suspeita do próprio ministro da saúde está no meio ( o mesmo que falava só vá ao hospital quando estiver sem ar), a população está até agora aguardando os hospitais ficarem prontos .<br />Pior é ver um grupo ideológico de esquerda serem contra a criminalização dupla desses políticos e servidores corruptos .</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Josino de Almeida Aguiar <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">16 de janeiro de 2021 às 00:09</div></div><div class="conjur-comment__content"><p>O Bolsonaro está falando a verdade, a minha interpretação também é essa. Bolsonaro tem razão!</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Alex neo <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">16 de janeiro de 2021 às 01:12</div></div><div class="conjur-comment__content"><p>Primeiro. Desde o início, antes do governo assumir todo mundo julgava mal o governo sem ter uma bola de cristal qe estava no STF.<br />Segundo. O EXECUTIVO parece ser o único dos 3 poderes qe obedece a constituição e não rasga ela é pendura no banheiro.<br />Terceiro. Ninguém, nem.mesmo o presidente tem a cura dessa doença pra colocarem a culpa toda, essa doença atingiu as melhores economias do mundo, até os EUA.<br />Quarto. O SUS está desaparelhado desde o governo Lula(lembra dos cortes, estádios, etc)<br />Quinto. O governo ajudou os estados, houve desvio de verbas e no caso de Manaus, ninguém esperava, nem mesmo a bola de cristal dos outros poderes e da mídia sabia que ia faltar oxigênio.<br />POR ÚLTIMO. Tudo que está acontecendo é devido a personalidade cultural do nosso país (Vide psicológia social coletiva), as festas de final de ano foram o estopim.<br />O que devemos fazer é ter senso de ética moral e apresentar soluções em vez de se auto sabotar buscando um culpado desconstruindo a verdade pra prejudicar nossa nação. Sellvaaaaa!!!</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">M Goulart Colombo <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">16 de janeiro de 2021 às 01:42</div></div><div class="conjur-comment__content"><p>Com o estado democrático de direito, o STF, com sua ânsia de poder; se meteu onde não deveria; indiretamente colocou os custo nas mãos do governo federal, e as benéficis aos demais entes; claramente um disparo por arma de fogo no estado democrático do pé direito!!!</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Weverton Mangea <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">16 de janeiro de 2021 às 10:29</div></div><div class="conjur-comment__content"><p>Lamentável que os partidos perdedores nas eleições de 2019 procuram o STF para impedir o governo federal de trabalhar.<br />O presidente está certo ao afirmar que está tolido de fazer algo contra a covid-19, exceto de transferir $ para os Estados e municípios.<br />Os poderes não são iguais, tampouco harmoniosos no Brasil.<br />O STF precisa ser renovado urgentemente.</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Anderson Rodrigo <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">16 de janeiro de 2021 às 11:47</div></div><div class="conjur-comment__content"><p>O STF agiu e age como um poder absolutista, onde suas ações não podem e nem devem ser questionadas. Seus ministros são verdadeiros deuses, inclusive, defendidos como tais por alguns pares.<br />Não concordo com a postura do Bolsonaro mas, nisso, dele criticar o STF, não está errado. Tudo o que ele tentou e tenta fazer alguém imputa algo e trava. É impossível para qualquer governante agir quando não siga o que "os deuses" querem.</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">PauloSevillano <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">16 de janeiro de 2021 às 12:01</div></div><div class="conjur-comment__content"><p>Agora o judiciário corre de suas responsabilidades. Está bem claro!</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Mcampos <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">16 de janeiro de 2021 às 12:11</div></div><div class="conjur-comment__content"><p>Esta reportagem é totalmente sem caráter,imoral e indecente, pois o STF decidiu contrariando e Ferindo Constituição que quem deveria decidir sobre como agir sobre a pandemia seriam os Estados e Municípios e que o Governo federal somente teria a "Obrigação" de prover os recursos e assim o Governo Federal o Fez.<br />Reportagem mal intensionada e fajuta...</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Felipe Miguel Reinaldo <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">16 de janeiro de 2021 às 12:58</div></div><div class="conjur-comment__content"><p>"Data máxima vênia" o argumento descrito não convence.<br />De fato a decisão do Colendo STF é clara em ressaltar a autonomia e responsabilidade dos Estados e Municípios. Querer agora imputar tal responsabilidade exclusivamente à União é pura conveniência política.<br />Engraçado a reportagem se omitir dos valores encaminhados ao Amazonas e Manaia pela própria União. Se omitir da prisão da Secretaria de Saúde do Amazonas. Se omitir que de dizer que a menos de dez dias Amazonas dizia não faltar oxigênio sendo que já sabia disto desde Novembro.(https://www.cnnbrasil.com.br/s<wbr />aude/2021/01/15/ha-menos-de-dez-dias-ama<wbr />zonas-dizia-nao-faltar-oxigenio; https://saude.estadao.com.br/noticias/ge<wbr />ral,amazonas-sabia-desde-novembro-que-ox<wbr />igenio-de-hospitais-era-insuficiente,700<wbr />03583213, https://g1.globo.com/am/amazonas/noticia<wbr />/2020/06/30/secretaria-de-saude-do-am-e-<wbr />presa-em-operacao-da-pf-que-apura-desvio<wbr />-na-compra-de-respiradores.ghtml; https://youtu.be/H9wfp7O3zcw)<br />Mas para que informar isso, já que é conveniente para mim, que não aceito p Governo eleito, me juntar ao mar de conveniências para não deixá-lo governar, porque no meu mundo a política vale mais que a vida, que a democracia. No meu mundo minha concepção política vale mais que o meu próximo.</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">JB <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">16 de janeiro de 2021 às 13:35</div></div><div class="conjur-comment__content"><p>O nosso problema não é a covid19 e sim o Bolsonaro, incompetente, mentiroso, assim tenta jogar para outros todo seu desastre a frente do país. Primeira vez que eu vejo nesse Brasil um presidente sem sentimento ao ser humano, ele cheira a morte.</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Vítor Márcio Diniz <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">16 de janeiro de 2021 às 14:13</div></div><div class="conjur-comment__content"><p>E nós 23 países que têm mais casos e mortes por milhão de habitantes que o Brasil?<br />A culpa é de Bolsonaro também?</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Nestor Carvalho <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">16 de janeiro de 2021 às 14:17</div></div><div class="conjur-comment__content"><p>É lamentável que um site que deveria promover a justiça, expresse uma opinião tão canalha por motivos politicos e ideológicos. É perfeitamente possível criticar esse governo e se opor a ele sem recorrer à distorção dos fatos e à descarada mentira. Canalhice maior, apenas, é fingir não reconhecer as mentiras e ainda querer imputar a condição de mentiroso à vítima da mentira, invertendo a situação, como é comum entre os opositores do atual governo, tanto nos comentários de leitores quanto de personalidades sabidamente parciais e de mau caráter. Praticam, como é de seu feitio, o que condenam nos outros, como, por exemplo, em notícias policiais quando sempre apelam para o falso refrão de que "estão culpando a vítima". Neste caso, como a vítima da mentira escancarada é o atual presidente, ele é automaticamente culpado.<br />Nossos problemas realmente estariam quase 100 % resolvidos se tivéssemos adotado, e fosse obedecida, a Constituição proposta por Capistrano de Abreu, com apenas dois artigos:<br />art. 1o. "Todo brasileiro é obrigado a ter vergonha na cara".<br />art. 2o. "Revogam-se as disposições em contrário".</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Fenômeno Bolsonaro <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">16 de janeiro de 2021 às 14:28</div></div><div class="conjur-comment__content"><p>Isso mesmo</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Desalienador <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">16 de janeiro de 2021 às 14:51</div></div><div class="conjur-comment__content"><p>Amigo, reflita mais sobre o que realmente está por Ferraz de todos os pensamentos, notícias, ideologias, etc. Bolsonaro não esse "santo" que vc acredita. Também não acredito que seja um "demônio" como seus opositores o apresenta. Uma coisa é certa, incompetente, irresponsável, nercio não tenho dúvidas que ele seja. Quanto a notícia, te pergunto: o vírus, enquanto se propaga no território brasileiro, é de responsabilidade sanitária de instância do poder executivo? Federal, Estadual ou Municipal?<br />Outro ponto: em sua maioria, os países do globo terrestre se mobilizaram com medidas de combate, tratamento e contenção do vírus. E se empenharam para desenvolver vacina eficaz no combate ao mesmo vírus. O governo federal fez o que?<br />O que se vê, e isso não é invenção nem necessita de interpretação, é um presidente negando a crise sanitária mundial, e incentivando seus seguidores mais fiéis a seguirem seu exemplo. Em sua negação, não se pensou num plano de contingência sanitária, no enfrentamento da situação. Isso se reflete em toda a sociedade brasileira. Agora o bonito vem alegar que não agiu pois o Judiciário o impediu de cúmplices com suas atribuições. Ele que sempre negou e nega a existência de uma crise sanitária.<br />Me desculpe amigo. Respeito sua posição política. Mas te convido a não fazer da questão política uma mera torcida de futebol.<br />Vamos pensar no povo brasileiro e cobrar mais de nossos representantes. Torça menos analise mais. Ninguém está impedindo ninguém de trabalhar. A pessoa competente, ainda mais com respaldo do poder executivo que lhe confere o Estado, se realmente quiser trabalhar para o bem do povo brasileiro com respeito à dignidade humana, aos valores democráticos, bem como, como respeito à liberdade e liberdade de expressão consegue.</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Chatovisky Silva <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">16 de janeiro de 2021 às 15:36</div></div><div class="conjur-comment__content"><p>Os profetas da gestão brotam das profundezas da casa do capiroto para vomitar suas ideologias furadas e posicionamento vazios. O governo vem fazendo suas atividades e os governos estaduais e municipais deveriam fazer as suas. A empresa fornecedora de oxigênio informou em nota que avisou ao setor responsável no dia 07/01 que não teria como atender a demanda e os irresponsáveis não tomaram as devidas providências, assim como não tem sido responsáveis na condução da crise.</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Chatovisky Silva <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">16 de janeiro de 2021 às 15:47</div></div><div class="conjur-comment__content"><p>Exatamente isso!<br />A manipulação e mal caratismo esta embrenhado em diversas instituições, aparelhadas por formandos em faculdades infestadas de professores que professam suas ideologias como se verdades imutáveis fossem. Eliminar o mal caratismo e manipulação da verdade nestas instituições, particulares ou públicas levará décadas.</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">juliahet <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">16 de janeiro de 2021 às 15:50</div></div><div class="conjur-comment__content"><p>Com certeza mais uma vez tiram a culpa do stf e colocam no presidente, além do mais, o governador de Manaus tem muito mais culpa por que sabemos dos desvios das verbas que o próprio governo federal enviou para Manaus, e outros Estados. O povo Brasileiro não é bobo mais,sabemos do super faturamento dos respirares que nem eram próprios para o tratamento do covid comprados numa loja de vinhos.</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">svb advogado <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">16 de janeiro de 2021 às 16:17</div></div><div class="conjur-comment__content"><p>Assim como esta matéria jornazista irresponsável e descabida, sua avaliação não passa de um choramingo de criança mimada que não aceita a decisão das urnas em 2018. O governo federal enviou mais de 1 bilhão de reais para o AM para o mesmo comprar respirador em casa de vinho e a culpa é do Bolsonaro? Bando de hipócritas e demagogos. Fake news dá braba hein Conjur.</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Cleudivan Silva Dias <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">16 de janeiro de 2021 às 17:35</div></div><div class="conjur-comment__content"><p>O Brasil é uma federação e, como tal, a execução de ações públicas, o que incluem as de saúde pública e combate a pandemias, é compartilhada entre União, estados, municípios e Distrito Federal. O STF não determinou que nenhum desses estava "livre" de trabalhar para prevenir mortes e lidar com a maior crise sanitária do século. Nem determinou que era para Bolsonaro ficar atrapalhando ou coçando. A interpretação da Constituição que o STF fez é bem clara, de que cabia ao Executivo Federal gerir a crise e o combate às PANDEMIA. O problema é que ele nunca quis gerir, queria deixar pessoas pegarem, "morrer quem tiver que morrer".</p>
+<p>A preocupação de quem questionou o STF (foi uma ação do PDT) veio com o fato de que Bolsonaro queria proibir o isolamento social, queria proibir o cancelamento de viagens entre estados. Na decisão, inicialmente dada por Marco Aurélio, o que se lê é algo básico da Administração Pública: que toda decisão de qualquer agente público precisa ter base para ser tomada, no caso de questões sanitárias, base científica. Bolsonaro queria naquela época desconsiderar e ir contra a ciência (e continua assim). E hoje, inclusive, o Bozo atenta todo santo dia contra a decisão do Supremo e, mais que isso, contra a Constituição (além de atentar contra várias leis) ao descumprir seu papel de gestor máximo do País, não gerir a crise sanitária, atrapalhar, incentivar a quebra do isolamento, incentivar auto-medicação, desobedecer decretos que obrigam uso de máscara, etc. Ele incentiva as pessoas a não se protegerem! O caso dele é único no planeta! Uma irresponsabilidade sem comparação. De que forma isso ajuda ou impede mortes?</p>
+<p>Numa pandemia, o gestor que não trabalha para prevenir mortes, as promove.</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Marcos Ascari <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">16 de janeiro de 2021 às 20:15</div></div><div class="conjur-comment__content"><p>A hierarquia foi quebrada, o governador manda nos municípios, mas a União não manda nos Estados.<br />O governo federal cedeu os recursos, porém a corrupção mata e tem matado no Amazonas.</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Luiz Gustavo Cativo <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">16 de janeiro de 2021 às 22:09</div></div><div class="conjur-comment__content"><p>Não sei o que é pior: interpretação ou falta de caráter.<br />Interpretação de que a responsabilidade sobre as ações e inclusive mais enérgicas por parte dos Estados e municípios. E quem imputou a esses entes essa responsabilidade? O STF.<br />E no caso de Manaus quando foram encaminhados mais de 373 milhões para ajuda ao município? E as outras cidades próximas que estavam em momentos difíceis e juntas receberam quase 400 milhões para ajuda por parte do governo federal? Aonde foi parar o dinheiro?<br />E quando o governo federal ofereceu intervenção na saúde do Amazonas e o governador não aceitou porque estava sob controle?<br />E os comícios e eleições que ocorreram? Não lembram de nada disso?<br />Os fatos estão à mesa. Falta de memória não pode ser alegado.</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Rodrigo <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">17 de janeiro de 2021 às 00:10</div></div><div class="conjur-comment__content"><p>O STF proibiu o governo<br />federal de revogar medidas de isolamento nos Estados e municípios, mas não proibiu de traçar estratégias para conter a pandemia, não proibiu de cordenar ações com os estados e municípios, não probiu de prover medicamentos e equipamentos nem de adquirir a vacina</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Paulo Roberto Camargos1 <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">17 de janeiro de 2021 às 00:12</div></div><div class="conjur-comment__content"><p>Então, melhor o administrador buscar outra fonte de informação, sugiro, Pingo nos Is, Olavo de Carvalho, na eventualidade de existir programa televisivo tipo Pânico tb serve. Todos esses certamente vc terá um opinião balizada de um decisão do Supremo Tribunal Federal. Boa sorte!</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">AC-RJ <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">18 de janeiro de 2021 às 12:03</div></div><div class="conjur-comment__content"><p>Esta reportagem da Conjur está visivelmente deturpada e mais uma vez ataca injustamente o Presidente da República. Por razões claramente políticas, o STF tolheu o governo federal de combater diretamente a pandemia chinesa alegando que os estados e municípios seriam mais competentes por estarem mais próximos da realidade local. As consequências negativas logo apareceram. Como mais um exemplo, no Estado do Rio de Janeiro o governador está respondendo a processos judiciais e sob processo de impeachment por acusações de desvios de recursos públicos destinados ao combate à pandemia chinesa.</p>
+<p>Apesar de a origem da tragédia humanitária em Manaus ser de inegavelmente da responsabilidade das autoridades locais (estado e município), este site se omitiu totalmente em lhes atribuir qualquer culpa. Também ignorou a atuação desastrosa destas autoridades e os enormes repasses financeiros da União que não foram por elas adequadamente utilizados. O estoque de oxigênio por óbvio que não acabou do dia para a noite. Se estas autoridades tivessem cumprido corretamente as suas obrigações não seriam necessárias medidas emergenciais do governo federal. Mas para este site, a culpa é sempre do Presidente da República, ignorando os verdadeiros responsáveis.</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">henrique nogueira <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">18 de janeiro de 2021 às 14:19</div></div><div class="conjur-comment__content"><p>Não fosse a interferência do STF, SÃO PAULO não teria dado início no tempo certo para que fosse produzidas as VACINAS no BUTANTAN...O Governador de SÃO PAULO percebeu que o GOVERNO FEDERAL estava se omitindo em adquirir as vacinas, respiradores e todos os insumos voltados para o combate ao COVID19...Agora está chorando porquê os primeiros lotes de vacina fabricados no BRASIL pertencem ao Estado de São Paulo...A tal VACHINA que transforma as pessoas em JACARÉS...Melhor o pessoal rever todo o histórico de OMISSÃO do presidente em relação à PANDEMIA.</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">José Milton do Amaral <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">19 de janeiro de 2021 às 15:44</div></div><div class="conjur-comment__content"><p>SR. MIN. LEWANDOWSK...Peça baixa no STF. Se candidate a Presidente da República, e venha GOVERNAR... V.Exa. tem sido bem parcial em suas últimas decisões! Gostaria de vê-lo no Palácio do Planalto! Assim verás como 'é fácil' lidar com a mídia. Já essa mídia "vendida" só será silenciada quando passar a "receber" por publicações de atos do Governo, como fazia o PT. Milhões e Milhões. O Pres. Bolsonaro acabou com isso, e está pagando o preço. Ter a mídia no calcanhar e continuar VENCENDO é pra poucos. Já esse 'calça apertada' jamais ganhará outra eleição, com a quebra que provocou em São Paulo.</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Danielcrj <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">20 de janeiro de 2021 às 09:42</div></div><div class="conjur-comment__content"><p>Em que parte da constituição consta que existe uma hierarquia entre os entes federativos???</p>
+</div></div></div><div class="conjur-comment" style=""><div class="conjur-comment__body"><div class="conjur-comment__header"><div class="conjur-comment__author">Rejane G. Amarante <span class="conjur-comment__disse">disse:</span></div><div class="conjur-comment__date">22 de janeiro de 2021 às 15:43</div></div><div class="conjur-comment__content"><p>Sendo assim, conforme estudo publicado em novembro, realizado por 19 cientistas na cidade de Wuhan, em dez milhões de pacientes, ficou COMPROVADO que pessoas assintomáticas NÃO transmitem a Covid-19, logo, o isolamento e distanciamento social deve ser imediatamente revogado.<br />https://www.lifesitenews.c<wbr />om/news/asymptomatic-transmission-of-cov<wbr />id-19-didnt-occur-at-all-study-of-10-mil<wbr />lion-finds</p>
+</div></div></div>            </div>
+        
+        
+            <div class="conjur-comment-form">
+                
+                                        <p>Você precisa estar logado para enviar um comentário.</p>
+                    <p>
+                        <a href="https://conjur.com.br/minha-area/entrar/?redirect_to=https%3A%2F%2Fconjur.com.br%2F2021-jan-15%2Fbolsonaro-tenta-imputar-stf-omissao-governo-epidemia%2F" class="conjur-comment-form__login-link">
+                            Fazer login
+                        </a>
+                    </p>
+
+                            </div>
+
+        
+
+    </div>
+
+    <style>
+        .conjur-comment-form__submit {
+            background-color: #1F5994;
+            font-size: 14px !important;
+            font-weight: 500!important;
+            color: #FFFFFF;
+            padding: 12px 24px;
+            text-transform: uppercase;
+            border-radius: 5px!important;
+        }
+
+        .conjur-comment-form__submit:hover {
+            background-color: #1F5994;
+        }
+
+        .conjur-comments-wrapper {
+            margin-top: 30px;
+        }
+
+        p.logged-in-as {
+            display: none;
+        }
+
+        /* Lista de comentários */
+        .conjur-comments {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .conjur-comment {
+            display: flex;
+            gap: 12px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e8e8e8;
+            position: relative;
+        }
+
+        .conjur-comment[style*="margin-left"]::before {
+            content: "↪";
+            position: absolute;
+            left: -20px;
+            top: 5px;
+            font-size: 18px;
+            color: #888;
+        }
+
+        .conjur-comment__author {
+            font-size: 18px;
+            font-weight: 700;
+            color: #000;
+        }
+
+        .conjur-comment__disse {
+            font-weight: 400;
+            margin-left: 4px;
+            color: #333;
+        }
+
+        .conjur-comment__date {
+            margin-top: 2px;
+            font-size: 13px;
+            color: #777;
+        }
+
+        .conjur-comment__content {
+            margin-top: 8px;
+            font-size: 15px;
+            color: #000;
+            line-height: 1.5;
+        }
+
+        /* Formulário */
+        .conjur-comment-form {
+            margin-top: 20px;
+        }
+
+        .conjur-comment-form__title {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .conjur-comment-form p {
+            margin-bottom: 12px;
+        }
+
+        .conjur-comment-form label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+
+        .conjur-comment-form input[type="text"],
+        .conjur-comment-form input[type="email"],
+        .conjur-comment-form textarea {
+            width: 100%;
+            max-width: 100%;
+            padding: 8px 10px;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            font-size: 14px;
+        }
+
+        .conjur-comment-form__submit {
+            margin-top: 8px;
+            padding: 8px 18px;
+            border: none;
+            border-radius: 2px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            const btn = document.querySelector('#btn-comentario');
+            const box = document.querySelector('#box-comentario');
+
+            if (!btn || !box) return;
+
+            const labelShow = 'VER COMENTÁRIOS';
+
+            btn.innerText = labelShow;
+
+            btn.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const isOpen = box.classList.contains('is-open');
+
+                if (isOpen) {
+                    box.classList.remove('is-open');
+                    btn.innerText = labelShow;
+                } else {
+                    box.classList.add('is-open');
+                    btn.innerText = 'ESCONDER COMENTÁRIOS';
+                }
+            });
+
+        });
+    </script>
+    </div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-b489091 elementor-align-center elementor-widget elementor-widget-button" data-id="b489091" data-element_type="widget" data-e-type="widget" id="btn-comentario" data-widget_type="button.default">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">VER COMENTÁRIOS</span>
+					</span>
+					</a>
+								</div>
+				<div class="elementor-element elementor-element-1054544 elementor-widget elementor-widget-jet-listing-dynamic-terms" data-id="1054544" data-element_type="widget" data-e-type="widget" data-widget_type="jet-listing-dynamic-terms.default">
+				<div class="elementor-widget-container">
+					<div class="jet-listing jet-listing-dynamic-terms"><span class="jet-listing-dynamic-terms__prefix">Tags: </span><a href="https://conjur.com.br/coronavirus/" class="jet-listing-dynamic-terms__link">Coronavírus</a></div>				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-9aefacd e-con-full conjur-hide-on-print e-flex e-con e-child" data-id="9aefacd" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-2af26ec elementor-widget elementor-widget-html" data-id="2af26ec" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
+					<div class="r89-mobile-rectangle-low"></div>
+<div class="r89-desktop-hpa-atf-noticias"></div>				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-281b177 e-flex e-con-boxed e-con e-parent" data-id="281b177" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-be4d3d7 e-con-full e-flex e-con e-child" data-id="be4d3d7" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-57cc2f1 elementor-widget elementor-widget-heading" data-id="57cc2f1" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h4 class="elementor-heading-title elementor-size-default">Leia também</h4>				</div>
+				<div class="elementor-element elementor-element-fb46a92 elementor-widget elementor-widget-shortcode" data-id="fb46a92" data-element_type="widget" data-e-type="widget" data-widget_type="shortcode.default">
+							<div class="elementor-shortcode"><div class="posts-relacionados-listing"><div class="posts-relacionados-grid"><article class="posts-relacionados-item"><a href="https://conjur.com.br/2021-jan-07/bolsonaro-edita-mp-flexibiliza-regras-compra-vacinas/" class="posts-relacionados-link"><div class="posts-relacionados-inner"><figure class="posts-relacionados-imagem"><img src="https://conjur.com.br/wp-content/uploads/2021/09/ebc.png" alt="Bolsonaro edita MP que flexibiliza regras para compra de vacinas" loading="lazy"></figure><div class="posts-relacionados-texto"><h3 class="posts-relacionados-titulo">Bolsonaro edita MP que flexibiliza regras para compra de vacinas</h3></div></div></a></article><article class="posts-relacionados-item"><a href="https://conjur.com.br/2021-jan-11/oab-manifesta-abertura-inquerito-jornalistas/" class="posts-relacionados-link"><div class="posts-relacionados-inner"><figure class="posts-relacionados-imagem"><img src="https://conjur.com.br/wp-content/uploads/2011/12/featured-1-1-300x250.jpg" alt="OAB se manifesta sobre abertura de inquérito contra jornalistas" loading="lazy"></figure><div class="posts-relacionados-texto"><h3 class="posts-relacionados-titulo">OAB se manifesta sobre abertura de inquérito contra jornalistas</h3></div></div></a></article><article class="posts-relacionados-item"><a href="https://conjur.com.br/2021-jan-12/acao-tenta-derrubar-sigilo-cartao-vacinacao-bolsonaro/" class="posts-relacionados-link"><div class="posts-relacionados-inner"><figure class="posts-relacionados-imagem"><img src="https://conjur.com.br/wp-content/uploads/2020/10/jair-bolsonaro14-300x170.jpeg" alt="Ação tenta derrubar sigilo de cartão de vacinação de Bolsonaro" loading="lazy"></figure><div class="posts-relacionados-texto"><h3 class="posts-relacionados-titulo">Ação tenta derrubar sigilo de cartão de vacinação de Bolsonaro</h3></div></div></a></article><article class="posts-relacionados-item"><a href="https://conjur.com.br/2021-jan-13/bolsonaro-tentou-sabotar-combate-coronavirus-ong/" class="posts-relacionados-link"><div class="posts-relacionados-inner"><figure class="posts-relacionados-imagem"><img src="https://conjur.com.br/wp-content/uploads/2020/10/jair-bolsonaro15.jpeg" alt="Bolsonaro tentou sabotar combate ao coronavírus, diz ONG" loading="lazy"></figure><div class="posts-relacionados-texto"><h3 class="posts-relacionados-titulo">Bolsonaro tentou sabotar combate ao coronavírus, diz ONG</h3></div></div></a></article><article class="posts-relacionados-item"><a href="https://conjur.com.br/2021-jan-15/ruy-castro-direito-expressar-desejo-alguem-morra/" class="posts-relacionados-link"><div class="posts-relacionados-inner"><figure class="posts-relacionados-imagem"><img src="https://conjur.com.br/wp-content/uploads/2011/12/featured-1-1-300x250.jpg" alt="Ruy Castro e direito de expressar o desejo de que alguém morra" loading="lazy"></figure><div class="posts-relacionados-texto"><h3 class="posts-relacionados-titulo">Ruy Castro e direito de expressar o desejo de que alguém morra</h3></div></div></a></article></div></div></div>
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<footer data-elementor-type="footer" data-elementor-id="365" class="elementor elementor-365 elementor-location-footer" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-139be94 e-flex e-con-boxed e-con e-parent" data-id="139be94" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d2919e0 elementor-widget elementor-widget-image" data-id="d2919e0" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+															<img width="459" height="458" src="https://conjur.com.br/wp-content/uploads/2026/07/Conjur-circular.png" class="attachment-full size-full wp-image-1950818" alt="" srcset="https://conjur.com.br/wp-content/uploads/2026/07/Conjur-circular.png 459w, https://conjur.com.br/wp-content/uploads/2026/07/Conjur-circular-300x300.png 300w, https://conjur.com.br/wp-content/uploads/2026/07/Conjur-circular-150x150.png 150w" sizes="(max-width: 459px) 100vw, 459px" />															</div>
+				<div class="elementor-element elementor-element-897755e elementor-widget elementor-widget-image" data-id="897755e" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+															<img loading="lazy" width="1745" height="226" src="https://conjur.com.br/wp-content/uploads/2026/07/Banner-conjur-logo-extenso.png" class="attachment-full size-full wp-image-1950816" alt="" srcset="https://conjur.com.br/wp-content/uploads/2026/07/Banner-conjur-logo-extenso.png 1745w, https://conjur.com.br/wp-content/uploads/2026/07/Banner-conjur-logo-extenso-300x39.png 300w, https://conjur.com.br/wp-content/uploads/2026/07/Banner-conjur-logo-extenso-1024x133.png 1024w, https://conjur.com.br/wp-content/uploads/2026/07/Banner-conjur-logo-extenso-768x99.png 768w, https://conjur.com.br/wp-content/uploads/2026/07/Banner-conjur-logo-extenso-1536x199.png 1536w" sizes="(max-width: 1745px) 100vw, 1745px" />															</div>
+		<div class="elementor-element elementor-element-b88be27 e-con-full e-flex e-con e-child" data-id="b88be27" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-a62d227 e-con-full e-flex e-con e-child" data-id="a62d227" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-c82b492 elementor-widget elementor-widget-heading" data-id="c82b492" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<p class="elementor-heading-title elementor-size-default">ConJur</p>				</div>
+				<div class="elementor-element elementor-element-4b5597f elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="4b5597f" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://conjur.com.br/quem-somos/">
+
+											<span class="elementor-icon-list-text">Quem Somos</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://conjur.com.br/equipe/">
+
+											<span class="elementor-icon-list-text">Equipe</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://conjur.com.br/fale-conosco/">
+
+											<span class="elementor-icon-list-text">Fale Conosco</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+		<div class="elementor-element elementor-element-815f801 e-con-full e-flex e-con e-child" data-id="815f801" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-076d10e elementor-widget elementor-widget-heading" data-id="076d10e" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<p class="elementor-heading-title elementor-size-default">Publicidade</p>				</div>
+				<div class="elementor-element elementor-element-722d51e elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="722d51e" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://conjur.com.br/anuncie-na-conjur/">
+
+											<span class="elementor-icon-list-text">Anuncie na ConJur</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+		<div class="elementor-element elementor-element-69c0bc4 e-con-full e-flex e-con e-child" data-id="69c0bc4" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-ff19741 elementor-widget elementor-widget-heading" data-id="ff19741" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<p class="elementor-heading-title elementor-size-default">Especiais</p>				</div>
+				<div class="elementor-element elementor-element-7a6575d elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="7a6575d" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://20anos.conjur.com.br/" target="_blank">
+
+											<span class="elementor-icon-list-text">Especial 20 anos</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://25anos.conjur.com.br/" target="_blank">
+
+											<span class="elementor-icon-list-text">Especial 25 anos</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+		<div class="elementor-element elementor-element-5a7b12b e-con-full e-flex e-con e-child" data-id="5a7b12b" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-63e2a2c elementor-widget elementor-widget-heading" data-id="63e2a2c" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<p class="elementor-heading-title elementor-size-default">Produtos</p>				</div>
+				<div class="elementor-element elementor-element-d29573d elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="d29573d" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://loja.conjur.com.br/" target="_blank">
+
+											<span class="elementor-icon-list-text">Livraria</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.anuariodajustica.com.br/">
+
+											<span class="elementor-icon-list-text">Anuários</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.conjur.com.br/boletim-juridico/">
+
+											<span class="elementor-icon-list-text">Boletim Jurídico</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-4c335ba e-con-full e-flex e-con e-child" data-id="4c335ba" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-ae074d2 e-con-full e-flex e-con e-child" data-id="ae074d2" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-db84d8b e-con-full e-flex e-con e-child" data-id="db84d8b" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-325d3bb elementor-widget elementor-widget-text-editor" data-id="325d3bb" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+									Consultor Jurídico 2026. Todos os direitos reservados.								</div>
+				</div>
+		<div class="elementor-element elementor-element-00248ab e-con-full e-flex e-con e-child" data-id="00248ab" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-b120cb9 elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="b120cb9" data-element_type="widget" data-e-type="widget" data-widget_type="social-icons.default">
+							<div class="elementor-social-icons-wrapper elementor-grid" role="list">
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-2a9ed01" href="https://www.facebook.com/ConsultorJuridico/" target="_blank">
+						<span class="elementor-screen-only">Facebook</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-facebook" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-d34fe69" href="https://twitter.com/ConJur_Oficial" target="_blank">
+						<span class="elementor-screen-only">Twitter</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-twitter" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-f3e1801" href="https://www.linkedin.com/company/conjur" target="_blank">
+						<span class="elementor-screen-only">Linkedin</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-188c0fa" href="https://www.instagram.com/consultor_juridico/" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-instagram" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-1a6226a" href="https://www.youtube.com/user/conjur11" target="_blank">
+						<span class="elementor-screen-only">Youtube</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-youtube" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-rss elementor-repeater-item-dd426ba" href="https://conjur.com.br/rss.xml" target="_blank">
+						<span class="elementor-screen-only">Rss</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fas-rss" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M128.081 415.959c0 35.369-28.672 64.041-64.041 64.041S0 451.328 0 415.959s28.672-64.041 64.041-64.041 64.04 28.673 64.04 64.041zm175.66 47.25c-8.354-154.6-132.185-278.587-286.95-286.95C7.656 175.765 0 183.105 0 192.253v48.069c0 8.415 6.49 15.472 14.887 16.018 111.832 7.284 201.473 96.702 208.772 208.772.547 8.397 7.604 14.887 16.018 14.887h48.069c9.149.001 16.489-7.655 15.995-16.79zm144.249.288C439.596 229.677 251.465 40.445 16.503 32.01 7.473 31.686 0 38.981 0 48.016v48.068c0 8.625 6.835 15.645 15.453 15.999 191.179 7.839 344.627 161.316 352.465 352.465.353 8.618 7.373 15.453 15.999 15.453h48.068c9.034-.001 16.329-7.474 16.005-16.504z"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+				<div class="elementor-element elementor-element-232123e elementor-widget elementor-widget-text-editor" data-id="232123e" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+									Rua Wisard, 23 – Vila Madalena &#8211; São Paulo/ SP &#8211; <br />
+CEP: 05434-080 &#8211; ISSN 1809-2829								</div>
+				</div>
+		<div class="elementor-element elementor-element-6e47d4d e-con-full e-flex e-con e-child" data-id="6e47d4d" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-7357cbd elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="7357cbd" data-element_type="widget" data-e-type="widget" id="desenvolvido" data-widget_type="text-editor.default">
+									Desenvolvido por: <a href="https://www.jumps.com.br" target="_blank" rel="noopener">Jumps</a>								</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</footer>
+		
+	<style>
+		.conjur-busca-exata-lateral {
+			display: flex;
+			align-items: center;
+			gap: 8px;
+			width: 100%;
+			max-width: 425px;
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		.conjur-busca-exata-lateral input[type="text"] {
+			flex: 1 1 auto;
+			min-width: 0;
+			width: 100%;
+			height: 2.5rem !important;
+			border: 1px solid #b99c63 !important;
+			background: #fff !important;
+			color: #555 !important;
+			padding: 0 22px !important;
+			margin: 0 !important;
+			border-radius: 999px !important;
+			font-family: Georgia, "Times New Roman", Times, serif !important;
+			font-size: 1.2rem !important;
+			font-weight: 400 !important;
+			line-height: 1.2rem !important;
+			text-align: center !important;
+			outline: none !important;
+			box-shadow: none !important;
+			box-sizing: border-box !important;
+			-webkit-appearance: none !important;
+			appearance: none !important;
+		}
+
+		.conjur-busca-exata-lateral input[type="text"]::placeholder {
+			color: #1a1a1a !important;
+			opacity: 1 !important;
+			font-family: inherit !important;
+			font-size: inherit !important;
+			font-weight: inherit !important;
+			line-height: inherit !important;
+			text-align: inherit !important;
+		}
+
+		.conjur-busca-exata-lateral input[type="text"]::-webkit-input-placeholder {
+			color: #1a1a1a !important;
+			opacity: 1 !important;
+			font-family: inherit !important;
+			font-size: inherit !important;
+			font-weight: inherit !important;
+			line-height: inherit !important;
+			text-align: inherit !important;
+		}
+
+		.conjur-busca-exata-lateral input[type="text"]::-moz-placeholder {
+			color: #1a1a1a !important;
+			opacity: 1 !important;
+			font-family: inherit !important;
+			font-size: inherit !important;
+			font-weight: inherit !important;
+			line-height: inherit !important;
+			text-align: inherit !important;
+		}
+
+		.conjur-busca-exata-lateral input[type="text"]:focus {
+			border-color: #b99c63 !important;
+			outline: none !important;
+			box-shadow: none !important;
+		}
+
+		.conjur-busca-exata-lateral button[type="submit"] {
+			flex: 0 0 2.5rem !important;
+			width: 2.5rem !important;
+			height: 2.5rem !important;
+			min-width: 2.5rem !important;
+			min-height: 2.5rem !important;
+			max-width: 2.5rem !important;
+			max-height: 2.5rem !important;
+			padding: 0 !important;
+			margin: 0 !important;
+			border: 1px solid #b99c63 !important;
+			border-radius: 50% !important;
+			background: transparent !important;
+			background-color: transparent !important;
+			color: #b99c63 !important;
+			display: inline-flex !important;
+			align-items: center !important;
+			justify-content: center !important;
+			cursor: pointer !important;
+			line-height: 1 !important;
+			box-shadow: none !important;
+			box-sizing: border-box !important;
+			overflow: hidden !important;
+			transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease !important;
+		}
+
+		.conjur-busca-exata-lateral:hover button[type="submit"],
+		.conjur-busca-exata-lateral button[type="submit"]:hover,
+		.conjur-busca-exata-lateral button[type="submit"]:active,
+		.conjur-busca-exata-lateral button[type="submit"]:focus,
+		.conjur-busca-exata-lateral button[type="submit"]:focus-visible {
+			border-color: #b99c63 !important;
+			background: #1d4a7d !important;
+			background-color: #1d4a7d !important;
+			color: #fff !important;
+			outline: none !important;
+			box-shadow: none !important;
+		}
+
+		.conjur-busca-exata-lateral button[type="submit"] svg {
+			width: 1.25rem !important;
+			height: 1.25rem !important;
+			fill: currentColor !important;
+			display: block !important;
+			margin: 0 !important;
+			flex-shrink: 0 !important;
+		}
+
+		.conjur-busca-exata-lateral .conjur-busca-exata-btn-text {
+			position: absolute;
+			width: 1px;
+			height: 1px;
+			padding: 0;
+			margin: -1px;
+			overflow: hidden;
+			clip: rect(0, 0, 0, 0);
+			white-space: nowrap;
+			border: 0;
+		}
+
+		@media (max-width: 768px) {
+			.conjur-busca-exata-lateral input[type="text"] {
+				font-size: 1.2rem !important;
+				line-height: 1.2rem !important;
+			}
+		}
+	</style>
+		<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/jumps-theme/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+	<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		var share = document.querySelector('.conjur-social-share');
+		var tagsPrefix = document.querySelector('.jet-listing-dynamic-terms__prefix');
+		if (!share || !tagsPrefix) return;
+
+		var tagsWidget = tagsPrefix.closest('.elementor-widget-jet-listing-dynamic-terms') || tagsPrefix.parentElement;
+		if (!tagsWidget || !tagsWidget.parentNode) return;
+
+		tagsWidget.parentNode.insertBefore(share, tagsWidget.nextSibling);
+	});
+	</script>
+			<div data-elementor-type="popup" data-elementor-id="660" class="elementor elementor-660 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation&quot;:&quot;fadeInLeft&quot;,&quot;exit_animation&quot;:&quot;fadeInLeft&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.2,&quot;sizes&quot;:[]},&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;timing&quot;:[]}" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-54ef20d0 e-flex e-con-boxed e-con e-parent" data-id="54ef20d0" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-76e9b73e elementor-widget elementor-widget-image" data-id="76e9b73e" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+																<a href="https://conjur.com.br">
+							<img loading="lazy" width="800" height="397" src="https://conjur.com.br/wp-content/uploads/2025/09/ConJur-vertical-dourado-1.png" class="attachment-full size-full wp-image-715644" alt="" srcset="https://conjur.com.br/wp-content/uploads/2025/09/ConJur-vertical-dourado-1.png 800w, https://conjur.com.br/wp-content/uploads/2025/09/ConJur-vertical-dourado-1-300x149.png 300w, https://conjur.com.br/wp-content/uploads/2025/09/ConJur-vertical-dourado-1-768x381.png 768w" sizes="(max-width: 800px) 100vw, 800px" />								</a>
+															</div>
+				<div class="elementor-element elementor-element-c2d246 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="c2d246" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				<div class="elementor-element elementor-element-5b6ea6d elementor-nav-menu__align-start elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="5b6ea6d" data-element_type="widget" data-e-type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;svg aria-hidden=\&quot;true\&quot; class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;&gt;&lt;path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;&gt;&lt;\/path&gt;&lt;\/svg&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-underline e--animation-fade">
+				<ul id="menu-1-5b6ea6d" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-716826"><a href="https://conjur.com.br/" class="elementor-item">Capa</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716829"><a href="https://conjur.com.br/areas/" class="elementor-item">Áreas do direito</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716830"><a href="https://conjur.com.br/especiais/" class="elementor-item">Especiais</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1704073"><a href="https://conjur.com.br/anuario-da-justica/" class="elementor-item">Anuário da Justiça</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-678"><a href="https://conjur.com.br/noticias/" class="elementor-item">Notícias</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-677"><a href="https://conjur.com.br/colunas/" class="elementor-item">Colunas</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-676"><a href="https://conjur.com.br/artigos/" class="elementor-item">Artigos</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1704100"><a href="https://conjur.com.br/blog/" class="elementor-item">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-680"><a href="https://conjur.com.br/estudio-conjur/" class="elementor-item">Estúdio ConJur</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716828"><a href="https://conjur.com.br/entrevistas/" class="elementor-item">Entrevistas</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-682"><a target="_blank" href="https://www.anuariodajustica.com.br/" class="elementor-item">Anuários</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-683"><a target="_blank" href="https://loja.conjur.com.br/" class="elementor-item">Loja Conjur</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1950691"><a href="https://conjur.com.br/apoio-cultural/" class="elementor-item">Apoio Cultural</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-685"><a target="_blank" href="https://www.youtube.com/@tvconjur" class="elementor-item">TV Conjur</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1704295"><a href="https://conjur.com.br/boletim-juridico/" class="elementor-item">Boletim Jurídico</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-5b6ea6d" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-716826"><a href="https://conjur.com.br/" class="elementor-item" tabindex="-1">Capa</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716829"><a href="https://conjur.com.br/areas/" class="elementor-item" tabindex="-1">Áreas do direito</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716830"><a href="https://conjur.com.br/especiais/" class="elementor-item" tabindex="-1">Especiais</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1704073"><a href="https://conjur.com.br/anuario-da-justica/" class="elementor-item" tabindex="-1">Anuário da Justiça</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-678"><a href="https://conjur.com.br/noticias/" class="elementor-item" tabindex="-1">Notícias</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-677"><a href="https://conjur.com.br/colunas/" class="elementor-item" tabindex="-1">Colunas</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-676"><a href="https://conjur.com.br/artigos/" class="elementor-item" tabindex="-1">Artigos</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1704100"><a href="https://conjur.com.br/blog/" class="elementor-item" tabindex="-1">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-680"><a href="https://conjur.com.br/estudio-conjur/" class="elementor-item" tabindex="-1">Estúdio ConJur</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716828"><a href="https://conjur.com.br/entrevistas/" class="elementor-item" tabindex="-1">Entrevistas</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-682"><a target="_blank" href="https://www.anuariodajustica.com.br/" class="elementor-item" tabindex="-1">Anuários</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-683"><a target="_blank" href="https://loja.conjur.com.br/" class="elementor-item" tabindex="-1">Loja Conjur</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1950691"><a href="https://conjur.com.br/apoio-cultural/" class="elementor-item" tabindex="-1">Apoio Cultural</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-685"><a target="_blank" href="https://www.youtube.com/@tvconjur" class="elementor-item" tabindex="-1">TV Conjur</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1704295"><a href="https://conjur.com.br/boletim-juridico/" class="elementor-item" tabindex="-1">Boletim Jurídico</a></li>
+</ul>			</nav>
+						</div>
+				<div class="elementor-element elementor-element-c401a4f elementor-align-justify elementor-widget elementor-widget-button" data-id="c401a4f" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Anuncie</span>
+					</span>
+					</a>
+								</div>
+					</div>
+				</div>
+				</div>
+					<script>
+				( () => {
+					const lazyloadRunObserver = () => {
+						const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+						const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+							entries.forEach( ( entry ) => {
+								if ( entry.isIntersecting ) {
+									let lazyloadBackground = entry.target;
+									if( lazyloadBackground ) {
+										lazyloadBackground.classList.add( 'e-lazyloaded' );
+									}
+									lazyloadBackgroundObserver.unobserve( entry.target );
+								}
+							});
+						}, { rootMargin: '200px 0px 200px 0px' } );
+						lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+							lazyloadBackgroundObserver.observe( lazyloadBackground );
+						} );
+					};
+					const events = [
+						'DOMContentLoaded',
+						'elementor/lazyload/observe',
+					];
+					events.forEach( ( event ) => {
+						document.addEventListener( event, lazyloadRunObserver );
+					} );
+				} )();
+			</script>
+			<link rel='stylesheet' id='conjur-traduzir-css' href='https://conjur.com.br/wp-content/plugins/conjur-manager/assets/google-translate.css?ver=4.3.317' media='all' />
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:root { --wp--style--global--content-size: 800px;--wp--style--global--wide-size: 1200px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<link rel='stylesheet' id='widget-divider-css' href='https://conjur.com.br/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.3.2' media='all' />
+<link rel='stylesheet' id='e-animation-fadeInLeft-css' href='https://conjur.com.br/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInLeft.min.css?ver=4.3.2' media='all' />
+<link rel='stylesheet' id='e-popup-css' href='https://conjur.com.br/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=4.3.2' media='all' />
+<script id="jquery-ui-core-js-before">
+jQuery.uiBackCompat = true;
+//# sourceURL=jquery-ui-core-js-before
+</script>
+<script id="jquery-ui-core-js" src="https://conjur.com.br/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2"></script>
+<script id="jquery-ui-datepicker-js" src="https://conjur.com.br/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.14.2"></script>
+<script id="jquery-ui-datepicker-js-after">
+jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Fechar","currentText":"Hoje","monthNames":["janeiro","fevereiro","mar\u00e7o","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"],"monthNamesShort":["jan","fev","mar","abr","maio","jun","jul","ago","set","out","nov","dez"],"nextText":"Pr\u00f3ximo","prevText":"Anterior","dayNames":["domingo","segunda-feira","ter\u00e7a-feira","quarta-feira","quinta-feira","sexta-feira","s\u00e1bado"],"dayNamesShort":["dom","seg","ter","qua","qui","sex","s\u00e1b"],"dayNamesMin":["D","S","T","Q","Q","S","S"],"dateFormat":"d \\dd\\e MM \\dd\\e yy","firstDay":1,"isRTL":false});});
+//# sourceURL=jquery-ui-datepicker-js-after
+</script>
+<script id="jquery-ui-i18n-js" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/i18n/jquery-ui-i18n.min.js?ver=1.13.2"></script>
+<script id="jquery-ui-i18n-js-after">
+jQuery(document).ready(function($){
+            function aplicarPTBR(datepicker) {
+                if (datepicker.hasClass('hasDatepicker')) {
+                    datepicker.datepicker('option', $.datepicker.regional['pt-BR']);
+                    datepicker.datepicker('option', 'dateFormat', 'dd/mm/yy');
+                }
+            }
+
+            // Aplica nos existentes
+            $('.jet-smart-filters-datepicker').each(function(){
+                aplicarPTBR($(this));
+            });
+
+            // Observa novos datepickers adicionados dinamicamente
+            const observer = new MutationObserver(function(mutations){
+                mutations.forEach(function(mutation){
+                    mutation.addedNodes.forEach(function(node){
+                        if ($(node).hasClass && $(node).hasClass('jet-smart-filters-datepicker')) {
+                            aplicarPTBR($(node));
+                        } else if ($(node).find) {
+                            $(node).find('.jet-smart-filters-datepicker').each(function(){
+                                aplicarPTBR($(this));
+                            });
+                        }
+                    });
+                });
+            });
+
+            observer.observe(document.body, { childList: true, subtree: true });
+        });
+    
+//# sourceURL=jquery-ui-i18n-js-after
+</script>
+<script id="conjur-apoiadores-js" src="https://conjur.com.br/wp-content/plugins/conjur-manager/assets/apoiadores.js?ver=1.0"></script>
+<script id="conjur-social-share-js-extra">
+var CONJUR_SHARE = {"restUrl":"https://conjur.com.br/wp-json/conjur/v1/myarea","nonce":"1433013ff5","loggedIn":"","isReader":"","postId":"1430390","loginUrl":"https://conjur.com.br/minha-area/entrar/","redirectTo":"https://conjur.com.br/2021-jan-15/bolsonaro-tenta-imputar-stf-omissao-governo-epidemia/"};
+//# sourceURL=conjur-social-share-js-extra
+</script>
+<script id="conjur-social-share-js" src="https://conjur.com.br/wp-content/plugins/conjur-manager/assets/social-share.js?ver=4.3.317"></script>
+<script id="conjur-single-post-js" src="https://conjur.com.br/wp-content/plugins/conjur-manager/assets/conjur-single-post.js?ver=4.3.317"></script>
+<script id="hello-theme-frontend-js" src="https://conjur.com.br/wp-content/themes/jumps-theme/assets/js/hello-frontend.js?ver=1.0.0"></script>
+<script id="elementor-webpack-runtime-js" src="https://conjur.com.br/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.3.2"></script>
+<script id="elementor-frontend-modules-js" src="https://conjur.com.br/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.3.2"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnX":"Compartilhar no X","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir v\u00eddeo","previous":"Anterior","next":"Pr\u00f3ximo","close":"Fechar","a11yCarouselPrevSlideMessage":"Slide anterior","a11yCarouselNextSlideMessage":"Pr\u00f3ximo slide","a11yCarouselFirstSlideMessage":"Este \u00e9 o primeiro slide","a11yCarouselLastSlideMessage":"Este \u00e9 o \u00faltimo slide","a11yCarouselPaginationBulletMessage":"Ir para o slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Dispositivos m\u00f3veis no modo retrato","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Dispositivos m\u00f3veis no modo paisagem","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet no modo retrato","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet no modo paisagem","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Notebook","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Tela ampla (widescreen)","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"4.3.2","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_optimized_markup":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"nested-elements":true,"import-export-customization":true,"e_pro_atomic_form":true,"e_pro_collection_loop":true},"urls":{"assets":"https:\/\/conjur.com.br\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/conjur.com.br\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/conjur.com.br\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"c027bc6a4f","atomicFormsSendForm":"3663c00fc2"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"logo","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":1430390,"title":"Bolsonaro%20tenta%20imputar%20ao%20STF%20omiss%C3%A3o%20do%20governo%20na%20epidemia%20-%20Consultor%20Jur%C3%ADdico","excerpt":"Para rebater cr&iacute;ticas referentes &agrave;&nbsp;omiss&atilde;o do governo federal no combate &agrave; epidemia de Covid-19, o presidente da Rep&uacute;blica se vale de interpreta&ccedil;&atilde;o&nbsp;sui generis&nbsp;de uma decis&atilde;o do Supremo Tribunal Federal. Jos\u00e9 Cruz\/Ag\u00eancia BrasilSem m&aacute;scara, Bolsonaro cumprimenta apoiador&nbsp;em ato pr&oacute;-governo Jos&eacute; Cruz\/Ag&ecirc;ncia Brasil Isso porque, nesta sexta-feira, em entrevista a Jos&eacute; Luiz Datena no programa Brasil Urgente, [&hellip;]","featuredImage":"https:\/\/conjur.com.br\/wp-content\/uploads\/2020\/03\/jair-bolsonaro-cumprimenta-manifestantes.jpeg"}};
+//# sourceURL=elementor-frontend-js-before
+</script>
+<script id="elementor-frontend-js" src="https://conjur.com.br/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.3.2"></script>
+<script id="smartmenus-js" src="https://conjur.com.br/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1"></script>
+<script id="e-sticky-js" src="https://conjur.com.br/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=4.3.2"></script>
+<script id="conjur-myarea-account-js-extra">
+var CONJUR_ACCOUNT = {"loggedIn":"","user":null,"dashboardUrl":"https://conjur.com.br/minha-area/","profileUrl":"https://conjur.com.br/minha-area/perfil/","loginUrl":"https://conjur.com.br/minha-area/entrar/","logoutUrl":"https://conjur.com.br/minha-area/entrar/?action=logout&_wpnonce=3637bb706a&redirect_to=https%3A%2F%2Fconjur.com.br%2F"};
+//# sourceURL=conjur-myarea-account-js-extra
+</script>
+<script id="conjur-myarea-account-js" src="https://conjur.com.br/wp-content/plugins/conjur-manager/myarea/assets/js/account-switcher.js?ver=4.3.317"></script>
+<script id="conjur-traduzir-js-extra">
+var CONJUR_TRADUZIR = {"pageLanguage":"pt","languages":["pt","en","es","ja"]};
+//# sourceURL=conjur-traduzir-js-extra
+</script>
+<script id="conjur-traduzir-js" src="https://conjur.com.br/wp-content/plugins/conjur-manager/assets/google-translate.js?ver=4.3.317"></script>
+<script id="jet-plugins-js" src="https://conjur.com.br/wp-content/plugins/jet-search/assets/lib/jet-plugins/jet-plugins.js?ver=1.0.0"></script>
+<script id="jet-engine-jet-smart-filters-compatibility-js" src="https://conjur.com.br/wp-content/plugins/jet-engine/assets/js/frontend/modules/jet-smart-filters.js?ver=3.8.15.4"></script>
+<script id="jet-engine-frontend-js-extra">
+var JetEngineSettings = {"ajaxurl":"https://conjur.com.br/wp-admin/admin-ajax.php","ajaxlisting":"https://conjur.com.br/2021-jan-15/bolsonaro-tenta-imputar-stf-omissao-governo-epidemia/?print=1&nocache=1","restNonce":"1433013ff5","hoverActionTimeout":"400","post_id":"1430390","sliderLibrary":"swiper","query_builder":{"custom_ids":[]},"queried_object_id":"1430390","queried_object_class":"WP_Post"};
+//# sourceURL=jet-engine-frontend-js-extra
+</script>
+<script id="jet-engine-frontend-js" src="https://conjur.com.br/wp-content/plugins/jet-engine/assets/js/frontend/frontend.js?ver=3.8.15.4"></script>
+<script id="wp-hooks-js" src="https://conjur.com.br/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255"></script>
+<script id="wp-i18n-js" src="https://conjur.com.br/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/conjur.com.br\/wp-admin\/admin-ajax.php","nonce":"58ffc5ad0f","urls":{"assets":"https:\/\/conjur.com.br\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/conjur.com.br\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":true},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"pt_BR","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/conjur.com.br\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+//# sourceURL=elementor-pro-frontend-js-before
+</script>
+<script id="elementor-pro-frontend-js" src="https://conjur.com.br/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.3.2"></script>
+<script id="pro-elements-handlers-js" src="https://conjur.com.br/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=4.3.2"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://conjur.com.br/wp-includes/js/wp-emoji-release.min.js?ver=7.1.3"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://conjur.com.br/wp-includes/js/wp-emoji-loader.min.js
+</script>
+
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4fb89b26fe31ff2',t:'MTc5Mjg3MTcxMw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

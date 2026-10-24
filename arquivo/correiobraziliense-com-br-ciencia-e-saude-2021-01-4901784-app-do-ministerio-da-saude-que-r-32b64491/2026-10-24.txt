@@ -1,0 +1,23 @@
+URL: https://www.correiobraziliense.com.br/ciencia-e-saude/2021/01/4901784-app-do-ministerio-da-saude-que-recomenda-tratamento-precoce-sai-do-ar.html
+Coletado em: 2026-10-24T19:51:27Z
+SHA-256: 82b23545dd963237e0072652d18b52a9274dfd0759dafe4022d2ee1e61f334c1
+
+O Ministério da Saúde retirou do ar nesta quinta-feira (21/1) a plataforma do aplicativo TrateCov, lançado há uma semana pelo ministro Eduardo Pazuello, que recomendava o tratamento precoce com a prescrição de medicamentos, como a cloroquina e ivermectina, para pacientes com sintomas da covid-19. Os remédios não possuem eficácia comprovada contra a doença. Segundo a pasta, o site funcionava apenas como simulador, foi invadido e ativado indevidamente, “o que provocou a retirada do ar, que será momentânea”.
+Apesar de informar que o site foi invadido e ativado indevidamente, a plataforma “tratecovbrasil.saude.gov.br” foi divulgada pelo próprio ministério nas notícias do site oficial da pasta. Com isso, ainda que o ministério tenha informado que o aplicativo foi criado para auxiliar os profissionais de saúde a diagnosticar a doença, após o médico cadastrar dados, sintomas e comorbidades do paciente, qualquer pessoa tinha acesso ao site que simulava a plataforma e poderia fazer o próprio diagnóstico.
+O aplicativo foi lançado pelo ministro Eduardo Pazuello no dia 11 de janeiro, em visita a Manaus na semana passada. Pazuello já sabia da crise de oxigênio na cidade e viajou ao município no dia 9 de janeiro, onde ficou até o dia 13, quarta-feira. No dia seguinte, o sistema de Saúde entrou em verdadeiro colapso, devido à falta de cilindros de oxigênio, e pacientes começaram a morrer por asfixia.
+No lançamento, Pazuello afirmou que a prescrição de uma medicação pode ser feita pelo médico antes dos resultados dos testes, somente com o diagnóstico clínico, já que exames laboratoriais ou de imagem são complementares. "O diagnóstico é do médico, não é do exame, não é do teste, não aceitem isso. (...) o exame laboratorial, o teste é complemento do diagnóstico médico, até porque a medicação pode e deve começar antes desses exames complementares. Caso o exame lá na frente, por alguma razão, dê negativo, ele reduz a medicação e tá ótimo. Não vai matar ninguém, pelo contrário, salvará no caso da covid", indicou Pazuello.
+Em texto publicado no site da pasta, o Ministério da Saúde informou que “diante do cenário epidemiológico atual, a capital do Amazonas foi escolhida para estrear o TrateCOV, já que o objetivo do aplicativo é trazer mais segurança e agilidade no atendimento e diagnóstico dos pacientes com coronavírus”. 
+Nesta quinta-feira, o Conselho Federal de Medicina (CFM) publicou uma nota na qual diz ter alertado a pasta sobre inconsistências identificadas no aplicativo. No documento, o conselho informa que solicitou ao Ministério da Saúde a retirada imediata do aplicativo do ar.
+O app
+Na plataforma, qualquer pessoa incluía informações, como lugares frequentados pelo paciente ou contato com pessoas que tenham testado positivo para covid-19. Ao final, apresentava-se uma pontuação de gravidade. Se fosse seis pontos ou mais, era dado o diagnóstico da doença. Em seguida, surgia a opção de receber ou não tratamento precoce. Caso a resposta fosse positiva, apareciam os nomes dos medicamentos, junto com as doses e quantidade de dias a serem administrados. Caso a resposta fosse negativa, o médico precisa indicar o motivo: recusa do paciente, falta de medicamento, contra indicação médica ou outros.
+Tratamento precoce
+Na última terça-feira, o Conselho Nacional de Saúde (CNS) enviou um ofício ao Ministério da Saúde para solicitar a revogação de notas informativas, orientações e protocolos, que incentivem o uso de medicamentos para o tratamento da covid-19, sem eficácia e segurança comprovadas.
+Saiba Mais
+- Brasil Veterinário do Ministério da Saúde inclui sua classe em grupo prioritário de vacinação
+- Política Covid-19 multiplica pedidos de impeachment de Bolsonaro
+- Brasil Pazuello diz que Brasil receberá "avalanche" de propostas de vacinas
+- Brasil "Questão de soberania", diz Rosso sobre produção própria da Sputnik V no Brasil
+Notícias pelo celular
+Receba direto no celular as notícias mais recentes publicadas pelo Correio Braziliense. É de graça. Clique aqui e participe da comunidade do Correio, uma das inovações lançadas pelo WhatsApp.
+Dê a sua opinião
+O Correio tem um espaço na edição impressa para publicar a opinião dos leitores. As mensagens devem ter, no máximo, 10 linhas e incluir nome, endereço e telefone para o e-mail sredat.df@dabr.com.br.

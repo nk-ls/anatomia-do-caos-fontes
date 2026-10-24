@@ -1,0 +1,10 @@
+URL: https://www2.senado.leg.br/bdsf/handle/id/607974
+Coletado em: 2026-10-24T19:51:27Z
+SHA-256: ddd84833cf2e51a2dd17e5a207e2d014b6c4208eab3a51b8a36dd49fb65c9f68
+
+Verificando sua conexão
+Estamos confirmando que este acesso é legítimo antes de liberar o conteúdo. Isso leva apenas alguns segundos.
+Conexão verificada
+Tudo certo. Você será redirecionado automaticamente em instantes.
+Não foi possível verificar
+Tente novamente ou use outro navegador.

@@ -1,0 +1,28 @@
+URL: https://aosfatos.org/noticias/falas-de-bolsonaro-levaram-a-queda-no-isolamento-social-entre-seus-apoiadores-aponta-estudo/
+Coletado em: 2026-10-24T19:51:27Z
+SHA-256: 4256a0e74efe53d129e41de3503d932bcaa901b52eae68c7248be38fe15904f6
+
+Declarações do presidente Jair Bolsonaro levaram a uma queda na adesão de seus apoiadores às medidas de distanciamento social implementadas para conter o novo coronavírus. É o que aponta um estudo em andamento assinado por economistas da FGV-SP (Fundação Getulio Vargas) e da Universidade de Cambridge, no Reino Unido.
+Para chegar a essa conclusão, os pesquisadores dividiram os municípios brasileiros em pró ou anti-Bolsonaro, segundo os resultados das eleições de 2018. Em seguida, usaram dados de localização de celulares para comparar os níveis de isolamento dos dois grupos. Descobriram que eles são parecidos na maior parte do tempo, mas ficaram menores nas cidades bolsonaristas depois de duas falas do presidente, em 15 e 24 de março, em que ele criticou enfaticamente medidas de distanciamento.
+Em média, a queda apontada foi de um a três pontos percentuais, começando no segundo dia após o discurso presidencial e se mantendo por pelo menos uma semana.
+A classificação dos municípios foi feita de acordo com dados do TSE. Foram considerados como pró-Bolsonaro as cidades em que o presidente teve mais votos do que a mediana do respectivo estado. Já a medida de isolamento se baseou no índice compilado pela In Loco, que coleta dados de localização de 60 milhões de smartphones no país. Em sua metodologia, rompe o isolamento quem sair de um raio de 450 metros de casa.
+Para Nicolás Ajzenman, professor da FGV-SP e um dos autores do estudo, os dados mostram que discursos de líderes impactam diretamente na forma como as pessoas reagem à pandemia.
+"A ideia por trás do artigo é de que líderes – o que eles falam, como eles agem – são importantes. Eles têm poder de convencimento, especialmente entre os seus apoiadores. Não estamos falando que o isolamento social é bom ou ruim, estamos apenas afirmando que, para o bem ou para o mal, o que um líder diz tem influência", diz.
+O gráfico abaixo resume o estudo. Os pontos em laranja representam o nível médio de isolamento das cidades bolsonaristas em comparação às não-bolsonaristas (a linha cinza que os corta é a margem de erro). Se o ponto está em zero no eixo vertical, significa que os dois grupos tiveram o mesmo nível de isolamento; se está abaixo, quer dizer que os municípios pró-Bolsonaro tiveram, em média, menos adesão que o resto.
+Mídia. No estudo, os autores também destacam o papel dos meios de comunicação no processo. Os efeitos do discursos de Bolsonaro sobre o isolamento foram significativamente maiores nas cidades com mais acesso à internet e que tinham ao menos uma emissora de televisão.
+As conclusões corroboram estudos similares feitos nos EUA que apontam a influência da identidade partidária e da mídia na resposta da população à doença.
+Uma pesquisa da Universidade da Pensilvânia, por exemplo, mostrou que a redução de contato social foi mais significativa em estados de maioria democrata (oposição ao presidente Donald Trump) do que em redutos republicanos (governistas).
+Outra análise, da Universidade de Chicago, indicou que a incidência de Covid-19 pode ter sido afetada pelo conteúdo de programas jornalísticos. O estudo comparou os efeitos de dois programas de televisão do canal conservador Fox News: em um, o apresentador alertou desde cedo sobre o potencial de dano do novo coronavírus; no outro, minimizou os riscos da doença. O resultado foi que os locais onde a audiência do primeiro programa era mais alta tiveram menos casos da doença do que as regiões onde o segundo era mais popular.
+Padrão de comportamento. Desde que a Covid-19 chegou com força ao Brasil e medidas de isolamento social foram adotadas, Bolsonaro tem contrariado recorrentemente as recomendações de especialistas. Segundo levantamento do Aos Fatos, o presidente já deu 193 declarações falsas ou distorcidas sobre a doença desde janeiro.
+As falas de 15 e 24 de março, cujos efeitos foram medidos pelo estudo, são exemplos disso. No dia 15, Bolsonaro foi à porta do Planalto e cumprimentou apoiadores que faziam uma manifestação, contrariando as orientações de evitar aglomerações. Mais tarde no mesmo dia, em entrevista para a CNN, afirmou que as medidas de combate à pandemia beiravam à “neurose” e à “histeria”.
+Já no dia 24, ele fez um pronunciamento em rede nacional em que minimizou os riscos da doença. Na ocasião, reclamou do fechamento de escolas, comparou a Covid-19 a uma "gripezinha" e previu, sem apresentar evidências, que o contágio seria menos problemático no Brasil porque o país tem clima predominantemente tropical.
+Metodologia. Segundo os pesquisadores, esses dois momentos foram selecionados porque combinaram um tom enfático contra o isolamento com uma grande repercussão – ambos foram assunto de capa em todos os principais jornais do país.
+O apoio a Bolsonaro em cada cidade foi determinado de acordo com a proporção de votos que o presidente teve em 2018 registrada pelo TSE (Tribunal Superior Eleitoral). Três definições foram testadas e todas obtiveram resultados semelhantes. No gráfico mostrado nesta matéria, uma cidade pró-Bolsonaro é definida como aquelas em que o presidente teve uma porcentagem de votos maior do que a mediana de seu estado.
+Também foram controladas outras variáveis que poderiam interferir nos resultados, como nível de rendimento e de urbanização da cidade de urbanização.
+Referências:
+1. SSRN
+2. In Loco
+3. Universidade da Pensilvânia
+4. Universidade de Chicago
+5. Aos Fatos
+6. TSE
