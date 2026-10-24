@@ -1,0 +1,100 @@
+{
+ "uf": "MG",
+ "cep": "37400000",
+ "qsa": [
+  {
+   "pais": null,
+   "nome_socio": "ROSEANA MAZUCHI DOS SANTOS DIAS MAZZARO",
+   "codigo_pais": null,
+   "faixa_etaria": "Entre 71 a 80 anos",
+   "cnpj_cpf_do_socio": "***405558**",
+   "qualificacao_socio": "Sócio-Administrador",
+   "codigo_faixa_etaria": 8,
+   "data_entrada_sociedade": "2015-05-26",
+   "identificador_de_socio": 2,
+   "cpf_representante_legal": "***000000**",
+   "nome_representante_legal": "",
+   "codigo_qualificacao_socio": 49,
+   "qualificacao_representante_legal": "Não informada",
+   "codigo_qualificacao_representante_legal": 0
+  }
+ ],
+ "cnpj": "22528133000178",
+ "pais": null,
+ "email": null,
+ "porte": "EMPRESA DE PEQUENO PORTE",
+ "bairro": "CONJ HABITACIONAL JEFERSON DE OLIVEIRA",
+ "numero": "52",
+ "ddd_fax": "",
+ "municipio": "CAMPANHA",
+ "logradouro": "CAPITAO CELSO DE ANDRADE MENDES",
+ "cnae_fiscal": 4684299,
+ "codigo_pais": null,
+ "complemento": "",
+ "codigo_porte": 3,
+ "razao_social": "SULMINAS SUPLEMENTOS E NUTRICAO LTDA",
+ "nome_fantasia": "SULMINAS",
+ "capital_social": 30000,
+ "ddd_telefone_1": "3532613787",
+ "ddd_telefone_2": "",
+ "opcao_pelo_mei": false,
+ "codigo_municipio": 4217,
+ "cnaes_secundarios": [
+  {
+   "codigo": 1099699,
+   "descricao": "Fabricação de outros produtos alimentícios não especificados anteriormente"
+  },
+  {
+   "codigo": 2093200,
+   "descricao": "Fabricação de aditivos de uso industrial"
+  },
+  {
+   "codigo": 4619200,
+   "descricao": "Representantes comerciais e agentes do comércio de mercadorias em geral não especializado"
+  },
+  {
+   "codigo": 4644302,
+   "descricao": "Comércio atacadista de medicamentos e drogas de uso veterinário"
+  },
+  {
+   "codigo": 4691500,
+   "descricao": "Comércio atacadista de mercadorias em geral, com predominância de produtos alimentícios"
+  },
+  {
+   "codigo": 4692300,
+   "descricao": "Comércio atacadista de mercadorias em geral, com predominância de insumos agropecuários"
+  },
+  {
+   "codigo": 4729699,
+   "descricao": "Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente"
+  },
+  {
+   "codigo": 7020400,
+   "descricao": "Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica"
+  }
+ ],
+ "natureza_juridica": "Sociedade Empresária Limitada",
+ "regime_tributario": [],
+ "situacao_especial": "",
+ "opcao_pelo_simples": true,
+ "situacao_cadastral": 2,
+ "data_opcao_pelo_mei": null,
+ "data_exclusao_do_mei": null,
+ "cnae_fiscal_descricao": "Comércio atacadista de outros produtos químicos e petroquímicos não especificados anteriormente",
+ "codigo_municipio_ibge": 3110905,
+ "data_inicio_atividade": "2015-05-26",
+ "data_situacao_especial": null,
+ "data_opcao_pelo_simples": "2015-05-26",
+ "data_situacao_cadastral": "2015-05-26",
+ "nome_cidade_no_exterior": "",
+ "codigo_natureza_juridica": 2062,
+ "data_exclusao_do_simples": null,
+ "motivo_situacao_cadastral": 0,
+ "ente_federativo_responsavel": "",
+ "identificador_matriz_filial": 1,
+ "qualificacao_do_responsavel": 49,
+ "descricao_situacao_cadastral": "ATIVA",
+ "descricao_tipo_de_logradouro": "RUA",
+ "descricao_motivo_situacao_cadastral": "SEM MOTIVO",
+ "descricao_identificador_matriz_filial": "MATRIZ"
+}

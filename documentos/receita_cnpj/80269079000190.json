@@ -1,0 +1,201 @@
+{
+ "uf": "PR",
+ "cep": "87020010",
+ "qsa": [
+  {
+   "pais": null,
+   "nome_socio": "MARIA APARECIDA BORGHETTI",
+   "codigo_pais": null,
+   "faixa_etaria": "Entre 61 a 70 anos",
+   "cnpj_cpf_do_socio": "***004159**",
+   "qualificacao_socio": "Administrador",
+   "codigo_faixa_etaria": 7,
+   "data_entrada_sociedade": "2025-06-04",
+   "identificador_de_socio": 2,
+   "cpf_representante_legal": "***000000**",
+   "nome_representante_legal": "",
+   "codigo_qualificacao_socio": 5,
+   "qualificacao_representante_legal": "Não informada",
+   "codigo_qualificacao_representante_legal": 0
+  },
+  {
+   "pais": null,
+   "nome_socio": "RC3 INCORPORACOES LTDA",
+   "codigo_pais": null,
+   "faixa_etaria": "Não se aplica",
+   "cnpj_cpf_do_socio": "20435923",
+   "qualificacao_socio": "Sócio",
+   "codigo_faixa_etaria": 0,
+   "data_entrada_sociedade": "2019-06-10",
+   "identificador_de_socio": 1,
+   "cpf_representante_legal": "***789799**",
+   "nome_representante_legal": "RICARDO JOSE MAGALHAES BARROS",
+   "codigo_qualificacao_socio": 22,
+   "qualificacao_representante_legal": "Administrador",
+   "codigo_qualificacao_representante_legal": 5
+  },
+  {
+   "pais": null,
+   "nome_socio": "RICARDO JOSE MAGALHAES BARROS",
+   "codigo_pais": null,
+   "faixa_etaria": "Entre 61 a 70 anos",
+   "cnpj_cpf_do_socio": "***789799**",
+   "qualificacao_socio": "Sócio",
+   "codigo_faixa_etaria": 7,
+   "data_entrada_sociedade": "1987-09-10",
+   "identificador_de_socio": 2,
+   "cpf_representante_legal": "***000000**",
+   "nome_representante_legal": "",
+   "codigo_qualificacao_socio": 22,
+   "qualificacao_representante_legal": "Não informada",
+   "codigo_qualificacao_representante_legal": 0
+  }
+ ],
+ "cnpj": "80269079000190",
+ "pais": null,
+ "email": null,
+ "porte": "MICRO EMPRESA",
+ "bairro": "ZONA 07",
+ "numero": "740",
+ "ddd_fax": "",
+ "municipio": "MARINGA",
+ "logradouro": "PRUDENTE DE MORAIS",
+ "cnae_fiscal": 8219999,
+ "codigo_pais": null,
+ "complemento": "",
+ "codigo_porte": 1,
+ "razao_social": "BB CORRETORA LTDA",
+ "nome_fantasia": "TECNO IMOVEIS",
+ "capital_social": 10000,
+ "ddd_telefone_1": "4432241239",
+ "ddd_telefone_2": "",
+ "opcao_pelo_mei": null,
+ "codigo_municipio": 7691,
+ "cnaes_secundarios": [
+  {
+   "codigo": 4110700,
+   "descricao": "Incorporação de empreendimentos imobiliários"
+  },
+  {
+   "codigo": 4616800,
+   "descricao": "Representantes comerciais e agentes do comércio de têxteis, vestuário, calçados e artigos de viagem"
+  },
+  {
+   "codigo": 4617600,
+   "descricao": "Representantes comerciais e agentes do comércio de produtos alimentícios, bebidas e fumo"
+  },
+  {
+   "codigo": 4618401,
+   "descricao": "Representantes comerciais e agentes do comércio de medicamentos, cosméticos e produtos de perfumaria"
+  },
+  {
+   "codigo": 4618402,
+   "descricao": "Representantes comerciais e agentes do comércio de instrumentos e materiais odonto-médico-hospitalares"
+  },
+  {
+   "codigo": 4618403,
+   "descricao": "Representantes comerciais e agentes do comércio de jornais, revistas e outras publicações"
+  },
+  {
+   "codigo": 4618499,
+   "descricao": "Outros representantes comerciais e agentes do comércio especializado em produtos não especificados anteriormente"
+  },
+  {
+   "codigo": 4619200,
+   "descricao": "Representantes comerciais e agentes do comércio de mercadorias em geral não especializado"
+  },
+  {
+   "codigo": 4761001,
+   "descricao": "Comércio varejista de livros"
+  },
+  {
+   "codigo": 6462000,
+   "descricao": "Holdings de instituições não-financeiras"
+  },
+  {
+   "codigo": 6463800,
+   "descricao": "Outras sociedades de participação, exceto holdings"
+  },
+  {
+   "codigo": 6810201,
+   "descricao": "Compra e venda de imóveis próprios"
+  },
+  {
+   "codigo": 6810202,
+   "descricao": "Aluguel de imóveis próprios"
+  },
+  {
+   "codigo": 7490105,
+   "descricao": "Agenciamento de profissionais para atividades esportivas, culturais e artísticas"
+  },
+  {
+   "codigo": 8230001,
+   "descricao": "Serviços de organização de feiras, congressos, exposições e festas"
+  },
+  {
+   "codigo": 9319101,
+   "descricao": "Produção e promoção de eventos esportivos"
+  }
+ ],
+ "natureza_juridica": "Sociedade Empresária Limitada",
+ "regime_tributario": [
+  {
+   "ano": 2019,
+   "cnpj_da_scp": null,
+   "forma_de_tributacao": "LUCRO PRESUMIDO",
+   "quantidade_de_escrituracoes": 1
+  },
+  {
+   "ano": 2020,
+   "cnpj_da_scp": null,
+   "forma_de_tributacao": "LUCRO PRESUMIDO",
+   "quantidade_de_escrituracoes": 1
+  },
+  {
+   "ano": 2021,
+   "cnpj_da_scp": null,
+   "forma_de_tributacao": "LUCRO PRESUMIDO",
+   "quantidade_de_escrituracoes": 1
+  },
+  {
+   "ano": 2022,
+   "cnpj_da_scp": null,
+   "forma_de_tributacao": "LUCRO PRESUMIDO",
+   "quantidade_de_escrituracoes": 1
+  },
+  {
+   "ano": 2023,
+   "cnpj_da_scp": null,
+   "forma_de_tributacao": "LUCRO PRESUMIDO",
+   "quantidade_de_escrituracoes": 1
+  },
+  {
+   "ano": 2024,
+   "cnpj_da_scp": null,
+   "forma_de_tributacao": "LUCRO PRESUMIDO",
+   "quantidade_de_escrituracoes": 1
+  }
+ ],
+ "situacao_especial": "",
+ "opcao_pelo_simples": null,
+ "situacao_cadastral": 2,
+ "data_opcao_pelo_mei": null,
+ "data_exclusao_do_mei": null,
+ "cnae_fiscal_descricao": "Preparação de documentos e serviços especializados de apoio administrativo não especificados anteriormente",
+ "codigo_municipio_ibge": 4115200,
+ "data_inicio_atividade": "1987-09-10",
+ "data_situacao_especial": null,
+ "data_opcao_pelo_simples": null,
+ "data_situacao_cadastral": "2005-11-03",
+ "nome_cidade_no_exterior": "",
+ "codigo_natureza_juridica": 2062,
+ "data_exclusao_do_simples": null,
+ "motivo_situacao_cadastral": 0,
+ "ente_federativo_responsavel": "",
+ "identificador_matriz_filial": 1,
+ "qualificacao_do_responsavel": 5,
+ "descricao_situacao_cadastral": "ATIVA",
+ "descricao_tipo_de_logradouro": "AVENIDA",
+ "descricao_motivo_situacao_cadastral": "SEM MOTIVO",
+ "descricao_identificador_matriz_filial": "MATRIZ"
+}
