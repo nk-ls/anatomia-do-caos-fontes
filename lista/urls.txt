@@ -10,6 +10,7 @@ https://aosfatos.org/noticias/falas-de-bolsonaro-levaram-a-queda-no-isolamento-s
 https://apublica.org/2025/09/pandemia-de-covid-19-o-julgamento-que-bolsonaro-nao-enfrentou/
 https://apublica.org/2026/09/recordar-e-votar-13-investigados-pela-cpi-da-covid-disputam-eleicoes-neste-ano/
 https://apublica.org/nota/recordar-e-votar-7-dos-13-investigados-pela-cpi-da-covid-saem-eleitos-das-urnas/
+https://aterraeredonda.com.br/anatomia-do-caos-um-filme-para-assistir-antes-de-votar/
 https://brasil61.com/n/cpi-da-covid-governo-nao-respondeu-ofertas-de-vacinas-da-pfizer-em-agosto-de-2020-diz-representante-da-empresa-bras214987
 https://brasil61.com/n/ministerio-da-saude-formaliza-compra-de-46-mi-de-doses-da-coronavac-junto-ao-instituto-butantan-bras213314
 https://congressoemfoco.com.br/area/justica/pgr-pede-arquivamento-de-investigacoes-da-cpi-contra-bolsonaro
@@ -28,6 +29,10 @@ https://diariodonordeste.verdesmares.com.br/pontopoder/relator-da-cpi-da-covid-p
 https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/pazuello-pretende-responder-a-todas-as-perguntas-na-cpi-diz-advogado-apos-habeas-corpus-1.3086207
 https://exame.com/brasil/relatorio-final-da-cpi-da-covid-amplia-lista-de-indiciados-78-no-total
 https://gh.bmj.com/content/8/10/e012168
+https://github.com/TheEconomist/covid-19-the-economist-global-excess-deaths-model
+https://github.com/nk-ls/anatomia-do-caos-fontes
+https://github.com/owid/covid-19-data
+https://github.com/samayo/country-json
 https://hillnotes.ca/2021/11/25/vaccinating-the-world-the-successes-and-shortcomings-of-the-covax-mechanism/
 https://ihu.unisinos.br/610538-covid-19-estudo-revela-que-medidas-preventivas-teriam-evitado-120-mil-mortes
 https://ihu.unisinos.br/611157-mortes-por-covid-tem-a-digital-do-presidente
@@ -40,6 +45,7 @@ https://jovempan.com.br/politica/rosa-weber-rejeita-pedido-da-pgr-para-arquivar-
 https://jovempan.com.br/saude/ha-5-anos-brasil-aplicava-primeiras-doses-de-vacina-contra-a-covid-19/
 https://legis.senado.leg.br/sdleg-getter/documento/download/fe579129-54de-47c7-b700-a98ea9249ad0
 https://legis.senado.leg.br/sdleg-getter/documento?dm=8114167
+https://midianinja.org/midia-ninja-e-cine-ninja-exibem-anatomia-do-caos-documentario-sobre-a-cpi-da-covid/
 https://oantagonista.com.br/brasil/pgr-defende-arquivamento-de-acao-contra-bolsonaro-sobre-associacao-de-vacina-a-aids/
 https://observador.pt/2020/11/11/covid-19-bolsonaro-diz-que-brasil-tem-de-deixar-de-ser-um-pais-de-maricas/
 https://oimparcial.com.br/noticias/2021/10/cpi-da-covid-pede-indiciamento-de-71-pessoas-confira-lista-completa/
@@ -50,6 +56,7 @@ https://papers.ssrn.com/abstract=3582908
 https://pmc.ncbi.nlm.nih.gov/articles/PMC8918677
 https://poder360.com.br/congresso/cpi-da-covid-19-elege-omar-aziz-presidente-renan-calheiros-sera-relator/
 https://pt.org.br/veja-quem-sao-os-indiciados-pela-cpi-da-covid-do-senado-federal/
+https://revistaforum.com.br/brasil/documentario-cpi-covid-de-graca-youtube/
 https://revistaoeste.com/brasil/o-que-dizem-medicos-e-cientistas-indiciados-no-relatorio-final-da-cpi/
 https://revistaoeste.com/brasil/pfizer-fez-primeiras-ofertas-de-vacinas-em-agosto-de-2020-diz-executivo/
 https://sbtnews.sbt.com.br/noticia/category/167652-stf-da-48h-para-anvisa-detalhar-o-que-falta-para-analise-da-sputnik-v
@@ -135,6 +142,7 @@ https://www.opovo.com.br/noticias/politica/2021/05/04/cpi-da-covid-19--como-tass
 https://www.opovo.com.br/noticias/politica/2021/06/04/senador-randolfe-rodrigues-revela-que-pfizer-enviou-53-e-mails-ao-governo-sobre-oferta-de-vacinas.html
 https://www.opovo.com.br/noticias/politica/2021/10/26/por-7-votos-a-4-cpi-aprova-relatorio-final-com-pedido-indiciamento-de-bolsonaro.html
 https://www.opovo.com.br/noticias/politica/2024/11/30/nunes-marques-nega-reabertura-de-investigacao-de-ricardo-barros-em-caso-de-vacinas-da-covid-19.html
+https://www.opovo.com.br/noticias/politica/eleicoes/2026/10/17/polemica-na-gestao-da-pademia-e-tema-de-filme-disponivel-gratuitamente.html
 https://www.opovo.com.br/noticias/saude/2021/01/21/ministerio-da-saude-retira-do-ar-aplicativo-tratecovid.html
 https://www.poder360.com.br/brasil/a-sucessao-erros-manaus-dw/
 https://www.poder360.com.br/brasil/atos-pro-bolsonaro-reunem-multidoes-em-sao-paulo-e-brasilia/
