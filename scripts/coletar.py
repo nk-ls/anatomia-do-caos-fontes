@@ -60,6 +60,9 @@ def coletar(cliente: httpx.Client, url: str, agora: str) -> dict:
         linha["tipo"] = "pdf" if pdf else (tipo or "html")
         if r.status_code != 200:
             return linha
+        if not pdf and "Verificação de segurança" in r.text:
+            linha.update(status="bloqueado", erro="tela de verificação de segurança do site, não o documento")
+            return linha
         pasta = ARQ / linha["id"]
         pasta.mkdir(parents=True, exist_ok=True)
         dia = agora[:10]

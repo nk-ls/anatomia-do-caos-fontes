@@ -14,6 +14,10 @@ Links quebram, páginas mudam e matérias são editadas. Este repositório guard
 **Como conferir uma fonte:** abra o link original, a cópia do Internet Archive (coluna `wayback`) ou o arquivo aqui.
 Para provar que a cópia não foi alterada, calcule o SHA-256 (`sha256sum arquivo.pdf`) e compare com o manifesto.
 
+## Documentos oficiais
+
+A pasta [`documentos/`](documentos/) guarda cópias integrais de documentos públicos: o **relatório final aprovado da CPI** (1.288 páginas), os **votos em separado** dos senadores contrários, o **contrato da Pfizer**, as **notas do Ministério da Saúde sobre a cloroquina** e outros, com impressão digital SHA-256.
+
 ## Como funciona
 
 - A lista de fontes fica em [`lista/urls.txt`](lista/urls.txt).
