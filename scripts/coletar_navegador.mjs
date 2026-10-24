@@ -83,8 +83,26 @@ for (const url of urls) {
       }
     } else {
       const pagina = await contexto.newPage();
-      const resp = await pagina.goto(url, { waitUntil: "domcontentloaded", timeout: 90000 });
+      let baixado = null; // alguns endereços (ex.: Senado) passam por uma verificação automática e depois baixam um arquivo
+      pagina.on("download", (d) => { baixado = d; });
+      const resp = await pagina.goto(url, { waitUntil: "domcontentloaded", timeout: 90000 }).catch(() => null);
       await pagina.waitForTimeout(ESPERA); // tempo para scripts da página e verificações automáticas (sem interação)
+      if (baixado) {
+        const corpo = readFileSync(await baixado.path());
+        if (corpo.subarray(0, 4).toString() === "%PDF") {
+          mkdirSync(pasta, { recursive: true });
+          const arq = join(pasta, `${dia}.pdf`);
+          writeFileSync(arq, corpo);
+          const texto = (() => { try { return execFileSync("pdftotext", ["-layout", arq, "-"]).toString(); } catch { return ""; } })();
+          Object.assign(linha, { status: 200, url_final: baixado.url(), tipo: "pdf", bytes: corpo.length, sha256: sha(corpo), texto_chars: texto.length, erro: "coletado com navegador (Playwright), download após verificação automática do site" });
+          writeFileSync(join(pasta, `${dia}.txt`), `URL: ${url}\nColetado em: ${agora}\nSHA-256: ${linha.sha256}\n\n${texto}`);
+          await pagina.close();
+          appendFileSync(join(ARQ, "manifesto.csv"), CAMPOS.map((c) => csv(linha[c])).join(",") + "\n");
+          console.log(200, url);
+          if (PAUSA) await new Promise((r) => setTimeout(r, PAUSA));
+          continue;
+        }
+      }
       const html = await pagina.content();
       const texto = await pagina.evaluate(() => document.body ? document.body.innerText : "");
       linha.status = resp ? resp.status() : ""; linha.url_final = pagina.url();
