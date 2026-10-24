@@ -1,0 +1,38 @@
+name: coletar-fontes
+
+# Baixa cada URL de lista/urls.txt, guarda cópia datada + texto + SHA-256 em arquivo/
+# e pede uma cópia ao Internet Archive. Fontes já coletadas com sucesso não são baixadas de novo.
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: ["lista/**", "scripts/coletar.py", ".github/workflows/coletar.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: coletar
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -q && sudo apt-get install -y -q poppler-utils
+      - run: pip install -q httpx trafilatura
+      - run: python scripts/coletar.py
+      - name: Salvar no repositório
+        run: |
+          git config user.name "coletor-de-fontes"
+          git config user.email "actions@users.noreply.github.com"
+          git add arquivo
+          git diff --cached --quiet && exit 0
+          git commit -qm "Coleta de fontes $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull -q --rebase origin main
+          git push -q origin main

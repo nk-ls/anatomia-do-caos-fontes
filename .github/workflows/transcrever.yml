@@ -1,0 +1,40 @@
+name: transcrever-documentario
+
+# Obtém o texto falado do documentário e salva CIFRADO em transcricao/.
+# Ver scripts/transcrever.py para o motivo da cifra (direito autoral).
+on:
+  workflow_dispatch:
+    inputs:
+      videos:
+        description: "IDs do YouTube separados por espaço"
+        default: "MG3XZYu0_No 1HhVj0v8Uq0"
+  push:
+    branches: [main]
+    paths: ["scripts/transcrever.py", ".github/workflows/transcrever.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  transcrever:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+      - run: pip install -q -U yt-dlp youtube-transcript-api faster-whisper
+      - run: python scripts/transcrever.py ${{ github.event.inputs.videos || 'MG3XZYu0_No 1HhVj0v8Uq0' }}
+      - name: Salvar no repositório
+        if: always()
+        run: |
+          [ -d transcricao ] || exit 0
+          git config user.name "transcricao"
+          git config user.email "actions@users.noreply.github.com"
+          git add transcricao
+          git diff --cached --quiet && exit 0
+          git commit -qm "Transcrição cifrada do documentário"
+          git pull -q --rebase origin main
+          git push -q origin main
