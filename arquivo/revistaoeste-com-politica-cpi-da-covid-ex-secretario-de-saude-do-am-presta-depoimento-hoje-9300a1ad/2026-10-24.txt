@@ -1,0 +1,13 @@
+URL: https://revistaoeste.com/politica/cpi-da-covid-ex-secretario-de-saude-do-am-presta-depoimento-hoje/
+Coletado em: 2026-10-24T23:44:14Z
+SHA-256: c6ae1dd3d3517873201b2281dc66ff1195419443f3b940a806e786c250fa59a2
+Método: navegador (Playwright), HTML renderizado
+
+revistaoeste.com
+Executando verificação de segurança
+
+Este site utiliza um serviço de segurança para proteção contra bots maliciosos. Esta página é exibida enquanto o site verifica se você não é um bot.
+
+Ray ID: a4fcdb6a08cc4b86
+Desempenho e segurança da Cloudflare
+Privacidade

@@ -1,0 +1,13 @@
+URL: https://revistaoeste.com/brasil/pfizer-fez-primeiras-ofertas-de-vacinas-em-agosto-de-2020-diz-executivo/
+Coletado em: 2026-10-24T23:44:14Z
+SHA-256: b69a6d4193de5d371547d13ddbb11f483b5f61299dd982b7e4d05fd08c30bf03
+Método: navegador (Playwright), HTML renderizado
+
+revistaoeste.com
+Executando verificação de segurança
+
+Este site utiliza um serviço de segurança para proteção contra bots maliciosos. Esta página é exibida enquanto o site verifica se você não é um bot.
+
+Ray ID: a4fcdb325f801740
+Desempenho e segurança da Cloudflare
+Privacidade

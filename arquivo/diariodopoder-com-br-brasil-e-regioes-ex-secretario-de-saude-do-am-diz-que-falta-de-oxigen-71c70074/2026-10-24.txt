@@ -1,0 +1,122 @@
+URL: https://diariodopoder.com.br/brasil-e-regioes/ex-secretario-de-saude-do-am-diz-que-falta-de-oxigenio-durou-dois-dias
+Coletado em: 2026-10-24T23:44:14Z
+SHA-256: 687bc7b1019990a7890521b72782a3b4522e551e807bb520f4a1fce99397c4ae
+Método: navegador (Playwright), HTML renderizado
+
+___
+DP
+CLÁUDIO HUMBERTO
+ÚLTIMAS NOTÍCIAS
+OPINIÃO
+BRASIL
+INTERNACIONAL
+VÍDEOS
+ESPORTE
+DIÁRIO MOTOR
+CPI DA PANDEMIA
+Ex-secretário de Saúde do Amazonas diz que falta de oxigênio durou dois dias
+Marcellus Campêlo prestou depoimento na CPI da Pandemia nesta terça-feira
+15/06/2021 14:21 | Atualizado 15/06/2021 15:32
+ACESSIBILIDADE:
+text_increase
+text_decrease
+Comissão Parlamentar de Inquérito da Pandemia (CPIPANDEMIA) realiza oitiva do ex-secretário de Saúde do Amazonas. Foto: Marcos Oliveira/Agência Senado
+Redação
+
+O ex-secretário de Saúde do Amazonas Marcellus Campêlo causou reação de parte dos membros da Comissão Parlamentar de Inquérito (CPI) da Pandemia do Senado nesta terça-feira (15) ao dizer que a rede de saúde do estado registrou a intermitência de abastecimento de oxigênio apenas nos dias 14 e 15 de janeiro.
+
+Segundo ele, a situação se diferencia da fila de compra das pessoas que buscaram as empresas diretamente. “Uma coisa é faltar na rede de saúde, no hospital, outra coisa é o paciente que está tratando em casa porque não tem vaga no hospital tentar comprar o cilindro no mercado e ele não existir no mercado da cidade”, disse sobre a situação que deixou centenas de mortos no estado.
+
+“No dia 26 de janeiro, [havia] pessoas morrendo dentro do [Hospital] 28 de Agosto por falta de oxigênio”, rebateu o senador amazonense Eduardo Braga (MDB). Sobre essa afirmação, Campêlo insistiu: “Nós não temos registro no 28 de Agosto de ter acontecido isso, senador. Não há registro.”
+
+Ajuda
+
+Sobre o pedido de ajuda ao governo federal, Campêlo disse que procurou o então ministro da Saúde, Eduardo Pazuello, antes do colapso no estado. O primeiro contato, segundo ele, teria ocorrido três dias antes do relatado ao colegiado pelo ex-ministro em depoimento no mês passado. Na conversa, Campêlo disse que pediu apoio logístico ao então ministro para levar cilindros de oxigênio a Manaus. “Fiz uma ligação ao ministro Pazuello no dia 7 de janeiro por telefone explicando a necessidade de apoio logístico para trazer oxigênio de Belém a Manaus, a pedido da White Martins [fornecedora dos cilindros]. A partir daí, fizemos contato com o Comando Militar da Amazônia, por orientação do ministro, para fazer esse trabalho logístico”, disse Campêlo na CPI. “Não houve resposta, que eu saiba”, afirmou.
+
+O ex-secretário avaliou que a saúde pública do Amazonas tem problemas “históricos e crônicos” e que, na sua gestão, foi realizada a integração de dados entre Manaus e outras cidades do estado. Ainda sobre as providências tomadas, Campêlo citou a alteração no atendimento do Hospital Delphina Aziz, que passou a atender exclusivamente pacientes com covid-19. O ex-gestor também relacionou medidas não farmacológicas e a chegada das vacinas como balizadores da Secretaria de Saúde do Amazonas para o combate à pandemia no estado.
+
+White Martins
+
+Aos senadores, Campêlo afirmou que em 7 de janeiro deste ano a empresa fornecedora de oxigênio White Martins chegou a pedir que o estado não ativasse novos leitos de unidade de terapia intensiva (UTI) até que a companhia pudesse ampliar o fornecimento do oxigênio. “Estavam preocupados com aumento de consumo e precisariam fazer uma programação do fornecimento. Então, a White Martins pediu que não ativássemos mais nenhum leito de UTI até o sinal da empresa que poderia ter segurança para a ampliação do fornecimento de oxigênio, e assim fizemos, ativar somente na anuência da empresa com segurança. Aí, nesse dia, informamos que tínhamos capacidade de aumentar em 150 leitos”, disse ele.
+
+Apesar do pedido, Campêlo disse que a paralisação não foi necessária já que, no mesmo dia, uma quinta-feira, a White Martins apresentou uma programação de fornecimento de oxigênio, em que novas cargas do insumo começariam a chegar no sábado. No depoimento, ele acrescentou que, no dia 7, a White Martins também solicitou apoio do governo estadual para uma requisição administrativa. A empresa enfrentava dificuldades para comprar um estoque de 20 mil metros cúbicos de oxigênio disponíveis em uma outra empresa, a Carbox. “Consultei o setor jurídico [do governo] e foi orientado que a White Martins formalizasse pedido para fazermos esse processo”, explicou.
+
+Usinas
+
+Campêlo reconheceu que o governo estadual não comprou usinas de oxigênio para suprir a demanda nem antes nem depois da crise ocorrida no mês de janeiro. Segundo ele, foram abertos, sem sucesso, processos de compra.
+
+Sobre recursos destinados ao Amazonas por emendas parlamentares ou pelo fundo estadual da saúde e não utilizados pela secretaria para custeio de unidades hospitalares, o ex-gestor foi questionado, por exemplo, sobre por que a pasta que comandava atrasava o pagamento de fornecedores de oxigênio. Campêlo respondeu que esse já era um problema crônico antes mesmo de ele assumir o cargo na secretaria e que há processos nesse sentido em andamento.
+
+Imunidade de rebanho
+
+Perguntado pelo relator do colegiado, senador Renan Calheiros (MDB-AL), se uma suposta imunidade de rebanho gerada pela primeira onda de casos de covid-19 no Amazonas teria orientado as políticas públicas de saúde, Campêlo negou. “Essa tese nunca foi ventilada em qualquer reunião da qual eu tenha participado”, disse.
+
+Ao falar das medidas tomadas para fortalecer o sistema de saúde após a primeira onda, o ex-secretário disse que houve ampliação de leitos e que eliminaram espaços ociosos em maternidades para atendimento à população. Apesar disso, ele observou que há um “gargalo” de leitos de UTI e que a gestão também é dificultada pela questão logística pelo acesso aéreo e fluvial.
+
+Respiradores
+
+O ex-secretário de Saúde do Amazonas disse ainda que, no início da pandemia, durante a crise da primeira onda em Manaus, cerca de 80 respiradores foram enviados para a capital amazonense na gestão de Luiz Henrique Mandetta. Alguns dos equipamentos, no entanto, estavam com “problemas e inadequados”: ao menos dez aparelhos foram devolvidos por serem de uso veterinário.
+
+Hidroxicloroquina
+
+Sobre o envio pelo governo federal ao estado de 120 mil comprimidos de hidroxicloroquina depois de uma visita da secretária de Gestão do Trabalho e da Educação, Mayra Pinheiro, no dia 4 de janeiro ao Amazonas, Campêlo disse que a remessa foi realizada para tratamento da covid-19. A solicitação, segundo ele, foi feita porque os estoques do remédio estavam “zerados”, e pelo fato de ele ser utilizado também no tratamento de outras patologias, como a malária.
+
+Histórico
+
+Marcellus Campêlo inaugura a fase de depoimentos de gestores estaduais à CPI. Investigado pela Polícia Federal por supostas fraudes na contratação de hospitais de campanha e uso de verbas federais, ele comandou a saúde do estado do Amazonas até o último dia 7 de junho, quando pediu exoneração do cargo após ser preso na Operação Sangria. A primeira autoridade convocada da esfera estadual foi o governador do Amazonas, Wilson Lima. Às vésperas do dia marcado para o depoimento, na semana passada, o político conseguiu um habeas corpus junto ao Supremo Tribunal Federal (STF) que o liberou da obrigação.(ABr)
+
+Ver Comentários
+Reportar Erro
+Siga o DP
+Google News
+Recomendado para você
+
+Poder, política e bastidores, sem perder o bom humor. Desde 1998.
+
+Siga-nos @DiariodoPoder
+EDITORIAS
+Cláudio Humberto
+Política
+Opinião
+Justiça
+Dinheiro
+Brasil e Regiões
+Internacional
+Diário Motor
+Vídeos
+SOBRE NÓS
+Anuncie
+Sobre o DP
+Equipe
+Fale Conosco
+Reportar Erro
+Política de Privacidade
+Controle sua Privacidade
+© 2026 Diário do Poder
+SIGA O DP
+Google News
+DP
+CLÁUDIO HUMBERTO
+ÚLTIMAS NOTÍCIAS
+OPINIÃO
+BRASIL
+INTERNACIONAL
+VÍDEOS
+ESPORTE
+DIÁRIO MOTOR
+ANUNCIE
+SOBRE O DP
+EQUIPE
+FALE CONOSCO
+REPORTAR ERRO
+POLÍTICA DE PRIVACIDADE
+CONTROLE SUA PRIVACIDADE
+Compartilhe:
+Controle sua privacidade
+AdOpt
+Nosso site usa cookies para melhorar a navegação.
+Usamos cookies para compartilhar dados de análise, publicidade, dados de usuários e personalização de anúncios com o Google.
+Política de Privacidade - Política de Cookies
+Minhas opções
+Não venda
+Aceitar

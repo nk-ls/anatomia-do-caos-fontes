@@ -1,0 +1,12 @@
+URL: https://papers.ssrn.com/abstract=3582908
+Coletado em: 2026-10-24T23:44:14Z
+SHA-256: d506c50244751e0d6c09821333e62fbf7646603cd9fa172890399cd1e7fe205d
+Método: navegador (Playwright), HTML renderizado
+
+Content Blocked
+! We have detected that you may be using an automated script or search engine our site does not support. Please retry using an alternate way of accessing our site.
+Contact Content_Protection_Services@Elsevier.com for more information.
+
+Reference Number: a4fcdacbef0c7a11
+IP Address: 160.79.106.134
+Timestamp: Sat, 24 Oct 2026 23:45:21 GMT

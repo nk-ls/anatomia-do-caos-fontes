@@ -1,0 +1,13 @@
+URL: https://diariodopoder.com.br/politica/diretora-da-precisa-afirma-que-nada-houve-de-errado-na-compra-da-covaxin/amp
+Coletado em: 2026-10-24T23:44:14Z
+SHA-256: a2cc3511375964e6383bd3152a42d9e1480dbe64d518872041e70776b83e2c84
+Método: navegador (Playwright), HTML renderizado
+
+diariodopoder.com.br
+Executando verificação de segurança
+
+Este site utiliza um serviço de segurança para proteção contra bots maliciosos. Esta página é exibida enquanto o site verifica se você não é um bot.
+
+Ray ID: a4fcd99f3ade57f3
+Desempenho e segurança da Cloudflare
+Privacidade

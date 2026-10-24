@@ -1,0 +1,13 @@
+URL: https://revistaoeste.com/brasil/se-pudesse-teria-comprado-diz-ex-assessor-de-pazuello-sobre-vacinas/
+Coletado em: 2026-10-24T23:44:14Z
+SHA-256: f5abc7e5ff543ca8b9af20659d347adc7a53e1fba5f44a7aa9fd90372bb2aece
+Método: navegador (Playwright), HTML renderizado
+
+revistaoeste.com
+Executando verificação de segurança
+
+Este site utiliza um serviço de segurança para proteção contra bots maliciosos. Esta página é exibida enquanto o site verifica se você não é um bot.
+
+Ray ID: a4fcdb4e3fafd6ec
+Desempenho e segurança da Cloudflare
+Privacidade
