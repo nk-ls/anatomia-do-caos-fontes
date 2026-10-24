@@ -12,7 +12,7 @@
 // Varredura lenta: PAUSA_SEG=30 ESPERA_SEG=12 (pausa entre endereços e espera em cada página).
 import { createRequire } from "node:module";
 import { createHash } from "node:crypto";
-import { readFileSync, writeFileSync, mkdirSync, appendFileSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, appendFileSync, existsSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -36,7 +36,9 @@ const csv = (v) => (/[",\n]/.test(String(v)) ? `"${String(v).replace(/"/g, '""')
 
 const urls = readFileSync(process.argv[2], "utf8").split("\n").map((l) => l.trim()).filter((l) => l && !l.startsWith("#"));
 const agora = new Date().toISOString().replace(/\.\d+Z$/, "Z");
-const dia = agora.slice(0, 10);
+// Nunca sobrescrever uma cópia já guardada: se o nome do dia já existe, a nova ganha a hora no nome.
+const dia0 = agora.slice(0, 10);
+const nomeLivre = (pasta) => (["html", "pdf", "txt", "jpg"].some((e) => existsSync(join(pasta, `${dia0}.${e}`))) ? `${dia0}_${agora.slice(11, 19).replace(/:/g, "")}` : dia0);
 // Se o ambiente usa proxy (variável HTTPS_PROXY), o navegador e os downloads passam por ele.
 const proxy = process.env.HTTPS_PROXY || process.env.https_proxy;
 const navegador = await chromium.launch(proxy ? { proxy: { server: proxy } } : {});
@@ -49,6 +51,7 @@ for (const url of urls) {
   const linha = Object.fromEntries(CAMPOS.map((c) => [c, ""]));
   Object.assign(linha, { id: ident(url), url, coletado_em: agora, erro: "coletado com navegador (Playwright); HTML renderizado" });
   const pasta = join(ARQ, linha.id);
+  const dia = nomeLivre(pasta);
   try {
     // PDFs: baixados direto pela sessão do navegador (mesmos cookies e cabeçalhos).
     const cab = await contexto.request.head(url, { timeout: 30000 }).catch(() => null);

@@ -67,13 +67,15 @@ def coletar(cliente: httpx.Client, url: str, agora: str) -> dict:
         pasta.mkdir(parents=True, exist_ok=True)
         dia = agora[:10]
         bruto = pasta / f"{dia}.{'pdf' if pdf else 'html'}"
+        if bruto.exists():  # nunca sobrescrever uma cópia já guardada: a nova ganha a hora no nome
+            bruto = pasta / f"{dia}_{agora[11:19].replace(':', '')}.{'pdf' if pdf else 'html'}"
         bruto.write_bytes(r.content)
         linha.update(bytes=len(r.content), sha256=hashlib.sha256(r.content).hexdigest())
         if pdf:
             txt = subprocess.run(["pdftotext", "-layout", str(bruto), "-"], capture_output=True, text=True).stdout
         else:
             txt = trafilatura.extract(r.text, include_comments=False, include_tables=True, url=url) or ""
-        (pasta / f"{dia}.txt").write_text(f"URL: {url}\nColetado em: {agora}\nSHA-256: {linha['sha256']}\n\n{txt}", encoding="utf-8")
+        bruto.with_suffix(".txt").write_text(f"URL: {url}\nColetado em: {agora}\nSHA-256: {linha['sha256']}\n\n{txt}", encoding="utf-8")
         linha["texto_chars"] = len(txt)
     except Exception as e:  # noqa: BLE001
         linha["erro"] = repr(e)[:300]
