@@ -1,0 +1,13 @@
+URL: https://www.folhavitoria.com.br/politica/governistas-apresentam-voto-em-separado-para-isentar-bolsonaro/
+Coletado em: 2026-10-24T23:44:14Z
+SHA-256: 025402e5e4152519ca071905a4459fd2c7caaf35bf5dfb3aa817ae205b438fbe
+Método: navegador (Playwright), HTML renderizado
+
+www.folhavitoria.com.br
+Executando verificação de segurança
+
+Este site utiliza um serviço de segurança para proteção contra bots maliciosos. Esta página é exibida enquanto o site verifica se você não é um bot.
+
+Ray ID: a4fcdf4cba81d5d0
+Desempenho e segurança da Cloudflare
+Privacidade

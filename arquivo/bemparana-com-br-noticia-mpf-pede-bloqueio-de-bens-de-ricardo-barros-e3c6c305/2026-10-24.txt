@@ -1,0 +1,13 @@
+URL: https://www.bemparana.com.br/noticia/mpf-pede-bloqueio-de-bens-de-ricardo-barros
+Coletado em: 2026-10-24T23:44:14Z
+SHA-256: ce038f10ef23608d1b641eb276d1148d8da7fdd2c1d6ae1afa5f70c2b3d576a9
+Método: navegador (Playwright), HTML renderizado
+
+www.bemparana.com.br
+Executando verificação de segurança
+
+Este site utiliza um serviço de segurança para proteção contra bots maliciosos. Esta página é exibida enquanto o site verifica se você não é um bot.
+
+Ray ID: a4fcdc8d998dcdc4
+Desempenho e segurança da Cloudflare
+Privacidade

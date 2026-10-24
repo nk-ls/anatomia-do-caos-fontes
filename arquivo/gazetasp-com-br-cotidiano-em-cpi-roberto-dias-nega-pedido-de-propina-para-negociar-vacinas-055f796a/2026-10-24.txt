@@ -1,0 +1,13 @@
+URL: https://www.gazetasp.com.br/cotidiano/em-cpi-roberto-dias-nega-pedido-de-propina-para-negociar-vacinas/
+Coletado em: 2026-10-24T23:44:14Z
+SHA-256: 5efb2531b275d7bb4114fedd360194e40782cd9d9b22a1b3ffffa6260f2e69e6
+Método: navegador (Playwright), HTML renderizado
+
+www.gazetasp.com.br
+Executando verificação de segurança
+
+Este site utiliza um serviço de segurança para proteção contra bots maliciosos. Esta página é exibida enquanto o site verifica se você não é um bot.
+
+Ray ID: a4fcdf871bd605dd
+Desempenho e segurança da Cloudflare
+Privacidade

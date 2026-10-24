@@ -1,0 +1,13 @@
+URL: https://www.folhavitoria.com.br/politica/cpi-da-covid-rosa-mantem-investigacao-da-pf-contra-bolsonaro-por-charlatanismo/
+Coletado em: 2026-10-24T23:44:14Z
+SHA-256: 8ffcae4cbb904afbacad09ff1161680dbe7ed758831c737ce5893b431d50cce1
+Método: navegador (Playwright), HTML renderizado
+
+www.folhavitoria.com.br
+Executando verificação de segurança
+
+Este site utiliza um serviço de segurança para proteção contra bots maliciosos. Esta página é exibida enquanto o site verifica se você não é um bot.
+
+Ray ID: a4fcdf30dfea7be0
+Desempenho e segurança da Cloudflare
+Privacidade

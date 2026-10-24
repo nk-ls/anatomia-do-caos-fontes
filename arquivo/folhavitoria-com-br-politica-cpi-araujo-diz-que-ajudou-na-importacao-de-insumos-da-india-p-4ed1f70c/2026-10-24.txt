@@ -1,0 +1,13 @@
+URL: https://www.folhavitoria.com.br/politica/cpi-araujo-diz-que-ajudou-na-importacao-de-insumos-da-india-para-cloroquina/
+Coletado em: 2026-10-24T23:44:14Z
+SHA-256: 72fe3d091beae6f046dca08b07f80e3606a5c8be2244a0c69c46bd2074232c5c
+Método: navegador (Playwright), HTML renderizado
+
+www.folhavitoria.com.br
+Executando verificação de segurança
+
+Este site utiliza um serviço de segurança para proteção contra bots maliciosos. Esta página é exibida enquanto o site verifica se você não é um bot.
+
+Ray ID: a4fcdf144cd0c964
+Desempenho e segurança da Cloudflare
+Privacidade

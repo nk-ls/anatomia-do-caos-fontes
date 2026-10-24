@@ -1,0 +1,13 @@
+URL: https://www.intercept.com.br/?p=306886
+Coletado em: 2026-10-24T23:44:14Z
+SHA-256: 8d4f0953c44662f3e654e356c840c57db08b71e7e49e836995330c2c58b1431e
+Método: navegador (Playwright), HTML renderizado
+
+www.intercept.com.br
+Executando verificação de segurança
+
+Este site utiliza um serviço de segurança para proteção contra bots maliciosos. Esta página é exibida enquanto o site verifica se você não é um bot.
+
+Ray ID: a4fce0042dcfc9ac
+Desempenho e segurança da Cloudflare
+Privacidade

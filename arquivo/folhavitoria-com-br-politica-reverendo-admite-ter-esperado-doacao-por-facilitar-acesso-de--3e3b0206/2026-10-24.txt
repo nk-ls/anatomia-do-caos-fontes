@@ -1,0 +1,13 @@
+URL: https://www.folhavitoria.com.br/politica/reverendo-admite-ter-esperado-doacao-por-facilitar-acesso-de-empresa-a-saude/
+Coletado em: 2026-10-24T23:44:14Z
+SHA-256: 433d579d8b4ced60415f4859cf214747e2a636ec284d6e51a1fbade61a893448
+Método: navegador (Playwright), HTML renderizado
+
+www.folhavitoria.com.br
+Executando verificação de segurança
+
+Este site utiliza um serviço de segurança para proteção contra bots maliciosos. Esta página é exibida enquanto o site verifica se você não é um bot.
+
+Ray ID: a4fcdf685fdaa5a9
+Desempenho e segurança da Cloudflare
+Privacidade

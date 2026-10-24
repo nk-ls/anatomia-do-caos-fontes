@@ -1,0 +1,13 @@
+URL: https://www.lex.com.br/ministro-alexandre-de-moraes-envia-a-pgr-pedido-de-indiciamento-do-presidente-da-republica/
+Coletado em: 2026-10-24T23:44:14Z
+SHA-256: b515d18faba29707bbc8c331148f2f6114056e74509e44e1f3aacf749318e15a
+Método: navegador (Playwright), HTML renderizado
+
+www.lex.com.br
+Executando verificação de segurança
+
+Este site utiliza um serviço de segurança para proteção contra bots maliciosos. Esta página é exibida enquanto o site verifica se você não é um bot.
+
+Ray ID: a4fce0cc7b735f97
+Desempenho e segurança da Cloudflare
+Privacidade
