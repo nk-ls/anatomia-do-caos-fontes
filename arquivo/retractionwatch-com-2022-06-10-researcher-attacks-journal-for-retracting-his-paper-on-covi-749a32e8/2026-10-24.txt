@@ -1,0 +1,31 @@
+URL: https://retractionwatch.com/2022/06/10/researcher-attacks-journal-for-retracting-his-paper-on-covid-19-drug
+Coletado em: 2026-10-24T23:10:07Z
+SHA-256: 654d126dabf1002b86406ad68ab32ff0528e39da912b4cfe0005496fa52910a4
+
+A journal has retracted a paper reporting the results of a clinical trial in which a drug cut COVID-19 hospitalization for men by 90%.
+The research group’s other work has attracted a lot of attention in Brazil – including praise from president Jair Bolsonaro and criticism from research regulators – for their dramatic results. In a Twitter thread, one of the authors claimed, without evidence, that the journal “may have received bribery to persecute us and retract our study.”
+The article, “Proxalutamide Reduces the Rate of Hospitalization for COVID-19 Male Outpatients: A Randomized Double-Blinded Placebo-Controlled Trial,” was published in Frontiers in Medicine last July and has been cited 15 times, according to Clarivate’s Web of Science.
+The study quickly attracted criticism, according to the retraction notice:
+The journal and Chief Editors have retracted the 19 July 2021 article cited above.
+Shortly after publication, our office received letters of complaint questioning the integrity of the article, following which an Expression of Concern was published and a thorough investigation was conducted, in accordance with our policies and COPE guidelines.
+The investigation found that the claims made in the conclusions were not adequately supported by the methodology of the study. In particular, as confirmed by an external expert, the process of allocation to treatment and control was not sufficiently random.
+This retraction was approved by the Chief Editors of Frontiers in Medicine and the Chief Executive Editor of Frontiers. The authors disagree with this retraction.
+One of the authors of the study, Flavio A. Cadegiani, tweeted his disagreement and alleged – without any evidence – that the journal received bribes that prompted the retraction:
+He posted email exchanges with the journal editors that he said support his claims, as well as an external critique of the study’s randomization.
+According to the emails, Frederick Fenter, chief executive editor of Frontiers, notified Cadegiani and his colleague Carlos Wambier on May 20th that the journal had decided to retract the paper “after our long investigation and consultation with external experts.”
+In a reply that same day defending the work, Wambier wrote:
+The randomization method decision is at the discretion of the principal investigator and it is chosen according to feasibility. The editors or readership have the right to express their opinions, however using opinions as an excuse to retract an article is unfair.
+Wambier and Cadegiani sent several more emails protesting the retraction. In a long email to Fenter on June 7th, Cadegiani appealed to him “as a person, beyond the ‘scientist,’” and continued to defend the study:
+I am a truly open person ready to demonstrate at the level you would like us that our trial is likely amongst the most rigid, of highest quality, and undoubtedly the most transparent among the ones in COVID-19 to date.
+Fenter responded:
+We have looked into all the points raised by you and your colleagues, and our conclusion is that retraction is required.
+On June 8th, Cadegiani wrote:
+Considering that Frontiers failed to specify the concerns since the claims are overwhelmingly untrue, and failed to provide the responses to the allegations of defense from the authors, not respecting basic rights of the authors, as per my previous emails, this will be automatically considered a presumed confession of corruption, indirect bribery and prejudice from Frontiers. Since I have the right to receive the responses, the lack of them is sufficient for the presumed confession… The objective seems to be clear: avoid a competitor to Pfizer drug.
+The documents do not contain any other evidence the journal accepted bribes than the “presumed confession.” We asked Cadegiani if he had further comments or documents. He said:
+I’d completely agree and would be the first one to ask for retraction if this was the case. But they wanted to retract regardless and they failed to specify why they retracted. They didn’t respect authors basic rights. They never responded to us.
+The worst is that the report came from an alleged “expert” that a forensic analysis found to be a person that has undisclosed interests and has been persecuting me.
+He did not supply a forensic analysis or evidence of the undisclosed interests.
+The group has had another trial of the same drug come under scrutiny after Bolsonaro promoted it, according to Science magazine. A preprint reporting the results of that trial claimed giving proxalutamide to hospitalized COVID-19 patients reduced deaths by 77%. The group later published an updated paper in Cureus that reiterated the dramatic result. Brazil’s research regulator identified multiple issues with the trial, and the country’s attorney general is investigating “possible violations of medical ethics and human rights,” the BMJ reported in November.
+This retraction makes 236 retracted papers about COVID-19, by our count.
+Hat tip: Gideon Meyerowitz-Katz
+Like Retraction Watch? You can make a tax-deductible contribution to support our work, follow us on X or Bluesky, like us on Facebook, follow us on LinkedIn, add us to your RSS reader, or subscribe to our daily digest. If you find a retraction that’s not in our database, you can let us know here. For comments or feedback, email us at [email protected].

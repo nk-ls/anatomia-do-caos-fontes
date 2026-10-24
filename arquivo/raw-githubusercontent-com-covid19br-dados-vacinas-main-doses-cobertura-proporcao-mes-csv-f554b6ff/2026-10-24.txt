@@ -1,0 +1,4 @@
+URL: https://raw.githubusercontent.com/covid19br/dados-vacinas/main/doses_cobertura_proporcao_mes.csv
+Coletado em: 2026-10-24T23:10:07Z
+SHA-256: 7207ac4a6776faf4efd4b95e3bfaa4cf8a14c77f9cab3cd94ca6868169abd72c
+

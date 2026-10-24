@@ -1,0 +1,83 @@
+1. Lancet Reg Health Am. 2025 Sep 29;51:101252. doi: 10.1016/j.lana.2025.101252. 
+eCollection 2025 Nov.
+
+Regional and national estimates of children affected by all-cause and 
+COVID-19-associated orphanhood and caregiver death in Brazil, by age and family 
+circumstance: a modeling study.
+
+Steyn N(1), Unwin HJT(2)(3), Ponmattam J(4), Villaveces A(5), Martins L(6), 
+Sherr L(7), Blenkinsop A(8), Semenova E(3), Stuart-Brown A(3), Ribeiro Amaral 
+AV(9), Ratmann O(8), Schnekenberg RP(10), Cluver L(11), Hillis S(8)(12), 
+Rawlings L(13), Barberia L(14), Souza AS(15), Castro MC(4), Flaxman S(16).
+
+Author information:
+(1)Department of Statistics, University of Oxford, Oxford, United Kingdom.
+(2)School of Mathematics, University of Bristol, Bristol, United Kingdom.
+(3)School of Public Health, Imperial College London, London, United Kingdom.
+(4)Department of Global Health and Population, Harvard T H Chan School of Public 
+Health, Boston, MA, United States of America.
+(5)Department of Epidemiology, University of North Carolina at Chapel Hill, 
+Chapel Hill, NC, United States of America.
+(6)Federal University of Minas Gerais, Minas Gerais, Brazil.
+(7)Institute of Global Health, University College London, London, United 
+Kingdom.
+(8)Department of Mathematics, Imperial College London, London, United Kingdom.
+(9)School of Mathematical Sciences, University of Southampton, Southampton, 
+United Kingdom.
+(10)Institute of Neurology, University College London, London, United Kingdom.
+(11)Department of Social Policy and Intervention, University of Oxford, Oxford, 
+United Kingdom.
+(12)Global Reference Group on Children Affected by Crisis, University of Oxford, 
+Oxford, United Kingdom.
+(13)World Bank Group, Washington, DC, United States of America.
+(14)Department of Political Science, University of São Paulo, São Paulo, Brazil.
+(15)Ministério Público do Estado de São Paulo, São Paulo, Brazil.
+(16)Department of Computer Science, University of Oxford, Oxford, United 
+Kingdom.
+
+BACKGROUND: Orphanhood and caregiver death can have severe consequences for 
+children. Timely and accurate data can guide policy, particularly during health 
+crises like COVID-19. The aim of our study is to present national and 
+subnational analysis of both all-cause and COVID-19-associated orphanhood and 
+caregiver death in Brazil and compare our model outputs with bespoke 
+administrative datasets.
+METHODS: We use publicly available national datasets to estimate the number of 
+Brazilian children experiencing parent and caregiver loss due to all causes and 
+COVID-19 in 2020-2021.
+FINDINGS: An estimated 1,300,000 (95% uncertainty interval, 1,190,000, 
+1,430,000) children in Brazil experienced loss of one or multiple parents and/or 
+co-residing caregivers. 673,000 (652,000, 690,000) were estimated to have lost 
+one or both parents, of which 149,000 (144,000, 154,000) were COVID-19 
+associated; 635,000 (534,000, 758,000) children were estimated to have lost a 
+co-residing grandparent or other kin, of which 135,000 (85,900, 199,000) were 
+COVID-19 associated. Orphanhood varied substantially across states, with the 
+rate of all cause parental orphanhood highest in Roraima at 17.5 (15.6, 20.6) 
+per 1000 children and the lowest in Santa Catarina at 9.5 (8.7, 10.4) per 1000 
+children. COVID-19-associated orphanhood was also unevenly distributed, with 
+Mato Grosso experiencing the greatest rate, at 4.4 (3.9, 5.3) per 1000 children, 
+while Pará experienced the lowest rate of 1.4 (1.2, 1.8) per 1000 children. 
+Comparisons with limited data from Brazil's civil registry offices and (manually 
+reviewed death certificates in Campinas found a similar demographic distribution 
+of orphanhood. However, our estimates suggested that administrative sources 
+undercount orphanhood.
+INTERPRETATION: Our findings highlight the extent of orphanhood in Brazil and 
+large inequalities between states. Comparisons between administrative data and 
+model estimates show similar temporal patterns and proportions of maternal and 
+paternal orphanhood but different magnitudes. This suggests that strengthening 
+vital registration systems can put children at the center of public health 
+responses globally.
+FUNDING: This study was funded by "Building Global Public Health Capacity to 
+Link Real-Time Modelling Data on COVID-19-associated Orphanhood and Caregiver 
+Deaths to Inform Prevention, Preparedness and Protection from COVID-19 
+consequences" (2023 CDC/WHO grant) and the Moderna Charitable Foundation.
+
+© 2025 The Authors.
+
+DOI: 10.1016/j.lana.2025.101252
+PMCID: PMC12513060
+PMID: 41080610
+
+Conflict of interest statement: No authors have conflicting interests. Details 
+of grant funding are provided in the acknowledgements. HJTU and OR also declare 
+funding from Moderna charitable foundation for a different project about 
+orphanhood.

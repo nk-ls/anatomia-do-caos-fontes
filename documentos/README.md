@@ -20,6 +20,11 @@ Cópias integrais de documentos públicos usados no levantamento, baixados em 24
 
 - [`controle/`](controle/): acórdãos do TCU, documentos do STF, STJ, CGU e MP sobre os fatos da CPI.
 - [`contratos/`](contratos/): contratos federais da pandemia e seus pagamentos: CoronaVac/Butantan, Fiocruz/AstraZeneca, Covaxin, Sputnik, Pfizer, Covax, VTCLog e IBL, cloroquina do Exército, TrateCov, além de 70 contratos de insumos. São 238 arquivos com SHA-256 próprio; o README da pasta traz número, data, valor e origem de cada um.
+- [`saude/`](saude/): dados de saúde usados na página inicial: painel do Ministério da Saúde (respostas brutas da API, 716.626 óbitos), série SRAG por mês de óbito, doses por mês, excesso de óbitos (Conass/Vital Strategies e SEPLAG-RS), Manaus (MPF), órfãos (Lancet). Capturas de tela registram os painéis dinâmicos no dia da coleta.
+- [`apis_oficiais/`](apis_oficiais/): respostas brutas das APIs do painel do Ministério da Saúde, da Câmara e do Senado usadas na página Estados.
+- [`receita_cnpj/`](receita_cnpj/): cadastro CNPJ e quadro societário das empresas do caminho do dinheiro.
+- [`vacinacao_uf/`](vacinacao_uf/): vacinação por estado (SI-PNI agregado).
+- [`estaduais/`](estaduais/): casos estaduais e de consórcio de dinheiro público na pandemia (Consórcio Nordeste, Rio de Janeiro, Pará, Amazonas, Santa Catarina, São Paulo): acórdão do TCU, decisões do STJ, TCE-SC, TCE-SP, Assembleia de SC, tabela oficial de operações da Polícia Federal e reportagens (marcadas `_imprensa`), com registro de coleta.
 - [`pfizer_desvios/`](pfizer_desvios/): correspondências da Pfizer ao governo (carta de Bourla, notas taquigráficas das reuniões da CPI, ofícios do MS), doses vencidas (acórdãos do TCU 313/2023 e 2123/2023), fura-fila (CNMP) e desvios investigados. São 66 arquivos com SHA-256 próprio; o README da pasta explica cada um.
 
 ## Ainda não localizados

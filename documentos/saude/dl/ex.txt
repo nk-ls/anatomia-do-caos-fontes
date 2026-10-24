@@ -1,0 +1,1037 @@
+         EXCESSO DE ÓBITOS E
+         TAXA DE MORTALIDADE
+         NO BRASIL
+
+
+
+
+Porto Alegre, 15 de Fevereiro de 2023.   PARCERIA:
+  Sumário Executivo
+EXCESSO DE ÓBITOS:
+- O excesso de óbitos busca identificar o diferencial do número de óbitos por causas naturais durante a pandemia em comparação com os
+óbitos esperados para o mesmo período. O acompanhamento deste instrumento complementa a análise da mortalidade nas regiões, permitindo
+verificar os efeitos de causas diretas e indiretas da Covid-19, bem como apontar indícios de diferenciais de subnotificação dos óbitos por
+Covid-19 entre as localidades.
+
+- A análise isolada da taxa de mortalidade por Covid-19 se mostra incompleta, por não incorporar os efeitos diretos e indiretos da pandemia, bem
+como desconsiderar as diferentes capacidades de identificação de óbitos por Covid-19 entre as localidades. O cálculo do Excesso de Óbitos, ao
+comparar o total de óbitos por causas naturais com o que seria esperado para determinada localidade, leva em consideração as diferenças
+populacionais de gênero e pirâmide etária, bem como suplanta o problema da subnotificação.
+
+- No caso brasileiro, por exemplo, o RS apresenta atualmente a 10ª maior taxa de mortalidade por Covid-19 entre as unidades federativas. No
+entanto, apresenta o menor excesso proporcional de óbitos do país considerando o acumulado de todo o período.
+
+- Em contraposição, os estados do MA e AL, que estão entre menores taxas de mortalidade do país, apresentam, respectivamente, o 9º e o 12º
+maiores excessos proporcionais de óbitos, possuem valores que chegam ao dobro do RS.
+
+ATUALIZAÇÃO:
+- Ao longo de 2020, o RS apresentou o menor excesso proporcional de óbitos do País, apesar da aceleração no contágio da doença registrada em
+novembro e dezembro daquele ano.
+- No entanto, em 2021, acompanhando o movimento nacional, o RS passou por um agravamento da pandemia que elevou substancialmente os
+óbitos, concluindo o ano com o 3º menor excesso proporcional de óbitos do país.
+- Até a primeira semana de dezembro de 2022, o RS apresentou o 3º menor excesso proporcional de óbitos do país.
+- No acumulado da pandemia, de 15 de março de 2020 a 03 de dezembro de 2022, o RS apresenta o menor excesso proporcional de óbitos do
+país.
+Metodologia
+METODOLOGIA
+- A metodologia de excesso de óbitos consiste em subtrair de um total de óbitos observado uma quantidade de óbitos estimada para
+obter uma quantidade de óbitos além do esperado para um período específico. Esta quantidade de óbitos que supera o que seria esperado é
+denominada de excesso de óbitos.
+- Ao se relacionar a quantidade de óbitos em excesso com o total de óbitos esperados tem-se o excesso proporcional de óbitos, uma medida
+do percentual de óbitos que superou o que já seria esperado.
+
+- Para produzir essa estimativa de óbitos, a Vital Strategies projeta, a partir dos dados do SIM (Sistema de Informação sobre Mortalidade do
+DATASUS) de 2015 a 2019, um total de óbitos esperados para 2020 e 2021. Os óbitos destes ano têm como fonte os dados do Portal da
+Transparência do Registro Civil. ¹
+- De posse desse número, calcula-se o excesso de óbitos por semana epidemiológica, levando-se em consideração gênero, idade e
+localidade de óbito:
+
+                                         Excesso de Óbitos = Óbitos observados – Óbitos esperados
+
+
+LIMITAÇÕES DO MÉTODO:
+- Todos os óbitos utilizados nesse exercício (observados, estimados e em excesso) se referem a todas as causas naturais. Assim, não se restringe
+os óbitos a uma ou mais causas, por exemplo, a causas respiratórias ou cardíacas.
+- Para aumentar a precisão do número de excesso de óbitos, a Vital Strategies faz o cálculo dos óbitos esperados com uma defasagem de 5
+semanas epidemiológicas.
+
+DATAS CONSIDERADAS NESTA ATUALIZAÇÃO:
+- Excesso de Óbitos: 15 de Março de 2020 a 03 de Dezembro de 2022 (Fonte: Vital Strategies)
+                                                                                                                   ¹ A metodologia descrita em detalhes está disponível em:
+- Taxas de Mortalidade: 14 de Fevereiro de 2023 (Fonte: Ministério da Saúde)                       https://www.conass.org.br/indicadores-de-obitos-por-causas-naturais/
+                                                    Comparação RS e Unidades Federativas
+                                                                                                         Taxa de Mortalidade por Covid-19 (por 100 mil hab.)
+                                                    500
+Taxa de Mortalidade por Covid-19 por 100 mil hab.
+
+
+
+
+                                                          444
+                                                                433
+                                                                      418
+                                                                            402   399     396     393   389
+                                                    400                                                       374   368   360
+                                                                                                                                348
+                                                                                                                                      332
+                                                                                                                                            317   308   307
+                                                    300                                                                                                       283
+                                                                                                                                                                    269   262   256   248   246   237   232
+                                                                                                                                                                                                              221   217   211
+                                                    200
+                                                                                                                                                                                                                                156
+
+
+
+                                                    100
+
+
+
+
+                                                     0
+                                                          RJ    MT    RO    PR    GO      MS      DF    SP    ES    RS    RR    AM    BR    SC    CE    MG    SE    TO    PB    AP    RN    PI    PE    AC    PA    AL    BA    MA
+                                                                                                                                       Unidade Federativa
+
+
+                                                     - O RS possui a 10º maior taxa de mortalidade do país, mantendo o menor excesso proporcional de óbitos dentre as UFs.
+                                                     - Como comparação, AL e MA, que estão entre as menores taxas de mortalidade do país possuem, respectivamente, 43,4% e 48,2% de excesso
+                                                     proporcional de óbitos acumulado desde o início da pandemia, enquanto o RS apresenta 23,8%.
+
+                                                                  Fonte:    Ministério da Saúde
+                                                                            IBGE
+                                                                  Dados até: 14/02/2023
+                                           Comparação RS e Unidades Federativas
+                                                                                                        Excesso Proporcional de Óbitos - Acumulado
+                                           70%
+                                                 63,4%
+Excesso Proporcional de Óbitos Acumulado
+
+
+
+
+                                           60%
+                                                         54,1% 53,9% 53,2%
+                                                                           52,6% 51,6%
+                                                                                       51,0%
+                                                                                                 49,2% 48,2%
+                                           50%
+                                                                                                               44,8% 43,9%
+                                                                                                                           43,4% 42,5%
+
+                                                                                                                                         38,5% 37,4%
+                                           40%
+                                                                                                                                                       35,4% 34,5% 34,5% 34,4% 34,3%
+                                                                                                                                                                                     33,5%
+                                                                                                                                                                                             31,7% 31,4% 31,1%
+                                                                                                                                                                                                                 29,1%
+                                           30%                                                                                                                                                                           27,7%
+                                                                                                                                                                                                                                 26,3%
+                                                                                                                                                                                                                                         23,8%
+
+                                           20%
+
+
+
+                                           10%
+
+
+
+                                           0%
+                                                  AM      RO    MT     AC     RR     CE    TO     GO     MA     AP     DF     AL   MS     ES    PI      PA    SE    MG    PR    PE    BR      BA    PB    RN      SC      RJ      SP      RS
+                                                                                                                                    Unidade Federativa
+
+                                             - Considerando o que seria esperado de óbitos para cada semana epidemiológica com base nos óbitos dos últimos anos e considerando a
+                                             proporção da população por gênero e idade, tem-se que o RS apresentou 23,8% a mais de óbitos que o esperado para o período.
+                                             - No acumulado da pandemia durante o período de 15 de Março de 2020 a 03 de Dezembro de 2022, o RS apresenta o menor excesso
+                                             proporcional de óbitos dentre as UFs.
+
+                                                           Fonte: Base de dados obtida junto à Vital Strategies.
+                                                           Excesso proporcional de óbitos = Excesso de óbitos/ Óbitos esperados.
+                                                           Período: 15/03/20 a 03/12/22
+                                  Comparação RS e Unidades Federativas
+                                                                                           Excesso Proporcional de Óbitos acumulado por período e Unidade Federativa
+                                        89%
+
+                                                80%
+                                 80%
+                                                         75%                                    73%
+Excesso Proporcional de Óbitos
+
+
+
+
+                                                                                         70%
+                                       67%
+                                                                  66%
+                                                                           62%     62%                                                    62%
+                                                                                                                 60%      59%
+                                                                         58%                              58%                                                                              58%
+                                 60%                                                                    55%                                                      55%
+                                                                 53%
+                                                        51%                       51%                             50%                                                              51%
+                                               49%                                                                                                 49%
+                                                                                                                                 47%                                                                      47%
+                                                                                                                                                           45%                                                                           44%
+                                                                                    41% 43%                              43%                                               42%                      42%                                                  41%
+                                 40%
+                                                                   39%
+                                                                            37%            38% 40%                                                                                                                 39%   39%    39%
+                                                                                                                                                                                                                                                 37%            38%
+                                                                                                                                   36%            36%
+                                                           34%                                                                                            33%             35%                      34%
+                                         33%                                                      32%                                    31%                      32%                                             32%
+                                                 30%                                                       31%                                                                                                                                  31%
+                                                                                                                           29%                      28%                             28%                  28%               29% 28%
+                                                                                                                   26%                                                      26%                      25%                          25%
+                                                                                                                                                                                             23%            24%     24% 24%               23%
+                                                                                                                                                                    22%           22%                                                                            21%
+                                                                                                                                                                                          19%                                           18%             17%
+                                 20%
+                                                                                                                                                                                                                                                  15%
+                                                                                                                                                                                                                                                               10%
+
+
+
+                                 0%
+                                        AM      RO        MT      AC      RR       CE    TO     GO       MA       AP      DF      AL      MS       ES       PI    PA       SE      MG      PR       PE    BR       BA     PB    RN       SC      RJ      SP     RS
+                                                                                                                                               Unidade Federativa
+                                                                           Período         2020         2021       2022         Excesso Proporcional de Óbitos (Acumulado na pandemia)
+
+                                  - Ao longo de 2020, o RS apresentou o menor excesso proporcional de óbitos do País (10%). Com o agravamento da pandemia no início de
+                                  2021, elevaram-se substancialmente os óbitos. Mesmo assim, o RS fechou 2021 com o 3º menor excesso proporcional de óbitos do país
+                                  (37,7%). Até o início de dezembro de 2022, o estado apresenta um excesso de 21,0% no ano, novamente o 3º menor no país.
+                                  - No acumulado da pandemia, o RS apresenta a menor taxa do país (23,8%).
+                                                      Fonte: Base de dados obtida junto à Vital Strategies.
+                                                      Excesso proporcional de óbitos = Excesso de óbitos/ Óbitos esperados.
+                                                      Período: 15/03/20 a 03/12/22
+                                  Comparação RS e Unidades Federativas
+                                                                                                                                                REGIÃO SUL
+                                           2020                                                                    2021                                                                    2022                                                                 Período Total (2020 a 2022)
+                                 100%                                                                    100%                                                                    100%                                                                    100%
+
+
+
+
+                                                                                                                                                Excesso Proporcional de Óbitos
+
+
+
+
+                                                                                                                                                                                                                        Excesso Proporcional de Óbitos
+Excesso Proporcional de Óbitos
+
+
+
+
+                                                                        Excesso Proporcional de Óbitos
+                                                                                                                57,9%
+
+                                 50%                                                                     50%            46,7%                                                    50%                                                                     50%
+                                                                                                                                44,2%
+                                                                                                                                        37,7%
+                                                                                                                                                                                                                                                                 34,4%    33,5%
+                                        28,3%                                                                                                                                                                                                                                         29,1%
+                                                                                                                                                                                        24,0%   22,9%   22,6%                                                                                  23,8%
+                                                19,1%                                                                                                                                                           21,0%
+                                                        17,8%
+                                                                10,0%
+
+
+                                  0%                                                                      0%                                                                      0%                                                                      0%
+                                         BR      PR      SC      RS                                              PR      BR      SC      RS                                              BR      SC      PR      RS                                               PR       BR           SC      RS
+                                          Unidade Federativa                                                      Unidade Federativa                                                      Unidade Federativa                                                              Unidade Federativa
+                                  - Se comparado aos demais estados da região Sul, o RS apresentou o menor excesso de óbitos em todos os anos.
+                                  - Entre os estados da região Sul, comparado à média nacional, percebe-se que, em 2021, apenas o Paraná apresentou excesso proporcional de
+                                  óbitos superior ao nacional.
+                                  - Considerando todo o período da pandemia, o RS mantém a menor taxa, sendo que somente o PR apresenta taxa superior ao BR.
+
+
+                                                   Fonte: Base de dados obtida junto à Vital Strategies.
+                                                   Excesso proporcional de óbitos = Excesso de óbitos/ Óbitos esperados.
+                                                   Período: 15/03/20 a 03/12/22
+                                       Comparação RS e Unidades Federativas
+                          Taxa de Mortalidade por Covid-19 x Excesso Proporcional de Óbitos Acumulado no                                                                                                             - O Gráfico relaciona a Taxa de Mortalidade
+                                                          período por UF                                                                                                                                             acumulada com o Excesso Proporcional de
+                                       500
+                                              Maior Taxa de Mortalidade por Covid-19                                                                                       Maior Taxa de Mortalidade por Covid-19
+                                                                                                                                                                                                                     Óbitos.
+                                              Menor Excesso Proporcional de Óbitos                                                                                         Maior Excesso Proporcional de Óbitos
+                                                                                                                                                                                                                     - O Excesso Proporcional de Óbitos mostra a
+                                                                                                                                                                               RO
+                                                                                                                                                                                                                     proporção de total de óbitos por causas
+Taxa de Mortalidade por 100 mil hab.
+
+
+
+
+                                                                                                         RJ
+                                                                                                                                                                            MT
+                                       400
+                                                                                                                                                                                                                     naturais desde o início da pandemia que cada
+                                                                                                                          PR                        MSDF        GO
+                                                                                                    SP
+                                                                                                                                                                                                                     estado apresentou em comparação com o
+                                                                                                                                         ES
+                                                                                               RS                                                                         RR
+                                                                                                                                                                                                  AM
+                                                                                                                                                                                                                     que era esperado a partir de projeção
+                                                                                                                          MG
+                                       300
+                                                                                                                                                                                                                     construída com base nos últimos anos.
+                                                                                                              SC         BR                                           CE
+                                                                                                                   RN     SE                                                                                         - Espera-se que estados com maior taxa de
+                                                                                                                                                                     TO
+                                                                                                                   PB
+                                                                                                                                    PI
+                                                                                                                                                          AP                                                         mortalidade por Covid-19 também apresentem
+                                       200
+                                                                                                                          PE
+                                                                                                                               PA
+                                                                                                                                                                           AC                                        maior Excesso Proporcional de Óbitos, seja por
+                                                                                                                                                     AL
+                                                                                                                    BA
+                                                                                                                                                                                                                     causas diretas ou indiretas.
+                                              Menor Taxa de Mortalidade por Covid-19                                                                                       Menor Taxa de Mortalidade por Covid-19
+                                              Menor Excesso Proporcional de Óbitos                                                                             MA          Maior Excesso Proporcional de Óbitos       - O RS, apresenta a 10ª maior taxa de
+                                       100                                                                                                                                                                            mortalidade dentre as unidades federativas
+                                             0%                 10%                    20%                    30%                             40%                   50%                   60%                     70%
+                                                                                                Excesso Proporcional de Óbitos Acum.
+                                                                                                                                                                                                                      embora, atualmente, apresenta o menor
+                                                                                                                                                                                                                      excesso proporcional de óbitos do País.
+                                                               Região          Brasil        Centro-Oeste                Nordeste                   Norte      Sudeste              Sul
+
+                                       * O Tamanho do círculo representa a População de cada Unidade Federativa.
+                                                               Fonte: Ministério da Saúde                                                Dados: 15/03/20 a 03/12/22
+                                                                     IBGE
+                                                                     Vital Strategies
+                                                Comparação RS e Unidades Federativas
+                                                                                                 Razão entre Excesso de Óbitos e Óbitos registrados por Covid-19
+                                                4
+                                                       3,86
+Razão Excesso de Óbitos / Óbitos por Covid-19
+
+
+
+
+                                                              2,94
+                                                3                    2,79
+                                                                            2,54   2,48
+                                                                                          2,26   2,25    2,20
+                                                                                                                1,99   1,95   1,91
+                                                2                                                                                    1,89   1,85   1,82   1,76   1,70   1,63    1,63   1,61   1,58   1,51   1,46   1,41   1,41   1,35   1,34   1,31
+                                                                                                                                                                                                                                                      1,13
+                                                1
+
+
+
+
+                                                0
+                                                       MA     AC     AL      PI    CE      PE     TO     BA      PB    AM     RN     MG     AP     PA     RR      SE    GO      MS     BR     MT      ES    RO     PR     SC     DF     RS      RJ    SP
+                                                                                                                                              Unidade Federativa
+
+                                                    - Quando se relaciona o Total de Excesso de Óbitos (número de óbitos além do esperado) com o Total de Óbitos registrados por Covid-19, a
+                                                    diferença entre as duas medidas pode ser resultado da subnotificação de óbitos por Covid-19, ou da elevação dos óbitos por outros motivos,
+                                                    que podem ser tanto devido à menor busca por atendimento por parte pacientes, como também decorrência da dificuldade de atendimento a
+                                                    outras doenças pela saturação da capacidade hospitalar decorrente do Covid-19, ou mesmo, no período recente, ao represamento de atendimento
+                                                    ao longo da pandemia.
+                                                    - No caso do RS, encontra-se com a terceira menor razão, à frente apenas de RJ e SP.
+
+
+                                                                Fonte: Ministério da Saúde; IBGE; Vital Strategies              Período Considerado:      15/03/20 a 03/12/22
+Comparação RS e Unidades Federativas
+                                                  Relação entre Excesso de Óbitos e Óbitos por Covid-19 x Taxa de Mortalidade por                                                                              - O Gráfico mostra a Razão entre Excesso
+                                                                                   100 mil hab.                                                                                                                Proporcional de Óbitos e Óbitos por Covid-
+                                                  4,0                                                                                                                                                          19 em contraposição à Taxa de Mortalidade.
+                                                                              MA
+                                                                                                                                                                                                               - Quanto mais afastado da linha pontilhada
+Relação Excesso de Óbitos / Óbitos por Covid-19
+
+
+
+
+                                                  3,5                                                                                                                                                          um estado se encontra, maior a probabilidade
+                                                                                                                                                                                                               de não estar captando o excesso de óbitos
+                                                                                                                                                                                                               nos registros de Covid-19. Nestes casos, é
+                                                  3,0
+                                                                                                                                                                                                               provável também que a Taxa de Mortalidade
+                                                                                                                    AC
+                                                                                                         AL
+                                                                                                                                                                                                               por Covid-19 esteja subestimada.
+                                                  2,5
+                                                                                                                           PI
+                                                                                                                                                    CE
+                                                                                                                                                                                                               - No caso extremo do Maranhão, por exemplo,
+                                                                                                                                                                                                               o Excesso de Óbitos é mais de 3 vezes o
+                                                                                                                      PE                TO
+                                                  2,0                                              BA                                                                                                          número de óbitos registrados por Covid-19.
+                                                                                                                                   PB                               AM
+                                                                                                                           RN                                                          MS
+                                                                                                              PA
+                                                                                                                                  AP              MG
+                                                                                                                                                                          RR
+                                                                                                                                                                                                                 - A comparação entre as taxas de
+                                                                                                                                             SE
+                                                  1,5
+                                                                                                                                                                                      DF GO            MT
+                                                                                                                                                                                                                 mortalidade  dos estados precisaria levar em
+                                                                                                                                                                                ES
+                                                                                                                                                         SC
+                                                                                                                                                              BR                      SP
+                                                                                                                                                                                          PR
+                                                                                                                                                                                                  RO             consideração que a estrutura para registro
+                                                                                                                                                                           RS
+                                                         Excesso de Óbitos = Nº de Óbitos por Covid-19
+                                                                                                                                                                                                          RJ     dos óbitos por Covid-19 é diferente
+                                                  1,0
+                                                        100                150                  200                             250               300               350                     400              450 regionalmente e que a plena notificação
+                                                                                                                   Taxa de Mortalidade por 100 mil hab.                                                          ainda é um desafio enfrentado nacional e
+                                                                          Região         Brasil       Centro-Oeste                      Nordeste        Norte      Sudeste           Sul                         internacionalmente.
+
+                                                  * O Tamanho do círculo representa a População de cada Unidade Federativa.
+                                                                      Fonte: Ministério da Saúde; IBGE; Vital Strategies                          Período Considerado:          15/03/20 a 03/12/22
+Excesso Proporcional de Óbitos nas UFs
+    Excesso proporcional de óbitos por semana epidemiológica- RS e UFs selecionadas
+                                                                                                                                            - Neste gráfico, o excesso de óbitos é calculado
+                                 500%
+                                                                                                                                            como proporção dos óbitos esperados,
+                                                                                                                                            permitindo melhor comparação.
+                                                                                                                                            - Em 2020, o excesso proporcional de óbitos no AM
+                                                                                                                                            e RJ permaneceu elevado nas semanas iniciais,
+Excesso proporcional de Óbitos
+
+
+
+
+                                 400%
+                                                                                                                                            enquanto o DF apresentou taxas mais elevadas
+                                                                                                                                            entre junho e setembro. Em perspectiva, observa-
+                                                                                                                                            se que o RS apresentava recorrentemente taxas
+                                 300%
+                                                                                                                                            mais baixas que os demais estados em 2020.
+                                                                                                                                            - Em 2021, AM apresentou um pico que superou o
+                                                                                                                                            anterior sendo posteriormente acompanhado pelos
+                                 200%
+                                                                                                                                            demais estados, embora em magnitude inferior.
+                                                                                                                                            - No início de 2021, o estado passou pelo maior
+                                                                                                                                            avanço, seguido por outros estados.
+                                 100%                                                                                                       - No restante de 2021, o avanço da vacinação
+                                                                                                                                            permitiu o retorno à taxas inferiores, colocando o RS
+                                                                                                                                            novamente entre as menores taxas do país.
+                                  0%                                                                                                        - Em 2022, houve uma elevação em janeiro e outra
+                                        jul 2020              jan 2021              jul 2021               jan 2022              jul 2022
+                                                                                                                                            entre maio e junho.
+                                                   AM       BR       DF       MG        PR       RJ       RS          SC    SP
+
+
+                                         Fonte: Base de dados obtida junto à Vital Strategies. Visualização elaborada por Impulso.
+                                         Excesso proporcional de óbitos = Excesso de óbitos/ Óbitos esperados.
+                                         Período: 15/03/20 a 03/12/22
+Excesso Proporcional de Óbitos Brasil e UFs
+                                                                      Excesso Proporcional de Óbitos por semana epidemiológica - Brasil e UFs
+                                                 AC                    AL                   AM                      AP   BA   BR           CE   DF
+
+                                   400,0%
+
+
+                                   200,0%
+
+
+                                     0,0%
+                                                  ES                  GO                    MA                      MG   MS   MT           PA   PB
+  Excesso Proporcional de Óbitos
+
+
+
+
+                                   400,0%
+
+
+                                   200,0%
+
+
+                                     0,0%
+                                                  PE                   PI                   PR                      RJ   RN   RO           RR   RS
+
+                                   400,0%
+
+
+                                   200,0%
+
+
+                                     0,0%
+                                                 SC                    SE                   SP                      TO
+
+                                   400,0%
+
+
+                                   200,0%
+
+
+                                     0,0%
+
+
+                                            Fonte: Base de dados obtida junto à Vital Strategies.
+                                            Excesso proporcional de óbitos = Excesso de óbitos/ Óbitos esperados.
+                                            Período: 15/03/20 a 03/12/22
+Excesso de Óbitos Acumulado nos estados
+                                            Evolução do Excesso Proporcional de óbitos acumulado - RS e UFs selecionadas
+                                                                                                                                                                  - Neste gráfico, apresenta-se o excesso
+                                           150%                                                                                                                   proporcional de óbitos acumulado por
+                                                                                                                                                                  cada UF desde o dia 15 de março de 2020.
+Excesso Proporcional de Óbitos Acumulado
+
+
+
+
+                                                                                                                                                                  - Observa-se que, no acumulado das
+                                                                                                                                                                  semanas epidemiológicas, alguns estados
+                                                                                                                                                                  se descolaram dos demais no início da
+                                           100%
+                                                                                                                                                                  pandemia.
+
+                                                                                                                                                                  - O RS se manteve com a menor taxa
+                                                                                                                                                                  acumulada durante a maior parte do
+                                                                                                                                                             AM   período.
+                                           50%
+                                                                                                                                                             DF
+                                                                                                                                                                  - No entanto, com o avanço dos óbitos
+                                                                                                                                                                  ocorridos em março de 2021 no RS, o
+                                                                                                                                                             BR
+                                                                                                                                                             RJ   estado gaúcho se aproximou dos demais.
+
+                                                                                                                                                                  - O RS ainda permanece com o menor
+                                                                                                                                                                  excesso proporcional de óbitos
+                                            0%
+                                                     jul 2020              jan 2021                 jul 2021             jan 2022                 jul 2022        acumulado em todo o período da
+                                                          AM       BR       DF        MG       PB         PI    PR        RJ        RS      SC          SP        pandemia;
+
+                                                      Fonte: Base de dados obtida junto à Vital Strategies. Visualização elaborada por Impulso.
+                                                      Excesso proporcional de óbitos = Excesso de óbitos/ Óbitos esperados.
+                                                      Período: 15/03/20 a 03/12/22
+Excesso Proporcional de Óbitos Brasil e UFs
+                                                                   Excesso Proporcional de Óbitos Acumulado por semana Epidemiológica - Brasil e UFs
+                                                       AC                    AL                   AM                      AP   BA   BR      CE         DF
+                                         150,0%
+
+                                         100,0%
+
+                                          50,0%
+
+                                           0,0%
+                                                        ES                  GO                    MA                      MG   MS   MT      PA         PB
+  Excesso Proporcional de Óbitos Acum.
+
+
+
+
+                                         150,0%
+
+                                         100,0%
+
+                                          50,0%
+
+                                           0,0%
+                                                        PE                   PI                   PR                      RJ   RN   RO      RR         RS
+                                         150,0%
+
+                                         100,0%
+
+                                          50,0%
+
+                                           0,0%
+                                                       SC                    SE                   SP                      TO
+                                         150,0%
+
+                                         100,0%
+
+                                          50,0%
+
+                                           0,0%
+
+
+                                                  Fonte: Base de dados obtida junto à Vital Strategies.
+                                                  Excesso proporcional de óbitos = Excesso de óbitos/ Óbitos esperados.
+                                                  Período: 15/03/20 a 03/12/22
+     Comparação RS e Unidades Federativas
+Unidade      População     Excesso Proporcional   Óbitos         Excesso de   Óbitos por Covid-19              Excesso Proporcional de Óbitos Acum. por UF
+Federativa                 de Óbitos Acum.        Esperados      Óbitos       (Ministério da Saúde)
+                           
+AM             4.144.597                  63,4%         44.336       28.127                  14.400
+RO             1.777.225                  54,1%         19.944       10.788                    7.368
+MT             3.484.466                  53,9%         43.797       23.624                  14.967                  52,6%
+AC              881.935                   53,2%         11.232        5.971                    2.032
+                                                                                                                                        44,8%
+RR              605.761                   52,6%          7.288        3.836                    2.177
+CE             9.132.078                  51,6%        134.846       69.589                  28.020
+TO             1.572.866                  51,0%         18.532        9.451                    4.208
+                                                                                                                63,4%                                                      31,1%
+GO             7.018.354                  49,2%         91.705       45.137                  27.637                                                 48,2%        51,6%
+                                                                                                                                  35,4%
+MA             7.075.181                  48,2%         88.310       42.526                  11.008                                                                         31,4%
+AP              845.731                   44,8%          8.948        4.010                    2.165                                                     37,4%
+DF             3.015.268                  43,9%         36.558       16.034                  11.835
+                                                                                                                                                                            34,3%
+AL             3.337.357                  43,4%         45.904       19.939                    7.145
+                                                                                                       53,2%        54,1%                       51,0%                       43,4%
+MS             2.778.986                  42,5%         41.688       17.698                  10.855                                                        31,7%         34,5%
+ES             4.018.650                  38,5%         58.440       22.487                  14.858
+                                                                                                                                53,9%
+                                                                                                                                                 43,9%
+PI             3.273.227                  37,4%         54.154       20.261                    7.969
+PA             8.602.865                  35,4%         97.120       34.418                  18.927                                       49,2%
+SE             2.298.696                  34,5%         31.889       10.996                    6.453
+                                                                                                                                                    34,5%
+MG            21.168.791                  34,5%        350.727      120.834                  63.995
+                                                                                                                                 42,5%                            38,5%
+PR            11.433.957                  34,4%        186.835       64.255                  45.523
+PE             9.557.071                  34,3%        148.507       50.871                  22.482
+                                                                                                                                            26,3%
+BR           210.147.125                  33,5%      3.316.308    1.112.541                 690.109                                                        27,7%
+                                                                                                                                        34,4%
+BA            14.873.064                  31,7%        214.660       68.025                  30.877
+PB             4.018.127                  31,4%         66.370       20.822                  10.460
+                                                                                                                                                 29,1%
+RN             3.506.853                  31,1%         52.347       16.267                    8.500                                23,8%
+SC             7.164.788                  29,1%        108.551       31.593                  22.466
+RJ            17.264.943                  27,7%        361.251       99.955                  76.143
+SP            45.919.049                  26,3%        759.078      199.610                 176.356
+RS            11.377.239                  23,8%        233.292       55.414                  41.283
+
+                     Fonte: Base de dados obtida junto à Vital Strategies; Ministério da Saúde.
+                     Período: 15/03/20 a 03/12/22
+     Comparação RS e Unidades Federativas
+                População Total                                                                                   População +60 anos
+SP      21.9%                           17.9%                                                            SP   24.5%                      18.1%
+
+MG              10.1%            10.9%                                                                   MG           11.3%       11.7%
+                 8.2%            9.0%
+RJ
+                                                      Com 5,4% da população                              RJ            10.0%     8.7%
+                  7.1%         6.1%                                                                                     7.3%    5.2%
+                                                      nacional, o RS correspondeu a
+BA                                                                                                       RS
+
+PR                 5.4%        5.8%                                                                                      6.6%   6.4%
+                   5.4%       5.0%
+                                                      5,0% do excesso de óbitos                          BA
+RS                                                                                                                       5.9%   5.3%
+                                                      acumulado no país desde o
+                                                                                                         PR
+PE                 4.5% 4.6%                                                                                          4.1%             4.0%
+                                                                                                         PE
+CE                 4.3%        6.3%                   início da pandemia.                                             3.8%      7.0%
+                                                                                                         CE
+PA                     4.1%      3.1%
+                                                                                                         SC           3.6%        2.8%
+SC              3.4%             2.8%
+                                                                                                         GO            2.9%            4.0%
+MA              3.4%          3.8%
+                                                                                                         PA            2.6%        3.2%
+GO              3.3%          4.1%
+                                                                             Com 7,3% da população MA                  2.3%        3.8%
+                 2.0%            2.5%
+AM
+                                                                              acima de 60 anos, o RS ES                 2.0%     2.0%
+ES               1.9%           2.0%
+                 1.9%           1.9%
+                                                                             correspondeu a 5,2% do PB                  1.8%     1.8%
+PB
+
+RN                1.7%         1.5%                                                excesso de óbitos RN                 1.5%     1.5%
+
+
+MT                1.7%          2.1%                                               acumulado no país PI                 1.3%     1.9%
+
+AL                1.6%          1.8%                                         durante a pandemia nesta MT                1.3%     1.9%
+                                                                                                                        1.3%     1.7%
+PI                1.6%          1.8%                                                       faixa etária. AL
+                                                                                                         DF             1.2%     1.3%
+DF                1.4%         1.4%
+
+
+
+
+          Nota: Estão listados somente os 20 maiores estados em proporção.
+          Fonte: Base de dados obtida junto à Vital Strategies.
+          Período: 15/03/20 a 03/12/22
+Excesso de Óbitos no Rio Grande do Sul
+                                                                  Óbitos Esperados e Observados por Semana Epidemiológica
+                                       4.000                                                                                                                                                             - Neste gráfico, apresenta-se o número de óbitos
+                                                                                                     3.987                                                                                               esperados e observados por semana
+                                                                                                                                                                                                         epidemiológica no estado.
+
+                                       3.500
+                                                                                                                                                                                                         - O RS apresentou excesso de óbitos de outubro
+                                                                                                                                                                                                         de 2020 a julho de 2021, sendo que o pico foi
+Óbitos Esperados e Óbitos Observados
+
+
+
+
+                                                                                                                                                                                                         atingido entre fevereiro e março de 2021.
+                                       3.000
+
+                                                                                                                                                         2.711
+                                                                                                                                                                                                         - Nos meses de inverno no RS, há um aumento
+                                                                                                                     2.593
+                                                                                                                                                                                                         do número de óbitos esperados, que, combinado
+                                                                                                                                                                                 2.433
+                                       2.500                                                                                                                                                             à redução dos óbitos provocada pelo avanço da
+                                                                2.220                                                          2.205                                                     2.205
+                                                                                                                                                                                                         vacinação, ocasionou uma redução no excesso de
+                                                                   2.127
+                                                                                                             2.242
+                                                                                                                                                                                                         óbitos.
+                                                                    2.205
+                                       2.000
+
+                                                                                                                                                                                                         - Contudo, a partir de outubro de 2021, o término
+                                                                                             1.755
+                                                                                                                                                                                                         do efeito sazonal sobre os óbitos esperados
+                                                                                                                                                                                                 1.537
+                                               1.507                                                                                   1.685
+                                                                                                                                                                 1.623                                   resulta em um retorno do excesso de óbitos,
+                                       1.500   1.403                                                                                               1.559                                                 embora em níveis menores.
+                                                       1.377
+                                                   1.344                                                     1.344                                                       1.344                   1.369
+                                                                                    1.327     1.297                                              1.327     1.297
+                                                                                                                                                                                                         - Em 2022, percebe-se aumento em janeiro e a
+                                       1.000
+                                                               jul 2020                jan 2021                        jul 2021                    jan 2022                       jul 2022               permanência do excesso até julho, quando os
+                                                                                                  Óbitos Esperados           Óbitos Observados
+                                                                                                                                                                                                         óbitos observados aproximam-se dos esperados.
+
+                                                               Fonte: Base de dados obtida junto à Vital Strategies.
+                                                               Excesso de óbitos são todos os óbitos por causas naturais acima do esperado. Excesso proporcional de óbitos = Excesso
+                                                               de óbitos/ Óbitos esperados, representado no eixo secundário. Período:    15/03/20 a 03/12/22
+Excesso de Óbitos no Rio Grande do Sul
+                     Excesso de óbitos e Excesso Proporcional de Óbitos por semana epidemiológica - RS                                                                                        - Neste gráfico, apresenta-se o excesso de
+                                                                     2.645
+                                                                                                                                                      250%
+                                                                                                                                                                                              óbitos e o excesso proporcional de
+                                                                                                                                                                                              óbitos por semana epidemiológica no
+                    2.500
+                                                                                                                                                                                              Rio Grande do Sul
+                                                                    196,6%
+                                                                                                                                                      200%
+                                                                                                                                                                                              - Nos últimos dois meses de 2020, o
+                    2.000
+                                                                                                                                                                                              excesso proporcional de óbitos elevou-
+
+
+
+
+                                                                                                                                                             Excesso proporcional de Óbitos
+                                                                                                                                                                                              se.
+Excesso de Óbitos
+
+
+
+
+                                                                                                                                                      150%
+                                                                                                                                                                                              - Enquanto o máximo atingido em 2020
+                    1.500                                                                                                                                                                     havia sido 45,5%, as taxas em Março de
+                                                                                                                1.325
+                                                                                                                                                                                              2021 chegaram a atingir 191%, o que
+                                                                                                                95,5%
+                                                                                                                                                      100%
+                                                                                                                                                                                              significa quase o triplo de óbitos
+                    1.000                                                                                                                                                                     esperados para aquela semana.
+                                                                             862
+                                                                                                                              815
+                                                                                                                          58,6%                                                               - A partir de maio de 2021, o excesso
+                                                                                                                                                      50%
+                                                                                                                                                                                              proporcional de óbitos começou a cair,
+                                                                         57,8%
+                     500
+                                                                                                                                                                                              atingindo um valor mínimo nos meses de
+                                                              301
+                                                                                                          165           199                     230                                           agosto e setembro de 2021.
+                            134
+                                                                                              41                               13,1%
+                                   20                        18,9%
+                       0                                                                                                                              0%                                      - A partir de então, houve aumento, com
+                                  jul 2020              jan 2021                   jul 2021                jan 2022                 jul 2022                                                  duas elevações relevantes observadas
+                                                            Excesso de Óbitos          Excesso Proporcional de Óbitos                                                                         em 2022, atingindo 95,5% na última
+                                   Fonte: Base de dados obtida junto à Vital Strategies.
+                                                                                                                                                                                              semana de janeiro e 58,6% em maio.
+                                   Excesso de óbitos são todos os óbitos por causas naturais acima do esperado. Excesso proporcional de óbitos = Excesso
+                                   de óbitos/ Óbitos esperados, representado no eixo secundário. Período:    15/03/20 a 03/12/22
+Excesso de Óbitos Acumulado no Rio Grande do Sul
+                                                                     Excesso de óbitos e Excesso Proporcional de Óbitos Acumulado- RS
+                    60 Mil                                                                                                                                                                                                                           40%
+                                                                                                                                                                                                                                            55 Mil
+                                                                                                                                                                                                                        53 Mil
+
+
+
+
+                                                                                                                                                                                                                                                           Excesso Proporcional de Óbitos Acum.
+                                                                                                                                                                                                        50 Mil
+                                                                                                                           31,0%                                                            46 Mil
+                                                                                                                                       28,4%                               43 Mil
+Óbitos acumulados
+
+
+
+
+                                                                                                          27,0%                                                                     26,8%                   27,3%                                    30%
+                    40 Mil                                                                                                                               38 Mil                                                         26,2%
+                                                                                                                                   35 Mil      36 Mil                                                                            24,9%   24,1%
+                                                                                                                  31 Mil
+                                                                                                                                                26,2%                                           26,4%
+                                                                                                                                                        25,6%      25,1%
+                                                                                                                                                                                                                                            23,8%
+                                                                                                                                                                                                                                                     20%
+                                                                                                     22 Mil
+                    20 Mil
+                                                                                        12,2%
+                             9,5%                                                      9 Mil
+                                     7,8%                                                                                                                                                                                                            10%
+                                                                         5 Mil
+                                                   2 Mil     2 Mil
+                             0 Mil    1 Mil
+                                                           4,9%         5,7%
+                     0 Mil
+                                              jul 2020                           jan 2021                                  jul 2021                               jan 2022                                       jul 2022
+
+                                                                                               Acum. Excesso de Óbitos         Excesso Proporcional de Óbitos Acum.
+
+
+                       - A partir de outubro de 2020, houve uma aceleração do excesso de óbitos que perdurou até final de janeiro de 2021.
+                       - Em fins de Fevereiro e durante o mês de Março de 2021, houve uma aceleração suficiente para mais que duplicar o excesso de óbitos
+                       acumulado no estado do Rio Grande do Sul.
+                       - O excesso proporcional de óbitos acumulado, após estabilizar em junho de 2021, iniciou uma queda no mês de julho, que persistiu até o final
+                       do ano.
+                       - Em 2022, a taxa acumulada voltou a aumentar, passando de 25,1% para 27,3% em junho, quando retomou trajetória de queda, chegando a
+                       23,8% no dado mais recente de dezembro de 2022.
+                                      Fonte: Base de dados obtida junto à Vital Strategies. Visualização elaborada por Impulso.
+                                      Excesso de óbitos são todos os óbitos por causas naturais acima do esperado. Excesso proporcional de óbitos = Excesso
+                                      de óbitos/ Óbitos esperados, representado no eixo secundário. Período:       15/03/20 a 03/12/22
+Excesso de Óbitos no Rio Grande do Sul
+                                          Excesso de Óbitos e Excesso Proporcional de Óbitos por Faixa Etária e Semana Epidemiológica
+                            00-29                                                                                                       30-59
+
+
+
+
+                                                                                                                                                                                                                                                          Exc. Prop. de Óbit…
+Excesso de Óbitos
+
+
+
+
+                                                                                                                                                                               327,5%
+                    1 Mil                                       168,5%
+                                                                                                                                                                                753                                                                200%
+                                                                    121,2%                          114,2%       130,1%
+                                                                                                                                                                  80,0%                                      89,4%       86,2%
+                              41,8%                                    38,9%                                                                                                                                                             48,6%
+                                                                                                                 21,2%                    17,6%                        27,3%
+                                                                                           6,2%                                                        8,1%                                                                             6,1% 102
+                             18                0           1          53                                             46 0,0%        3    39 2                             68                       13
+                    0 Mil                                                                                                                                                                                                                          0%
+
+                            60-79                                                                                                       80+
+                                                                     1.318
+
+
+
+
+                                                                                                                                                                                                                                                          Exc. Prop. de Óbit…
+Excesso de Óbitos
+
+
+
+
+                                                                225,0%
+                    1 Mil
+                                                                                                                                                                                                                                                   200%
+                                                                                                     91,5%                                                                      521                            546
+                                                   50,7%                                                          60,2%
+                                                                                                                                                                                     38,7%                               42,0%
+                                          0,1%                 160                                10,7%      13,8%         0,0%   112                           7,3%                                0,9%     115,5%              0,0%
+                             25 0                                                     0                                                  52        0                           104,6%      0                                                  13
+                                                                        24,5%                                                                            0,2%                                                         1,1%
+                    0 Mil                                                                                                                                                                                                                          0%
+
+                                    jul 2020        jan 2021                    jul 2021          jan 2022          jul 2022                     jul 2020         jan 2021              jul 2021           jan 2022          jul 2022
+
+                                                                                                   Excesso de Óbitos (eixo esquerda)          Excesso Proporcional de Óbitos
+
+        - A partir de junho de 2021, há uma redução do excesso de óbitos que pode ser observada nas faixas etárias acima de 30 anos, sendo que, nos meses
+        de julho, agosto e setembro, as faixas acima de 60 anos voltaram aos menores patamares da série.
+        - A partir de Outubro de 2021, percebe-se uma elevação mais marcante no excesso de óbitos proporcional sobre as faixas etárias de 60-79 anos.
+        - Em 2022, as elevações ficaram mais evidentes nas faixas etárias acima de 60 anos, embora seja percebida em todas as idades.
+
+                                      Fonte: Base de dados obtida junto à Vital Strategies.
+                                      Excesso proporcional de óbitos = Excesso de óbitos/ Óbitos esperados.
+                                      Período: 15/03/20 a 03/12/22
+Excesso de Óbitos no Rio Grande do Sul
+                                        Excesso de Óbitos por Faixa                         Excesso de óbitos e Excesso Proporcional de Óbitos Acumulado por Faixa Etária- RS                                                                                                                   Participação no total de Excesso
+                                                  Etária                                             60 Mil                                                                                                                                     35%
+                                                                                                                                                                                                                                                                                                   de Óbitos por Faixa Etária
+                                                                                                                                                                                                                                                                                                          100%
+                                        50%             48,7%
+                                                                                                                                                                           31,0%
+                                                                                                                                                                                                                                                                                                                             17,0%
+                                                                                                     50 Mil                                                                                                                                     30%
+
+
+
+
+                                                                                                                                                                                                                                                      Excesso Proporcional de Óbitos Acum.
+                                                                                                                                                                                                                             27,3%
+                                                                                                                                                                                                             26,8%
+                                                                                                                                                                                         26,2%                                                                                                            80%
+                                        40%
+
+                                                                                                     40 Mil                                                                                                          26,4%                      25%
+                                                                                 Óbitos acumulados
+Excesso Proporcional por Faixa Etária
+
+
+
+
+                                                34,5%
+                                                                                                                                                                                                    25,1%
+                                                                                                                                                                                                                                        23,8%
+                                                                                                                                                                                                                                                                                                          60%                47,6%
+                                        30%
+                                                                                                                                                                                                                                                20%
+
+
+
+
+                                                                                                                                                                                                                                                                                             % do total
+                                                                 26,0%
+                                                                                                     30 Mil
+
+
+
+                                                                                                                                                                                                                                                                                                          40%
+                                        20%                                                          20 Mil                                                                                                                                     15%
+                                                                                                                                                       12,2%
+
+
+                                                                                                              9,5%
+                                                                         10,5%                       10 Mil                                                                                                                                     10%
+                                                                                                                     7,8%                                                                                                                                                                                 20%                31,2%
+                                        10%
+                                                                                                              5,6%
+                                                                                                                                       4,9%
+                                                                                                                                                                                                                                                5%
+                                                                                                      0 Mil
+                                                                                                                            jul 2020              jan 2021                 jul 2021               jan 2022                   jul 2022                                                                      0%
+                                                                                                                                                                                                                                                                                                                             4,2%
+                                        0%
+                                                00-29 30-59 60-79        80+                                                              00-29   30-59      60-79   80+           Excesso Proporcional de Óbitos Acum.                                                                                      00-29   30-59   60-79   80+
+
+
+                                              - A Faixa Etária em que se percebe maior excesso proporcional de Óbitos é a de 30-59 anos, com 48,7%.
+                                              - No entanto, a Faixa Etária que tem maior participação no total de óbitos em excesso no estado é a de 60-79 anos, com cerca de 47,6%.
+                                                                Fonte: Base de dados obtida junto à Vital Strategies.
+                                                                Excesso de óbitos são todos os óbitos por causas naturais acima do esperado. Excesso proporcional de óbitos = Excesso
+                                                                de óbitos/ Óbitos esperados, representado no eixo secundário. Período:     15/03/20 a 03/12/22
+Excesso de Óbitos por Faixa Etária - UFs Selecionadas
+                                        Excesso Proporcional Acumulado por Faixa Etária - UFs Selecionadas
+                                                       86%                                                                                                                                                                       - O Excesso Proporcional de Óbitos
+                                                                                                                                                                                                                                 por Faixa Etária acumulado desde o
+                                        81%
+                                 80%
+
+                                             71%
+                                                                                                                                73%                                                                                              início da pandemia aponta que, em
+                                                                                   69%                                                                                                                                           todos os estados selecionados, as faixas
+Excesso Proporcional de Óbitos
+
+
+
+
+                                                                    63%
+                                                                                                                                                                                                                                 de 30-59 e 60-79 foram mais afetadas.
+                                 60%                                                                                                         57%
+
+                                                                                                                                                                                                                                 - Na faixa etária 30-59 anos, houve
+                                                     55%                                         54%             54%                                      55%
+                                                                         53%                                                                                           52%         53%               53%
+                                              51%          51%
+                                                                                48%
+                                                                                      47%                                     47%
+                                                                                                                                                         46%
+                                                                                                                                                                                    49%                              49%
+                                                                                                                                                                                                                                 cerca de 49% a mais do que o previsto
+                                       40%
+                                                                                                     42%
+                                                                                                                      40%                                                                                                        de óbitos no RS. No Brasil, a média foi
+                                                                   39%
+                                 40%
+                                                                          35%
+                                                                                               36%
+                                                                                                                34%
+                                                                                                                                    36%     37% 37%
+                                                                                                                                                                      34%                                           34%          de 57%.
+                                                             33%
+                                                                                                                                                               31%          31%          30%              31%
+
+
+                                                                                                          24%
+                                                                                                                                                                                                                          26%    - Na faixa de 60-79 anos, a taxa foi de
+                                                                                                                                                                                                                                 26% no RS, enquanto no país foi de
+                                                                                         23%
+
+                                 20%                                                                                   19%                                      19%
+                                                                                                                                                                                                                                 37%.
+                                                                                                                                                   17%
+                                                                                                                                                                                                    15%
+                                                                                                                                                                             14%
+                                                                                                                                      12%                                                     11%                          11%
+                                                                                                                                                                                                               9%
+                                                                                                                                                                                                                                 - Na faixa acima de 80, a taxa cai para
+                                 0%
+                                                                                                                                                                                                                                 11% no RS. No Brasil, ela se encontra
+                                         AM             MT           MA               DF             PI           MG                PR         BR              PB           SC           RJ               SP              RS
+                                                                                                                                                                                                                                 em 17%.
+                                                                           00-29         30-59       60-79        80+        Excesso Proporcional de Óbitos Acum.
+
+
+                                                    Fonte: Base de dados obtida junto à Vital Strategies.
+                                                    Excesso proporcional de óbitos = Excesso de óbitos/ Óbitos esperados.
+                                                    Período: 15/03/20 a 03/12/22
+Tabela: Comparação RS e UFs
+                                                    Unidade       População        Óbitos por    Tx. Mortalidade        Excesso Proporcional
+                                                    Federativa                     Covid-19                             de Óbitos Acum.
+                                                                                                                        
+                                                    AM                 4.144.597        14.423                 348,00                 63,4%
+                                                    RO                 1.777.225         7.426                 417,84                 54,1%
+                                                    MT                 3.484.466        15.084                 432,89                 53,9%
+                                                    AC                  881.935          2.043                 231,65                 53,2%
+                                                    RR                  605.761          2.180                 359,88                 52,6%
+                                                    CE                 9.132.078        28.114                 307,86                 51,6%
+                                                    TO                 1.572.866         4.232                 269,06                 51,0%
+                                                    GO                 7.018.354        27.989                 398,80                 49,2%
+                                                    MA                 7.075.181        11.048                 156,15                 48,2%
+                                                    AP                  845.731          2.167                 256,23                 44,8%
+                                                    DF                 3.015.268        11.839                 392,64                 43,9%
+                                                    AL                 3.337.357         7.241                 216,97                 43,4%
+                                                    MS                 2.778.986        10.992                 395,54                 42,5%
+                                                    ES                 4.018.650        15.032                 374,06                 38,5%
+                                                    PI                 3.273.227         8.065                 246,39                 37,4%
+                                                    PA                 8.602.865        19.007                 220,94                 35,4%
+                                                    SE                 2.298.696         6.502                 282,86                 34,5%
+                                                    MG                21.168.791        65.005                 307,08                 34,5%
+                                                    PR                11.433.957        45.973                 402,07                 34,4%
+                                                    PE                 9.557.071        22.672                 237,23                 34,3%
+                                                    BR               210.147.125       697.762                 332,03                 33,5%
+                                                    BA                14.873.064        31.426                 211,29                 31,7%
+                                                    PB                 4.018.127        10.541                 262,34                 31,4%
+                                                    RN                 3.506.853         8.711                 248,40                 31,1%
+                                                    SC                 7.164.788        22.689                 316,67                 29,1%
+                                                    RJ                17.264.943        76.737                 444,47                 27,7%
+                                                    SP                45.919.049       178.748                 389,27                 26,3%
+                                                    RS                11.377.239        41.876                 368,07                 23,8%
+
+
+                                                                 Dados Taxa de Mortalidade até: 14/02/2023
+      Fonte: Ministério da Saúde; IBGE; Vital Strategies         Dados Excesso de Óbitos:   15/03/20 a 03/12/22
+

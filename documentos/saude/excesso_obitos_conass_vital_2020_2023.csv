@@ -1,0 +1,6 @@
+ano,excesso_obitos_causas_naturais,obitos_esperados,excesso_proporcional,observacao,fonte
+2020,299324,1231020,24%,ano epidemiologico completo,"CONASS/Vital Strategies/Arpen - Painel de análise do excesso de mortalidade por causas naturais no Brasil 2020-2022 (cieges.conass.org.br/paineis/d6966d83-1709-4956-abb2-3d2ceb2b7b0d), atualizado 18/07/2023, extraído via API Tableau em 24/10/2026"
+2021,552282,1208317,46%,ano epidemiologico completo,idem
+2022,283974,1208317,24%,ano epidemiologico completo (esperado identico a 2021 no painel),idem
+2023,48515,262828,18%,somente SE 1-12/2023,idem
+2020-2022,1135580,3647654,31%,soma dos tres anos (calculo nosso; proporcional = soma excesso/soma esperado),idem

@@ -1,0 +1,7494 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!DOCTYPE html>
+
+	<html class="tjsc  ltr" dir="ltr" lang="pt-BR">
+
+	<head>
+<script>
+	/* TJSC object (initial settings) */
+	tjsc = {
+		cookiePolicy: {
+			agree: function(){
+				this.setAgree(true);
+				this.hide();
+			},
+			getAgree: function(){
+				return (tjsc.localStorage.get("tjsc-cookie-policy-agree") === "true");
+			},
+			hide: function(){
+				$("#tjsc-cookie-policy").addClass("d-none");
+			},
+			init: function(){
+				(!this.getAgree()) ? this.show() : ""; 
+			},
+			setAgree: function(status){
+				tjsc.localStorage.add("tjsc-cookie-policy-agree", status);
+			},
+			show: function(){
+				$("#tjsc-cookie-policy").removeClass("d-none");
+			}
+		},
+		/* Stores data with no expiration date */
+		localStorage: {
+			add: function(key, value){
+				(tjsc.localStorage.isSupported()) ? localStorage.setItem(key, value) : "";
+			},
+			addObj: function(key, value){
+				(tjsc.localStorage.isSupported()) ? localStorage.setItem(key, JSON.stringify(value)) : "";
+			},
+			get: function(key){
+				return (tjsc.localStorage.isSupported()) ? localStorage.getItem(key) : null;
+			},
+			getObj: function(key){
+				try { return (tjsc.localStorage.isSupported()) ? JSON.parse(tjsc.localStorage.get(key)) : null } catch(err){ return null };
+			},
+			isSupported: function(){
+				return (typeof(localStorage) !== "undefined") ? true : false;
+			},
+			remove: function(key){
+				(tjsc.localStorage.isSupported()) ? localStorage.removeItem(key) : "";
+			},
+			set: function(key, value){
+				(tjsc.localStorage.isSupported()) ? ((tjsc.localStorage.get(key) !== null) ? localStorage.setItem(key, value) : "") : "";
+			},
+			setObj: function(key, objKey, objValue){
+				(tjsc.localStorage.isSupported()) ? tjsc.localStorage.set(key, JSON.stringify(tjsc.localStorage.getObj(key), (k, v) => { return (k == objKey) ? objValue : v; })) : "";
+			}
+		}
+	};
+
+	/* Server cluster node */
+	document.addEventListener("keydown", function(event){
+		if (event.ctrlKey && event.altKey && ((event.key == "n") || (event.code == "KeyN"))) {
+			alert(tjsc.n);
+		}
+	});
+	document.addEventListener("touchstart", function(event){
+		if (event.touches.length == 5) {
+			alert(tjsc.n);
+		}
+	});
+</script>
+
+<script data-senna-track="temporary">
+	/* Forces the page reload to ensure it works properly (e.g.: after returning from the Control Panel) */
+	if (typeof tjsc === "undefined") {
+		document.getElementsByTagName("html")[0].classList.add("hide");
+		window.location.reload();
+	}
+
+	tjsc.n = "7";
+
+	/* Rybená (init) */
+	if (typeof(RybenaApi) !== "undefined") {
+		RybenaApi.getInstance().closePlayer();
+	} else {
+		tjsc.localStorage.setObj("rybena-state-control", "openedPlayer", !1);
+	}
+</script>
+<title>Justiça reconhece prescrição punitiva para réus no caso da compra dos respiradores - Imprensa - Poder Judiciário de Santa Catarina</title>
+
+<meta content="initial-scale=1.0, width=device-width" name="viewport" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+
+
+
+
+
+
+
+
+
+<meta content="nofollow" name="robots" /><meta content="Ao todo 14 pessoas foram denunciadas pelo Ministério Público de Santa Catarina" lang="pt-BR" name="description" /><meta content="mais pjsc,notícia" lang="pt-BR" name="keywords" />
+
+
+<script type="importmap">{"imports":{"react-dom":"/o/frontend-js-react-web/__liferay__/exports/react-dom.js","@clayui/breadcrumb":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$breadcrumb.js","@clayui/charts":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$charts.js","@clayui/empty-state":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$empty-state.js","react":"/o/frontend-js-react-web/__liferay__/exports/react.js","react-dom-16":"/o/frontend-js-react-web/__liferay__/exports/react-dom-16.js","@clayui/navigation-bar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$navigation-bar.js","@clayui/icon":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$icon.js","@clayui/table":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$table.js","@clayui/slider":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$slider.js","@clayui/multi-select":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$multi-select.js","@clayui/nav":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$nav.js","@clayui/provider":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$provider.js","@clayui/panel":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$panel.js","@clayui/list":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$list.js","@liferay/dynamic-data-mapping-form-field-type":"/o/dynamic-data-mapping-form-field-type/__liferay__/index.js","@clayui/date-picker":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$date-picker.js","@clayui/label":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$label.js","@liferay/frontend-js-api/data-set":"/o/frontend-js-dependencies-web/__liferay__/exports/@liferay$js-api$data-set.js","@clayui/core":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$core.js","@clayui/pagination-bar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$pagination-bar.js","@clayui/layout":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$layout.js","@clayui/multi-step-nav":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$multi-step-nav.js","@liferay/frontend-js-api":"/o/frontend-js-dependencies-web/__liferay__/exports/@liferay$js-api.js","@clayui/toolbar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$toolbar.js","@clayui/badge":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$badge.js","react-dom-18":"/o/frontend-js-react-web/__liferay__/exports/react-dom-18.js","@clayui/link":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$link.js","@clayui/card":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$card.js","@clayui/tooltip":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$tooltip.js","@clayui/button":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$button.js","@clayui/tabs":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$tabs.js","@clayui/sticker":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$sticker.js","@clayui/form":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$form.js","@clayui/popover":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$popover.js","@clayui/shared":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$shared.js","@clayui/localized-input":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$localized-input.js","@clayui/modal":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$modal.js","@clayui/color-picker":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$color-picker.js","@clayui/pagination":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$pagination.js","@clayui/autocomplete":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$autocomplete.js","@clayui/management-toolbar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$management-toolbar.js","@clayui/time-picker":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$time-picker.js","@clayui/upper-toolbar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$upper-toolbar.js","@clayui/loading-indicator":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$loading-indicator.js","@clayui/drop-down":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$drop-down.js","@clayui/data-provider":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$data-provider.js","@liferay/language/":"/o/js/language/","@clayui/css":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$css.js","@clayui/alert":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$alert.js","@clayui/progress-bar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$progress-bar.js","react-16":"/o/frontend-js-react-web/__liferay__/exports/react-16.js","react-18":"/o/frontend-js-react-web/__liferay__/exports/react-18.js"},"scopes":{}}</script><script data-senna-track="temporary">var Liferay = window.Liferay || {};Liferay.Icons = Liferay.Icons || {};Liferay.Icons.controlPanelSpritemap = 'https://www.tjsc.jus.br/o/admin-theme/images/clay/icons.svg'; Liferay.Icons.spritemap = 'https://www.tjsc.jus.br/o/tjsc-theme/images/clay/icons.svg';</script>
+<script data-senna-track="permanent" src="/combo?browserId=chrome&minifierType=js&languageId=pt_BR&t=1792047678907&/o/frontend-js-jquery-web/jquery/jquery.min.js&/o/frontend-js-jquery-web/jquery/init.js&/o/frontend-js-jquery-web/jquery/ajax.js&/o/frontend-js-jquery-web/jquery/bootstrap.bundle.min.js&/o/frontend-js-jquery-web/jquery/collapsible_search.js&/o/frontend-js-jquery-web/jquery/fm.js&/o/frontend-js-jquery-web/jquery/form.js&/o/frontend-js-jquery-web/jquery/popper.min.js&/o/frontend-js-jquery-web/jquery/side_navigation.js" type="text/javascript"></script>
+<script data-senna-track="permanent" type="text/javascript">window.Liferay = window.Liferay || {}; window.Liferay.CSP = {nonce: ''};</script>
+<link data-senna-track="temporary" href="https://www.tjsc.jus.br/web/imprensa/-/justica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores" rel="canonical" />
+<link data-senna-track="temporary" href="https://www.tjsc.jus.br/web/imprensa/-/justica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores" hreflang="pt-BR" rel="alternate" />
+<link data-senna-track="temporary" href="https://www.tjsc.jus.br/web/imprensa/-/justica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores" hreflang="x-default" rel="alternate" />
+<meta property="og:description" content="Ao todo 14 pessoas foram denunciadas pelo Ministério Público de Santa Catarina">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:site_name" content="Imprensa">
+<meta property="og:title" content="Justiça reconhece prescrição punitiva para réus no caso da compra dos respiradores - Imprensa - Poder Judiciário de Santa Catarina">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.tjsc.jus.br/web/imprensa/-/justica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores">
+
+
+<link href="/o/tjsc-theme/images/tjsc/favicons/favicon.ico?t=1612236470036" rel="apple-touch-icon" />
+<link href="/o/tjsc-theme/images/tjsc/favicons/favicon.ico?t=1612236470036" rel="icon" />
+
+
+
+<link class="lfr-css-file" data-senna-track="temporary" href="https://www.tjsc.jus.br/o/tjsc-theme/css/clay.css?browserId=chrome&amp;themeId=tjsctheme_WAR_tjsctheme&amp;minifierType=css&amp;languageId=pt_BR&amp;t=1792047672000" id="liferayAUICSS" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+
+	<link href="/combo?browserId=chrome&amp;minifierType=css&amp;themeId=tjsctheme_WAR_tjsctheme&amp;languageId=pt_BR&amp;com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_GP1QtxFaSsX0:%2Fo%2Fasset-publisher-web%2Fcss%2Fmain.css&amp;com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_9tQLC2qfPcrp:%2Fo%2Fjournal-content-web%2Fcss%2Fmain.css&amp;com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch:%2Fo%2Fportal-search-web%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet:%2Fo%2Fproduct-navigation-product-menu-web%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet:%2Fo%2Fproduct-navigation-user-personal-bar-web%2Fcss%2Fmain.css&amp;com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet:%2Fo%2Fsite-navigation-menu-web%2Fcss%2Fmain.css&amp;t=1792047672000" rel="stylesheet" type="text/css"
+ data-senna-track="temporary" id="e14089e0" />
+
+
+
+
+
+
+
+
+<script type="text/javascript" data-senna-track="temporary">
+	// <![CDATA[
+		var Liferay = Liferay || {};
+
+		Liferay.Browser = {
+			acceptsGzip: function () {
+				return false;
+			},
+
+			
+
+			getMajorVersion: function () {
+				return 124;
+			},
+
+			getRevision: function () {
+				return '537.36';
+			},
+			getVersion: function () {
+				return '124';
+			},
+
+			
+
+			isAir: function () {
+				return false;
+			},
+			isChrome: function () {
+				return true;
+			},
+			isEdge: function () {
+				return false;
+			},
+			isFirefox: function () {
+				return false;
+			},
+			isGecko: function () {
+				return false;
+			},
+			isIe: function () {
+				return false;
+			},
+			isIphone: function () {
+				return false;
+			},
+			isLinux: function () {
+				return true;
+			},
+			isMac: function () {
+				return false;
+			},
+			isMobile: function () {
+				return false;
+			},
+			isMozilla: function () {
+				return false;
+			},
+			isOpera: function () {
+				return false;
+			},
+			isRtf: function () {
+				return true;
+			},
+			isSafari: function () {
+				return true;
+			},
+			isSun: function () {
+				return false;
+			},
+			isWebKit: function () {
+				return true;
+			},
+			isWindows: function () {
+				return false;
+			}
+		};
+
+		Liferay.Data = Liferay.Data || {};
+
+		Liferay.Data.ICONS_INLINE_SVG = true;
+
+		Liferay.Data.NAV_SELECTOR = '#navigation';
+
+		Liferay.Data.NAV_SELECTOR_MOBILE = '#navigationCollapse';
+
+		Liferay.Data.isCustomizationView = function () {
+			return false;
+		};
+
+		Liferay.Data.notices = [
+			
+		];
+
+		(function () {
+			var available = {};
+
+			var direction = {};
+
+			
+
+				available['pt_BR'] = 'português\x20\x28Brasil\x29';
+				direction['pt_BR'] = 'ltr';
+
+			
+
+			let _cache = {};
+
+			if (Liferay && Liferay.Language && Liferay.Language._cache) {
+				_cache = Liferay.Language._cache;
+			}
+
+			Liferay.Language = {
+				_cache,
+				available,
+				direction,
+				get: function(key) {
+					let value = Liferay.Language._cache[key];
+
+					if (value === undefined) {
+						value = key;
+					}
+
+					return value;
+				}
+			};
+		})();
+
+		var featureFlags = {"LPD-10964":false,"LPD-37927":false,"LPD-10889":false,"LPS-193884":false,"LPD-30371":false,"LPD-11131":false,"LPS-178642":false,"LPS-193005":false,"LPD-31789":false,"LPD-10562":false,"LPD-11212":false,"COMMERCE-8087":false,"LPD-39304":true,"LPD-13311":true,"LRAC-10757":false,"LPD-35941":false,"LPS-180090":false,"LPS-178052":false,"LPD-21414":false,"LPS-185892":false,"LPS-186620":false,"LPD-40533":false,"LPD-40534":false,"LPS-184404":false,"LPD-40530":false,"LPD-20640":false,"LPS-198183":false,"LPD-38869":false,"LPD-35678":false,"LPD-6378":false,"LPS-153714":false,"LPD-11848":false,"LPS-170670":false,"LPD-7822":false,"LPS-169981":false,"LPD-21926":false,"LPS-177027":false,"LPD-37531":false,"LPD-11003":false,"LPD-36446":false,"LPD-39437":false,"LPS-135430":false,"LPD-20556":false,"LPD-45276":false,"LPS-134060":false,"LPS-164563":false,"LPD-32050":false,"LPS-122920":false,"LPS-199086":false,"LPD-35128":false,"LPD-10588":false,"LPD-13778":false,"LPD-11313":false,"LPD-6368":false,"LPD-34594":false,"LPS-202104":false,"LPD-19955":false,"LPD-35443":false,"LPD-39967":false,"LPD-11235":false,"LPD-11232":false,"LPS-196935":false,"LPD-43542":false,"LPS-176691":false,"LPS-197909":false,"LPD-29516":false,"COMMERCE-8949":false,"LPD-11228":false,"LPS-153813":false,"LPD-17809":false,"COMMERCE-13024":false,"LPS-165482":false,"LPS-193551":false,"LPS-197477":false,"LPS-174816":false,"LPS-186360":false,"LPD-30204":false,"LPD-32867":false,"LPS-153332":false,"LPD-35013":false,"LPS-179669":false,"LPS-174417":false,"LPD-44091":true,"LPD-31212":false,"LPD-18221":false,"LPS-155284":false,"LRAC-15017":false,"LPD-19870":false,"LPS-200108":false,"LPD-20131":false,"LPS-159643":false,"LPS-129412":false,"LPS-169837":false,"LPD-20379":false};
+
+		Liferay.FeatureFlags = Object.keys(featureFlags).reduce(
+			(acc, key) => ({
+				...acc, [key]: featureFlags[key] === 'true' || featureFlags[key] === true
+			}), {}
+		);
+
+		Liferay.PortletKeys = {
+			DOCUMENT_LIBRARY: 'com_liferay_document_library_web_portlet_DLPortlet',
+			DYNAMIC_DATA_MAPPING: 'com_liferay_dynamic_data_mapping_web_portlet_DDMPortlet',
+			ITEM_SELECTOR: 'com_liferay_item_selector_web_portlet_ItemSelectorPortlet'
+		};
+
+		Liferay.PropsValues = {
+			JAVASCRIPT_SINGLE_PAGE_APPLICATION_TIMEOUT: 0,
+			UPLOAD_SERVLET_REQUEST_IMPL_MAX_SIZE: 104857600
+		};
+
+		Liferay.ThemeDisplay = {
+
+			
+
+			
+				getLayoutId: function () {
+					return '20';
+				},
+
+				
+
+				getLayoutRelativeControlPanelURL: function () {
+					return '/group/imprensa/~/control_panel/manage?p_p_id=com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN';
+				},
+
+				getLayoutRelativeURL: function () {
+					return '/web/imprensa/noticias';
+				},
+				getLayoutURL: function () {
+					return 'https://www.tjsc.jus.br/web/imprensa/noticias';
+				},
+				getParentLayoutId: function () {
+					return '0';
+				},
+				isControlPanel: function () {
+					return false;
+				},
+				isPrivateLayout: function () {
+					return 'false';
+				},
+				isVirtualLayout: function () {
+					return false;
+				},
+			
+
+			getBCP47LanguageId: function () {
+				return 'pt-BR';
+			},
+			getCanonicalURL: function () {
+
+				
+
+				return 'https\x3a\x2f\x2fwww\x2etjsc\x2ejus\x2ebr\x2fweb\x2fimprensa\x2f-\x2fjustica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores';
+			},
+			getCDNBaseURL: function () {
+				return 'https://www.tjsc.jus.br';
+			},
+			getCDNDynamicResourcesHost: function () {
+				return '';
+			},
+			getCDNHost: function () {
+				return '';
+			},
+			getCompanyGroupId: function () {
+				return '10193';
+			},
+			getCompanyId: function () {
+				return '10155';
+			},
+			getDefaultLanguageId: function () {
+				return 'pt_BR';
+			},
+			getDoAsUserIdEncoded: function () {
+				return '';
+			},
+			getLanguageId: function () {
+				return 'pt_BR';
+			},
+			getParentGroupId: function () {
+				return '66294';
+			},
+			getPathContext: function () {
+				return '';
+			},
+			getPathImage: function () {
+				return '/image';
+			},
+			getPathJavaScript: function () {
+				return '/o/frontend-js-web';
+			},
+			getPathMain: function () {
+				return '/c';
+			},
+			getPathThemeImages: function () {
+				return 'https://www.tjsc.jus.br/o/tjsc-theme/images';
+			},
+			getPathThemeRoot: function () {
+				return '/o/tjsc-theme';
+			},
+			getPlid: function () {
+				return '3560899';
+			},
+			getPortalURL: function () {
+				return 'https://www.tjsc.jus.br';
+			},
+			getRealUserId: function () {
+				return '10159';
+			},
+			getRemoteAddr: function () {
+				return '10.18.14.44';
+			},
+			getRemoteHost: function () {
+				return '10.18.14.44';
+			},
+			getScopeGroupId: function () {
+				return '66294';
+			},
+			getScopeGroupIdOrLiveGroupId: function () {
+				return '66294';
+			},
+			getSessionId: function () {
+				return '';
+			},
+			getSiteAdminURL: function () {
+				return 'https://www.tjsc.jus.br/group/imprensa/~/control_panel/manage?p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view';
+			},
+			getSiteGroupId: function () {
+				return '66294';
+			},
+			getTimeZone: function() {
+				return 'America/Sao_Paulo';
+			},
+			getURLControlPanel: function() {
+				return '/group/control_panel?refererPlid=3560899';
+			},
+			getURLHome: function () {
+				return 'https\x3a\x2f\x2fwww\x2etjsc\x2ejus\x2ebr\x2fweb\x2ftjsc\x2finicio';
+			},
+			getUserEmailAddress: function () {
+				return '';
+			},
+			getUserId: function () {
+				return '10159';
+			},
+			getUserName: function () {
+				return '';
+			},
+			isAddSessionIdToURL: function () {
+				return false;
+			},
+			isImpersonated: function () {
+				return false;
+			},
+			isSignedIn: function () {
+				return false;
+			},
+
+			isStagedPortlet: function () {
+				
+					
+						return true;
+					
+					
+			},
+
+			isStateExclusive: function () {
+				return false;
+			},
+			isStateMaximized: function () {
+				return false;
+			},
+			isStatePopUp: function () {
+				return false;
+			}
+		};
+
+		var themeDisplay = Liferay.ThemeDisplay;
+
+		Liferay.AUI = {
+
+			
+
+			getCombine: function () {
+				return true;
+			},
+			getComboPath: function () {
+				return '/combo/?browserId=chrome&minifierType=&languageId=pt_BR&t=1792047636134&';
+			},
+			getDateFormat: function () {
+				return '%d/%m/%Y';
+			},
+			getEditorCKEditorPath: function () {
+				return '/o/frontend-editor-ckeditor-web';
+			},
+			getFilter: function () {
+				var filter = 'raw';
+
+				
+					
+						filter = 'min';
+					
+					
+
+				return filter;
+			},
+			getFilterConfig: function () {
+				var instance = this;
+
+				var filterConfig = null;
+
+				if (!instance.getCombine()) {
+					filterConfig = {
+						replaceStr: '.js' + instance.getStaticResourceURLParams(),
+						searchExp: '\\.js$'
+					};
+				}
+
+				return filterConfig;
+			},
+			getJavaScriptRootPath: function () {
+				return '/o/frontend-js-web';
+			},
+			getPortletRootPath: function () {
+				return '/html/portlet';
+			},
+			getStaticResourceURLParams: function () {
+				return '?browserId=chrome&minifierType=&languageId=pt_BR&t=1792047636134';
+			}
+		};
+
+		Liferay.authToken = 'NQLGUP7g';
+
+		
+
+		Liferay.currentURL = '\x2fweb\x2fimprensa\x2f-\x2fjustica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores';
+		Liferay.currentURLEncoded = '\x252Fweb\x252Fimprensa\x252F-\x252Fjustica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores';
+	// ]]>
+</script>
+
+<script data-senna-track="temporary" type="text/javascript">window.__CONFIG__= {basePath: '',combine: true, defaultURLParams: null, explainResolutions: false, exposeGlobal: false, logLevel: 'warn', moduleType: 'module', namespace:'Liferay', nonce: '', reportMismatchedAnonymousModules: 'warn', resolvePath: '/o/js_resolve_modules', url: '/combo/?browserId=chrome&minifierType=js&languageId=pt_BR&t=1792047636134&', waitTimeout: 60000};</script><script data-senna-track="permanent" src="/o/frontend-js-loader-modules-extender/loader.js?&mac=9WaMmhziBCkScHZwrrVcOR7VZF4=&browserId=chrome&languageId=pt_BR&minifierType=js" type="text/javascript"></script><script data-senna-track="permanent" src="/combo?browserId=chrome&minifierType=js&languageId=pt_BR&t=1792047636134&/o/frontend-js-aui-web/aui/aui/aui-min.js&/o/frontend-js-aui-web/liferay/modules.js&/o/frontend-js-aui-web/liferay/aui_sandbox.js&/o/frontend-js-aui-web/aui/attribute-base/attribute-base-min.js&/o/frontend-js-aui-web/aui/attribute-complex/attribute-complex-min.js&/o/frontend-js-aui-web/aui/attribute-core/attribute-core-min.js&/o/frontend-js-aui-web/aui/attribute-observable/attribute-observable-min.js&/o/frontend-js-aui-web/aui/attribute-extras/attribute-extras-min.js&/o/frontend-js-aui-web/aui/event-custom-base/event-custom-base-min.js&/o/frontend-js-aui-web/aui/event-custom-complex/event-custom-complex-min.js&/o/frontend-js-aui-web/aui/oop/oop-min.js&/o/frontend-js-aui-web/aui/aui-base-lang/aui-base-lang-min.js&/o/frontend-js-aui-web/liferay/dependency.js&/o/frontend-js-aui-web/liferay/util.js&/o/oauth2-provider-web/js/liferay.js&/o/frontend-js-web/liferay/dom_task_runner.js&/o/frontend-js-web/liferay/events.js&/o/frontend-js-web/liferay/lazy_load.js&/o/frontend-js-web/liferay/liferay.js&/o/frontend-js-web/liferay/global.bundle.js&/o/frontend-js-web/liferay/portlet.js&/o/frontend-js-web/liferay/workflow.js" type="text/javascript"></script>
+<script data-senna-track="temporary" type="text/javascript">window.Liferay = Liferay || {}; window.Liferay.OAuth2 = {getAuthorizeURL: function() {return 'https://www.tjsc.jus.br/o/oauth2/authorize';}, getBuiltInRedirectURL: function() {return 'https://www.tjsc.jus.br/o/oauth2/redirect';}, getIntrospectURL: function() { return 'https://www.tjsc.jus.br/o/oauth2/introspect';}, getTokenURL: function() {return 'https://www.tjsc.jus.br/o/oauth2/token';}, getUserAgentApplication: function(externalReferenceCode) {return Liferay.OAuth2._userAgentApplications[externalReferenceCode];}, _userAgentApplications: {}}</script><script data-senna-track="temporary" type="text/javascript">try {var MODULE_MAIN='staging-processes-web@5.0.65/index';var MODULE_PATH='/o/staging-processes-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			stagingprocessesweb: {
+				base: MODULE_PATH + '/js/legacy/',
+				combine: Liferay.AUI.getCombine(),
+				filter: Liferay.AUI.getFilterConfig(),
+				modules: {
+					'liferay-staging-processes-export-import': {
+						path: 'main.js',
+						requires: [
+							'aui-datatype',
+							'aui-dialog-iframe-deprecated',
+							'aui-modal',
+							'aui-parse-content',
+							'aui-toggler',
+							'liferay-portlet-base',
+							'liferay-util-window',
+						],
+					},
+				},
+				root: MODULE_PATH + '/js/legacy/',
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='exportimport-web@5.0.100/index';var MODULE_PATH='/o/exportimport-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			exportimportweb: {
+				base: MODULE_PATH + '/js/legacy/',
+				combine: Liferay.AUI.getCombine(),
+				filter: Liferay.AUI.getFilterConfig(),
+				modules: {
+					'liferay-export-import-export-import': {
+						path: 'main.js',
+						requires: [
+							'aui-datatype',
+							'aui-dialog-iframe-deprecated',
+							'aui-modal',
+							'aui-parse-content',
+							'aui-toggler',
+							'liferay-portlet-base',
+							'liferay-util-window',
+						],
+					},
+				},
+				root: MODULE_PATH + '/js/legacy/',
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='dynamic-data-mapping-web@5.0.115/index';var MODULE_PATH='/o/dynamic-data-mapping-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	const LiferayAUI = Liferay.AUI;
+
+	AUI().applyConfig({
+		groups: {
+			ddm: {
+				base: MODULE_PATH + '/js/legacy/',
+				combine: Liferay.AUI.getCombine(),
+				filter: LiferayAUI.getFilterConfig(),
+				modules: {
+					'liferay-ddm-form': {
+						path: 'ddm_form.js',
+						requires: [
+							'aui-base',
+							'aui-datatable',
+							'aui-datatype',
+							'aui-image-viewer',
+							'aui-parse-content',
+							'aui-set',
+							'aui-sortable-list',
+							'json',
+							'liferay-form',
+							'liferay-map-base',
+							'liferay-translation-manager',
+							'liferay-util-window',
+						],
+					},
+					'liferay-portlet-dynamic-data-mapping': {
+						condition: {
+							trigger: 'liferay-document-library',
+						},
+						path: 'main.js',
+						requires: [
+							'arraysort',
+							'aui-form-builder-deprecated',
+							'aui-form-validator',
+							'aui-map',
+							'aui-text-unicode',
+							'json',
+							'liferay-menu',
+							'liferay-translation-manager',
+							'liferay-util-window',
+							'text',
+						],
+					},
+					'liferay-portlet-dynamic-data-mapping-custom-fields': {
+						condition: {
+							trigger: 'liferay-document-library',
+						},
+						path: 'custom_fields.js',
+						requires: ['liferay-portlet-dynamic-data-mapping'],
+					},
+				},
+				root: MODULE_PATH + '/js/legacy/',
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='portal-workflow-kaleo-designer-web@5.0.146/index';var MODULE_PATH='/o/portal-workflow-kaleo-designer-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			'kaleo-designer': {
+				base: MODULE_PATH + '/designer/js/legacy/',
+				combine: Liferay.AUI.getCombine(),
+				filter: Liferay.AUI.getFilterConfig(),
+				modules: {
+					'liferay-kaleo-designer-autocomplete-util': {
+						path: 'autocomplete_util.js',
+						requires: ['autocomplete', 'autocomplete-highlighters'],
+					},
+					'liferay-kaleo-designer-definition-diagram-controller': {
+						path: 'definition_diagram_controller.js',
+						requires: [
+							'liferay-kaleo-designer-field-normalizer',
+							'liferay-kaleo-designer-utils',
+						],
+					},
+					'liferay-kaleo-designer-dialogs': {
+						path: 'dialogs.js',
+						requires: ['liferay-util-window'],
+					},
+					'liferay-kaleo-designer-editors': {
+						path: 'editors.js',
+						requires: [
+							'aui-ace-editor',
+							'aui-ace-editor-mode-xml',
+							'aui-base',
+							'aui-datatype',
+							'aui-node',
+							'liferay-kaleo-designer-autocomplete-util',
+							'liferay-kaleo-designer-utils',
+						],
+					},
+					'liferay-kaleo-designer-field-normalizer': {
+						path: 'field_normalizer.js',
+						requires: ['liferay-kaleo-designer-remote-services'],
+					},
+					'liferay-kaleo-designer-nodes': {
+						path: 'nodes.js',
+						requires: [
+							'aui-datatable',
+							'aui-datatype',
+							'aui-diagram-builder',
+							'liferay-kaleo-designer-editors',
+							'liferay-kaleo-designer-utils',
+						],
+					},
+					'liferay-kaleo-designer-remote-services': {
+						path: 'remote_services.js',
+						requires: ['aui-io'],
+					},
+					'liferay-kaleo-designer-templates': {
+						path: 'templates.js',
+						requires: ['aui-tpl-snippets-deprecated'],
+					},
+					'liferay-kaleo-designer-utils': {
+						path: 'utils.js',
+						requires: [],
+					},
+					'liferay-kaleo-designer-xml-definition': {
+						path: 'xml_definition.js',
+						requires: [
+							'aui-base',
+							'aui-component',
+							'dataschema-xml',
+							'datatype-xml',
+						],
+					},
+					'liferay-kaleo-designer-xml-definition-serializer': {
+						path: 'xml_definition_serializer.js',
+						requires: ['escape', 'liferay-kaleo-designer-xml-util'],
+					},
+					'liferay-kaleo-designer-xml-util': {
+						path: 'xml_util.js',
+						requires: ['aui-base'],
+					},
+					'liferay-portlet-kaleo-designer': {
+						path: 'main.js',
+						requires: [
+							'aui-ace-editor',
+							'aui-ace-editor-mode-xml',
+							'aui-tpl-snippets-deprecated',
+							'dataschema-xml',
+							'datasource',
+							'datatype-xml',
+							'event-valuechange',
+							'io-form',
+							'liferay-kaleo-designer-autocomplete-util',
+							'liferay-kaleo-designer-editors',
+							'liferay-kaleo-designer-nodes',
+							'liferay-kaleo-designer-remote-services',
+							'liferay-kaleo-designer-utils',
+							'liferay-kaleo-designer-xml-util',
+							'liferay-util-window',
+						],
+					},
+				},
+				root: MODULE_PATH + '/designer/js/legacy/',
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/frontend-js-react-web@5.0.54/index';var MODULE_PATH='/o/frontend-js-react-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			react: {
+
+				// eslint-disable-next-line
+				mainModule: MODULE_MAIN,
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='portal-search-web@6.0.148/index';var MODULE_PATH='/o/portal-search-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			search: {
+				base: MODULE_PATH + '/js/',
+				combine: Liferay.AUI.getCombine(),
+				filter: Liferay.AUI.getFilterConfig(),
+				modules: {
+					'liferay-search-custom-range-facet': {
+						path: 'custom_range_facet.js',
+						requires: ['aui-form-validator'],
+					},
+				},
+				root: MODULE_PATH + '/js/',
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/frontend-js-state-web@1.0.30/index';var MODULE_PATH='/o/frontend-js-state-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			state: {
+
+				// eslint-disable-next-line
+				mainModule: MODULE_MAIN,
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='contacts-web@5.0.65/index';var MODULE_PATH='/o/contacts-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			contactscenter: {
+				base: MODULE_PATH + '/js/legacy/',
+				combine: Liferay.AUI.getCombine(),
+				filter: Liferay.AUI.getFilterConfig(),
+				modules: {
+					'liferay-contacts-center': {
+						path: 'main.js',
+						requires: [
+							'aui-io-plugin-deprecated',
+							'aui-toolbar',
+							'autocomplete-base',
+							'datasource-io',
+							'json-parse',
+							'liferay-portlet-base',
+							'liferay-util-window',
+						],
+					},
+				},
+				root: MODULE_PATH + '/js/legacy/',
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='calendar-web@5.0.105/index';var MODULE_PATH='/o/calendar-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			calendar: {
+				base: MODULE_PATH + '/js/legacy/',
+				combine: Liferay.AUI.getCombine(),
+				filter: Liferay.AUI.getFilterConfig(),
+				modules: {
+					'liferay-calendar-a11y': {
+						path: 'calendar_a11y.js',
+						requires: ['calendar'],
+					},
+					'liferay-calendar-container': {
+						path: 'calendar_container.js',
+						requires: [
+							'aui-alert',
+							'aui-base',
+							'aui-component',
+							'liferay-portlet-base',
+						],
+					},
+					'liferay-calendar-date-picker-sanitizer': {
+						path: 'date_picker_sanitizer.js',
+						requires: ['aui-base'],
+					},
+					'liferay-calendar-interval-selector': {
+						path: 'interval_selector.js',
+						requires: ['aui-base', 'liferay-portlet-base'],
+					},
+					'liferay-calendar-interval-selector-scheduler-event-link': {
+						path: 'interval_selector_scheduler_event_link.js',
+						requires: ['aui-base', 'liferay-portlet-base'],
+					},
+					'liferay-calendar-list': {
+						path: 'calendar_list.js',
+						requires: [
+							'aui-template-deprecated',
+							'liferay-scheduler',
+						],
+					},
+					'liferay-calendar-message-util': {
+						path: 'message_util.js',
+						requires: ['liferay-util-window'],
+					},
+					'liferay-calendar-recurrence-converter': {
+						path: 'recurrence_converter.js',
+						requires: [],
+					},
+					'liferay-calendar-recurrence-dialog': {
+						path: 'recurrence.js',
+						requires: [
+							'aui-base',
+							'liferay-calendar-recurrence-util',
+						],
+					},
+					'liferay-calendar-recurrence-util': {
+						path: 'recurrence_util.js',
+						requires: ['aui-base', 'liferay-util-window'],
+					},
+					'liferay-calendar-reminders': {
+						path: 'calendar_reminders.js',
+						requires: ['aui-base'],
+					},
+					'liferay-calendar-remote-services': {
+						path: 'remote_services.js',
+						requires: [
+							'aui-base',
+							'aui-component',
+							'liferay-calendar-util',
+							'liferay-portlet-base',
+						],
+					},
+					'liferay-calendar-session-listener': {
+						path: 'session_listener.js',
+						requires: ['aui-base', 'liferay-scheduler'],
+					},
+					'liferay-calendar-simple-color-picker': {
+						path: 'simple_color_picker.js',
+						requires: ['aui-base', 'aui-template-deprecated'],
+					},
+					'liferay-calendar-simple-menu': {
+						path: 'simple_menu.js',
+						requires: [
+							'aui-base',
+							'aui-template-deprecated',
+							'event-outside',
+							'event-touch',
+							'widget-modality',
+							'widget-position',
+							'widget-position-align',
+							'widget-position-constrain',
+							'widget-stack',
+							'widget-stdmod',
+						],
+					},
+					'liferay-calendar-util': {
+						path: 'calendar_util.js',
+						requires: [
+							'aui-datatype',
+							'aui-io',
+							'aui-scheduler',
+							'aui-toolbar',
+							'autocomplete',
+							'autocomplete-highlighters',
+						],
+					},
+					'liferay-scheduler': {
+						path: 'scheduler.js',
+						requires: [
+							'async-queue',
+							'aui-datatype',
+							'aui-scheduler',
+							'dd-plugin',
+							'liferay-calendar-a11y',
+							'liferay-calendar-message-util',
+							'liferay-calendar-recurrence-converter',
+							'liferay-calendar-recurrence-util',
+							'liferay-calendar-util',
+							'liferay-scheduler-event-recorder',
+							'liferay-scheduler-models',
+							'promise',
+							'resize-plugin',
+						],
+					},
+					'liferay-scheduler-event-recorder': {
+						path: 'scheduler_event_recorder.js',
+						requires: [
+							'dd-plugin',
+							'liferay-calendar-util',
+							'resize-plugin',
+						],
+					},
+					'liferay-scheduler-models': {
+						path: 'scheduler_models.js',
+						requires: [
+							'aui-datatype',
+							'dd-plugin',
+							'liferay-calendar-util',
+						],
+					},
+				},
+				root: MODULE_PATH + '/js/legacy/',
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='frontend-editor-alloyeditor-web@5.0.56/index';var MODULE_PATH='/o/frontend-editor-alloyeditor-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			alloyeditor: {
+				base: MODULE_PATH + '/js/legacy/',
+				combine: Liferay.AUI.getCombine(),
+				filter: Liferay.AUI.getFilterConfig(),
+				modules: {
+					'liferay-alloy-editor': {
+						path: 'alloyeditor.js',
+						requires: [
+							'aui-component',
+							'liferay-portlet-base',
+							'timers',
+						],
+					},
+					'liferay-alloy-editor-source': {
+						path: 'alloyeditor_source.js',
+						requires: [
+							'aui-debounce',
+							'liferay-fullscreen-source-editor',
+							'liferay-source-editor',
+							'plugin',
+						],
+					},
+				},
+				root: MODULE_PATH + '/js/legacy/',
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/document-library-web@6.0.198/index';var MODULE_PATH='/o/document-library-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			dl: {
+				base: MODULE_PATH + '/js/legacy/',
+				combine: Liferay.AUI.getCombine(),
+				filter: Liferay.AUI.getFilterConfig(),
+				modules: {
+					'document-library-upload-component': {
+						path: 'DocumentLibraryUpload.js',
+						requires: [
+							'aui-component',
+							'aui-data-set-deprecated',
+							'aui-overlay-manager-deprecated',
+							'aui-overlay-mask-deprecated',
+							'aui-parse-content',
+							'aui-progressbar',
+							'aui-template-deprecated',
+							'liferay-search-container',
+							'querystring-parse-simple',
+							'uploader',
+						],
+					},
+				},
+				root: MODULE_PATH + '/js/legacy/',
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='frontend-js-components-web@2.0.80/index';var MODULE_PATH='/o/frontend-js-components-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			components: {
+
+				// eslint-disable-next-line
+				mainModule: MODULE_MAIN,
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}</script>
+
+
+
+
+<script type="text/javascript" data-senna-track="temporary">
+	// <![CDATA[
+		
+			
+				
+		
+
+		
+	// ]]>
+</script>
+
+
+
+
+
+	
+		
+
+			
+
+			
+		
+		
+
+
+
+	
+		
+
+			
+
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+				<meta property="og:title" content="Justiça reconhece prescrição punitiva para réus no caso da compra dos respiradores" /><meta property="og:type" content="article" /><meta property="og:url" content="https://www.tjsc.jus.br/web/imprensa/-/justica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores" /><meta property="og:image" content="https://www.tjsc.jus.br/image/journal/article?img_id=22370884&t=1792883801817" /><meta property="og:description" content="Ao todo 14 pessoas foram denunciadas pelo Ministério Público de Santa Catarina" /><meta property="og:locale" content="pt_BR" /><meta property="og:site_name" content="PJSC" /><meta property="article:author" content="Imprensa" /><meta property="article:section" content="Notícias" /><meta property="article:tag" content="mais pjsc, Notícia" />
+			
+	<link data-senna-track="temporary" href="/o/social-bookmarks-taglib/css/main.css?browserId=chrome&themeId=tjsctheme_WAR_tjsctheme&minifierType=css&languageId=pt_BR&t=1792047672000" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+
+
+<link class="lfr-css-file" data-senna-track="temporary" href="https://www.tjsc.jus.br/o/tjsc-theme/css/main.css?browserId=chrome&amp;themeId=tjsctheme_WAR_tjsctheme&amp;minifierType=css&amp;languageId=pt_BR&amp;t=1792047672000" id="liferayThemeCSS" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+	<style data-senna-track="temporary" type="text/css">
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_GP1QtxFaSsX0_ > .portlet > .portlet-content {
+
+}
+#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_GP1QtxFaSsX0 .portlet-content {
+	display: none;
+}
+
+
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN_ > .portlet > .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_dEPvCYKszk5l_ > .portlet > .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_xPU7N8GRju8j_ > .portlet > .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_ybSvJ3Bb0WAL_ > .portlet > .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_XoA42zQ1ltYC_ > .portlet > .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+	</style>
+
+
+<style data-senna-track="temporary" type="text/css">
+</style>
+<link data-senna-track="permanent" href="/o/frontend-js-aui-web/alloy_ui.css?&mac=favIEq7hPo8AEd6k+N5OVADEEls=&browserId=chrome&languageId=pt_BR&minifierType=css&themeId=tjsctheme_WAR_tjsctheme" rel="stylesheet"></link>
+<link data-senna-track="permanent" href="https://www.tjsc.jus.br/combo?browserId=chrome&minifierType=css&languageId=pt_BR&t=1792047645524&/o/tjsc-theme-contributor/css/tjsc-theme-contributor.css" rel="stylesheet" type = "text/css" />
+<script data-senna-track="permanent" src="https://www.tjsc.jus.br/combo?browserId=chrome&minifierType=js&languageId=pt_BR&t=1792047645524&/o/tjsc-theme-contributor/js/tjsc-theme-contributor.js" type = "text/javascript"></script>
+<script type="module">
+import {init} from '/o/frontend-js-spa-web/__liferay__/index.js';
+{
+init({"navigationExceptionSelectors":":not([target=\"_blank\"]):not([data-senna-off]):not([data-resource-href]):not([data-cke-saved-href]):not([data-cke-saved-href])","cacheExpirationTime":-1,"clearScreensCache":true,"portletsBlacklist":["com_liferay_login_web_portlet_CreateAccountPortlet","com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet","com_liferay_site_navigation_directory_web_portlet_SitesDirectoryPortlet","com_liferay_questions_web_internal_portlet_QuestionsPortlet","com_liferay_account_admin_web_internal_portlet_AccountUsersRegistrationPortlet","com_liferay_login_web_portlet_ForgotPasswordPortlet","com_liferay_portal_language_override_web_internal_portlet_PLOPortlet","com_liferay_login_web_portlet_LoginPortlet","com_liferay_login_web_portlet_FastLoginPortlet"],"excludedTargetPortlets":["com_liferay_users_admin_web_portlet_UsersAdminPortlet","com_liferay_server_admin_web_portlet_ServerAdminPortlet"],"validStatusCodes":[221,490,494,499,491,496,492,493,495,220],"debugEnabled":false,"loginRedirect":"","excludedPaths":["/c/document_library","/documents","/image"],"preloadCSS":false,"userNotification":{"message":"Parece que isso está demorando mais do que o esperado.","title":"Opa","timeout":30000},"requestTimeout":0});
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" data-senna-track="temporary">
+	if (window.Analytics) {
+		window._com_liferay_document_library_analytics_isViewFileEntry = false;
+	}
+</script>
+
+<script type="text/javascript">
+Liferay.on(
+	'ddmFieldBlur', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldBlurred',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					focusDuration: event.focusDuration,
+					formId: event.formId,
+					formPageTitle: event.formPageTitle,
+					page: event.page,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFieldFocus', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldFocused',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					formId: event.formId,
+					formPageTitle: event.formPageTitle,
+					page: event.page,
+					title:event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormPageShow', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'pageViewed',
+				'Form',
+				{
+					formId: event.formId,
+					formPageTitle: event.formPageTitle,
+					page: event.page,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormSubmit', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formSubmitted',
+				'Form',
+				{
+					formId: event.formId,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormView', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formViewed',
+				'Form',
+				{
+					formId: event.formId,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+</script><script>
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/o/tjsc-theme/images/tjsc/favicons/apple-touch-icon.png?t=1612236470036">
+<link rel="icon" type="image/png" sizes="32x32" href="/o/tjsc-theme/images/tjsc/favicons/favicon-32x32.png?t=1612236470036">
+<link rel="icon" type="image/png" sizes="16x16" href="/o/tjsc-theme/images/tjsc/favicons/favicon-16x16.png?t=1612236470036">
+<link rel="manifest" href="/o/tjsc-theme/images/tjsc/favicons/site.webmanifest?t=1612236470036">
+<link rel="mask-icon" href="/o/tjsc-theme/images/tjsc/favicons/safari-pinned-tab.svg?t=1612236470036" color="#333333">
+<link rel="shortcut icon" href="/o/tjsc-theme/images/tjsc/favicons/favicon.ico?t=1612236470036">
+<meta name="apple-mobile-web-app-title" content="PJSC">
+<meta name="application-name" content="PJSC">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-config" content="/o/tjsc-theme/images/tjsc/favicons/browserconfig.xml?t=1612236470036">
+<meta name="theme-color" content="#ffffff">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M10DPR56QV"></script>
+
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-M10DPR56QV');
+</script>
+
+<script src="https://cdn.rybena.com.br/dom/master/latest/rybena.js?renderTimeout=300&positionBar=right&positionPlayer=right&positionPlayerMobile=right"></script>
+
+<script>
+	AUI().ready(function(){
+		RybenaDOM.prototype.tjscPersistVisualPerspective = (function(){
+			return function(){
+				RybenaContrastLight.getInstance().factory.dom.addEventListener("click", () => {
+					if (!RybenaContrastLight.getInstance().factory.tutorial.isActive) {
+						tjsc.localStorage.addObj("tjsc-rybena-visual-perspective", {
+							"contrast": (RybenaContrastLight.getInstance().factory.isActive ? "light" : ""),
+							"saturation": ""
+						});
+					}
+				});
+
+				RybenaContrastDark.getInstance().factory.dom.addEventListener("click", () => {
+					if (!RybenaContrastDark.getInstance().factory.tutorial.isActive) {
+						tjsc.localStorage.addObj("tjsc-rybena-visual-perspective", {
+							"contrast": (RybenaContrastDark.getInstance().factory.isActive ? "dark" : ""),
+							"saturation": ""
+						});
+					}
+				});
+
+				RybenaContrastInverted.getInstance().factory.dom.addEventListener("click", () => {
+					if (!RybenaContrastInverted.getInstance().factory.tutorial.isActive) {
+						tjsc.localStorage.addObj("tjsc-rybena-visual-perspective", {
+							"contrast": (RybenaContrastInverted.getInstance().factory.isActive ? "inverted" : ""),
+							"saturation": ""
+						});
+					}
+				});
+
+				RybenaHighSaturation.getInstance().factory.dom.addEventListener("click", () => {
+					if (!RybenaHighSaturation.getInstance().factory.tutorial.isActive) {
+						tjsc.localStorage.addObj("tjsc-rybena-visual-perspective", {
+							"contrast": "",
+							"saturation": (RybenaHighSaturation.getInstance().factory.isActive ? "high" : "")
+						});
+					}
+				});
+
+				RybenaLowSaturation.getInstance().factory.dom.addEventListener("click", () => {
+					if (!RybenaLowSaturation.getInstance().factory.tutorial.isActive) {
+						tjsc.localStorage.addObj("tjsc-rybena-visual-perspective", {
+							"contrast": "",
+							"saturation": (RybenaLowSaturation.getInstance().factory.isActive ? "low" : "")
+						});
+					}
+				});
+
+				RybenaMonocromatic.getInstance().factory.dom.addEventListener("click", () => {
+					if (!RybenaMonocromatic.getInstance().factory.tutorial.isActive) {
+						tjsc.localStorage.addObj("tjsc-rybena-visual-perspective", {
+							"contrast": "",
+							"saturation": (RybenaMonocromatic.getInstance().factory.isActive ? "monocromatic" : "")
+						});
+					}
+				});
+			}
+		})();
+
+		RybenaDOM.prototype.tjscStartVisualPerspective = (function(){
+			return function(){
+				var tjscVisualPerspective = tjsc.localStorage.getObj("tjsc-rybena-visual-perspective");
+
+				if (tjscVisualPerspective && (tjscVisualPerspective["contrast"] || tjscVisualPerspective["saturation"])) {
+					if (typeof(RybenaApi) !== "undefined") {
+						if (tjscVisualPerspective["contrast"] == "light") {
+							RybenaApi.getInstance().startLightContrast();
+						} else if (tjscVisualPerspective["contrast"] == "dark") {
+							RybenaApi.getInstance().startDarkContrast();
+						} else if (tjscVisualPerspective["contrast"] == "inverted") {
+							RybenaApi.getInstance().startInvertedContrast();
+						} else if (tjscVisualPerspective["saturation"] == "high") {
+							RybenaApi.getInstance().startHighSaturation();
+						} else if (tjscVisualPerspective["saturation"] == "low") {
+							RybenaApi.getInstance().startLowSaturation();
+						} else if (tjscVisualPerspective["saturation"] == "monocromatic") {
+							RybenaApi.getInstance().startNoSaturation();
+						}
+					} else {
+						this.getRybenaScripts("hidden");
+					}
+				}
+			}
+		})();
+
+		RybenaDOM.prototype.getRybenaScripts = (function(t){
+			let originalFn = RybenaDOM.prototype.getRybenaScripts;
+
+			return function(t){
+				originalFn.apply(this, arguments);
+
+				var tjscScriptReady = function(e){
+					if (t == "hidden") {
+						// Forces the "player close", because it starts translation automatically after 10s
+						RybenaApi.getInstance().closePlayer();
+					}
+
+					e.tjscPersistVisualPerspective();
+					e.tjscStartVisualPerspective();
+				};
+
+				this.script.addEventListener("load", () => {
+					tjscScriptReady(this);
+				});
+
+				this.script.addEventListener("readystatechange", () => {
+					if ("complete" === this.readyState) {
+						tjscScriptReady(this);
+					}
+				});
+			};
+		})();
+
+		RybenaDOM.getInstance().tjscStartVisualPerspective();
+	});
+
+	Liferay.on("endNavigate", function(event){
+		RybenaDOM.getInstance().tjscStartVisualPerspective();
+	});
+</script>	</head>
+
+	<body class="chrome controls-visible  yui3-skin-sam signed-out public-page site">
+<noscript>
+	<div class="tjsc-theme-alert alert alert-danger rounded-0" role="alert">
+		<strong>ATENÇÃO</strong>: Seu navegador não possui suporte para JavaScript ou então está desabilitado, isto impede o funcionamento correto da página.
+	</div>
+</noscript>
+
+<nav id="slig_quickAccessNav" class="quick-access-nav w-100 tjsc-style-background-color-palette-primary-dark-gray tjsc-style-color-palette-secondary-white text-center" aria-label="Links rápidos">
+	<a accesskey="1" class="d-block m-1 p-2 sr-only sr-only-focusable font-weight-normal" href="#main-content"><span class="label label-light mr-2">1</span>Ir para o conteúdo</a>
+	<a accesskey="2" class="d-none m-1 p-2 sr-only sr-only-focusable font-weight-normal" href="#"><span class="label label-light mr-2">2</span>Ir para a ferramenta de acessibilidade - Rybená</a>
+</nav>
+
+<div id="tjsc-cookie-policy" class="d-none fixed-bottom tjsc-style-background-color-palette-primary-light-gray border-top tjsc-style-border-color-palette-primary-dark-gray">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="d-sm-flex align-items-center">
+					<div class="px-0 px-sm-3 py-3 tjsc-style-text-link">
+						O TJSC utiliza cookies para melhorar sua experiência de navegação. Ao utilizar nossos serviços, você concorda com esse procedimento. Para mais informações leia nossa <a href="/politica-de-privacidade-e-protecao-de-dados-pessoais">Política de Privacidade e Proteção de Dados Pessoais</a>.
+					</div>
+					<div class="px-0 px-sm-3 pt-0 pt-sm-3 pb-3 text-center">
+						<button class="btn btn-sm btn-primary" type="button" onclick="javascript: tjsc.cookiePolicy.agree();"><strong>Ciente</strong></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="d-flex flex-column min-vh-100">
+
+	<div class="d-flex flex-column flex-fill position-relative" id="wrapper">
+
+
+
+<header id="tjsc-header">
+	<style>
+		@media (max-width: 767.98px) {
+			#tjsc-header-main {
+				background-color: var(--tjsc-palette-secondary-white);
+			}
+		}
+
+		#tjsc-header-main #tjsc-header-main-content {
+			padding: 15px 0;
+		}
+
+		@media (min-width: 992px) {
+			#tjsc-header-main #tjsc-header-main-content {
+				background-image: url("/documents/d/global/tjsc-theme-imagens-vector-135-anos");
+				background-image: image-set(
+					url("/documents/d/global/tjsc-theme-imagens-vector-135-anos-webp") type("image/webp"),
+					url("/documents/d/global/tjsc-theme-imagens-vector-135-anos") type("image/png")
+				);
+				background-position: right 0px center;
+				background-repeat: no-repeat;
+				background-size: contain;
+			}
+		}
+
+		#tjsc-header-main-search {
+			width: 337px;
+			margin-right: 0px;
+		}
+
+		@media (min-width: 992px) {
+			#tjsc-header-main-search {
+				margin-right: 94px;
+			}
+		}
+	</style>
+
+	<nav id="tjsc-header-mobile" class="d-block d-sm-none navbar navbar-dark p-0">
+		<div class="container d-flex tjsc-style-background-color-palette-primary-dim-green-important py-2">
+			<button id="tjsc-header-mobile-main-menu-toggler" class="navbar-toggler btn btn-monospaced btn-sm text-3 tjsc-line-height-base border-0 ml-n1" type="button" data-toggle="collapse" data-target="#tjsc-header-mobile-main-menu" aria-controls="tjsc-header-mobile-main-menu" aria-expanded="false" aria-label="Menu principal">
+				<span class="navbar-toggler-icon align-baseline w-100 h-100 tjsc-background-image-none">
+					<i class="fa-xl fa fa-bars" aria-hidden="true"></i>
+				</span>
+			</button>
+			<div class="d-flex align-items-center">
+				<a class="navbar-brand p-0" href="https://www.tjsc.jus.br">
+					<img style="height: 32px;" alt="Logo do Poder Judiciário de Santa Catarina" src="/documents/d/global/tjsc-theme-imagens-logo-xs-135-anos" />
+					<span class="sr-only">Página inicial</span>
+				</a>
+				<div class="mx-2" style="height: 32px; border-left: 1px solid #ffffff;">&nbsp;</div>
+				<a class="navbar-brand p-0" href="/135-anos" title="Portal comemorativo dos 135 anos do TJSC" data-toggle="tooltip" data-placement="bottom">
+					<img style="height: 32px;" alt="135 anos do TJSC" src="/documents/d/global/tjsc-theme-imagens-135-anos-xs" />
+					<span class="sr-only">Portal comemorativo dos 135 anos do TJSC</span>
+				</a>
+			</div>
+
+				<a class="navbar-toggler btn btn-monospaced btn-sm text-3 tjsc-line-height-base border-0 mr-n1" href="/c/portal/login?p_l_id=3560899&amp;redirect=%2Fentrar%2Frestrito%2F%3Fportal%3Dhttps%3A%2F%2Fwww.tjsc.jus.br%2Fweb%2Fimprensa%2F-%2Fjustica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores"  rel="nofollow" aria-label="Acesso restrito">
+					<span class="navbar-toggler-icon align-baseline w-100 h-100 tjsc-background-image-none">
+						<i class="fa-xl fa fa-sign-in" aria-hidden="true"></i>
+					</span>
+					<span class="sr-only">Acesso restrito</span>
+				</a>
+		</div>
+		<div class="container d-flex tjsc-style-background-color-palette-primary-green-important">
+			<div id="tjsc-header-mobile-main-menu" class="collapse navbar-collapse tjsc-style-color-palette-secondary-white">
+					<div class="my-3" role="navigation">
+
+		<div id="tjsc-header-mobile-main-menu-collapse-0" class="pb-1">
+			<a class="tjsc-fa-toggle-caret-down-up-control tjsc-style-text-decoration font-weight-normal" href="#tjsc-header-mobile-main-menu-collapse-0-collapse" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="tjsc-header-mobile-main-menu-collapse-0-collapse"><strong>Institucional<i class="fa tjsc-fa-toggle-caret-down-up-element pl-1" aria-hidden="true"></i></strong></a>
+			<div id="tjsc-header-mobile-main-menu-collapse-0-collapse" class="collapse">
+				<ul class="list-unstyled mb-0 pl-3" role="menu">
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/calendario-institucional"  role="menuitem">Calendário e Feriados Locais</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/certidoes"  role="menuitem">Certidões</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/concursos"  role="menuitem">Concursos e Estágio</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/destinacao-de-verbas-pecuniarias"  role="menuitem">Destinação de Verbas Pecuniárias</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/diario-da-justica-eletronico"  role="menuitem">Diário da Justiça Eletrônico</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/documentacao"  role="menuitem">Documentação</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/estrutura-judiciaria"  role="menuitem">Estrutura Judiciária</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/galeria-de-presidentes"  role="menuitem">Galeria de Presidentes</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/identidade-e-comunicacao-visual"  role="menuitem">Identidade e Comunicação Visual</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/missao-e-visao"  role="menuitem">Missão e Visão</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/organograma"  role="menuitem">Organograma</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/visite-o-tjsc"  role="menuitem">Visite o TJSC</a>
+						</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="tjsc-header-mobile-main-menu-collapse-1" class="py-1">
+			<a class="tjsc-fa-toggle-caret-down-up-control tjsc-style-text-decoration font-weight-normal" href="#tjsc-header-mobile-main-menu-collapse-1-collapse" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="tjsc-header-mobile-main-menu-collapse-1-collapse"><strong>Tribunal de Justiça<i class="fa tjsc-fa-toggle-caret-down-up-element pl-1" aria-hidden="true"></i></strong></a>
+			<div id="tjsc-header-mobile-main-menu-collapse-1-collapse" class="collapse">
+				<ul class="list-unstyled mb-0 pl-3" role="menu">
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/composicao"  role="menuitem">Composição</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/diretorias"  role="menuitem">Diretorias</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/dirigentes"  role="menuitem">Dirigentes</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/nucleo-de-gerenciamento-de-precedentes-e-acoes-coletivas"  role="menuitem">Núcleo de Gerenciamento de Precedentes e Ações Coletivas</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/orgaos-administrativos"  role="menuitem">Órgãos Administrativos</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/orgaos-julgadores"  role="menuitem">Órgãos Julgadores</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/presidencia"  role="menuitem">Presidência</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/primeira-vice-presidencia"  role="menuitem">Primeira Vice-Presidência</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/segunda-vice-presidencia"  role="menuitem">Segunda Vice-Presidência</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/judicial/sessoes-do-tribunal-de-justica"  role="menuitem">Sessões de Julgamento</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/suspensao-de-prazos-e-expediente"  role="menuitem">Suspensão de Prazos e Expediente</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/terceira-vice-presidencia"  role="menuitem">Terceira Vice-Presidência</a>
+						</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="tjsc-header-mobile-main-menu-collapse-2" class="py-1">
+			<a class="tjsc-fa-toggle-caret-down-up-control tjsc-style-text-decoration font-weight-normal" href="#tjsc-header-mobile-main-menu-collapse-2-collapse" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="tjsc-header-mobile-main-menu-collapse-2-collapse"><strong>Comarcas<i class="fa tjsc-fa-toggle-caret-down-up-element pl-1" aria-hidden="true"></i></strong></a>
+			<div id="tjsc-header-mobile-main-menu-collapse-2-collapse" class="collapse">
+				<ul class="list-unstyled mb-0 pl-3" role="menu">
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/atos-normativos"  role="menuitem">Atos Normativos</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/circunscricoes"  role="menuitem">Circunscrições</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/lotacao-de-magistrados"  role="menuitem">Lotação de Magistrados</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/paginas-das-comarcas"  role="menuitem">Páginas das Comarcas</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/pauta-de-audiencia"  role="menuitem">Pauta de Audiência</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/pontos-de-inclusao-digital"  role="menuitem">Pontos de Inclusão Digital</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/suspensao-de-prazos-e-expediente"  role="menuitem">Suspensão de Prazos e Expediente</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/unidade-das-questoes-agrarias"  role="menuitem">Unidade das Questões Agrárias</a>
+						</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="tjsc-header-mobile-main-menu-collapse-3" class="py-1">
+			<a class="tjsc-fa-toggle-caret-down-up-control tjsc-style-text-decoration font-weight-normal" href="#tjsc-header-mobile-main-menu-collapse-3-collapse" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="tjsc-header-mobile-main-menu-collapse-3-collapse"><strong>Juizados e Turmas<i class="fa tjsc-fa-toggle-caret-down-up-element pl-1" aria-hidden="true"></i></strong></a>
+			<div id="tjsc-header-mobile-main-menu-collapse-3-collapse" class="collapse">
+				<ul class="list-unstyled mb-0 pl-3" role="menu">
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/juizados-especiais"  role="menuitem">Juizados Especiais</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/pautas-das-sessoes-da-turma-uniformizacao"  role="menuitem">Pautas das Sessões da Turma de Uniformização</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/pautas-das-sessoes-das-turmas-recursais"  role="menuitem">Pautas das Sessões das Turmas Recursais</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/turmas-de-recursos-e-de-uniformizacao"  role="menuitem">Turmas de Recursos e de Uniformização</a>
+						</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="tjsc-header-mobile-main-menu-collapse-4" class="py-1">
+			<a class="tjsc-fa-toggle-caret-down-up-control tjsc-style-text-decoration font-weight-normal" href="#tjsc-header-mobile-main-menu-collapse-4-collapse" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="tjsc-header-mobile-main-menu-collapse-4-collapse"><strong>Legislação<i class="fa tjsc-fa-toggle-caret-down-up-element pl-1" aria-hidden="true"></i></strong></a>
+			<div id="tjsc-header-mobile-main-menu-collapse-4-collapse" class="collapse">
+				<ul class="list-unstyled mb-0 pl-3" role="menu">
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/legislacao/externa"  role="menuitem">Externa</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/legislacao/interna"  role="menuitem">Interna</a>
+						</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="tjsc-header-mobile-main-menu-collapse-5" class="pt-1">
+			<a class="tjsc-fa-toggle-caret-down-up-control tjsc-style-text-decoration font-weight-normal" href="#tjsc-header-mobile-main-menu-collapse-5-collapse" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="tjsc-header-mobile-main-menu-collapse-5-collapse"><strong>Portais PJSC<i class="fa tjsc-fa-toggle-caret-down-up-element pl-1" aria-hidden="true"></i></strong></a>
+			<div id="tjsc-header-mobile-main-menu-collapse-5-collapse" class="collapse">
+				<ul class="list-unstyled mb-0 pl-3" role="menu">
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/academia-judicial"  role="menuitem">Academia Judicial</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/acessibilidade-e-inclusao"  role="menuitem">Acessibilidade e Inclusão</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/biblioteca"  role="menuitem">Biblioteca</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/conciliacao-e-mediacao"  role="menuitem">Conciliação e Mediação</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/corregedoria-geral-da-justica"  role="menuitem">Corregedoria-Geral da Justiça</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/extrajudicial"  role="menuitem">Corregedoria-Geral do Foro Extrajudicial</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/eproc"  role="menuitem">eproc - Processo Judicial</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/estatistica"  role="menuitem">Estatística</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/gestao-estrategica"  role="menuitem">Gestão Estratégica</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/gestao-socioambiental"  role="menuitem">Gestão Socioambiental</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/imprensa"  role="menuitem">Imprensa</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/infancia-e-juventude"  role="menuitem">Infância e Juventude</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/jurisprudencia"  role="menuitem">Jurisprudência</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/justica-restaurativa"  role="menuitem">Justiça Restaurativa</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/lei-geral-de-protecao-de-dados-pessoais"  role="menuitem">Lei Geral de Proteção de Dados Pessoais</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/licitacoes-contratos-e-patrimonio"  role="menuitem">Licitações, Contratos e Patrimônio</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/magistrado"  role="menuitem">Magistrado</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/memoria"  role="menuitem">Memória</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/orcamento-e-financas"  role="menuitem">Orçamento e Finanças</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/ouvidoria"  role="menuitem">Ouvidoria</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/ouvidoria-da-mulher"  role="menuitem">Ouvidoria da Mulher</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/seeu"  role="menuitem">SEEU - Execução Penal</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/sei"  role="menuitem">SEI - Processo Administrativo</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/servico-de-informacao-ao-cidadao"  role="menuitem">Serviço de Informação ao Cidadão</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/servidor"  role="menuitem">Servidor</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/sistemas-prisional-e-socioeducativo"  role="menuitem">Sistemas Prisional e Socioeducativo</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/tecnologia-da-informacao"  role="menuitem">Tecnologia da Informação</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/transparencia"  role="menuitem">Transparência</a>
+						</li>
+						<li role="presentation">
+							<a class="tjsc-style-text-decoration font-weight-normal" href="/web/violencia-contra-a-mulher"  role="menuitem">Violência contra a Mulher</a>
+						</li>
+				</ul>
+			</div>
+		</div>
+					</div>
+				<hr class="tjsc-style-border-color-palette-secondary-white" />
+				<div class="mb-3">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/transparencia" >
+						<i class="fa-xl fa fa-eye pr-2" aria-hidden="true"></i><strong>Transparência</strong>
+					</a>
+				</div>
+				<div class="mb-3">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/atendimento-e-contatos" >
+						<i class="fa-xl fa fa-comment pr-2" aria-hidden="true"></i><strong>Atendimento e Contatos</strong>
+					</a>
+				</div>
+				<hr class="tjsc-style-border-color-palette-secondary-white" />
+				<div class="mb-3">
+					
+		<p class="d-block d-sm-none mb-1"><strong>Nossas Redes Sociais</strong></p>
+		<ul class="list-inline mb-0" aria-label="Nossas Redes Sociais">
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/instagram" target="_blank" title="Instagram" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-instagram" aria-hidden="true"></i>
+					<span class="sr-only">Acessar Instagram</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/whatsapp" target="_blank" title="WhatsApp" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-whatsapp" aria-hidden="true"></i>
+					<span class="sr-only">Acessar WhatsApp</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/x" target="_blank" title="X" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-x-twitter" aria-hidden="true"></i>
+					<span class="sr-only">Acessar X</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/threads" target="_blank" title="Threads" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-threads" aria-hidden="true"></i>
+					<span class="sr-only">Acessar Threads</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/facebook" target="_blank" title="Facebook" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-facebook-f" aria-hidden="true"></i>
+					<span class="sr-only">Acessar Facebook</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/youtube" target="_blank" title="YouTube" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-youtube" aria-hidden="true"></i>
+					<span class="sr-only">Acessar YouTube</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/flickr" target="_blank" title="Flickr" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-flickr" aria-hidden="true"></i>
+					<span class="sr-only">Acessar Flickr</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/soundcloud" target="_blank" title="SoundCloud" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-soundcloud" aria-hidden="true"></i>
+					<span class="sr-only">Acessar SoundCloud</span>
+				</a>
+			</li>
+		</ul>
+	
+				</div>
+			</div>
+
+		</div>
+	</nav>
+
+	<div id="tjsc-header-bar-menu" class="d-none d-sm-block py-3 tjsc-style-background-color-palette-primary-dim-green text-2" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="d-flex justify-content-between align-items-center" role="menubar" aria-label="Menu superior">
+							<a class="tjsc-style-text-decoration font-weight-normal tjsc-style-color-palette-secondary-white-important text-uppercase" href="/c/portal/login?p_l_id=3560899&amp;redirect=%2Fentrar%2Frestrito%2F%3Fportal%3Dhttps%3A%2F%2Fwww.tjsc.jus.br%2Fweb%2Fimprensa%2F-%2Fjustica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores"  rel="nofollow">
+								<i class="fa-xl fa fa-sign-in pr-2" aria-hidden="true"></i><strong>Acesso restrito</strong>
+							</a>
+						<ul class="list-inline mb-0 tjsc-style-color-palette-secondary-white" role="menu">
+							<li class="list-inline-item text-uppercase mr-0" role="presentation">
+								<a class="tjsc-style-text-decoration font-weight-normal" href="/transparencia" >
+									<i class="fa-xl fa fa-eye pr-2" aria-hidden="true"></i><strong>Transparência</strong>
+								</a>
+							</li>
+							<li class="list-inline-item text-uppercase border-left tjsc-style-border-color-palette-secondary-white ml-3 mr-0 pl-4" role="presentation">
+								<a class="tjsc-style-text-decoration font-weight-normal" href="/atendimento-e-contatos" >
+									<i class="fa-xl fa fa-comment pr-2" aria-hidden="true"></i><strong>Atendimento e Contatos</strong>
+								</a>
+							</li>
+							<li class="list-inline-item d-sm-none d-md-inline-block border-left tjsc-style-border-color-palette-secondary-white ml-3 mr-0 pl-4" role="presentation">
+								
+		<p class="d-block d-sm-none mb-1"><strong>Nossas Redes Sociais</strong></p>
+		<ul class="list-inline mb-0" aria-label="Nossas Redes Sociais">
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/instagram" target="_blank" title="Instagram" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-instagram" aria-hidden="true"></i>
+					<span class="sr-only">Acessar Instagram</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/whatsapp" target="_blank" title="WhatsApp" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-whatsapp" aria-hidden="true"></i>
+					<span class="sr-only">Acessar WhatsApp</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/x" target="_blank" title="X" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-x-twitter" aria-hidden="true"></i>
+					<span class="sr-only">Acessar X</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/threads" target="_blank" title="Threads" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-threads" aria-hidden="true"></i>
+					<span class="sr-only">Acessar Threads</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/facebook" target="_blank" title="Facebook" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-facebook-f" aria-hidden="true"></i>
+					<span class="sr-only">Acessar Facebook</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/youtube" target="_blank" title="YouTube" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-youtube" aria-hidden="true"></i>
+					<span class="sr-only">Acessar YouTube</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/flickr" target="_blank" title="Flickr" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-flickr" aria-hidden="true"></i>
+					<span class="sr-only">Acessar Flickr</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/soundcloud" target="_blank" title="SoundCloud" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-soundcloud" aria-hidden="true"></i>
+					<span class="sr-only">Acessar SoundCloud</span>
+				</a>
+			</li>
+		</ul>
+	
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="tjsc-header-main" class="tjsc-style-background-color-palette-primary-light-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="tjsc-header-main-content" class="d-flex justify-content-between align-items-start">
+						<div class="d-none d-sm-flex align-items-center">
+							<a class="d-inline-block" href="https://www.tjsc.jus.br">
+								<img style="height: 80px;" alt="Logo do Poder Judiciário de Santa Catarina" src="/documents/d/global/tjsc-theme-imagens-logo" />
+								<span class="sr-only">Página inicial</span>
+							</a>
+							<div class="d-inline-block mx-2" style="height: 65px; border-left: 1px solid #c2a34d;">&nbsp;</div>
+							<a class="d-inline-block" href="/135-anos" title="Portal comemorativo dos 135 anos do TJSC" data-toggle="tooltip" data-placement="right">
+								<img style="height: 80px;" alt="135 anos do TJSC" src="/documents/d/global/tjsc-theme-imagens-135-anos" />
+								<span class="sr-only">Portal comemorativo dos 135 anos do TJSC</span>
+							</a>
+						</div>
+						<div id="tjsc-header-main-search" class="col-xs-12 col-sm-auto px-0">
+							<form class="d-flex align-items-center" action="/pesquisa" method="get">
+								<fieldset class="w-100">
+									<legend class="sr-only">Pesquisar no portal</legend>
+									<div class="input-group">
+										<div class="input-group-item input-group-prepend">
+											<input id="tjsc-header-main-search-text" class="form-control" type="text" name="q" value="" placeholder="O que você está procurando?" aria-label="O que você está procurando?" aria-describedby="tjsc-header-main-search-submit" />
+										</div>
+										<div class="input-group-item input-group-append input-group-item-shrink">
+											<button id="tjsc-header-main-search-submit" class="btn border tjsc-style-background-color-palette-secondary-white tjsc-style-color-palette-primary-dark-gray" type="submit">
+												<span class="sr-only">Pesquisar</span>
+												<i class="fa-lg fas fa-magnifying-glass" aria-hidden="true"></i>
+											</button>
+										</div>
+									</div>
+								</fieldset>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="tjsc-header-main-menu" class="d-none d-sm-block tjsc-style-background-color-palette-primary-green" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+						<ul class="nav nav-pills nav-justified" role="menubar" aria-label="Menu principal">
+
+		<li class="nav-item dropdown" role="presentation">
+			<a id="tjsc-header-main-menu-dropdown-toggle-0" class="nav-link btn dropdown-toggle tjsc-fa-toggle-caret-down-up-control rounded-0 tjsc-text-3-5 font-weight-normal tjsc-style-color-palette-secondary-white-important" href="javascript:;" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Institucional<i class="fa tjsc-fa-toggle-caret-down-up-element text-2 pl-1" aria-hidden="true"></i>
+			</a>
+			<ul class="dropdown-menu " role="menu" aria-labelledby="tjsc-header-main-menu-dropdown-toggle-0">
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/calendario-institucional"  role="menuitem">Calendário e Feriados Locais</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/certidoes"  role="menuitem">Certidões</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/concursos"  role="menuitem">Concursos e Estágio</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/destinacao-de-verbas-pecuniarias"  role="menuitem">Destinação de Verbas Pecuniárias</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/diario-da-justica-eletronico"  role="menuitem">Diário da Justiça Eletrônico</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/documentacao"  role="menuitem">Documentação</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/estrutura-judiciaria"  role="menuitem">Estrutura Judiciária</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/galeria-de-presidentes"  role="menuitem">Galeria de Presidentes</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/identidade-e-comunicacao-visual"  role="menuitem">Identidade e Comunicação Visual</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/missao-e-visao"  role="menuitem">Missão e Visão</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/organograma"  role="menuitem">Organograma</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/visite-o-tjsc"  role="menuitem">Visite o TJSC</a>
+					</li>
+			</ul>
+		</li>
+
+		<li class="nav-item dropdown" role="presentation">
+			<a id="tjsc-header-main-menu-dropdown-toggle-1" class="nav-link btn dropdown-toggle tjsc-fa-toggle-caret-down-up-control rounded-0 tjsc-text-3-5 font-weight-normal tjsc-style-color-palette-secondary-white-important" href="javascript:;" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Tribunal de Justiça<i class="fa tjsc-fa-toggle-caret-down-up-element text-2 pl-1" aria-hidden="true"></i>
+			</a>
+			<ul class="dropdown-menu " role="menu" aria-labelledby="tjsc-header-main-menu-dropdown-toggle-1">
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/composicao"  role="menuitem">Composição</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/diretorias"  role="menuitem">Diretorias</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/dirigentes"  role="menuitem">Dirigentes</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/nucleo-de-gerenciamento-de-precedentes-e-acoes-coletivas"  role="menuitem">Núcleo de Gerenciamento de Precedentes e Ações Coletivas</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/orgaos-administrativos"  role="menuitem">Órgãos Administrativos</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/orgaos-julgadores"  role="menuitem">Órgãos Julgadores</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/presidencia"  role="menuitem">Presidência</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/primeira-vice-presidencia"  role="menuitem">Primeira Vice-Presidência</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/segunda-vice-presidencia"  role="menuitem">Segunda Vice-Presidência</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/judicial/sessoes-do-tribunal-de-justica"  role="menuitem">Sessões de Julgamento</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/suspensao-de-prazos-e-expediente"  role="menuitem">Suspensão de Prazos e Expediente</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/terceira-vice-presidencia"  role="menuitem">Terceira Vice-Presidência</a>
+					</li>
+			</ul>
+		</li>
+
+		<li class="nav-item dropdown" role="presentation">
+			<a id="tjsc-header-main-menu-dropdown-toggle-2" class="nav-link btn dropdown-toggle tjsc-fa-toggle-caret-down-up-control rounded-0 tjsc-text-3-5 font-weight-normal tjsc-style-color-palette-secondary-white-important" href="javascript:;" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Comarcas<i class="fa tjsc-fa-toggle-caret-down-up-element text-2 pl-1" aria-hidden="true"></i>
+			</a>
+			<ul class="dropdown-menu " role="menu" aria-labelledby="tjsc-header-main-menu-dropdown-toggle-2">
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/atos-normativos"  role="menuitem">Atos Normativos</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/circunscricoes"  role="menuitem">Circunscrições</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/lotacao-de-magistrados"  role="menuitem">Lotação de Magistrados</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/paginas-das-comarcas"  role="menuitem">Páginas das Comarcas</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/pauta-de-audiencia"  role="menuitem">Pauta de Audiência</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/pontos-de-inclusao-digital"  role="menuitem">Pontos de Inclusão Digital</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/suspensao-de-prazos-e-expediente"  role="menuitem">Suspensão de Prazos e Expediente</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/unidade-das-questoes-agrarias"  role="menuitem">Unidade das Questões Agrárias</a>
+					</li>
+			</ul>
+		</li>
+
+		<li class="nav-item dropdown" role="presentation">
+			<a id="tjsc-header-main-menu-dropdown-toggle-3" class="nav-link btn dropdown-toggle tjsc-fa-toggle-caret-down-up-control rounded-0 tjsc-text-3-5 font-weight-normal tjsc-style-color-palette-secondary-white-important" href="javascript:;" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Juizados e Turmas<i class="fa tjsc-fa-toggle-caret-down-up-element text-2 pl-1" aria-hidden="true"></i>
+			</a>
+			<ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="tjsc-header-main-menu-dropdown-toggle-3">
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/juizados-especiais"  role="menuitem">Juizados Especiais</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/pautas-das-sessoes-da-turma-uniformizacao"  role="menuitem">Pautas das Sessões da Turma de Uniformização</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/pautas-das-sessoes-das-turmas-recursais"  role="menuitem">Pautas das Sessões das Turmas Recursais</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/turmas-de-recursos-e-de-uniformizacao"  role="menuitem">Turmas de Recursos e de Uniformização</a>
+					</li>
+			</ul>
+		</li>
+
+		<li class="nav-item dropdown" role="presentation">
+			<a id="tjsc-header-main-menu-dropdown-toggle-4" class="nav-link btn dropdown-toggle tjsc-fa-toggle-caret-down-up-control rounded-0 tjsc-text-3-5 font-weight-normal tjsc-style-color-palette-secondary-white-important" href="javascript:;" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Legislação<i class="fa tjsc-fa-toggle-caret-down-up-element text-2 pl-1" aria-hidden="true"></i>
+			</a>
+			<ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="tjsc-header-main-menu-dropdown-toggle-4">
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/legislacao/externa"  role="menuitem">Externa</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/legislacao/interna"  role="menuitem">Interna</a>
+					</li>
+			</ul>
+		</li>
+
+		<li class="nav-item dropdown" role="presentation">
+			<a id="tjsc-header-main-menu-dropdown-toggle-5" class="nav-link btn dropdown-toggle tjsc-fa-toggle-caret-down-up-control rounded-0 tjsc-text-3-5 font-weight-normal tjsc-style-color-palette-secondary-white-important" href="javascript:;" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Portais PJSC<i class="fa tjsc-fa-toggle-caret-down-up-element text-2 pl-1" aria-hidden="true"></i>
+			</a>
+			<ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="tjsc-header-main-menu-dropdown-toggle-5">
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/academia-judicial"  role="menuitem">Academia Judicial</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/acessibilidade-e-inclusao"  role="menuitem">Acessibilidade e Inclusão</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/biblioteca"  role="menuitem">Biblioteca</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/conciliacao-e-mediacao"  role="menuitem">Conciliação e Mediação</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/corregedoria-geral-da-justica"  role="menuitem">Corregedoria-Geral da Justiça</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/extrajudicial"  role="menuitem">Corregedoria-Geral do Foro Extrajudicial</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/eproc"  role="menuitem">eproc - Processo Judicial</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/estatistica"  role="menuitem">Estatística</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/gestao-estrategica"  role="menuitem">Gestão Estratégica</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/gestao-socioambiental"  role="menuitem">Gestão Socioambiental</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/imprensa"  role="menuitem">Imprensa</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/infancia-e-juventude"  role="menuitem">Infância e Juventude</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/jurisprudencia"  role="menuitem">Jurisprudência</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/justica-restaurativa"  role="menuitem">Justiça Restaurativa</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/lei-geral-de-protecao-de-dados-pessoais"  role="menuitem">Lei Geral de Proteção de Dados Pessoais</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/licitacoes-contratos-e-patrimonio"  role="menuitem">Licitações, Contratos e Patrimônio</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/magistrado"  role="menuitem">Magistrado</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/memoria"  role="menuitem">Memória</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/orcamento-e-financas"  role="menuitem">Orçamento e Finanças</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/ouvidoria"  role="menuitem">Ouvidoria</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/ouvidoria-da-mulher"  role="menuitem">Ouvidoria da Mulher</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/seeu"  role="menuitem">SEEU - Execução Penal</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/sei"  role="menuitem">SEI - Processo Administrativo</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/servico-de-informacao-ao-cidadao"  role="menuitem">Serviço de Informação ao Cidadão</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/servidor"  role="menuitem">Servidor</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/sistemas-prisional-e-socioeducativo"  role="menuitem">Sistemas Prisional e Socioeducativo</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/tecnologia-da-informacao"  role="menuitem">Tecnologia da Informação</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/transparencia"  role="menuitem">Transparência</a>
+					</li>
+					<li role="presentation">
+						<a class="dropdown-item px-3 py-1" href="/web/violencia-contra-a-mulher"  role="menuitem">Violência contra a Mulher</a>
+					</li>
+			</ul>
+		</li>
+						</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		$(function(){
+			$('#tjsc-header-mobile button[data-target="#tjsc-header-mobile-main-menu"]').on("click", function(){
+				$(this).blur();
+
+				if (!$("#tjsc-header-mobile-main-menu").hasClass("show")) {
+					$("#tjsc-header-mobile-main-menu").css("display", "block").attr("tabindex", "-1").focus().removeAttr("tabindex");
+				} else {
+					$("#tjsc-header-mobile-main-menu").css("display", "");
+				}
+			});
+			$('#tjsc-header-mobile button[data-target="#tjsc-header-mobile-user-menu"]').on("click", function(){
+				$(this).blur();
+
+				if (!$("#tjsc-header-mobile-user-menu").hasClass("show")) {
+					$("#tjsc-header-mobile-user-menu").css("display", "block").attr("tabindex", "-1").focus().removeAttr("tabindex");
+				} else {
+					$("#tjsc-header-mobile-user-menu").css("display", "");
+				}
+			});
+
+			$("#tjsc-header-main-search > form").on("submit", function(event){
+				$("#tjsc-header-main-search-text").prop("readonly", true);
+				$("#tjsc-header-main-search-submit").prop("disabled", true);
+				$("#tjsc-header-main-search-submit > i").attr("class", "fa-fw fas fa-spinner fa-spin-pulse");
+			});
+		});
+	</script>
+</header>
+		<main class=" flex-fill" id="content">
+
+
+<div id="tjsc-content-breadcrumb" class="mb-3">
+			<div class="container d-none d-sm-block">
+			<div class="row">
+				<div class="col-sm-12">
+					<ol class="breadcrumb mb-0" aria-label="Você está em">
+						<li class="breadcrumb-item">
+							<a class="breadcrumb-link" href="https://www.tjsc.jus.br"><i class="fa fa-home" aria-hidden="true"></i><span class="sr-only">Página inicial</span></a>
+						</li>
+
+							<li class="breadcrumb-item ">
+									<a class="breadcrumb-link" href="/web/imprensa">
+								Imprensa
+									</a>
+							</li>
+							<li class="breadcrumb-item ">
+									<a class="breadcrumb-link" href="/web/imprensa/noticias">
+								Notícias
+									</a>
+							</li>
+							<li class="breadcrumb-item active" aria-current="page">
+									<a class="breadcrumb-link" href="/web/imprensa/noticias/-/asset_publisher/k7R3gE05fUVN/content/id/22370890?p_r_p_assetEntryId=22370890&amp;_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN_languageId=pt_BR&amp;_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN_type=content">
+								Justiça reconhece prescrição punitiva para réus no caso da compra dos respiradores
+									</a>
+							</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+</div>
+			<h1 class="sr-only">Justiça reconhece prescrição punitiva para réus no caso da compra dos respiradores - Imprensa - Poder Judiciário de Santa Catarina</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<style type="text/css">
+			.master-layout-fragment .portlet-header {
+				display: none;
+			}
+		</style>
+
+		
+
+		<div class="bootstrap-sm9-sm3-layouttpl container" id="main-content">
+	<div class="portlet-layout row">
+		<div class="col-sm-9 portlet-column portlet-column-first" id="column-1">
+			<div class="portlet-dropzone portlet-column-content portlet-column-content-first" id="layout-column_column-1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_  portlet-static portlet-static-end tjsc-portlet-title-content portlet-asset-publisher " id="p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN_">
+		<span id="p_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+
+<section class="portlet" id="portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN">
+
+
+	<div class="portlet-content">
+
+			<div class="autofit-float autofit-row portlet-header">
+
+					<div class="autofit-col autofit-col-expand">
+						<h2 class="portlet-title-text">Notícias</h2>
+					</div>
+
+			</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+		
+		
+			
+		
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="asset-full-content clearfix mb-5 default-asset-publisher show-asset-title " data-fragments-editor-item-id="10108-22370883" data-fragments-editor-item-type="fragments-editor-mapped-item" >
+
+	
+
+	
+
+	
+		<div class="align-items-center d-flex mb-2">
+			<p class="component-title h4">
+				
+					<a class="header-back-to lfr-portal-tooltip" href="https://www.tjsc.jus.br/web/imprensa/noticias/-/asset_publisher/k7R3gE05fUVN/?p_r_p_assetEntryId=22370890" title="Voltar" aria-label="Voltar" ><svg class="lexicon-icon lexicon-icon-angle-left" role="presentation" ><use xlink:href="https://www.tjsc.jus.br/o/tjsc-theme/images/clay/icons.svg#angle-left" /></svg></a>
+				
+
+				
+					<span class="asset-title d-inline">
+						Justiça reconhece prescrição punitiva para réus no caso da compra dos respiradores
+					</span>
+				
+			</p>
+
+			
+				
+			
+		</div>
+	
+
+	<span class="asset-anchor lfr-asset-anchor" id="22370890"></span>
+
+	
+
+	<div class="asset-content mb-3">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="22370881" data-analytics-asset-title="Justiça reconhece prescrição punitiva para réus no caso da compra dos respiradores" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="22370883">
+			
+
+			
+
+
+
+
+
+<link href="/o/tjsc-theme/js/libs/unitegallery/1.7.45/css/unitegallery.css" rel="stylesheet">
+<link href="/o/tjsc-theme/js/libs/unitegallery/1.7.45/themes/default/ug-theme-default.css" rel="stylesheet">
+<script src="/o/tjsc-theme/js/libs/unitegallery/1.7.45/js/unitegallery.min.js"></script>
+<script src="/o/tjsc-theme/js/libs/unitegallery/1.7.45/themes/default/ug-theme-default.js"></script>
+<script src="/o/tjsc-theme/js/libs/clipboard.js/2.0.4/js/clipboard.min.js"></script>
+
+<style>
+	#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN.portlet > .portlet-content > .portlet-header {
+		display: none;
+	}
+</style>
+
+<script>
+	Liferay.on("allPortletsReady", function(){
+		$(document).ready(function(){
+			$("#portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN .asset-details").append('<a class="ml-3 btn btn-primary" href="/web/imprensa/noticias" role="button">Mais notícias</a>');
+
+			var tjscNewsGalleryNode = $("#tjsc-news-gallery_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN_");
+
+			if ((tjscNewsGalleryNode.html()) && (tjscNewsGalleryNode.html().trim() != "")) {
+				var tjscNewsGalleryApi = tjscNewsGalleryNode.unitegallery({
+					gallery_width: 665,
+					gallery_height: 440,
+					gallery_min_width: null,
+					gallery_min_height: null,
+					gallery_background_color: "var(--tjsc-palette-secondary-white)",
+
+					slider_scale_mode: "fill",
+					slider_scale_mode_fullscreen: "down",
+					slider_background_color: "inherit",
+					slider_controls_always_on: false,
+					slider_enable_zoom_panel: false,
+					slider_enable_arrows: false,
+					slider_zoom_mousewheel: false,
+
+					theme_hide_panel_under_width: null,
+					textpanel_bg_color: "var(--tjsc-palette-primary-darker-gray)",
+					textpanel_bg_opacity: 0.7,
+					theme_enable_hidepanel_button: false,
+					theme_text_padding_left: (25 + 2),
+					textpanel_text_valign: "middle",
+					textpanel_desc_color: "var(--tjsc-palette-secondary-white)",
+					textpanel_css_description: {
+						"display": "-webkit-box",
+						"-webkit-line-clamp": "2",
+						"-webkit-box-orient": "vertical",
+						"overflow": "hidden"
+					},
+					theme_enable_play_button: false,
+
+					strippanel_background_color: "var(--tjsc-palette-primary-darker-gray)",
+					strippanel_padding_top: 0,
+					strippanel_padding_bottom: 0,
+
+					strip_control_avia: false,
+					strip_space_between_thumbs: 8,
+					thumb_width: 0,
+					thumb_height: 0,
+					thumb_fixed_size: false,
+					thumb_border_width: 2,
+					thumb_over_border_width: 2,
+					thumb_selected_border_width: 2,
+					thumb_border_color: $(":root").css("--tjsc-palette-secondary-white"),
+					thumb_over_border_color: $(":root").css("--tjsc-palette-primary-light-green"),
+					thumb_selected_border_color: $(":root").css("--tjsc-palette-primary-light-green")
+				});
+
+				Liferay.once("endNavigate", function(event){
+					tjscNewsGalleryApi.destroy();
+				});
+			}
+
+			if (ClipboardJS.isSupported()) {
+				new ClipboardJS("#tjsc-news-copy-link-trigger_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN_", {
+					text: function(trigger){
+						var link = $('meta[property="og:url"]').attr("content");
+
+						return (link) ? link : $(location).attr("href");
+					}
+				}).on("success", function(e){
+					var triggerNode = $(e.trigger);
+					var triggerOriginalTitle = triggerNode.attr("data-original-title");
+					var triggerNewTitle = "Copiado!";
+
+					triggerNode.attr("data-original-title", triggerNewTitle).tooltip("show").attr("data-original-title", triggerOriginalTitle);
+
+					e.clearSelection();
+				}).on("error", function(e){
+					var triggerNode = $(e.trigger);
+					var triggerOriginalTitle = triggerNode.attr("data-original-title");
+					var triggerNewTitle = "Tecle Ctrl+C para copiar";
+
+					triggerNode.attr("data-original-title", triggerNewTitle).tooltip("show").attr("data-original-title", triggerOriginalTitle);
+				});
+			} else {
+				$("#tjsc-news-copy-link-trigger_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN_").remove();
+			}
+		});
+	});
+</script>
+
+<div id="tjsc-news_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN_">
+		<h3 class="tjsc-style-content-title-1 mt-0">Ao todo 14 pessoas foram denunciadas pelo Ministério Público de Santa Catarina</h3>
+
+	<div class="text-2 mb-3">
+		<div class="tjsc-style-color-palette-primary-darker-gray text-lowercase">
+			10 junho 2025 | 10h44min
+
+		</div>
+
+	</div>
+
+	<div id="tjsc-news-gallery_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN_" class="mb-3 border" style="display: none;">
+			<img data-fileentryid="" title="Imagem em destaque" alt="A imagem mostra uma pessoa deitada em uma maca, coberta com um lençol azul. A pessoa está sendo atendida em um ambiente que parece ser uma sala de cirurgia, pois há um profissional de saúde ao lado dela, vestindo roupas médicas azuis e segurando uma máscara de oxigênio sobre o rosto do paciente. Ao lado, há máquinas médicas com vários cabos e tubos conectados. O ambiente e os equipamentos sugerem uma situação de cuidados médicos intensivos, possivelmente relacionada à anestesia ou respiração assistida." src="/image/journal/article?img_id=22370884&amp;t=1792883801817" data-image="/image/journal/article?img_id=22370884&amp;t=1792883801817" />
+	</div>
+
+	<div class="tjsc-video-embed-responsive mb-3"><p>Decisão saneadora do juízo da Vara Criminal da Região Metropolitana da Comarca da Capital reconheceu a prescrição punitiva para Helton de Souza Zeferino, Carlos Charlie Campos Maia e Carlos Roberto Costa Júnior quanto ao crime de peculato culposo. Os três foram denunciados pelo Ministério Público junto com outras 11 pessoas, entre empresários e agentes públicos, no caso da compra de 200 respiradores pelo governo do Estado de Santa Catarina, em março de 2020.</p>
+
+<p>Os aparelhos foram então adquiridos ao preço total de R$ 33 milhões e seriam destinados ao tratamento de pacientes da Covid-19. Helton de Souza Zeferino era à época o secretário de Estado da Saúde. Campos Maia ocupava a função de diretor de Licitações e Contratações da secretaria, e Carlos Roberto Costa Júnior era assessor jurídico da pasta.</p>
+
+<p>De início, o despacho do magistrado responsável pelo caso postergou a análise de uma das preliminares arguidas pelos defensores dos denunciados, e rejeitou as demais apresentadas - foram 12 no total. A seguir, foi analisada a prescrição da pretensão punitiva em relação ao crime de peculato culposo, caracterizado pela negligência, imprudência ou imperícia de agente público, ao facilitar que outra pessoa cometa desvio ou apropriação de bens públicos.</p>
+
+<p>A decisão lembra que a pena máxima no caso seria de um ano de detenção, e a pena privativa dos três chegaria ao máximo de um ano e quatro meses como ocupantes de cargos em comissão, função de direção ou assessoramento. A pena está sujeita ao prazo prescricional de quatro anos. Como os fatos imputados aos denunciados ocorreram no período compreendido entre o dia 22 de março e meados do mês de abril de 2020, a denúncia foi rejeitada quanto ao crime de peculato culposo. Foi o único delito pelo qual os três foram denunciados pelo MP. (Ação Penal - Procedimento Ordinário n. 5072294-18.2021.8.24.0023)</p>
+
+<p><iframe allow="autoplay" frameborder="no" height="166" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2111025237&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true" width="100%"></iframe></p>
+
+<div style="color:#cccccc; line-break:anywhere; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; word-break:normal"><a href="https://soundcloud.com/tjscoficial" style="color: #cccccc; text-decoration: none;" target="_blank" title="Tribunal de Justiça de Santa Catarina - TJSC">Tribunal de Justiça de Santa Catarina - TJSC</a> · <a href="https://soundcloud.com/tjscoficial/boletim-tjsc-10jun25-prescric" style="color: #cccccc; text-decoration: none;" target="_blank" title="BOLETIM-TJSC-10JUN25-PRESCRIÇÃO-AI">BOLETIM-TJSC-10JUN25-PRESCRIÇÃO-AI</a></div></div>
+
+	<div class="tjsc-style-text-link text-tjsc-palette-primary-darker-gray text-2 mb-3">
+
+				Conteúdo: <a href="/nucleo-de-comunicacao-institucional">NCI/Assessoria de Imprensa</a><br />
+
+	</div>
+
+	<p><a id="tjsc-news-copy-link-trigger_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN_" href="javascript:;" title="Copiar para a área de transferência" data-toggle="tooltip" data-placement="right">Copiar o <em>link</em> desta notícia.</a></p>
+</div>
+
+			
+		</div>
+
+		
+
+	
+
+
+
+
+
+	</div>
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		<hr class="separator" />
+
+		<div class="autofit-row autofit-float autofit-row-center asset-details">
+			
+
+			
+
+			
+
+			
+
+			
+				<div class="autofit-col">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="taglib-social-bookmarks" id="ykmt_column_2d_1_0_socialBookmarks">
+	
+		
+			
+			<div><button class="btn btn-outline-borderless btn-sm btn-outline-secondary" type="button" >Compartilhar</button><div id="fhgf"></div></div>
+		
+		
+	
+</div>
+				</div>
+			
+		</div>
+	
+
+	
+
+	
+
+	
+</div>
+	
+	
+
+
+
+
+
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+</div>
+		</div>
+		<div class="col-sm-3 portlet-column portlet-column-last" id="column-2">
+			<div class="portlet-dropzone portlet-column-content portlet-column-content-last" id="layout-column_column-2">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end tjsc-portlet-only-content portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_SUNhl9nlAZu1_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_SUNhl9nlAZu1"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_SUNhl9nlAZu1">
+
+
+	<div class="portlet-content">
+
+			<div class="autofit-float autofit-row portlet-header">
+
+
+					<div class="autofit-col autofit-col-end">
+						<div class="autofit-section">
+							<div class="visible-interaction">
+
+	
+
+	
+</div>
+						</div>
+					</div>
+			</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						
+
+							
+
+							<div class="" data-fragments-editor-item-id="10108-23167043" data-fragments-editor-item-type="fragments-editor-mapped-item" >
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="23167041" data-analytics-asset-title="Código Fonte (HTML, CSS e JS) - Imprensa - Notícias - Canal de Notícias" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="23167043">
+			
+
+			
+<div class="tjsc-style-color-palette-secondary-white">
+	<a class="d-flex align-items-center justify-content-center py-3 rounded tjsc-style-background-color-palette-primary-green" href="/redes-sociais/whatsapp">
+		<div class="pl-3 pl-sm-2 pl-md-3 text-uppercase text-center">Inscreva-se no nosso canal de notícias</div>
+		<div class="px-3 px-sm-2 px-md-3"><i class="fa-3x fa-brands fa-whatsapp" aria-hidden="true"></i></div>
+	</a>
+</div>
+
+			
+		</div>
+
+		
+
+	
+
+
+
+							</div>
+						
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_  portlet-static portlet-static-end tjsc-portlet-only-content portlet-nested-portlets tjsc-style-background-color-palette-primary-light-gray mb-6 px-3" id="p_p_id_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_XoA42zQ1ltYC_">
+		<span id="p_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_XoA42zQ1ltYC"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+
+<section class="portlet" id="portlet_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_XoA42zQ1ltYC">
+
+
+	<div class="portlet-content">
+
+			<div class="autofit-float autofit-row portlet-header">
+
+
+			</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="bootstrap-md12-layouttpl container" id="_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_XoA42zQ1ltYC__main-content">
+	<div class="portlet-layout row">
+		<div class="col-md-12 portlet-column portlet-column-only" id="_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_XoA42zQ1ltYC__column-1">
+			<div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column__com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_XoA42zQ1ltYC__column-1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end tjsc-portlet-only-content portlet-journal-content mt-n1" id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_dEPvCYKszk5l_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_dEPvCYKszk5l"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_dEPvCYKszk5l">
+
+
+	<div class="portlet-content">
+
+			<div class="autofit-float autofit-row portlet-header">
+
+
+					<div class="autofit-col autofit-col-end">
+						<div class="autofit-section">
+							<div class="visible-interaction">
+
+	
+
+	
+</div>
+						</div>
+					</div>
+			</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						
+
+							
+
+							<div class="" data-fragments-editor-item-id="10108-20409806" data-fragments-editor-item-type="fragments-editor-mapped-item" >
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="20409804" data-analytics-asset-title="Conteúdo Web Básico - Imprensa - Notícias - Título - Instagram" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="20409806">
+			
+
+			<h4 class="tjsc-style-content-title-2">Instagram</h4>
+
+			
+		</div>
+
+		
+
+	
+
+
+
+							</div>
+						
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end tjsc-portlet-only-content portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_AFPUM5tgvJuI_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_AFPUM5tgvJuI"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_AFPUM5tgvJuI">
+
+
+	<div class="portlet-content">
+
+			<div class="autofit-float autofit-row portlet-header">
+
+
+					<div class="autofit-col autofit-col-end">
+						<div class="autofit-section">
+							<div class="visible-interaction">
+
+	
+
+	
+</div>
+						</div>
+					</div>
+			</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						
+
+							
+
+							<div class="" data-fragments-editor-item-id="10108-20410012" data-fragments-editor-item-type="fragments-editor-mapped-item" >
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="20410010" data-analytics-asset-title="Publicação no Instagram" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="20410012">
+			
+
+			
+
+
+<div class="row row-cols-1 mx-n1 mb-n2">
+
+		<div class="col mb-2 px-1">
+			<a class="d-block " href="https://www.instagram.com/p/DerDAbYysGz/" target="_blank">
+				<img data-fileentryid="" class="img-fluid d-block mx-auto" style="width: 318px;" src="/documents/10994886/20410013/Captura+de+tela+2026-10-16+164309.png/bb89ac8d-3040-5a50-5953-55fb60865a0b?t=1792434091743" title="Por dentro do TJSC - CEAV" alt="Servidora do TJSC na entrada da Sala Lilás onde funciona a CEAV" data-toggle="tooltip" data-placement="bottom" />
+			</a>
+		</div>
+</div>
+
+			
+		</div>
+
+		
+
+	
+
+
+
+							</div>
+						
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end tjsc-portlet-only-content portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_ybSvJ3Bb0WAL_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_ybSvJ3Bb0WAL"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_ybSvJ3Bb0WAL">
+
+
+	<div class="portlet-content">
+
+			<div class="autofit-float autofit-row portlet-header">
+
+
+					<div class="autofit-col autofit-col-end">
+						<div class="autofit-section">
+							<div class="visible-interaction">
+
+	
+
+	
+</div>
+						</div>
+					</div>
+			</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						
+
+							
+
+							<div class="" data-fragments-editor-item-id="10108-20409820" data-fragments-editor-item-type="fragments-editor-mapped-item" >
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="20409818" data-analytics-asset-title="Conteúdo Web Básico - Imprensa - Notícias - Título - YouTube" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="20409820">
+			
+
+			<h4 class="tjsc-style-content-title-2">YouTube</h4>
+
+			
+		</div>
+
+		
+
+	
+
+
+
+							</div>
+						
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end tjsc-portlet-only-content portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_nlw02hew4Jc7_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_nlw02hew4Jc7"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_nlw02hew4Jc7">
+
+
+	<div class="portlet-content">
+
+			<div class="autofit-float autofit-row portlet-header">
+
+
+					<div class="autofit-col autofit-col-end">
+						<div class="autofit-section">
+							<div class="visible-interaction">
+
+	
+
+	
+</div>
+						</div>
+					</div>
+			</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						
+
+							
+
+							<div class="" data-fragments-editor-item-id="10108-20410044" data-fragments-editor-item-type="fragments-editor-mapped-item" >
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="20410042" data-analytics-asset-title="Publicação no YouTube" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="20410044">
+			
+
+			
+
+
+<div class="row row-cols-1 mx-n1 mb-n2">
+
+		<div class="col mb-2 px-1">
+			<a class="d-block " href="https://youtu.be/XY7dr5eMie8" >
+				<img data-fileentryid="" class="img-fluid d-block mx-auto" style="width: 318px;" src="/documents/66294/3583102/evento-criancas+menor.png/0b2bf011-a90d-b82e-de36-71f44832ec89?t=1792689415278" title="TJSC celebra história, cidadania, fantasia e aprendizado em evento para as crianças" alt="Banner com imagem da revista Aventuras na Justiça" data-toggle="tooltip" data-placement="bottom" />
+			</a>
+		</div>
+</div>
+
+			
+		</div>
+
+		
+
+	
+
+
+
+							</div>
+						
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end tjsc-portlet-only-content portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_9tQLC2qfPcrp_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_9tQLC2qfPcrp"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_9tQLC2qfPcrp">
+
+
+	<div class="portlet-content">
+
+			<div class="autofit-float autofit-row portlet-header">
+
+
+					<div class="autofit-col autofit-col-end">
+						<div class="autofit-section">
+							<div class="visible-interaction">
+
+	
+
+	
+</div>
+						</div>
+					</div>
+			</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						
+
+							
+
+							<div class="" data-fragments-editor-item-id="10108-20409848" data-fragments-editor-item-type="fragments-editor-mapped-item" >
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="20409846" data-analytics-asset-title="Conteúdo Web Básico - Imprensa - Notícias - Título - Flickr" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="20409848">
+			
+
+			<h4 class="tjsc-style-content-title-2">Flickr</h4>
+
+			
+		</div>
+
+		
+
+	
+
+
+
+							</div>
+						
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end tjsc-portlet-only-content portlet-journal-content mb-6" id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_xPU7N8GRju8j_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_xPU7N8GRju8j"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_xPU7N8GRju8j">
+
+
+	<div class="portlet-content">
+
+			<div class="autofit-float autofit-row portlet-header">
+
+
+					<div class="autofit-col autofit-col-end">
+						<div class="autofit-section">
+							<div class="visible-interaction">
+
+	
+
+	
+</div>
+						</div>
+					</div>
+			</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						
+
+							
+
+							<div class="" data-fragments-editor-item-id="10108-20410109" data-fragments-editor-item-type="fragments-editor-mapped-item" >
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="20410107" data-analytics-asset-title="Publicação no Flickr" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="20410109">
+			
+
+			
+
+
+<div class="row row-cols-2 mx-n1 mb-n2">
+
+		<div class="col mb-2 px-1">
+			<a class="d-block h-100" href="https://www.flickr.com/photos/tjsc_oficial/albums/72177720336130187/with/55588002698/" >
+				<img data-fileentryid="" class="img-fluid d-block float-right" style="width: 155px;" src="/documents/66294/23412009/vara-estudais-execucoes+penais-menor.jpg/65289d68-10a9-920c-bfc5-4e0a1e97e91e?t=1792172764341" title="Vara Estadual Execuções Fiscais Municipais" alt="Foto das autoridades no momento da inauguração da Vara Estadual de Execuções Fiscais" data-toggle="tooltip" data-placement="bottom" />
+			</a>
+		</div>
+
+		<div class="col mb-2 px-1">
+			<a class="d-block h-100" href="https://www.flickr.com/photos/tjsc_oficial/albums/72177720336123145/with/55587174893/" >
+				<img data-fileentryid="" class="img-fluid d-block float-left" style="width: 155px;" src="/documents/66294/23412009/curso-inovacao-menor.jpg/5e3748c1-2542-3d81-1628-d1906ca46169?t=1792172619432" title="Curso &quot;Inovação Aplicada Juizados Especiais Cíveis&quot;" alt="Foto geral do curso com participantes divididos em duas mesas de trabalho" data-toggle="tooltip" data-placement="bottom" />
+			</a>
+		</div>
+
+		<div class="col mb-2 px-1">
+			<a class="d-block h-100" href="https://www.flickr.com/photos/tjsc_oficial/albums/72177720336052382/" >
+				<img data-fileentryid="" class="img-fluid d-block float-right" style="width: 155px;" src="/documents/66294/23412009/reuniao-juizes-menor.jpg/c463f59f-d88b-722a-1108-cb01c104b593?t=1792172473644" title="II Encontro Juízes Corregedores Unidades Prisionais" alt="Foto geral da reunião focando na mesa das autoridades" data-toggle="tooltip" data-placement="bottom" />
+			</a>
+		</div>
+
+		<div class="col mb-2 px-1">
+			<a class="d-block h-100" href="https://www.flickr.com/photos/tjsc_oficial/albums/72177720336035243/" >
+				<img data-fileentryid="" class="img-fluid d-block float-left" style="width: 155px;" src="/documents/66294/23412009/revista-menor.jpg/44556195-90b6-b8d5-01a9-3549d03927cd?t=1792172351931" title="Lançamento Revista Quadrinhos &quot;Aventuras na Justiça&quot;" alt="Fotos de seis crianças segurando a revista nas mãos" data-toggle="tooltip" data-placement="bottom" />
+			</a>
+		</div>
+</div>
+
+			
+		</div>
+
+		
+
+	
+
+
+
+							</div>
+						
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end tjsc-portlet-only-content portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_rRLvGkojn7SX_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_rRLvGkojn7SX"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_rRLvGkojn7SX">
+
+
+	<div class="portlet-content">
+
+			<div class="autofit-float autofit-row portlet-header">
+
+
+					<div class="autofit-col autofit-col-end">
+						<div class="autofit-section">
+							<div class="visible-interaction">
+
+	
+
+	
+</div>
+						</div>
+					</div>
+			</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						
+
+							
+
+							<div class="" data-fragments-editor-item-id="10108-23167063" data-fragments-editor-item-type="fragments-editor-mapped-item" >
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="23167061" data-analytics-asset-title="Código Fonte (HTML, CSS e JS) - Imprensa - Notícias - Atendimento" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="23167063">
+			
+
+			
+<p>Atendimento à imprensa e a magistrado(a)s:</p>
+<p class="tjsc-style-text-link-off"><i class="fa-brands fa-whatsapp pr-1 tjsc-style-color-palette-primary-green" aria-hidden="true"></i>WhatsApp: <br class="w-100 d-none d-sm-block d-lg-none" /><a href="https://wa.me/5548984141493">(48) 98414-1493</a></p>
+<p class="tjsc-style-text-link-off"><i class="fa-regular fa-envelope pr-1 tjsc-style-color-palette-primary-green" aria-hidden="true"></i>E-mail: <br class="w-100 d-none d-sm-block d-lg-none" /><a href="mailto:imprensa@tjsc.jus.br">imprensa@tjsc.jus.br</a></p>
+
+			
+		</div>
+
+		
+
+	
+
+
+
+							</div>
+						
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+</div>
+		</div>
+	</div>
+</div>
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+</div>
+		</div>
+	</div>
+</div>
+	
+
+
+<form action="#" aria-hidden="true" class="hide" id="hrefFm" method="post" name="hrefFm"><span></span><button hidden type="submit">Oculto</button></form>
+
+	
+
+		</main>
+
+
+
+
+<footer id="tjsc-footer">
+	<div class="tjsc-style-background-color-palette-primary-light-gray tjsc-style-color-palette-primary-dark-green-important text-center" role="navigation">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-xs-12 col-sm-4 col-md-3 py-2">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/atendimento-e-contatos" >
+						<i class="fa-xl fa fa-comment pr-2" aria-hidden="true"></i><strong>Atendimento e Contatos</strong>
+					</a>
+				</div>
+				<div class="col-xs-12 d-sm-none pt-1 tjsc-style-background-color-palette-secondary-white"></div>
+				<div class="col-xs-12 col-sm-4 col-md-3 py-2">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/mapa-do-site" >
+						<i class="fa-xl fa fa-sitemap pr-2" aria-hidden="true"></i><strong>Mapa do Site</strong>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="d-none d-sm-block tjsc-style-background-color-palette-primary-dim-green tjsc-style-color-palette-secondary-white py-3" role="navigation">
+		<div class="container">
+			<div class="row">
+					<div class="col-sm-6 col-md-3">
+	<strong>Institucional</strong>
+
+		<ul class="list-unstyled mb-0 text-2" aria-label="Institucional">
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/calendario-institucional" >Calendário e Feriados Locais</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/certidoes" >Certidões</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/concursos" >Concursos e Estágio</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/destinacao-de-verbas-pecuniarias" >Destinação de Verbas Pecuniárias</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/diario-da-justica-eletronico" >Diário da Justiça Eletrônico</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/documentacao" >Documentação</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/estrutura-judiciaria" >Estrutura Judiciária</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/galeria-de-presidentes" >Galeria de Presidentes</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/identidade-e-comunicacao-visual" >Identidade e Comunicação Visual</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/missao-e-visao" >Missão e Visão</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/organograma" >Organograma</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/visite-o-tjsc" >Visite o TJSC</a>
+				</li>
+		</ul>
+					</div>
+					<div class="col-sm-6 col-md-3">
+	<strong>Tribunal de Justiça</strong>
+
+		<ul class="list-unstyled mb-0 text-2" aria-label="Tribunal de Justiça">
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/composicao" >Composição</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/diretorias" >Diretorias</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/dirigentes" >Dirigentes</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/nucleo-de-gerenciamento-de-precedentes-e-acoes-coletivas" >Núcleo de Gerenciamento de Precedentes e Ações Coletivas</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/orgaos-administrativos" >Órgãos Administrativos</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/orgaos-julgadores" >Órgãos Julgadores</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/presidencia" >Presidência</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/primeira-vice-presidencia" >Primeira Vice-Presidência</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/segunda-vice-presidencia" >Segunda Vice-Presidência</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/judicial/sessoes-do-tribunal-de-justica" >Sessões de Julgamento</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/suspensao-de-prazos-e-expediente" >Suspensão de Prazos e Expediente</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/terceira-vice-presidencia" >Terceira Vice-Presidência</a>
+				</li>
+		</ul>
+					</div>
+					<div class="col-sm-6 col-md-3 mt-sm-3 mt-md-0">
+	<strong>Comarcas</strong>
+
+		<ul class="list-unstyled mb-0 text-2" aria-label="Comarcas">
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/atos-normativos" >Atos Normativos</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/circunscricoes" >Circunscrições</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/lotacao-de-magistrados" >Lotação de Magistrados</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/paginas-das-comarcas" >Páginas das Comarcas</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/pauta-de-audiencia" >Pauta de Audiência</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/pontos-de-inclusao-digital" >Pontos de Inclusão Digital</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/suspensao-de-prazos-e-expediente" >Suspensão de Prazos e Expediente</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/unidade-das-questoes-agrarias" >Unidade das Questões Agrárias</a>
+				</li>
+		</ul>
+						<br /><br />
+	<strong>Juizados e Turmas</strong>
+
+		<ul class="list-unstyled mb-0 text-2" aria-label="Juizados e Turmas">
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/juizados-especiais" >Juizados Especiais</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/pautas-das-sessoes-da-turma-uniformizacao" >Pautas das Sessões da Turma de Uniformização</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/pautas-das-sessoes-das-turmas-recursais" >Pautas das Sessões das Turmas Recursais</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/turmas-de-recursos-e-de-uniformizacao" >Turmas de Recursos e de Uniformização</a>
+				</li>
+		</ul>
+						<br /><br />
+	<strong>Legislação</strong>
+
+		<ul class="list-unstyled mb-0 text-2" aria-label="Legislação">
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/legislacao/externa" >Externa</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/legislacao/interna" >Interna</a>
+				</li>
+		</ul>
+					</div>
+					<div class="col-sm-6 col-md-3 mt-sm-3 mt-md-0">
+	<strong>Portais PJSC</strong>
+
+		<ul class="list-unstyled mb-0 text-2" aria-label="Portais PJSC">
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/academia-judicial" >Academia Judicial</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/acessibilidade-e-inclusao" >Acessibilidade e Inclusão</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/biblioteca" >Biblioteca</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/conciliacao-e-mediacao" >Conciliação e Mediação</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/corregedoria-geral-da-justica" >Corregedoria-Geral da Justiça</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/extrajudicial" >Corregedoria-Geral do Foro Extrajudicial</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/eproc" >eproc - Processo Judicial</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/estatistica" >Estatística</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/gestao-estrategica" >Gestão Estratégica</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/gestao-socioambiental" >Gestão Socioambiental</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/imprensa" >Imprensa</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/infancia-e-juventude" >Infância e Juventude</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/jurisprudencia" >Jurisprudência</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/justica-restaurativa" >Justiça Restaurativa</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/lei-geral-de-protecao-de-dados-pessoais" >Lei Geral de Proteção de Dados Pessoais</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/licitacoes-contratos-e-patrimonio" >Licitações, Contratos e Patrimônio</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/magistrado" >Magistrado</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/memoria" >Memória</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/orcamento-e-financas" >Orçamento e Finanças</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/ouvidoria" >Ouvidoria</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/ouvidoria-da-mulher" >Ouvidoria da Mulher</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/seeu" >SEEU - Execução Penal</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/sei" >SEI - Processo Administrativo</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/servico-de-informacao-ao-cidadao" >Serviço de Informação ao Cidadão</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/servidor" >Servidor</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/sistemas-prisional-e-socioeducativo" >Sistemas Prisional e Socioeducativo</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/tecnologia-da-informacao" >Tecnologia da Informação</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/transparencia" >Transparência</a>
+				</li>
+				<li class="mt-1" role="presentation">
+					<a class="tjsc-style-text-decoration font-weight-normal" href="/web/violencia-contra-a-mulher" >Violência contra a Mulher</a>
+				</li>
+		</ul>
+					</div>
+				<div class="col-xs-12 mt-3 pt-3 border-top tjsc-style-border-color-palette-secondary-white text-center">
+					<div class="d-md-none mt-1 mb-3">
+						
+		<p class="d-block d-sm-none mb-1"><strong>Nossas Redes Sociais</strong></p>
+		<ul class="list-inline mb-0" aria-label="Nossas Redes Sociais">
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/instagram" target="_blank" title="Instagram" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-instagram" aria-hidden="true"></i>
+					<span class="sr-only">Acessar Instagram</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/whatsapp" target="_blank" title="WhatsApp" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-whatsapp" aria-hidden="true"></i>
+					<span class="sr-only">Acessar WhatsApp</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/x" target="_blank" title="X" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-x-twitter" aria-hidden="true"></i>
+					<span class="sr-only">Acessar X</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/threads" target="_blank" title="Threads" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-threads" aria-hidden="true"></i>
+					<span class="sr-only">Acessar Threads</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/facebook" target="_blank" title="Facebook" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-facebook-f" aria-hidden="true"></i>
+					<span class="sr-only">Acessar Facebook</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/youtube" target="_blank" title="YouTube" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-youtube" aria-hidden="true"></i>
+					<span class="sr-only">Acessar YouTube</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/flickr" target="_blank" title="Flickr" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-flickr" aria-hidden="true"></i>
+					<span class="sr-only">Acessar Flickr</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/soundcloud" target="_blank" title="SoundCloud" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-soundcloud" aria-hidden="true"></i>
+					<span class="sr-only">Acessar SoundCloud</span>
+				</a>
+			</li>
+		</ul>
+	
+					</div>
+					<address class="d-inline mb-0">Rua Álvaro Millen da Silveira, n. 208 - Florianópolis/SC - CEP: 88020-901</address>
+					<span class="d-none d-md-inline"> | </span>
+					<span class="d-block d-md-inline">(48) 3287-1000 | Segunda a sexta das 12h às 19h</span>
+				</div>
+				<div class="col-xs-12 mt-3 text-center">
+					<a class="d-inline-block" href="/premios-conquistados">
+						<img style="height: 116px;" src="/documents/d/global/tjsc-theme-imagens-premios-conquistados" alt="Selos de Qualidade em Transparência Pública e Prêmios CNJ de Qualidade - 2020 a 2025" title="Prêmios conquistados pelo TJSC" data-toggle="tooltip" data-placement="bottom" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="d-sm-none tjsc-style-background-color-palette-primary-dim-green tjsc-style-color-palette-secondary-white py-3" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					
+		<p class="d-block d-sm-none mb-1"><strong>Nossas Redes Sociais</strong></p>
+		<ul class="list-inline mb-0" aria-label="Nossas Redes Sociais">
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/instagram" target="_blank" title="Instagram" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-instagram" aria-hidden="true"></i>
+					<span class="sr-only">Acessar Instagram</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/whatsapp" target="_blank" title="WhatsApp" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-whatsapp" aria-hidden="true"></i>
+					<span class="sr-only">Acessar WhatsApp</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/x" target="_blank" title="X" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-x-twitter" aria-hidden="true"></i>
+					<span class="sr-only">Acessar X</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/threads" target="_blank" title="Threads" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-threads" aria-hidden="true"></i>
+					<span class="sr-only">Acessar Threads</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/facebook" target="_blank" title="Facebook" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-facebook-f" aria-hidden="true"></i>
+					<span class="sr-only">Acessar Facebook</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/youtube" target="_blank" title="YouTube" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-youtube" aria-hidden="true"></i>
+					<span class="sr-only">Acessar YouTube</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/flickr" target="_blank" title="Flickr" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-flickr" aria-hidden="true"></i>
+					<span class="sr-only">Acessar Flickr</span>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="font-weight-normal" href="/redes-sociais/soundcloud" target="_blank" title="SoundCloud" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa-xl fa-brands fa-soundcloud" aria-hidden="true"></i>
+					<span class="sr-only">Acessar SoundCloud</span>
+				</a>
+			</li>
+		</ul>
+	
+					<hr class="tjsc-style-border-color-palette-secondary-white" />
+					<address class="mb-0">Rua Álvaro Millen da Silveira, n. 208<br />Florianópolis/SC - CEP: 88020-901</address>
+					<p class="my-2">(48) 3287-1000</p>
+					<p class="mb-0">Segunda a sexta das 12h às 19h</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		$(function(){
+			$("body:not(.portal-popup) .quick-access-nav")
+				.append('<a accesskey="3" class="d-none d-sm-block m-1 p-2 sr-only sr-only-focusable font-weight-normal" href="#tjsc-header-main-menu"><span class="label label-light mr-2">3</span>Ir para o menu principal</a>')
+				.append('<a accesskey="4" class="d-block d-sm-none m-1 p-2 sr-only sr-only-focusable font-weight-normal" href="#tjsc-header-mobile-main-menu-toggler"><span class="label label-light mr-2">4</span>Ir para o menu principal</a>')
+				.append('<a accesskey="5" class="d-block m-1 p-2 sr-only sr-only-focusable font-weight-normal" href="#tjsc-header-main-search-text"><span class="label label-light mr-2">5</span>Ir para a pesquisa</a>')
+				.append('<a accesskey="6" class="d-block m-1 p-2 sr-only sr-only-focusable font-weight-normal" href="#tjsc-footer"><span class="label label-light mr-2">6</span>Ir para o rodapé</a>')
+				.append('<a accesskey="7" class="d-block m-1 p-2 sr-only sr-only-focusable font-weight-normal" href="https://www.tjsc.jus.br"><span class="label label-light mr-2">7</span>Ir para a página inicial</a>');
+		});
+
+			if (typeof window.clarity !== "function") {
+				(function(c,l,a,r,i,t,y){
+					c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+					t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+					t.setAttribute("data-senna-track", "permanent");
+					y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+				})(window, document, "clarity", "script", "yu5ukfg3rr");
+			}
+	</script>
+</footer>	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+	
+		
+
+			
+
+			
+		
+	
+
+
+</script><script>
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<script type="text/javascript">
+
+	function getValueByAttribute(node, attr) {
+		return (
+			node.dataset[attr] ||
+			(node.parentElement && node.parentElement.dataset[attr])
+		);
+	}
+
+	function sendDocumentDownloadedAnalyticsEvent(anchor) {
+		var fileEntryId = getValueByAttribute(
+			anchor,
+			'analyticsFileEntryId'
+		);
+		var title = getValueByAttribute(
+			anchor,
+			'analyticsFileEntryTitle'
+		);
+		var version = getValueByAttribute(
+			anchor,
+			'analyticsFileEntryVersion'
+		);
+
+		if (fileEntryId) {
+			Analytics.send('documentDownloaded', 'Document', {
+				groupId: themeDisplay.getScopeGroupId(),
+				fileEntryId,
+				preview:
+					!!window._com_liferay_document_library_analytics_isViewFileEntry,
+				title,
+				version,
+			});
+		}
+	}
+
+	function handleDownloadClick(event) {
+		if (window.Analytics) {
+			if (event.target.nodeName.toLowerCase() === 'a') {
+				sendDocumentDownloadedAnalyticsEvent(
+					event.target
+				);
+			}
+			else if (
+				event.target.parentNode &&
+				event.target.parentNode.nodeName.toLowerCase() === 'a'
+			) {
+				sendDocumentDownloadedAnalyticsEvent(
+					event.target.parentNode
+				);
+			}
+			else {
+				var target = event.target;
+				var matchTextContent =
+					target.textContent &&
+					target.textContent.toLowerCase() ===
+						'baixar';
+				var matchTitle =
+					target.title && target.title.toLowerCase() === 'download';
+				var matchAction = target.action === 'download';
+				var matchLexiconIcon = !!target.querySelector(
+					'.lexicon-icon-download'
+				);
+				var matchLexiconClassName = target.classList.contains(
+					'lexicon-icon-download'
+				);
+				var matchParentTitle =
+					target.parentNode &&
+					target.parentNode.title &&
+					target.parentNode.title.toLowerCase() === 'download';
+				var matchParentLexiconClassName =
+					target.parentNode &&
+					target.parentNode.classList.contains('lexicon-icon-download');
+
+				if (
+					matchTextContent ||
+					matchTitle ||
+					matchParentTitle ||
+					matchAction ||
+					matchLexiconIcon ||
+					matchLexiconClassName ||
+					matchParentLexiconClassName
+				) {
+					var selectedFiles = document.querySelectorAll(
+						'.form .custom-control-input:checked'
+					);
+
+					selectedFiles.forEach(({value}) => {
+						var selectedFile = document.querySelector(
+							'[data-analytics-file-entry-id="' + value + '"]'
+						);
+
+						sendDocumentDownloadedAnalyticsEvent(
+							selectedFile
+						);
+					});
+				}
+			}
+		}
+	}
+
+	Liferay.once('destroyPortlet', () => {
+		document.body.removeEventListener(
+			'click',
+			handleDownloadClick
+		);
+	});
+
+	Liferay.once('portletReady', () => {
+		document.body.addEventListener(
+			'click',
+			handleDownloadClick
+		);
+	});
+
+(function() {var $ = AUI.$;var _ = AUI._;
+	var onVote = function (event) {
+		if (window.Analytics) {
+			let title = event.contentTitle;
+
+			if (!title) {
+				const dmNode = document.querySelector(
+					'[data-analytics-file-entry-id="' + event.classPK + '"]'
+				);
+
+				if (dmNode) {
+					title = dmNode.dataset.analyticsFileEntryTitle;
+				}
+			}
+
+			Analytics.send('VOTE', 'Ratings', {
+				className: event.className,
+				classPK: event.classPK,
+				ratingType: event.ratingType,
+				score: event.score,
+				title,
+			});
+		}
+	};
+
+	var onDestroyPortlet = function () {
+		Liferay.detach('ratings:vote', onVote);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('ratings:vote', onVote);
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+})();
+(function() {var $ = AUI.$;var _ = AUI._;
+	var onDestroyPortlet = function () {
+		Liferay.detach('messagePosted', onMessagePosted);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+
+	var onMessagePosted = function (event) {
+		if (window.Analytics) {
+			const eventProperties = {
+				className: event.className,
+				classPK: event.classPK,
+				commentId: event.commentId,
+				text: event.text,
+			};
+
+			const blogNode = document.querySelector(
+				'[data-analytics-asset-id="' + event.classPK + '"]'
+			);
+
+			const dmNode = document.querySelector(
+				'[data-analytics-file-entry-id="' + event.classPK + '"]'
+			);
+
+			if (blogNode) {
+				eventProperties.title = blogNode.dataset.analyticsAssetTitle;
+			}
+			else if (dmNode) {
+				eventProperties.title = dmNode.dataset.analyticsFileEntryTitle;
+			}
+
+			Analytics.send('posted', 'Comment', eventProperties);
+		}
+	};
+
+	Liferay.on('messagePosted', onMessagePosted);
+})();
+(function() {var $ = AUI.$;var _ = AUI._;
+	var onShare = function (data) {
+		if (window.Analytics) {
+			Analytics.send('shared', 'SocialBookmarks', {
+				className: data.className,
+				classPK: data.classPK,
+				type: data.type,
+				url: data.url,
+			});
+		}
+	};
+
+	var onDestroyPortlet = function () {
+		Liferay.detach('socialBookmarks:share', onShare);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('socialBookmarks:share', onShare);
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+})();
+
+	if (window.svg4everybody && Liferay.Data.ICONS_INLINE_SVG) {
+		svg4everybody(
+			{
+				polyfill: true,
+				validate: function (src, svg, use) {
+					return !src || !src.startsWith('#');
+				}
+			}
+		);
+	}
+
+(function() {var $ = AUI.$;var _ = AUI._;
+	Liferay.Util.delegate(
+		document,
+		'focusin',
+		'.portlet',
+		function(event) {
+			event.delegateTarget.closest('.portlet').classList.add('open');
+		}
+	);
+
+	Liferay.Util.delegate(
+		document,
+		'focusout',
+		'.portlet',
+		function(event) {
+			event.delegateTarget.closest('.portlet').classList.remove('open');
+		}
+	);
+})();
+
+	// <![CDATA[
+
+		
+
+		Liferay.currentURL = '\x2fweb\x2fimprensa\x2f-\x2fjustica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores';
+		Liferay.currentURLEncoded = '\x252Fweb\x252Fimprensa\x252F-\x252Fjustica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores';
+
+	// ]]>
+
+(function() {var $ = AUI.$;var _ = AUI._;
+		import(Liferay.ThemeDisplay.getPathContext() + '/o/frontend-js-web/__liferay__/index.js').then(
+			({openToast}) => {
+				AUI().use(
+					'liferay-session',
+					function () {
+						Liferay.Session = new Liferay.SessionBase(
+							{
+								autoExtend: true,
+								redirectOnExpire: false,
+								redirectUrl: 'https\x3a\x2f\x2fwww\x2etjsc\x2ejus\x2ebr\x2fweb\x2ftjsc\x2finicio',
+								sessionLength: 14400,
+								sessionTimeoutOffset: 70,
+								warningLength: 1200
+							}
+						);
+
+						
+					}
+				);
+			}
+		)
+	})();
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_ybSvJ3Bb0WAL');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 2,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_ybSvJ3Bb0WAL_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_ybSvJ3Bb0WAL',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d3560899\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_ybSvJ3Bb0WAL\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_XoA42zQ1ltYC__column-1\x26p_p_col_pos\x3d2\x26p_p_col_count\x3d7\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fimprensa\x252F-\x252Fjustica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_nlw02hew4Jc7');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 3,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_nlw02hew4Jc7_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_nlw02hew4Jc7',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d3560899\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_nlw02hew4Jc7\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_XoA42zQ1ltYC__column-1\x26p_p_col_pos\x3d3\x26p_p_col_count\x3d7\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fimprensa\x252F-\x252Fjustica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores',
+			refreshURLData: {}
+		}
+	);
+
+(function() {var $ = AUI.$;var _ = AUI._;
+	var assetEntryId =
+		'';
+
+	if (assetEntryId) {
+		window.location.hash = assetEntryId;
+	}
+})();
+
+	
+		Liferay.Portlet.register('com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_GP1QtxFaSsX0');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 1,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_GP1QtxFaSsX0_',
+			portletId: 'com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_GP1QtxFaSsX0',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d3560899\x26p_p_id\x3dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_GP1QtxFaSsX0\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d1\x26p_p_col_count\x3d2\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fimprensa\x252F-\x252Fjustica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_9tQLC2qfPcrp');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 4,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_9tQLC2qfPcrp_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_9tQLC2qfPcrp',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d3560899\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_9tQLC2qfPcrp\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_XoA42zQ1ltYC__column-1\x26p_p_col_pos\x3d4\x26p_p_col_count\x3d7\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fimprensa\x252F-\x252Fjustica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_rRLvGkojn7SX');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 6,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_rRLvGkojn7SX_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_rRLvGkojn7SX',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d3560899\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_rRLvGkojn7SX\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_XoA42zQ1ltYC__column-1\x26p_p_col_pos\x3d6\x26p_p_col_count\x3d7\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fimprensa\x252F-\x252Fjustica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores',
+			refreshURLData: {}
+		}
+	);
+
+
+		Liferay.once('allPortletsReady', () => {
+			document
+				.getElementById('p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN_')
+				.scrollIntoView();
+		});
+	
+
+	
+		Liferay.Portlet.register('com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN_',
+			portletId: 'com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d3560899\x26p_p_id\x3dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d2\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fimprensa\x252F-\x252Fjustica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores',
+			refreshURLData: {"_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN_mvcPath":["\/view_content.jsp"],"_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN_type":["content"],"_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN_languageId":["pt_BR"],"_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN_assetEntryId":["22370890"]}
+		}
+	);
+
+
+	var nestedPortlet = document.getElementById(
+		'_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_XoA42zQ1ltYC__main-content'
+	);
+
+	if (nestedPortlet != null) {
+		nestedPortlet.removeAttribute('role');
+	}
+
+
+	
+		Liferay.Portlet.register('com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_XoA42zQ1ltYC');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 1,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_XoA42zQ1ltYC_',
+			portletId: 'com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_XoA42zQ1ltYC',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d3560899\x26p_p_id\x3dcom_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_XoA42zQ1ltYC\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-2\x26p_p_col_pos\x3d1\x26p_p_col_count\x3d2\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fimprensa\x252F-\x252Fjustica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_dEPvCYKszk5l');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_dEPvCYKszk5l_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_dEPvCYKszk5l',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d3560899\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_dEPvCYKszk5l\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_XoA42zQ1ltYC__column-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d7\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fimprensa\x252F-\x252Fjustica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_AFPUM5tgvJuI');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 1,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_AFPUM5tgvJuI_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_AFPUM5tgvJuI',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d3560899\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_AFPUM5tgvJuI\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_XoA42zQ1ltYC__column-1\x26p_p_col_pos\x3d1\x26p_p_col_count\x3d7\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fimprensa\x252F-\x252Fjustica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_xPU7N8GRju8j');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 5,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_xPU7N8GRju8j_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_xPU7N8GRju8j',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d3560899\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_xPU7N8GRju8j\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_XoA42zQ1ltYC__column-1\x26p_p_col_pos\x3d5\x26p_p_col_count\x3d7\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fimprensa\x252F-\x252Fjustica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_SUNhl9nlAZu1');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_SUNhl9nlAZu1_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_SUNhl9nlAZu1',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d3560899\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_SUNhl9nlAZu1\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-2\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d2\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fimprensa\x252F-\x252Fjustica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores',
+			refreshURLData: {}
+		}
+	);
+
+
+</script><script type="module">
+import {DropdownMenu as componentModule} from '/o/frontend-taglib-clay/__liferay__/index.js';
+import {InfoItemActionHandler as ComponentModule} from '/o/layout-taglib/__liferay__/index.js';
+import {render} from '/o/portal-template-react-renderer-impl/__liferay__/index.js';
+import {SocialBookmarksDropdownPropsTransformer as propsTransformer} from '/o/social-bookmarks-taglib/__liferay__/index.js';
+AUI().use(
+  'liferay-menu',
+function(A) {
+{
+Liferay.component('infoItemActionComponent', new ComponentModule({"executeInfoItemActionURL":"https:\/\/www.tjsc.jus.br\/c\/portal\/execute_info_item_action?p_l_mode=view&plid=3560899","namespace":"","spritemap":"https:\/\/www.tjsc.jus.br\/o\/tjsc-theme\/images\/clay\/icons.svg"}), { destroyOnNavigate: true, portletId: ''});
+}
+(function() {
+var $ = AUI.$;var _ = AUI._;
+	new Liferay.Menu();
+
+	var liferayNotices = Liferay.Data.notices;
+
+	for (var i = 0; i < liferayNotices.length; i++) {
+		Liferay.Util.openToast(liferayNotices[i]);
+	}
+
+})();
+{
+render(componentModule, propsTransformer({"small":true,"componentId":null,"icon":null,"hasBodyContent":false,"label":"Compartilhar","type":"button","locale":{"unicodeLocaleKeys":[],"country":"BR","ISO3Language":"por","displayName":"Portuguese (Brazil)","displayVariant":"","language":"pt","displayLanguage":"Portuguese","script":"","unicodeLocaleAttributes":[],"displayCountry":"Brazil","ISO3Country":"BRA","variant":"","extensionKeys":[],"displayScript":""},"displayType":"secondary","outline":false,"borderless":true,"cssClass":null,"portletId":"com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN","menuProps":null,"block":false,"monospaced":false,"id":null,"items":[{"data":{"postURL":"https:\/\/api.whatsapp.com\/send?text=Justi%C3%A7a+reconhece+prescri%C3%A7%C3%A3o+punitiva+para+r%C3%A9us+no+caso+da+compra+dos+respiradores+%28https%3A%2F%2Fwww.tjsc.jus.br%2Fweb%2Fimprensa%2F-%2Fjustica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores%29","classPK":"22370883","action":"post","className":"com.liferay.journal.model.JournalArticle","type":"tjsc-whatsapp","url":"https:\/\/www.tjsc.jus.br\/web\/imprensa\/-\/justica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores"},"label":"WhatsApp","type":"item"},{"data":{"postURL":"https:\/\/twitter.com\/intent\/tweet?text=Justi%C3%A7a+reconhece+prescri%C3%A7%C3%A3o+punitiva+para+r%C3%A9us+no+caso+da+compra+dos+respiradores&tw_p=tweetbutton&url=https:\/\/www.tjsc.jus.br\/web\/imprensa\/-\/justica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores","classPK":"22370883","action":"post","className":"com.liferay.journal.model.JournalArticle","type":"twitter","url":"https:\/\/www.tjsc.jus.br\/web\/imprensa\/-\/justica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores"},"label":"X","type":"item"},{"data":{"postURL":"http:\/\/www.facebook.com\/sharer.php?u=https%3A%2F%2Fwww.tjsc.jus.br%2Fweb%2Fimprensa%2F-%2Fjustica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores","classPK":"22370883","action":"post","className":"com.liferay.journal.model.JournalArticle","type":"facebook","url":"https:\/\/www.tjsc.jus.br\/web\/imprensa\/-\/justica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores"},"label":"Facebook","type":"item"},{"data":{"postURL":"http:\/\/www.linkedin.com\/shareArticle?title=Justi%C3%A7a+reconhece+prescri%C3%A7%C3%A3o+punitiva+para+r%C3%A9us+no+caso+da+compra+dos+respiradores&mini=true&url=https%3A%2F%2Fwww.tjsc.jus.br%2Fweb%2Fimprensa%2F-%2Fjustica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores&summary=","classPK":"22370883","action":"post","className":"com.liferay.journal.model.JournalArticle","type":"linkedin","url":"https:\/\/www.tjsc.jus.br\/web\/imprensa\/-\/justica-reconhece-prescricao-punitiva-para-reus-no-caso-da-compra-dos-respiradores"},"label":"LinkedIn","type":"item"}],"swapIconSide":false,"portletNamespace":"_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_k7R3gE05fUVN_"}), 'fhgf');
+}
+});
+
+</script>
+
+
+
+
+
+
+
+
+
+<script src="https://www.tjsc.jus.br/o/tjsc-theme/js/main.js?browserId=chrome&amp;minifierType=js&amp;languageId=pt_BR&amp;t=1792047672000" type="text/javascript"></script>
+
+
+
+
+<script type="module">
+import {main} from '/o/frontend-js-dropdown-support-web/__liferay__/index.js';
+{
+main();
+}
+
+</script><script type="module">
+import {main} from '/o/frontend-js-tabs-support-web/__liferay__/index.js';
+{
+main();
+}
+
+</script><script type="module">
+import {main} from '/o/frontend-js-tooltip-support-web/__liferay__/index.js';
+{
+main();
+}
+
+</script><script type="module">
+import {main} from '/o/frontend-js-alert-support-web/__liferay__/index.js';
+{
+main();
+}
+
+</script><script type="module">
+import {main} from '/o/frontend-js-collapse-support-web/__liferay__/index.js';
+{
+main();
+}
+
+</script><script type="module">
+import {runThirdPartyCookiesInterval} from '/o/cookies-banner-web/__liferay__/index.js';
+{
+runThirdPartyCookiesInterval();
+}
+
+</script><script type="text/javascript">
+Liferay.CustomDialogs = {enabled: false};
+
+</script><script>
+
+</script>	</body>
+
+	</html>
+
+		
+	
+

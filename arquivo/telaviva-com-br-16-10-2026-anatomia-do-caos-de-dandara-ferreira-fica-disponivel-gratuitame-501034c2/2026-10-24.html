@@ -1,0 +1,1077 @@
+<!doctype html >
+<!--[if IE 8]>    <html class="ie8" lang="pt-BR"> <![endif]-->
+<!--[if IE 9]>    <html class="ie9" lang="pt-BR"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="pt-BR"> <!--<![endif]-->
+<head><meta charset="UTF-8" /><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="2.0.5",this.userEvents=["keydown","keyup","mousedown","mouseup","mousemove","mouseover","mouseout","touchmove","touchstart","touchend","touchcancel","wheel","click","dblclick","input"],this.attributeEvents=["onblur","onclick","oncontextmenu","ondblclick","onfocus","onmousedown","onmouseenter","onmouseleave","onmousemove","onmouseout","onmouseover","onmouseup","onmousewheel","onscroll","onsubmit"]}async t(){this.i(),this.o(),/iP(ad|hone)/.test(navigator.userAgent)&&this.h(),this.u(),this.l(this),this.m(),this.k(this),this.p(this),this._(),await Promise.all([this.R(),this.L()]),this.lastBreath=Date.now(),this.S(this),this.P(),this.D(),this.O(),this.M(),await this.C(this.delayedScripts.normal),await this.C(this.delayedScripts.defer),await this.C(this.delayedScripts.async),await this.T(),await this.F(),await this.j(),await this.A(),window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.lastTouchEnd&&await new Promise(t=>setTimeout(t,500-Date.now()+this.lastTouchEnd)),this.I(),this.H(),this.U(),this.W()}i(){this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))},{isRocket:!0})}o(){window.addEventListener("pageshow",t=>{this.persisted=t.persisted,this.realWindowLoadedFired=!0},{isRocket:!0}),window.addEventListener("pagehide",()=>{this.onFirstUserAction=null},{isRocket:!0})}h(){let t;function e(e){t=e}window.addEventListener("touchstart",e,{isRocket:!0}),window.addEventListener("touchend",function i(o){o.changedTouches[0]&&t.changedTouches[0]&&Math.abs(o.changedTouches[0].pageX-t.changedTouches[0].pageX)<10&&Math.abs(o.changedTouches[0].pageY-t.changedTouches[0].pageY)<10&&o.timeStamp-t.timeStamp<200&&(window.removeEventListener("touchstart",e,{isRocket:!0}),window.removeEventListener("touchend",i,{isRocket:!0}),"INPUT"===o.target.tagName&&"text"===o.target.type||(o.target.dispatchEvent(new TouchEvent("touchend",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new MouseEvent("mouseover",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new PointerEvent("click",{target:o.target,bubbles:!0,cancelable:!0,detail:1,clientX:o.changedTouches[0].clientX,clientY:o.changedTouches[0].clientY})),event.preventDefault()))},{isRocket:!0})}q(t){this.userActionTriggered||("mousemove"!==t.type||this.firstMousemoveIgnored?"keyup"===t.type||"mouseover"===t.type||"mouseout"===t.type||(this.userActionTriggered=!0,this.onFirstUserAction&&this.onFirstUserAction()):this.firstMousemoveIgnored=!0),"click"===t.type&&t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),"touchstart"===this.lastEvent&&"touchend"===t.type&&(this.lastTouchEnd=Date.now()),"click"===t.type&&(this.lastTouchEnd=0),this.lastEvent=t.type,t.composedPath&&t.composedPath()[0].getRootNode()instanceof ShadowRoot&&(t.rocketTarget=t.composedPath()[0]),this.savedUserEvents.push(t)}u(){this.savedUserEvents=[],this.userEventHandler=this.q.bind(this),this.userEvents.forEach(t=>window.addEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.addEventListener("visibilitychange",this.userEventHandler,{isRocket:!0})}U(){this.userEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.removeEventListener("visibilitychange",this.userEventHandler,{isRocket:!0}),this.savedUserEvents.forEach(t=>{(t.rocketTarget||t.target).dispatchEvent(new window[t.constructor.name](t.type,t))})}m(){const t="return false",e=Array.from(this.attributeEvents,t=>"data-rocket-"+t),i="["+this.attributeEvents.join("],[")+"]",o="[data-rocket-"+this.attributeEvents.join("],[data-rocket-")+"]",s=(e,i,o)=>{o&&o!==t&&(e.setAttribute("data-rocket-"+i,o),e["rocket"+i]=new Function("event",o),e.setAttribute(i,t))};new MutationObserver(t=>{for(const n of t)"attributes"===n.type&&(n.attributeName.startsWith("data-rocket-")||this.everythingLoaded?n.attributeName.startsWith("data-rocket-")&&this.everythingLoaded&&this.N(n.target,n.attributeName.substring(12)):s(n.target,n.attributeName,n.target.getAttribute(n.attributeName))),"childList"===n.type&&n.addedNodes.forEach(t=>{if(t.nodeType===Node.ELEMENT_NODE)if(this.everythingLoaded)for(const i of[t,...t.querySelectorAll(o)])for(const t of i.getAttributeNames())e.includes(t)&&this.N(i,t.substring(12));else for(const e of[t,...t.querySelectorAll(i)])for(const t of e.getAttributeNames())this.attributeEvents.includes(t)&&s(e,t,e.getAttribute(t))})}).observe(document,{subtree:!0,childList:!0,attributeFilter:[...this.attributeEvents,...e]})}I(){this.attributeEvents.forEach(t=>{document.querySelectorAll("[data-rocket-"+t+"]").forEach(e=>{this.N(e,t)})})}N(t,e){const i=t.getAttribute("data-rocket-"+e);i&&(t.setAttribute(e,i),t.removeAttribute("data-rocket-"+e))}k(t){Object.defineProperty(HTMLElement.prototype,"onclick",{get(){return this.rocketonclick||null},set(e){this.rocketonclick=e,this.setAttribute(t.everythingLoaded?"onclick":"data-rocket-onclick","this.rocketonclick(event)")}})}S(t){function e(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o,set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}e(document,"onreadystatechange"),e(window,"onload"),e(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}l(t){this.originalAddEventListener=EventTarget.prototype.addEventListener,this.originalRemoveEventListener=EventTarget.prototype.removeEventListener,this.savedEventListeners=[],EventTarget.prototype.addEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalAddEventListener.call(this,e,i,o):(t.savedEventListeners.push({target:this,remove:!1,type:e,func:i,options:o}),"mouseenter"!==e&&"mouseleave"!==e||t.originalAddEventListener.call(this,e,t.savedUserEvents.push,o))},EventTarget.prototype.removeEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalRemoveEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!0,type:e,func:i,options:o})}}J(t,e){this.savedEventListeners=this.savedEventListeners.filter(i=>{let o=i.type,s=i.target||window;return e!==o||t!==s||(this.B(o,s)&&(i.type="rocket-"+o),this.$(i),!1)})}H(){EventTarget.prototype.addEventListener=this.originalAddEventListener,EventTarget.prototype.removeEventListener=this.originalRemoveEventListener,this.savedEventListeners.forEach(t=>this.$(t))}$(t){t.remove?this.originalRemoveEventListener.call(t.target,t.type,t.func,t.options):this.originalAddEventListener.call(t.target,t.type,t.func,t.options)}p(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map(t=>"load"===t||t.startsWith("load.")?"rocket-jquery-load":t).join(" ")}function o(o){function s(e){const s=o.fn[e];o.fn[e]=o.fn.init.prototype[e]=function(){return this[0]===window&&t.userActionTriggered&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e})),s.apply(this,arguments),this}}if(o&&o.fn&&!t.allJQueries.includes(o)){const e={DOMContentLoaded:[],"rocket-DOMContentLoaded":[]};for(const t in e)document.addEventListener(t,()=>{e[t].forEach(t=>t())},{isRocket:!0});o.fn.ready=o.fn.init.prototype.ready=function(i){function s(){parseInt(o.fn.jquery)>2?setTimeout(()=>i.bind(document)(o)):i.bind(document)(o)}return"function"==typeof i&&(t.realDomReadyFired?!t.userActionTriggered||t.fauxDomReadyFired?s():e["rocket-DOMContentLoaded"].push(s):e.DOMContentLoaded.push(s)),this},s("on"),s("one"),s("off"),t.allJQueries.push(o)}e=o}t.allJQueries=[],o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}P(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript,o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async R(){return new Promise(t=>{this.userActionTriggered?t():this.onFirstUserAction=t})}async L(){return new Promise(t=>{document.addEventListener("DOMContentLoaded",()=>{this.realDomReadyFired=!0,t()},{isRocket:!0})})}async j(){return this.realWindowLoadedFired?Promise.resolve():new Promise(t=>{window.addEventListener("load",t,{isRocket:!0})})}M(){this.pendingScripts=[];this.scriptsMutationObserver=new MutationObserver(t=>{for(const e of t)e.addedNodes.forEach(t=>{"SCRIPT"!==t.tagName||!t.src||t.noModule||t.isWPRocket||this.pendingScripts.push({script:t,promise:new Promise(e=>{const i=()=>{const i=this.pendingScripts.findIndex(e=>e.script===t);i>=0&&this.pendingScripts.splice(i,1),e()};t.addEventListener("load",i,{isRocket:!0}),t.addEventListener("error",i,{isRocket:!0}),setTimeout(i,1e3)})})})}),this.scriptsMutationObserver.observe(document,{childList:!0,subtree:!0})}async F(){await this.X(),this.pendingScripts.length?(await this.pendingScripts[0].promise,await this.F()):this.scriptsMutationObserver.disconnect()}D(){this.delayedScripts={normal:[],async:[],defer:[]},document.querySelectorAll("script[type$=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _(){await this.L();let t=[];document.querySelectorAll("script[type$=rocketlazyloadscript][data-rocket-src]").forEach(e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){i.startsWith("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this.Y(t,"preconnect")}async G(t){if(await this.K(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise(e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.includes("Firefox/")||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))}),t.text&&(i.text=t.text),t.nonce&&(i.nonce=t.nonce),i.hasAttribute("src")?(i.addEventListener("load",o,{isRocket:!0}),i.addEventListener("error",()=>{i.setAttribute("data-rocket-status","failed-network"),e()},{isRocket:!0}),setTimeout(()=>{i.isConnected||e()},1)):(i.text=t.text,o()),i.isWPRocket=!0,t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o,{isRocket:!0}),t.addEventListener("error",i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: CSP fallback activated"),t.removeAttribute("src"),this.G(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())},{isRocket:!0}),s?(t.fetchPriority="high",t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}});t.setAttribute("data-rocket-status","skipped")}async C(t){const e=t.shift();return e?(e.isConnected&&await this.G(e),this.C(t)):Promise.resolve()}O(){this.Y([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}Y(t,e){this.trash=this.trash||[];let i=!0;var o=document.createDocumentFragment();t.forEach(t=>{const s=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(s&&!s.startsWith("data:")){const n=document.createElement("link");n.href=s,n.rel=e,"preconnect"!==e&&(n.as="script",n.fetchPriority=i?"high":"low"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),t.nonce&&(n.nonce=t.nonce),o.appendChild(n),this.trash.push(n),i=!1}}),document.head.appendChild(o)}W(){this.trash.forEach(t=>t.remove())}async T(){try{document.readyState="interactive"}catch(t){}this.fauxDomReadyFired=!0;try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(document,"DOMContentLoaded"),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.K(),this.J(window,"DOMContentLoaded"),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}catch(t){console.error(t)}}async A(){try{document.readyState="complete"}catch(t){}try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(window,"load"),window.dispatchEvent(new Event("rocket-load")),await this.K(),window.rocketonload&&window.rocketonload(),await this.K(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this.K(),this.J(window,"pageshow");const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.K(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}catch(t){console.error(t)}}async K(){Date.now()-this.lastBreath>45&&(await this.X(),this.lastBreath=Date.now())}async X(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}B(t,e=window){return e===document&&"readystatechange"===t||(e===document&&"DOMContentLoaded"===t||(e===window&&"DOMContentLoaded"===t||(e===window&&"load"===t||e===window&&"pageshow"===t)))}static run(){(new RocketLazyLoadScripts).t()}}RocketLazyLoadScripts.run()})();
+</script>
+    <title>&#034;Anatomia do Caos&#034;, de Dandara Ferreira, fica disponível gratuitamente no YouTube por dez dias | TELA VIVA News</title>
+<link data-rocket-prefetch href="https://www.gstatic.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://www.googletagservices.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://cdn.telaviva.com.br" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://www.googletagmanager.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://securepubads.g.doubleclick.net" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://cdn.onesignal.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://www.google.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://ep2.adtrafficquality.google" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://cm.g.doubleclick.net" rel="dns-prefetch"><link rel="preload" data-rocket-preload as="image" href="https://cdn.telaviva.com.br/wp-content/uploads/2026/10/05.ADC-_Divulgacao_-696x392.webp" imagesrcset="https://cdn.telaviva.com.br/wp-content/uploads/2026/10/05.ADC-_Divulgacao_-696x392.webp 696w, https://cdn.telaviva.com.br/wp-content/uploads/2026/10/05.ADC-_Divulgacao_-1392x783.webp 1392w" imagesizes="(-webkit-min-device-pixel-ratio: 2) 1392px, (min-resolution: 192dpi) 1392px, 696px" fetchpriority="high">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="pingback" href="https://telaviva.com.br/xmlrpc.php" />
+    <meta name='robots' content='max-image-preview:large' />
+<link rel="icon" type="image/png" href="https://cdn.telaviva.com.br/wp-content/uploads/2022/12/favicon-16x16-1.png"><link rel="apple-touch-icon" sizes="76x76" href="https://cdn.telaviva.com.br/wp-content/uploads/2022/12/apple-icon-76x76-1.png"/><link rel="apple-touch-icon" sizes="120x120" href="https://cdn.telaviva.com.br/wp-content/uploads/2022/12/apple-icon-120x120-1.png"/><link rel="apple-touch-icon" sizes="152x152" href="https://cdn.telaviva.com.br/wp-content/uploads/2022/12/apple-icon-152x152-1.png"/><link rel="apple-touch-icon" sizes="114x114" href="https://cdn.telaviva.com.br/wp-content/uploads/2022/12/apple-icon-114x114-1.png"/><link rel="apple-touch-icon" sizes="144x144" href="https://cdn.telaviva.com.br/wp-content/uploads/2022/12/apple-icon-144x144-1.png"/><link rel='dns-prefetch' href='//news.google.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//www.googletagservices.com' />
+<link rel='dns-prefetch' href='//tpc.googlesyndication.com' />
+<link rel='dns-prefetch' href='//use.typekit.net' />
+<link rel='dns-prefetch' href='//netdna.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//www.google-analytics.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Feed para TELA VIVA News &raquo;" href="https://telaviva.com.br/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para TELA VIVA News &raquo;" href="https://telaviva.com.br/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para TELA VIVA News &raquo; &#034;Anatomia do Caos&#034;, de Dandara Ferreira, fica disponível gratuitamente no YouTube por dez dias" href="https://telaviva.com.br/16/10/2026/anatomia-do-caos-de-dandara-ferreira-fica-disponivel-gratuitamente-no-youtube-por-dez-dias/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://telaviva.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftelaviva.com.br%2F16%2F10%2F2026%2Fanatomia-do-caos-de-dandara-ferreira-fica-disponivel-gratuitamente-no-youtube-por-dez-dias%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://telaviva.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftelaviva.com.br%2F16%2F10%2F2026%2Fanatomia-do-caos-de-dandara-ferreira-fica-disponivel-gratuitamente-no-youtube-por-dez-dias%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 11px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 32px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--regular: 15px;--wp--preset--font-size--larger: 50px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-regular-font-size{font-size: var(--wp--preset--font-size--regular) !important;}.has-larger-font-size{font-size: var(--wp--preset--font-size--larger) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='avatar-manager-css' href='https://cdn.telaviva.com.br/wp-content/plugins/avatar-manager/assets/css/avatar-manager.min.css?ver=1.2.1' media='all' />
+<style id="dominant-color-styles-inline-css">
+img[data-dominant-color]:not(.has-transparency) { background-color: var(--dominant-color); }
+/*# sourceURL=dominant-color-styles-inline-css */
+</style>
+<link data-minify="1" rel='stylesheet' id='searchandfilter-css' href='https://cdn.telaviva.com.br/wp-content/cache/min/1/wp-content/plugins/search-filter/style.css?ver=1792764522' media='all' />
+<link rel='stylesheet' id='cmplz-general-css' href='https://cdn.telaviva.com.br/wp-content/plugins/complianz-gdpr-premium/assets/css/cookieblocker.min.css?ver=1747848576' media='all' />
+<link data-minify="1" rel='stylesheet' id='td-plugin-multi-purpose-css' href='https://cdn.telaviva.com.br/wp-content/cache/min/1/wp-content/plugins/td-composer/td-multi-purpose/style.css?ver=1792764522' media='all' />
+<link data-minify="1" rel='stylesheet' id='td-theme-css' href='https://cdn.telaviva.com.br/wp-content/cache/min/1/wp-content/themes/Newspaper/style.css?ver=1792764522' media='all' />
+
+<link rel='stylesheet' id='td-theme-child-css' href='https://cdn.telaviva.com.br/wp-content/themes/telaviva/style.css?ver=12.7.9c' media='all' />
+<link data-minify="1" rel='stylesheet' id='td-legacy-framework-front-style-css' href='https://cdn.telaviva.com.br/wp-content/cache/min/1/wp-content/plugins/td-composer/legacy/Newspaper/assets/css/td_legacy_main.css?ver=1792764522' media='all' />
+<link data-minify="1" rel='stylesheet' id='td-standard-pack-framework-front-style-css' href='https://cdn.telaviva.com.br/wp-content/cache/min/1/wp-content/plugins/td-standard-pack/Newspaper/assets/css/td_standard_pack_main.css?ver=1792764522' media='all' />
+<link data-minify="1" rel='stylesheet' id='tdb_style_cloud_templates_front-css' href='https://cdn.telaviva.com.br/wp-content/cache/min/1/wp-content/plugins/td-cloud-library/assets/css/tdb_main.css?ver=1792764522' media='all' />
+<style id="rocket-lazyload-inline-css">
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://cdn.telaviva.com.br/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}
+/*# sourceURL=rocket-lazyload-inline-css */
+</style>
+<script type="text/rocketlazyloadscript" id="web-worker-offloading-js-before">
+window.partytown = {...(window.partytown || {}), ...{"lib":"/wp-content/plugins/web-worker-offloading/build/","globalFns":["gtag","wp_has_consent"],"forward":["dataLayer.push","gtag"],"mainWindowAccessors":["_googlesitekitConsentCategoryMap","_googlesitekitConsents","wp_consent_type","wp_fallback_consent_type","wp_has_consent","waitfor_consent_hook"]}};
+//# sourceURL=web-worker-offloading-js-before
+</script>
+<script type="text/rocketlazyloadscript" id="web-worker-offloading-js-after">
+/* Partytown 0.10.2-dev1727590485751 - MIT builder.io */
+const t={preserveBehavior:!1},e=e=>{if("string"==typeof e)return[e,t];const[n,r=t]=e;return[n,{...t,...r}]},n=Object.freeze((()=>{const t=new Set;let e=[];do{Object.getOwnPropertyNames(e).forEach((n=>{"function"==typeof e[n]&&t.add(n)}))}while((e=Object.getPrototypeOf(e))!==Object.prototype);return Array.from(t)})());!function(t,r,o,i,a,s,c,d,l,p,u=t,f){function h(){f||(f=1,"/"==(c=(s.lib||"/~partytown/")+(s.debug?"debug/":""))[0]&&(l=r.querySelectorAll('script[type="text/partytown"]'),i!=t?i.dispatchEvent(new CustomEvent("pt1",{detail:t})):(d=setTimeout(v,999999999),r.addEventListener("pt0",w),a?y(1):o.serviceWorker?o.serviceWorker.register(c+(s.swPath||"partytown-sw.js"),{scope:c}).then((function(t){t.active?y():t.installing&&t.installing.addEventListener("statechange",(function(t){"activated"==t.target.state&&y()}))}),console.error):v())))}function y(e){p=r.createElement(e?"script":"iframe"),t._pttab=Date.now(),e||(p.style.display="block",p.style.width="0",p.style.height="0",p.style.border="0",p.style.visibility="hidden",p.setAttribute("aria-hidden",!0)),p.src=c+"partytown-"+(e?"atomics.js?v=0.10.2-dev1727590485751":"sandbox-sw.html?"+t._pttab),r.querySelector(s.sandboxParent||"body").appendChild(p)}function v(n,o){for(w(),i==t&&(s.forward||[]).map((function(n){const[r]=e(n);delete t[r.split(".")[0]]})),n=0;n<l.length;n++)(o=r.createElement("script")).innerHTML=l[n].innerHTML,o.nonce=s.nonce,r.head.appendChild(o);p&&p.parentNode.removeChild(p)}function w(){clearTimeout(d)}s=t.partytown||{},i==t&&(s.forward||[]).map((function(r){const[o,{preserveBehavior:i}]=e(r);u=t,o.split(".").map((function(e,r,o){var a;u=u[o[r]]=r+1<o.length?u[o[r]]||(a=o[r+1],n.includes(a)?[]:{}):(()=>{let e=null;if(i){const{methodOrProperty:n,thisObject:r}=((t,e)=>{let n=t;for(let t=0;t<e.length-1;t+=1)n=n[e[t]];return{thisObject:n,methodOrProperty:e.length>0?n[e[e.length-1]]:void 0}})(t,o);"function"==typeof n&&(e=(...t)=>n.apply(r,...t))}return function(){let n;return e&&(n=e(arguments)),(t._ptf=t._ptf||[]).push(o,arguments),n}})()}))})),"complete"==r.readyState?h():(t.addEventListener("DOMContentLoaded",h),t.addEventListener("load",h))}(window,document,navigator,top,window.crossOriginIsolated);
+//# sourceURL=web-worker-offloading-js-after
+</script>
+<script id="jquery-core-js" src="https://cdn.telaviva.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" defer='defer' src="https://cdn.telaviva.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script type="text/rocketlazyloadscript" id="avatar-manager-js" defer='defer' data-rocket-src="https://cdn.telaviva.com.br/wp-content/plugins/avatar-manager/assets/js/avatar-manager.min.js?ver=1.2.1"></script>
+
+<!-- Snippet da tag do Google (gtag.js) adicionado pelo Site Kit -->
+<!-- Snippet do Google Analytics adicionado pelo Site Kit -->
+<script type="text/partytown" id="google_gtagjs-js" defer='defer' src="https://www.googletagmanager.com/gtag/js?id=GT-MR59C9Q" async></script>
+<script id="google_gtagjs-js-after" type="text/partytown">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["telaviva.com.br"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-MR59C9Q", {"googlesitekit_post_type":"post"});
+//# sourceURL=google_gtagjs-js-after
+</script>
+<link rel="https://api.w.org/" href="https://telaviva.com.br/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://telaviva.com.br/wp-json/wp/v2/posts/513212" /><link rel="canonical" href="https://telaviva.com.br/16/10/2026/anatomia-do-caos-de-dandara-ferreira-fica-disponivel-gratuitamente-no-youtube-por-dez-dias/" />
+<meta name="generator" content="auto-sizes 1.8.0">
+<meta name="generator" content="dominant-color-images 1.3.0">
+<meta name="generator" content="Site Kit by Google 1.190.0" /><meta name="onesignal-plugin" content="wordpress-3.9.4">
+  <script type="text/rocketlazyloadscript" data-minify="1" data-rocket-src="https://cdn.telaviva.com.br/wp-content/cache/min/1/sdks/web/v16/OneSignalSDK.page.js?ver=1792764522" defer></script>
+  <script type="text/rocketlazyloadscript">
+          window.OneSignalDeferred = window.OneSignalDeferred || [];
+          OneSignalDeferred.push(async function(OneSignal) {
+            await OneSignal.init({
+              appId: "48a41898-33ac-4e7a-9de7-723ba5a4e71f",
+              serviceWorkerOverrideForTypical: true,
+              path: "https://telaviva.com.br/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/",
+              serviceWorkerParam: { scope: "\/wp-content\/plugins\/onesignal-free-web-push-notifications\/sdk_files\/push\/onesignal\/" },
+              serviceWorkerPath: "OneSignalSDKWorker.js",
+            });
+          });
+
+          // Unregister the legacy OneSignal service worker to prevent scope conflicts
+          if (navigator.serviceWorker) {
+            navigator.serviceWorker.getRegistrations().then((registrations) => {
+              // Iterate through all registered service workers
+              registrations.forEach((registration) => {
+                // Check the script URL to identify the specific service worker
+                if (registration.active && registration.active.scriptURL.includes('OneSignalSDKWorker.js.php')) {
+                  // Unregister the service worker
+                  registration.unregister().then((success) => {
+                    if (success) {
+                      console.log('OneSignalSW: Successfully unregistered:', registration.active.scriptURL);
+                    } else {
+                      console.log('OneSignalSW: Failed to unregister:', registration.active.scriptURL);
+                    }
+                  });
+                }
+              });
+            }).catch((error) => {
+              console.error('Error fetching service worker registrations:', error);
+            });
+        }
+        </script>
+<meta name="generator" content="performance-lab 4.2.0; plugins: auto-sizes, dominant-color-images, embed-optimizer, image-prioritizer, performant-translations, nocache-bfcache, speculation-rules, webp-uploads">
+<meta name="generator" content="performant-translations 1.2.0">
+<meta name="generator" content="web-worker-offloading 0.3.0">
+<meta name="generator" content="webp-uploads 2.7.1">
+    <script type="text/rocketlazyloadscript">
+        window.tdb_global_vars = {"wpRestUrl":"https:\/\/telaviva.com.br\/wp-json\/","permalinkStructure":"\/%day%\/%monthnum%\/%year%\/%postname%\/"};
+        window.tdb_p_autoload_vars = {"isAjax":false,"isAdminBarShowing":false,"autoloadStatus":"off","origPostEditUrl":null};
+    </script>
+    
+    
+
+    
+	<meta name="generator" content="speculation-rules 1.7.0">
+<meta data-od-replaced-content="optimization-detective 1.0.0-beta7" name="generator" content="optimization-detective 1.0.0-beta7; url_metric_groups={0:populated, 480:empty, 600:empty, 782:populated}">
+<meta name="generator" content="embed-optimizer 1.0.0-beta6">
+<meta name="generator" content="image-prioritizer 1.0.0-beta4">
+
+<!-- JS generated by theme -->
+
+<script type="text/rocketlazyloadscript" data-rocket-type="text/javascript" id="td-generated-header-js">
+    
+    
+
+	    var tdBlocksArray = []; //here we store all the items for the current page
+
+	    // td_block class - each ajax block uses a object of this class for requests
+	    function tdBlock() {
+		    this.id = '';
+		    this.block_type = 1; //block type id (1-234 etc)
+		    this.atts = '';
+		    this.td_column_number = '';
+		    this.td_current_page = 1; //
+		    this.post_count = 0; //from wp
+		    this.found_posts = 0; //from wp
+		    this.max_num_pages = 0; //from wp
+		    this.td_filter_value = ''; //current live filter value
+		    this.is_ajax_running = false;
+		    this.td_user_action = ''; // load more or infinite loader (used by the animation)
+		    this.header_color = '';
+		    this.ajax_pagination_infinite_stop = ''; //show load more at page x
+	    }
+
+        // td_js_generator - mini detector
+        ( function () {
+            var htmlTag = document.getElementsByTagName("html")[0];
+
+	        if ( navigator.userAgent.indexOf("MSIE 10.0") > -1 ) {
+                htmlTag.className += ' ie10';
+            }
+
+            if ( !!navigator.userAgent.match(/Trident.*rv\:11\./) ) {
+                htmlTag.className += ' ie11';
+            }
+
+	        if ( navigator.userAgent.indexOf("Edge") > -1 ) {
+                htmlTag.className += ' ieEdge';
+            }
+
+            if ( /(iPad|iPhone|iPod)/g.test(navigator.userAgent) ) {
+                htmlTag.className += ' td-md-is-ios';
+            }
+
+            var user_agent = navigator.userAgent.toLowerCase();
+            if ( user_agent.indexOf("android") > -1 ) {
+                htmlTag.className += ' td-md-is-android';
+            }
+
+            if ( -1 !== navigator.userAgent.indexOf('Mac OS X')  ) {
+                htmlTag.className += ' td-md-is-os-x';
+            }
+
+            if ( /chrom(e|ium)/.test(navigator.userAgent.toLowerCase()) ) {
+               htmlTag.className += ' td-md-is-chrome';
+            }
+
+            if ( -1 !== navigator.userAgent.indexOf('Firefox') ) {
+                htmlTag.className += ' td-md-is-firefox';
+            }
+
+            if ( -1 !== navigator.userAgent.indexOf('Safari') && -1 === navigator.userAgent.indexOf('Chrome') ) {
+                htmlTag.className += ' td-md-is-safari';
+            }
+
+            if( -1 !== navigator.userAgent.indexOf('IEMobile') ){
+                htmlTag.className += ' td-md-is-iemobile';
+            }
+
+        })();
+
+        var tdLocalCache = {};
+
+        ( function () {
+            "use strict";
+
+            tdLocalCache = {
+                data: {},
+                remove: function (resource_id) {
+                    delete tdLocalCache.data[resource_id];
+                },
+                exist: function (resource_id) {
+                    return tdLocalCache.data.hasOwnProperty(resource_id) && tdLocalCache.data[resource_id] !== null;
+                },
+                get: function (resource_id) {
+                    return tdLocalCache.data[resource_id];
+                },
+                set: function (resource_id, cachedData) {
+                    tdLocalCache.remove(resource_id);
+                    tdLocalCache.data[resource_id] = cachedData;
+                }
+            };
+        })();
+
+    
+    
+var td_viewport_interval_list=[{"limitBottom":767,"sidebarWidth":228},{"limitBottom":1018,"sidebarWidth":300},{"limitBottom":1140,"sidebarWidth":324}];
+var tds_general_modal_image="yes";
+var tds_general_modal_image_disable_mob="yes";
+var tdc_is_installed="yes";
+var tdc_domain_active=false;
+var td_ajax_url="https:\/\/telaviva.com.br\/wp-admin\/admin-ajax.php?td_theme_name=Newspaper&v=12.7.9";
+var td_get_template_directory_uri="https:\/\/telaviva.com.br\/wp-content\/plugins\/td-composer\/legacy\/common";
+var tds_snap_menu="";
+var tds_logo_on_sticky="";
+var tds_header_style="";
+var td_please_wait="Aguarde...";
+var td_email_user_pass_incorrect="Usu\u00e1rio ou senha incorreta!";
+var td_email_user_incorrect="E-mail ou nome de usu\u00e1rio incorreto!";
+var td_email_incorrect="E-mail incorreto!";
+var td_user_incorrect="Username incorrect!";
+var td_email_user_empty="Email or username empty!";
+var td_pass_empty="Pass empty!";
+var td_pass_pattern_incorrect="Invalid Pass Pattern!";
+var td_retype_pass_incorrect="Retyped Pass incorrect!";
+var tds_more_articles_on_post_enable="";
+var tds_more_articles_on_post_time_to_wait="";
+var tds_more_articles_on_post_pages_distance_from_top=0;
+var tds_captcha="";
+var tds_theme_color_site_wide="#4db2ec";
+var tds_smart_sidebar="";
+var tdThemeName="Newspaper";
+var tdThemeNameWl="Newspaper";
+var td_magnific_popup_translation_tPrev="Anterior (Seta a esquerda )";
+var td_magnific_popup_translation_tNext="Avan\u00e7ar (tecla de seta para a direita)";
+var td_magnific_popup_translation_tCounter="%curr% de %total%";
+var td_magnific_popup_translation_ajax_tError="O conte\u00fado de %url% n\u00e3o pode ser carregado.";
+var td_magnific_popup_translation_image_tError="A imagem #%curr% n\u00e3o pode ser carregada.";
+var tdBlockNonce="4f56b9a5fe";
+var tdMobileMenu="enabled";
+var tdMobileSearch="enabled";
+var tdDateNamesI18n={"month_names":["janeiro","fevereiro","mar\u00e7o","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"],"month_names_short":["jan","fev","mar","abr","maio","jun","jul","ago","set","out","nov","dez"],"day_names":["domingo","segunda-feira","ter\u00e7a-feira","quarta-feira","quinta-feira","sexta-feira","s\u00e1bado"],"day_names_short":["dom","seg","ter","qua","qui","sex","s\u00e1b"]};
+var tdb_modal_confirm="Save";
+var tdb_modal_cancel="Cancelar";
+var tdb_modal_confirm_alt="Yes";
+var tdb_modal_cancel_alt="No";
+var td_deploy_mode="deploy";
+var td_ad_background_click_link="";
+var td_ad_background_click_target="";
+</script>
+
+
+<!-- Header style compiled by theme -->
+
+
+
+<meta http-equiv="refresh" content="500">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<script type="text/rocketlazyloadscript" data-minify="1"
+    async
+    data-rocket-src="https://cdn.telaviva.com.br/wp-content/cache/min/1/tag/js/gpt.js?ver=1792764522"
+    crossorigin="anonymous"></script>
+<script id="gptBanners" async>
+ var googletag = googletag || {};
+ googletag.cmd = googletag.cmd || [];
+ (function() {
+   var gads = document.createElement('script');
+   gads.async = true;
+   gads.type = 'text/javascript';
+   var useSSL = 'https:' == document.location.protocol;
+   gads.src = (useSSL ? 'https:' : 'http:') +
+       '//www.googletagservices.com/tag/js/gpt.js';
+   var node = document.getElementsByTagName('script')[0];
+   node.parentNode.insertBefore(gads, node);
+ })();
+
+
+  var slotsuper1, slotsuper2, slotsuper3, slotfull1, slotfull2, slotfull3;
+
+  googletag.cmd.push(function() {
+  var mappingSuper = googletag.sizeMapping().
+  addSize([1024, 768], [728, 90]).
+  addSize([768, 1024], [320, 100]).
+    addSize([980, 690], [728, 90]).
+    addSize([640, 480], [320, 100]).
+    addSize([0, 0], [300, 50]).build();
+
+  var mappingFull = googletag.sizeMapping().
+  addSize([1024, 768], [468, 60]).
+  addSize([768, 1024], [468, 60]).
+    addSize([980, 690], [468, 60]).
+    addSize([640, 480], [468, 60]).
+    addSize([0, 0], [300, 50]).build();
+
+    slotfull1 = googletag.defineSlot('/21793188778/telavivasite_full1', [300, 50], 'div-gpt-ad-1549028654107-0').defineSizeMapping(mappingFull).addService(googletag.pubads());
+
+    googletag.defineSlot('/21793188778/telavivasite_arroba5', [300, 250], 'div-gpt-ad-1549028592638-0').addService(googletag.pubads());
+
+    googletag.defineSlot('/21793188778/telavivasite_arroba4', [300, 250], 'div-gpt-ad-1549028532173-0').addService(googletag.pubads());
+
+    googletag.defineSlot('/21793188778/telavivasite_arroba3', [300, 250], 'div-gpt-ad-1549028493809-0').addService(googletag.pubads());
+
+    googletag.defineSlot('/21793188778/telavivasite_arroba2', [300, 250], 'div-gpt-ad-1549028466320-0').addService(googletag.pubads());
+
+    slotsuper1 = googletag.defineSlot('/21793188778/telavivasite_super1', [300, 250], 'div-gpt-ad-1549028763076-0').defineSizeMapping(mappingSuper).addService(googletag.pubads());
+
+    googletag.defineSlot('/21793188778/telavivasite_arroba1', [300, 250], 'div-gpt-ad-1549028293751-0').addService(googletag.pubads());
+
+    googletag.defineSlot('/21793188778/telavivasite_selo1', [300, 90], 'div-gpt-ad-1549028704877-0').addService(googletag.pubads());
+
+    googletag.defineSlot('/21793188778/telavivasite_selo2', [300, 90], 'div-gpt-ad-1549028735199-0').addService(googletag.pubads());
+
+    googletag.defineSlot('/21793188778/telavivasite_full2', [468, 60], 'div-gpt-ad-1549028678117-0').addService(googletag.pubads());
+
+    googletag.defineSlot( '/21793188778/telavivasite_arroba6', [ 300, 250 ], 'div-gpt-ad-1716993337871-0' ).addService( googletag.pubads() );
+        
+    googletag.pubads().enableSingleRequest();
+
+    googletag.enableServices();
+  });
+
+</script>
+
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@type": "WebSite",
+                    "@id": "https://telaviva.com.br/",
+                    "name": "Início"
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                    "item": {
+                    "@type": "WebPage",
+                    "@id": "https://telaviva.com.br/telaviva/newsletter-tela-viva/",
+                    "name": "Newsletter (Tela Viva)"
+                }
+            }
+            ,{
+                "@type": "ListItem",
+                "position": 3,
+                    "item": {
+                    "@type": "WebPage",
+                    "@id": "https://telaviva.com.br/16/10/2026/anatomia-do-caos-de-dandara-ferreira-fica-disponivel-gratuitamente-no-youtube-por-dez-dias/",
+                    "name": "&#034;Anatomia do Caos&#034;, de Dandara Ferreira, fica disponível gratuitamente no YouTube por..."                                
+                }
+            }    
+        ]
+    }
+</script>
+<link rel="icon" href="https://cdn.telaviva.com.br/wp-content/uploads/2022/12/cropped-Icon_TelaViva2023_OK-512x512-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://cdn.telaviva.com.br/wp-content/uploads/2022/12/cropped-Icon_TelaViva2023_OK-512x512-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://cdn.telaviva.com.br/wp-content/uploads/2022/12/cropped-Icon_TelaViva2023_OK-512x512-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://cdn.telaviva.com.br/wp-content/uploads/2022/12/cropped-Icon_TelaViva2023_OK-512x512-1-270x270.png" />
+<style id="wp-custom-css">
+.td-social-whatsapp, .td-social-line, .td-social-viber {
+    display: inline-block !important;
+}
+
+</style>
+
+<!-- Button style compiled by theme -->
+
+
+
+	<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><link data-od-added-tag rel="preload" fetchpriority="high" as="image" href="https://cdn.telaviva.com.br/wp-content/uploads/2026/10/05.ADC-_Divulgacao_-696x392.webp" imagesrcset="https://telaviva.com.br/wp-content/uploads/2026/10/05.ADC-_Divulgacao_-696x392.webp 696w, https://telaviva.com.br/wp-content/uploads/2026/10/05.ADC-_Divulgacao_-1392x783.webp 1392w" imagesizes="(-webkit-min-device-pixel-ratio: 2) 1392px, (min-resolution: 192dpi) 1392px, 696px" media="screen and (width &lt;= 480px)">
+<link data-od-added-tag rel="preload" fetchpriority="high" as="image" href="https://cdn.telaviva.com.br/wp-content/uploads/2026/10/05.ADC-_Divulgacao_-696x392.webp" imagesrcset="https://telaviva.com.br/wp-content/uploads/2026/10/05.ADC-_Divulgacao_-696x392.webp 696w, https://telaviva.com.br/wp-content/uploads/2026/10/05.ADC-_Divulgacao_-1392x783.webp 1392w" imagesizes="(-webkit-min-device-pixel-ratio: 2) 1392px, (min-resolution: 192dpi) 1392px, 696px" media="screen and (782px &lt; width)">
+<style id="td-inline-css-aggregated">@media (max-width:767px){.td-header-desktop-wrap{display:none}}@media (min-width:767px){.td-header-mobile-wrap{display:none}}:root{--accent-color:#fff}.td-menu-background,.td-search-background{background-image:url('http://teletime.com.br/wp-content/uploads/2018/02/8.jpg')}.white-popup-block:before{background-image:url('http://teletime.com.br/wp-content/uploads/2018/02/8.jpg')}:root{--td_excl_label:'EXCLUSIVO';--td_header_color:#536b87}.td-header-wrap .td-header-top-menu-full,.td-header-wrap .top-header-menu .sub-menu,.tdm-header-style-1.td-header-wrap .td-header-top-menu-full,.tdm-header-style-1.td-header-wrap .top-header-menu .sub-menu,.tdm-header-style-2.td-header-wrap .td-header-top-menu-full,.tdm-header-style-2.td-header-wrap .top-header-menu .sub-menu,.tdm-header-style-3.td-header-wrap .td-header-top-menu-full,.tdm-header-style-3.td-header-wrap .top-header-menu .sub-menu{background-color:#0a0a0a}.td-header-style-8 .td-header-top-menu-full{background-color:transparent}.td-header-style-8 .td-header-top-menu-full .td-header-top-menu{background-color:#0a0a0a;padding-left:15px;padding-right:15px}.td-header-wrap .td-header-top-menu-full .td-header-top-menu,.td-header-wrap .td-header-top-menu-full{border-bottom:none}.td-footer-wrapper::before{background-image:url('http://teletime.com.br/wp-content/uploads/2018/02/8.jpg')}.td-footer-wrapper::before{background-size:cover}.td-footer-wrapper::before{background-position:center center}.td-footer-wrapper::before{opacity:0.1}.td-post-content h2{font-size:22px}.td-menu-background,.td-search-background{background-image:url('http://teletime.com.br/wp-content/uploads/2018/02/8.jpg')}.white-popup-block:before{background-image:url('http://teletime.com.br/wp-content/uploads/2018/02/8.jpg')}:root{--td_excl_label:'EXCLUSIVO';--td_header_color:#536b87}.td-header-wrap .td-header-top-menu-full,.td-header-wrap .top-header-menu .sub-menu,.tdm-header-style-1.td-header-wrap .td-header-top-menu-full,.tdm-header-style-1.td-header-wrap .top-header-menu .sub-menu,.tdm-header-style-2.td-header-wrap .td-header-top-menu-full,.tdm-header-style-2.td-header-wrap .top-header-menu .sub-menu,.tdm-header-style-3.td-header-wrap .td-header-top-menu-full,.tdm-header-style-3.td-header-wrap .top-header-menu .sub-menu{background-color:#0a0a0a}.td-header-style-8 .td-header-top-menu-full{background-color:transparent}.td-header-style-8 .td-header-top-menu-full .td-header-top-menu{background-color:#0a0a0a;padding-left:15px;padding-right:15px}.td-header-wrap .td-header-top-menu-full .td-header-top-menu,.td-header-wrap .td-header-top-menu-full{border-bottom:none}.td-footer-wrapper::before{background-image:url('http://teletime.com.br/wp-content/uploads/2018/02/8.jpg')}.td-footer-wrapper::before{background-size:cover}.td-footer-wrapper::before{background-position:center center}.td-footer-wrapper::before{opacity:0.1}.td-post-content h2{font-size:22px}.td-grid-style-4 .entry-title{background-color:#4db2ec;background-color:rgba(119,140,152,0.7)}@media (max-width:767px){.td_block_template_12 .td-pulldown-category span{display:block!important}}.tdi_1.td-a-rec{text-align:center}.tdi_1.td-a-rec:not(.td-a-rec-no-translate){transform:translateZ(0)}.tdi_1 .td-element-style{z-index:-1}.tdi_1.td-a-rec-img{text-align:left}.tdi_1.td-a-rec-img img{margin:0 auto 0 0}.tdi_1 .td_spot_img_all img,.tdi_1 .td_spot_img_tl img,.tdi_1 .td_spot_img_tp img,.tdi_1 .td_spot_img_mob img{border-style:none}@media (max-width:767px){.tdi_1.td-a-rec-img{text-align:center}}.td-post-sharing-classic{position:relative;height:20px}.td-post-sharing{margin-left:-3px;margin-right:-3px;font-family:var(--td_default_google_font_1,'Open Sans','Open Sans Regular',sans-serif);z-index:2;white-space:nowrap;opacity:0}.td-post-sharing.td-social-show-all{white-space:normal}.td-js-loaded .td-post-sharing{-webkit-transition:opacity 0.3s;transition:opacity 0.3s;opacity:1}.td-post-sharing-classic+.td-post-sharing{margin-top:15px}@media (max-width:767px){.td-post-sharing-classic+.td-post-sharing{margin-top:8px}}.td-post-sharing-top{margin-bottom:30px}@media (max-width:767px){.td-post-sharing-top{margin-bottom:20px}}.td-post-sharing-bottom{border-style:solid;border-color:#ededed;border-width:1px 0;padding:21px 0;margin-bottom:42px}.td-post-sharing-bottom .td-post-sharing{margin-bottom:-7px}.td-post-sharing-visible,.td-social-sharing-hidden{display:inline-block}.td-social-sharing-hidden ul{display:none}.td-social-show-all .td-pulldown-filter-list{display:inline-block}.td-social-network,.td-social-handler{position:relative;display:inline-block;margin:0 3px 7px;height:40px;min-width:40px;font-size:11px;text-align:center;vertical-align:middle}.td-ps-notext .td-social-network .td-social-but-icon,.td-ps-notext .td-social-handler .td-social-but-icon{border-top-right-radius:2px;border-bottom-right-radius:2px}.td-social-network{color:#000;overflow:hidden}.td-social-network .td-social-but-icon{border-top-left-radius:2px;border-bottom-left-radius:2px}.td-social-network .td-social-but-text{border-top-right-radius:2px;border-bottom-right-radius:2px}.td-social-network:hover{opacity:0.8!important}.td-social-handler{color:#444;border:1px solid #e9e9e9;border-radius:2px}.td-social-handler .td-social-but-text{font-weight:700}.td-social-handler .td-social-but-text:before{background-color:#000;opacity:0.08}.td-social-share-text{margin-right:18px}.td-social-share-text:before,.td-social-share-text:after{content:'';position:absolute;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);left:100%;width:0;height:0;border-style:solid}.td-social-share-text:before{border-width:9px 0 9px 11px;border-color:transparent transparent transparent #e9e9e9}.td-social-share-text:after{border-width:8px 0 8px 10px;border-color:transparent transparent transparent #fff}.td-social-but-text,.td-social-but-icon{display:inline-block;position:relative}.td-social-but-icon{padding-left:13px;padding-right:13px;line-height:40px;z-index:1}.td-social-but-icon i{position:relative;top:-1px;vertical-align:middle}.td-social-but-text{margin-left:-6px;padding-left:12px;padding-right:17px;line-height:40px}.td-social-but-text:before{content:'';position:absolute;top:12px;left:0;width:1px;height:16px;background-color:#fff;opacity:0.2;z-index:1}.td-social-handler i,.td-social-facebook i,.td-social-reddit i,.td-social-linkedin i,.td-social-tumblr i,.td-social-stumbleupon i,.td-social-vk i,.td-social-viber i,.td-social-flipboard i,.td-social-koo i{font-size:14px}.td-social-telegram i{font-size:16px}.td-social-mail i,.td-social-line i,.td-social-print i{font-size:15px}.td-social-handler .td-icon-share{top:-1px;left:-1px}.td-social-twitter .td-icon-twitter{font-size:14px}.td-social-pinterest .td-icon-pinterest{font-size:13px}.td-social-whatsapp .td-icon-whatsapp,.td-social-kakao .td-icon-kakao{font-size:18px}.td-social-kakao .td-icon-kakao:before{color:#3C1B1D}.td-social-reddit .td-social-but-icon{padding-right:12px}.td-social-reddit .td-icon-reddit{left:-1px}.td-social-telegram .td-social-but-icon{padding-right:12px}.td-social-telegram .td-icon-telegram{left:-1px}.td-social-stumbleupon .td-social-but-icon{padding-right:11px}.td-social-stumbleupon .td-icon-stumbleupon{left:-2px}.td-social-digg .td-social-but-icon{padding-right:11px}.td-social-digg .td-icon-digg{left:-2px;font-size:17px}.td-social-vk .td-social-but-icon{padding-right:11px}.td-social-vk .td-icon-vk{left:-2px}.td-social-naver .td-icon-naver{left:-1px;font-size:16px}.td-social-gettr .td-icon-gettr{font-size:25px}.td-ps-notext .td-social-gettr .td-icon-gettr{left:-5px}.td-social-copy_url{position:relative}.td-social-copy_url-check{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff;opacity:0;pointer-events:none;transition:opacity .2s ease-in-out;z-index:11}.td-social-copy_url .td-icon-copy_url{left:-1px;font-size:17px}.td-social-copy_url-disabled{pointer-events:none}.td-social-copy_url-disabled .td-icon-copy_url{opacity:0}.td-social-copy_url-copied .td-social-copy_url-check{opacity:1}@keyframes social_copy_url_loader{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.td-social-expand-tabs i{top:-2px;left:-1px;font-size:16px}.td-ps-bg .td-social-network{color:#fff}.td-ps-bg .td-social-facebook .td-social-but-icon,.td-ps-bg .td-social-facebook .td-social-but-text{background-color:#516eab}.td-ps-bg .td-social-twitter .td-social-but-icon,.td-ps-bg .td-social-twitter .td-social-but-text{background-color:#000}.td-ps-bg .td-social-pinterest .td-social-but-icon,.td-ps-bg .td-social-pinterest .td-social-but-text{background-color:#ca212a}.td-ps-bg .td-social-whatsapp .td-social-but-icon,.td-ps-bg .td-social-whatsapp .td-social-but-text{background-color:#7bbf6a}.td-ps-bg .td-social-reddit .td-social-but-icon,.td-ps-bg .td-social-reddit .td-social-but-text{background-color:#f54200}.td-ps-bg .td-social-mail .td-social-but-icon,.td-ps-bg .td-social-digg .td-social-but-icon,.td-ps-bg .td-social-copy_url .td-social-but-icon,.td-ps-bg .td-social-mail .td-social-but-text,.td-ps-bg .td-social-digg .td-social-but-text,.td-ps-bg .td-social-copy_url .td-social-but-text{background-color:#000}.td-ps-bg .td-social-print .td-social-but-icon,.td-ps-bg .td-social-print .td-social-but-text{background-color:#333}.td-ps-bg .td-social-linkedin .td-social-but-icon,.td-ps-bg .td-social-linkedin .td-social-but-text{background-color:#0266a0}.td-ps-bg .td-social-tumblr .td-social-but-icon,.td-ps-bg .td-social-tumblr .td-social-but-text{background-color:#3e5a70}.td-ps-bg .td-social-telegram .td-social-but-icon,.td-ps-bg .td-social-telegram .td-social-but-text{background-color:#179cde}.td-ps-bg .td-social-stumbleupon .td-social-but-icon,.td-ps-bg .td-social-stumbleupon .td-social-but-text{background-color:#ee4813}.td-ps-bg .td-social-vk .td-social-but-icon,.td-ps-bg .td-social-vk .td-social-but-text{background-color:#4c75a3}.td-ps-bg .td-social-line .td-social-but-icon,.td-ps-bg .td-social-line .td-social-but-text{background-color:#00b900}.td-ps-bg .td-social-viber .td-social-but-icon,.td-ps-bg .td-social-viber .td-social-but-text{background-color:#5d54a4}.td-ps-bg .td-social-naver .td-social-but-icon,.td-ps-bg .td-social-naver .td-social-but-text{background-color:#3ec729}.td-ps-bg .td-social-flipboard .td-social-but-icon,.td-ps-bg .td-social-flipboard .td-social-but-text{background-color:#f42827}.td-ps-bg .td-social-kakao .td-social-but-icon,.td-ps-bg .td-social-kakao .td-social-but-text{background-color:#f9e000}.td-ps-bg .td-social-gettr .td-social-but-icon,.td-ps-bg .td-social-gettr .td-social-but-text{background-color:#fc223b}.td-ps-bg .td-social-koo .td-social-but-icon,.td-ps-bg .td-social-koo .td-social-but-text{background-color:#facd00}.td-ps-dark-bg .td-social-network{color:#fff}.td-ps-dark-bg .td-social-network .td-social-but-icon,.td-ps-dark-bg .td-social-network .td-social-but-text{background-color:#000}.td-ps-border .td-social-network .td-social-but-icon,.td-ps-border .td-social-network .td-social-but-text{line-height:38px;border-width:1px;border-style:solid}.td-ps-border .td-social-network .td-social-but-text{border-left-width:0}.td-ps-border .td-social-network .td-social-but-text:before{background-color:#000;opacity:0.08}.td-ps-border.td-ps-padding .td-social-network .td-social-but-icon{border-right-width:0}.td-ps-border.td-ps-padding .td-social-network.td-social-expand-tabs .td-social-but-icon{border-right-width:1px}.td-ps-border-grey .td-social-but-icon,.td-ps-border-grey .td-social-but-text{border-color:#e9e9e9}.td-ps-border-colored .td-social-facebook .td-social-but-icon,.td-ps-border-colored .td-social-facebook .td-social-but-text{border-color:#516eab}.td-ps-border-colored .td-social-twitter .td-social-but-icon,div.td-ps-border-colored .td-social-twitter .td-social-but-text{border-color:#000;color:#000}.td-ps-border-colored .td-social-pinterest .td-social-but-icon,.td-ps-border-colored .td-social-pinterest .td-social-but-text{border-color:#ca212a}.td-ps-border-colored .td-social-whatsapp .td-social-but-icon,.td-ps-border-colored .td-social-whatsapp .td-social-but-text{border-color:#7bbf6a}.td-ps-border-colored .td-social-reddit .td-social-but-icon,.td-ps-border-colored .td-social-reddit .td-social-but-text{border-color:#f54200}.td-ps-border-colored .td-social-mail .td-social-but-icon,.td-ps-border-colored .td-social-digg .td-social-but-icon,.td-ps-border-colored .td-social-copy_url .td-social-but-icon,.td-ps-border-colored .td-social-mail .td-social-but-text,.td-ps-border-colored .td-social-digg .td-social-but-text,.td-ps-border-colored .td-social-copy_url .td-social-but-text{border-color:#000}.td-ps-border-colored .td-social-print .td-social-but-icon,.td-ps-border-colored .td-social-print .td-social-but-text{border-color:#333}.td-ps-border-colored .td-social-linkedin .td-social-but-icon,.td-ps-border-colored .td-social-linkedin .td-social-but-text{border-color:#0266a0}.td-ps-border-colored .td-social-tumblr .td-social-but-icon,.td-ps-border-colored .td-social-tumblr .td-social-but-text{border-color:#3e5a70}.td-ps-border-colored .td-social-telegram .td-social-but-icon,.td-ps-border-colored .td-social-telegram .td-social-but-text{border-color:#179cde}.td-ps-border-colored .td-social-stumbleupon .td-social-but-icon,.td-ps-border-colored .td-social-stumbleupon .td-social-but-text{border-color:#ee4813}.td-ps-border-colored .td-social-vk .td-social-but-icon,.td-ps-border-colored .td-social-vk .td-social-but-text{border-color:#4c75a3}.td-ps-border-colored .td-social-line .td-social-but-icon,.td-ps-border-colored .td-social-line .td-social-but-text{border-color:#00b900}.td-ps-border-colored .td-social-viber .td-social-but-icon,.td-ps-border-colored .td-social-viber .td-social-but-text{border-color:#5d54a4}.td-ps-border-colored .td-social-naver .td-social-but-icon,.td-ps-border-colored .td-social-naver .td-social-but-text{border-color:#3ec729}.td-ps-border-colored .td-social-flipboard .td-social-but-icon,.td-ps-border-colored .td-social-flipboard .td-social-but-text{border-color:#f42827}.td-ps-border-colored .td-social-kakao .td-social-but-icon,.td-ps-border-colored .td-social-kakao .td-social-but-text{border-color:#f9e000}.td-ps-border-colored .td-social-gettr .td-social-but-icon,.td-ps-border-colored .td-social-gettr .td-social-but-text{border-color:#fc223b}.td-ps-border-colored .td-social-koo .td-social-but-icon,.td-ps-border-colored .td-social-koo .td-social-but-text{border-color:#facd00}.td-ps-icon-bg .td-social-but-icon{height:100%;border-color:transparent!important}.td-ps-icon-bg .td-social-network .td-social-but-icon{color:#fff}.td-ps-icon-bg .td-social-facebook .td-social-but-icon{background-color:#516eab}.td-ps-icon-bg .td-social-twitter .td-social-but-icon{background-color:#000}.td-ps-icon-bg .td-social-pinterest .td-social-but-icon{background-color:#ca212a}.td-ps-icon-bg .td-social-whatsapp .td-social-but-icon{background-color:#7bbf6a}.td-ps-icon-bg .td-social-reddit .td-social-but-icon{background-color:#f54200}.td-ps-icon-bg .td-social-mail .td-social-but-icon,.td-ps-icon-bg .td-social-digg .td-social-but-icon,.td-ps-icon-bg .td-social-copy_url .td-social-but-icon{background-color:#000}.td-ps-icon-bg .td-social-print .td-social-but-icon{background-color:#333}.td-ps-icon-bg .td-social-linkedin .td-social-but-icon{background-color:#0266a0}.td-ps-icon-bg .td-social-tumblr .td-social-but-icon{background-color:#3e5a70}.td-ps-icon-bg .td-social-telegram .td-social-but-icon{background-color:#179cde}.td-ps-icon-bg .td-social-stumbleupon .td-social-but-icon{background-color:#ee4813}.td-ps-icon-bg .td-social-vk .td-social-but-icon{background-color:#4c75a3}.td-ps-icon-bg .td-social-line .td-social-but-icon{background-color:#00b900}.td-ps-icon-bg .td-social-viber .td-social-but-icon{background-color:#5d54a4}.td-ps-icon-bg .td-social-naver .td-social-but-icon{background-color:#3ec729}.td-ps-icon-bg .td-social-flipboard .td-social-but-icon{background-color:#f42827}.td-ps-icon-bg .td-social-kakao .td-social-but-icon{background-color:#f9e000}.td-ps-icon-bg .td-social-gettr .td-social-but-icon{background-color:#fc223b}.td-ps-icon-bg .td-social-koo .td-social-but-icon{background-color:#facd00}.td-ps-icon-bg .td-social-but-text{margin-left:-3px}.td-ps-icon-bg .td-social-network .td-social-but-text:before{display:none}.td-ps-icon-arrow .td-social-network .td-social-but-icon:after{content:'';position:absolute;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);left:calc(100% + 1px);width:0;height:0;border-style:solid;border-width:9px 0 9px 11px;border-color:transparent transparent transparent #000}.td-ps-icon-arrow .td-social-network .td-social-but-text{padding-left:20px}.td-ps-icon-arrow .td-social-network .td-social-but-text:before{display:none}.td-ps-icon-arrow.td-ps-padding .td-social-network .td-social-but-icon:after{left:100%}.td-ps-icon-arrow .td-social-facebook .td-social-but-icon:after{border-left-color:#516eab}.td-ps-icon-arrow .td-social-twitter .td-social-but-icon:after{border-left-color:#000}.td-ps-icon-arrow .td-social-pinterest .td-social-but-icon:after{border-left-color:#ca212a}.td-ps-icon-arrow .td-social-whatsapp .td-social-but-icon:after{border-left-color:#7bbf6a}.td-ps-icon-arrow .td-social-reddit .td-social-but-icon:after{border-left-color:#f54200}.td-ps-icon-arrow .td-social-mail .td-social-but-icon:after,.td-ps-icon-arrow .td-social-digg .td-social-but-icon:after,.td-ps-icon-arrow .td-social-copy_url .td-social-but-icon:after{border-left-color:#000}.td-ps-icon-arrow .td-social-print .td-social-but-icon:after{border-left-color:#333}.td-ps-icon-arrow .td-social-linkedin .td-social-but-icon:after{border-left-color:#0266a0}.td-ps-icon-arrow .td-social-tumblr .td-social-but-icon:after{border-left-color:#3e5a70}.td-ps-icon-arrow .td-social-telegram .td-social-but-icon:after{border-left-color:#179cde}.td-ps-icon-arrow .td-social-stumbleupon .td-social-but-icon:after{border-left-color:#ee4813}.td-ps-icon-arrow .td-social-vk .td-social-but-icon:after{border-left-color:#4c75a3}.td-ps-icon-arrow .td-social-line .td-social-but-icon:after{border-left-color:#00b900}.td-ps-icon-arrow .td-social-viber .td-social-but-icon:after{border-left-color:#5d54a4}.td-ps-icon-arrow .td-social-naver .td-social-but-icon:after{border-left-color:#3ec729}.td-ps-icon-arrow .td-social-flipboard .td-social-but-icon:after{border-left-color:#f42827}.td-ps-icon-arrow .td-social-kakao .td-social-but-icon:after{border-left-color:#f9e000}.td-ps-icon-arrow .td-social-gettr .td-social-but-icon:after{border-left-color:#fc223b}.td-ps-icon-arrow .td-social-koo .td-social-but-icon:after{border-left-color:#facd00}.td-ps-icon-arrow .td-social-expand-tabs .td-social-but-icon:after{display:none}.td-ps-icon-color .td-social-facebook .td-social-but-icon{color:#516eab}.td-ps-icon-color .td-social-pinterest .td-social-but-icon{color:#ca212a}.td-ps-icon-color .td-social-whatsapp .td-social-but-icon{color:#7bbf6a}.td-ps-icon-color .td-social-reddit .td-social-but-icon{color:#f54200}.td-ps-icon-color .td-social-mail .td-social-but-icon,.td-ps-icon-color .td-social-digg .td-social-but-icon,.td-ps-icon-color .td-social-copy_url .td-social-but-icon,.td-ps-icon-color .td-social-copy_url-check,.td-ps-icon-color .td-social-twitter .td-social-but-icon{color:#000}.td-ps-icon-color .td-social-print .td-social-but-icon{color:#333}.td-ps-icon-color .td-social-linkedin .td-social-but-icon{color:#0266a0}.td-ps-icon-color .td-social-tumblr .td-social-but-icon{color:#3e5a70}.td-ps-icon-color .td-social-telegram .td-social-but-icon{color:#179cde}.td-ps-icon-color .td-social-stumbleupon .td-social-but-icon{color:#ee4813}.td-ps-icon-color .td-social-vk .td-social-but-icon{color:#4c75a3}.td-ps-icon-color .td-social-line .td-social-but-icon{color:#00b900}.td-ps-icon-color .td-social-viber .td-social-but-icon{color:#5d54a4}.td-ps-icon-color .td-social-naver .td-social-but-icon{color:#3ec729}.td-ps-icon-color .td-social-flipboard .td-social-but-icon{color:#f42827}.td-ps-icon-color .td-social-kakao .td-social-but-icon{color:#f9e000}.td-ps-icon-color .td-social-gettr .td-social-but-icon{color:#fc223b}.td-ps-icon-color .td-social-koo .td-social-but-icon{color:#facd00}.td-ps-text-color .td-social-but-text{font-weight:700}.td-ps-text-color .td-social-facebook .td-social-but-text{color:#516eab}.td-ps-text-color .td-social-twitter .td-social-but-text{color:#000}.td-ps-text-color .td-social-pinterest .td-social-but-text{color:#ca212a}.td-ps-text-color .td-social-whatsapp .td-social-but-text{color:#7bbf6a}.td-ps-text-color .td-social-reddit .td-social-but-text{color:#f54200}.td-ps-text-color .td-social-mail .td-social-but-text,.td-ps-text-color .td-social-digg .td-social-but-text,.td-ps-text-color .td-social-copy_url .td-social-but-text{color:#000}.td-ps-text-color .td-social-print .td-social-but-text{color:#333}.td-ps-text-color .td-social-linkedin .td-social-but-text{color:#0266a0}.td-ps-text-color .td-social-tumblr .td-social-but-text{color:#3e5a70}.td-ps-text-color .td-social-telegram .td-social-but-text{color:#179cde}.td-ps-text-color .td-social-stumbleupon .td-social-but-text{color:#ee4813}.td-ps-text-color .td-social-vk .td-social-but-text{color:#4c75a3}.td-ps-text-color .td-social-line .td-social-but-text{color:#00b900}.td-ps-text-color .td-social-viber .td-social-but-text{color:#5d54a4}.td-ps-text-color .td-social-naver .td-social-but-text{color:#3ec729}.td-ps-text-color .td-social-flipboard .td-social-but-text{color:#f42827}.td-ps-text-color .td-social-kakao .td-social-but-text{color:#f9e000}.td-ps-text-color .td-social-gettr .td-social-but-text{color:#fc223b}.td-ps-text-color .td-social-koo .td-social-but-text{color:#facd00}.td-ps-text-color .td-social-expand-tabs .td-social-but-text{color:#b1b1b1}.td-ps-notext .td-social-but-icon{width:40px}.td-ps-notext .td-social-network .td-social-but-text{display:none}.td-ps-padding .td-social-network .td-social-but-icon{padding-left:17px;padding-right:17px}.td-ps-padding .td-social-handler .td-social-but-icon{width:40px}.td-ps-padding .td-social-reddit .td-social-but-icon,.td-ps-padding .td-social-telegram .td-social-but-icon{padding-right:16px}.td-ps-padding .td-social-stumbleupon .td-social-but-icon,.td-ps-padding .td-social-digg .td-social-but-icon,.td-ps-padding .td-social-expand-tabs .td-social-but-icon{padding-right:13px}.td-ps-padding .td-social-vk .td-social-but-icon{padding-right:14px}.td-ps-padding .td-social-expand-tabs .td-social-but-icon{padding-left:13px}.td-ps-rounded .td-social-network .td-social-but-icon{border-top-left-radius:100px;border-bottom-left-radius:100px}.td-ps-rounded .td-social-network .td-social-but-text{border-top-right-radius:100px;border-bottom-right-radius:100px}.td-ps-rounded.td-ps-notext .td-social-network .td-social-but-icon{border-top-right-radius:100px;border-bottom-right-radius:100px}.td-ps-rounded .td-social-expand-tabs{border-radius:100px}.td-ps-bar .td-social-network .td-social-but-icon,.td-ps-bar .td-social-network .td-social-but-text{-webkit-box-shadow:inset 0px -3px 0px 0px rgba(0,0,0,0.31);box-shadow:inset 0px -3px 0px 0px rgba(0,0,0,0.31)}.td-ps-bar .td-social-mail .td-social-but-icon,.td-ps-bar .td-social-digg .td-social-but-icon,.td-ps-bar .td-social-copy_url .td-social-but-icon,.td-ps-bar .td-social-mail .td-social-but-text,.td-ps-bar .td-social-digg .td-social-but-text,.td-ps-bar .td-social-copy_url .td-social-but-text{-webkit-box-shadow:inset 0px -3px 0px 0px rgba(255,255,255,0.28);box-shadow:inset 0px -3px 0px 0px rgba(255,255,255,0.28)}.td-ps-bar .td-social-print .td-social-but-icon,.td-ps-bar .td-social-print .td-social-but-text{-webkit-box-shadow:inset 0px -3px 0px 0px rgba(255,255,255,0.2);box-shadow:inset 0px -3px 0px 0px rgba(255,255,255,0.2)}.td-ps-big .td-social-but-icon{display:block;line-height:60px}.td-ps-big .td-social-but-icon .td-icon-share{width:auto}.td-ps-big .td-social-handler .td-social-but-text:before{display:none}.td-ps-big .td-social-share-text .td-social-but-icon{width:90px}.td-ps-big .td-social-expand-tabs .td-social-but-icon{width:60px}@media (max-width:767px){.td-ps-big .td-social-share-text{display:none}}.td-ps-big .td-social-facebook i,.td-ps-big .td-social-reddit i,.td-ps-big .td-social-mail i,.td-ps-big .td-social-linkedin i,.td-ps-big .td-social-tumblr i,.td-ps-big .td-social-stumbleupon i{margin-top:-2px}.td-ps-big .td-social-facebook i,.td-ps-big .td-social-reddit i,.td-ps-big .td-social-linkedin i,.td-ps-big .td-social-tumblr i,.td-ps-big .td-social-stumbleupon i,.td-ps-big .td-social-vk i,.td-ps-big .td-social-viber i,.td-ps-big .td-social-fliboard i,.td-ps-big .td-social-koo i,.td-ps-big .td-social-share-text i{font-size:22px}.td-ps-big .td-social-telegram i{font-size:24px}.td-ps-big .td-social-mail i,.td-ps-big .td-social-line i,.td-ps-big .td-social-print i{font-size:23px}.td-ps-big .td-social-twitter i,.td-ps-big .td-social-expand-tabs i{font-size:20px}.td-ps-big .td-social-whatsapp i,.td-ps-big .td-social-naver i,.td-ps-big .td-social-flipboard i,.td-ps-big .td-social-kakao i{font-size:26px}.td-ps-big .td-social-pinterest .td-icon-pinterest{font-size:21px}.td-ps-big .td-social-telegram .td-icon-telegram{left:1px}.td-ps-big .td-social-stumbleupon .td-icon-stumbleupon{left:-2px}.td-ps-big .td-social-digg .td-icon-digg{left:-1px;font-size:25px}.td-ps-big .td-social-vk .td-icon-vk{left:-1px}.td-ps-big .td-social-naver .td-icon-naver{left:0}.td-ps-big .td-social-gettr .td-icon-gettr{left:-1px}.td-ps-big .td-social-copy_url .td-icon-copy_url{left:0;font-size:25px}.td-ps-big .td-social-copy_url-check{font-size:18px}.td-ps-big .td-social-but-text{margin-left:0;padding-top:0;padding-left:17px}.td-ps-big.td-ps-notext .td-social-network,.td-ps-big.td-ps-notext .td-social-handler{height:60px}.td-ps-big.td-ps-notext .td-social-network{width:60px}.td-ps-big.td-ps-notext .td-social-network .td-social-but-icon{width:60px}.td-ps-big.td-ps-notext .td-social-share-text .td-social-but-icon{line-height:40px}.td-ps-big.td-ps-notext .td-social-share-text .td-social-but-text{display:block;line-height:1}.td-ps-big.td-ps-padding .td-social-network,.td-ps-big.td-ps-padding .td-social-handler{height:90px;font-size:13px}.td-ps-big.td-ps-padding .td-social-network{min-width:60px}.td-ps-big.td-ps-padding .td-social-but-icon{border-bottom-left-radius:0;border-top-right-radius:2px}.td-ps-big.td-ps-padding.td-ps-bar .td-social-but-icon{-webkit-box-shadow:none;box-shadow:none}.td-ps-big.td-ps-padding .td-social-but-text{display:block;padding-bottom:17px;line-height:1;border-top-left-radius:0;border-top-right-radius:0;border-bottom-left-radius:2px}.td-ps-big.td-ps-padding .td-social-but-text:before{display:none}.td-ps-big.td-ps-padding .td-social-expand-tabs i{line-height:90px}.td-ps-nogap{margin-left:0;margin-right:0}.td-ps-nogap .td-social-network,.td-ps-nogap .td-social-handler{margin-left:0;margin-right:0;border-radius:0}.td-ps-nogap .td-social-network .td-social-but-icon,.td-ps-nogap .td-social-network .td-social-but-text{border-radius:0}.td-ps-nogap .td-social-expand-tabs{border-radius:0}.td-post-sharing-style7 .td-social-network .td-social-but-icon{height:100%}.td-post-sharing-style7 .td-social-network .td-social-but-icon:before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,0.31)}.td-post-sharing-style7 .td-social-network .td-social-but-text{padding-left:17px}.td-post-sharing-style7 .td-social-network .td-social-but-text:before{display:none}.td-post-sharing-style7 .td-social-mail .td-social-but-icon:before,.td-post-sharing-style7 .td-social-digg .td-social-but-icon:before,.td-post-sharing-style7 .td-social-copy_url .td-social-but-icon:before{background-color:rgba(255,255,255,0.2)}.td-post-sharing-style7 .td-social-print .td-social-but-icon:before{background-color:rgba(255,255,255,0.1)}@media (max-width:767px){.td-post-sharing-style1 .td-social-share-text .td-social-but-text,.td-post-sharing-style3 .td-social-share-text .td-social-but-text,.td-post-sharing-style5 .td-social-share-text .td-social-but-text,.td-post-sharing-style14 .td-social-share-text .td-social-but-text,.td-post-sharing-style16 .td-social-share-text .td-social-but-text{display:none!important}}@media (max-width:767px){.td-post-sharing-style2 .td-social-share-text,.td-post-sharing-style4 .td-social-share-text,.td-post-sharing-style6 .td-social-share-text,.td-post-sharing-style7 .td-social-share-text,.td-post-sharing-style15 .td-social-share-text,.td-post-sharing-style17 .td-social-share-text,.td-post-sharing-style18 .td-social-share-text,.td-post-sharing-style19 .td-social-share-text,.td-post-sharing-style20 .td-social-share-text{display:none!important}}.tdi_2.td-a-rec{text-align:center}.tdi_2.td-a-rec:not(.td-a-rec-no-translate){transform:translateZ(0)}.tdi_2 .td-element-style{z-index:-1}.tdi_2.td-a-rec-img{text-align:left}.tdi_2.td-a-rec-img img{margin:0 auto 0 0}.tdi_2 .td_spot_img_all img,.tdi_2 .td_spot_img_tl img,.tdi_2 .td_spot_img_tp img,.tdi_2 .td_spot_img_mob img{border-style:none}@media (max-width:767px){.tdi_2.td-a-rec-img{text-align:center}}.tdi_6.td-a-rec{text-align:center}.tdi_6.td-a-rec:not(.td-a-rec-no-translate){transform:translateZ(0)}.tdi_6 .td-element-style{z-index:-1}.tdi_6.td-a-rec-img{text-align:left}.tdi_6.td-a-rec-img img{margin:0 auto 0 0}.tdi_6 .td_spot_img_all img,.tdi_6 .td_spot_img_tl img,.tdi_6 .td_spot_img_tp img,.tdi_6 .td_spot_img_mob img{border-style:none}@media (max-width:767px){.tdi_6.td-a-rec-img{text-align:center}}.form_cep{width:20%!important}.form_ddd{width:10%!important}.form_telefone{width:40%!important}.wpcf7-form .wpcf7-not-valid{border-bottom:2px solid #900!important;border-bottom-width:2px!important;border-bottom-style:solid!important;border-bottom-color:rgb(153,0,0)!important;outline:none!important}.wpcf7-form span.wpcf7-not-valid-tip{color:#900!important;font-size:11px!important;float:none!important;padding-left:5px!important}.searchandfilter li{margin-left:0px!important}.search-page-search-wrap{margin:17px 0 31px 0!important}input[type=date]{font-size:12px;line-height:21px;color:#444;border:1px solid #e1e1e1;width:100%;max-width:100%;height:34px;padding:3px 9px}.td_search_subtitle{margin-bottom:10px}body:not(.page-id-229893) .grecaptcha-badge{display:none}div.td-big-grid-meta>div.td-excerpt{color:#FFF!important}@media (max-width:767px){.td-header-sp-recs{margin-bottom:5px!important;margin-top:5px!important}#botao-google-news{display:block!important;margin-top:5px!important;height:auto!important}}#botao-google-news{line-height:21px;font-size:10px;overflow:hidden;width:auto;height:21px;display:inline;position:relative;top:-8px}#botao-google-news a{vertical-align:middle;padding:4px;border:1px red solid;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}#botao-google-news img{top:3px;position:relative}.postid-470645 #div-gpt-ad-1549028654107-0,.postid-470645 #div-gpt-ad-1549028592638-0,.postid-470645 #div-gpt-ad-1549028532173-0,.postid-470645 #div-gpt-ad-1549028493809-0,.postid-470645 #div-gpt-ad-1549028466320-0,.postid-470645 #div-gpt-ad-1549028763076-0,.postid-470645 #div-gpt-ad-1549028293751-0,.postid-470645 #div-gpt-ad-1549028704877-0,.postid-470645 #div-gpt-ad-1549028735199-0,.postid-470645 #div-gpt-ad-1549028678117-0,.postid-470645 #div-gpt-ad-1716993337871-0{display:none!important}</style><style id="rocket-lazyrender-inline-css">[data-wpr-lazyrender] {content-visibility: auto;}</style><meta name="generator" content="WP Rocket 3.21.3" data-wpr-features="wpr_delay_js wpr_minify_js wpr_lazyload_images wpr_lazyload_iframes wpr_preconnect_external_domains wpr_automatic_lazy_rendering wpr_oci wpr_minify_css wpr_cdn wpr_desktop wpr_dns_prefetch" /></head>
+
+<body data-cmplz=1 class="wp-singular post-template-default single single-post postid-513212 single-format-standard wp-theme-Newspaper wp-child-theme-telaviva td-standard-pack anatomia-do-caos-de-dandara-ferreira-fica-disponivel-gratuitamente-no-youtube-por-dez-dias global-block-template-12 td-full-layout" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+
+        <div  class="td-scroll-up"><i class="td-icon-menu-up"></i></div>
+
+    <div  class="td-menu-background" style="visibility:hidden"></div>
+<div  id="td-mobile-nav" style="visibility:hidden">
+    <div  class="td-mobile-container">
+        <!-- mobile menu top section -->
+        <div  class="td-menu-socials-wrap">
+            <!-- socials -->
+            <div class="td-menu-socials">
+                
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="https://www.facebook.com/telavivanews" title="Facebook">
+                <i class="td-icon-font td-icon-facebook"></i>
+                <span style="display: none">Facebook</span>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="https://www.instagram.com/telavivanews/" title="Instagram">
+                <i class="td-icon-font td-icon-instagram"></i>
+                <span style="display: none">Instagram</span>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="https://www.linkedin.com/company/tela-viva-news/" title="Linkedin">
+                <i class="td-icon-font td-icon-linkedin"></i>
+                <span style="display: none">Linkedin</span>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="https://twitter.com/telaviva" title="X">
+                <i class="td-icon-font td-icon-twitter"></i>
+                <span style="display: none">X</span>
+            </a>
+        </span>            </div>
+            <!-- close button -->
+            <div class="td-mobile-close">
+                <span><i class="td-icon-close-mobile"></i></span>
+            </div>
+        </div>
+
+        <!-- login section -->
+        
+        <!-- menu section -->
+        <div  class="td-mobile-content">
+            <div class="menu-menu-tela-viva-container"><ul id="menu-menu-tela-viva" class="td-mobile-main-menu"><li id="menu-item-396759" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-first menu-item-396759"><a href="https://telaviva.com.br/telaviva/">Notícias</a></li>
+<li id="menu-item-396760" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-396760"><a href="https://telaviva.com.br/telaviva/paytv/">Pay-TV</a></li>
+<li id="menu-item-400692" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-400692"><a href="https://telaviva.com.br/telaviva/programacao/">Programação</a></li>
+<li id="menu-item-400693" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-400693"><a href="https://telaviva.com.br/telaviva/artigos-analises/">Artigos/Análises</a></li>
+<li id="menu-item-396761" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-396761"><a target="_blank" href="https://teletime.com.br/eventos">Eventos</a></li>
+<li id="menu-item-397558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397558"><a href="https://telaviva.com.br/anuncie/">Anuncie</a></li>
+<li id="menu-item-400741" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-400741"><a href="https://telaviva.com.br/cadastre-se/">Cadastre-se</a></li>
+<li id="menu-item-397559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397559"><a href="https://telaviva.com.br/quem-somos/">Quem Somos</a></li>
+</ul></div>        </div>
+    </div>
+
+    <!-- register/login section -->
+    </div>    <div  class="td-search-background" style="visibility:hidden"></div>
+<div  class="td-search-wrap-mob" style="visibility:hidden">
+	<div  class="td-drop-down-search">
+		<form method="get" class="td-search-form" action="https://telaviva.com.br/">
+			<!-- close button -->
+			<div class="td-search-close">
+				<span><i class="td-icon-close-mobile"></i></span>
+			</div>
+			<div role="search" class="td-search-input">
+				<span>Buscar</span>
+				<input id="td-header-search-mob" type="text" value="" name="s" autocomplete="off" />
+			</div>
+		</form>
+		<div  id="td-aj-search-mob" class="td-ajax-search-flex"></div>
+	</div>
+</div>
+
+    <div  id="td-outer-wrap" class="td-theme-wrap">
+    
+        
+            <div  class="tdc-header-wrap ">
+
+            <!--
+Header style 1
+-->
+
+
+<div  class="td-header-wrap td-header-style-1 ">
+    
+    <div class="td-header-top-menu-full td-container-wrap ">
+        <div class="td-container td-header-row td-header-top-menu">
+            
+    <div class="top-bar-style-4">
+        <div class="td-header-sp-top-widget">
+    
+    
+        
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="https://www.facebook.com/telavivanews" title="Facebook">
+                <i class="td-icon-font td-icon-facebook"></i>
+                <span style="display: none">Facebook</span>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="https://www.instagram.com/telavivanews/" title="Instagram">
+                <i class="td-icon-font td-icon-instagram"></i>
+                <span style="display: none">Instagram</span>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="https://www.linkedin.com/company/tela-viva-news/" title="Linkedin">
+                <i class="td-icon-font td-icon-linkedin"></i>
+                <span style="display: none">Linkedin</span>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="https://twitter.com/telaviva" title="X">
+                <i class="td-icon-font td-icon-twitter"></i>
+                <span style="display: none">X</span>
+            </a>
+        </span>    </div>
+
+        
+<div class="td-header-sp-top-menu">
+
+
+	        <div class="td_data_time">
+            <div >
+
+                sábado, outubro 24, 2026
+            </div>
+        </div>
+    </div>
+    </div>
+
+<!-- LOGIN MODAL -->
+
+                <div id="login-form" class="white-popup-block mfp-hide mfp-with-anim td-login-modal-wrap">
+                    <div class="td-login-wrap">
+                        <a href="#" aria-label="Back" class="td-back-button"><i class="td-icon-modal-back"></i></a>
+                        <div id="td-login-div" class="td-login-form-div td-display-block">
+                            <div class="td-login-panel-title">Entrar</div>
+                            <div class="td-login-panel-descr">Bem-vindo! Entre na sua conta</div>
+                            <div class="td_display_err"></div>
+                            <form id="loginForm" action="#" method="post">
+                                <div class="td-login-inputs"><input class="td-login-input" autocomplete="username" type="text" name="login_email" id="login_email" value="" required><label for="login_email">seu usuário</label></div>
+                                <div class="td-login-inputs"><input class="td-login-input" autocomplete="current-password" type="password" name="login_pass" id="login_pass" value="" required><label for="login_pass">sua senha</label></div>
+                                <input type="button"  name="login_button" id="login_button" class="wpb_button btn td-login-button" value="Entrar">
+                                
+                            </form>
+
+                            
+
+                            <div class="td-login-info-text"><a href="#" id="forgot-pass-link">Forgot your password? Get help</a></div>
+                            
+                            
+                            
+                            
+                        </div>
+
+                        
+
+                         <div id="td-forgot-pass-div" class="td-login-form-div td-display-none">
+                            <div class="td-login-panel-title">Recuperar senha</div>
+                            <div class="td-login-panel-descr">Recupere sua senha</div>
+                            <div class="td_display_err"></div>
+                            <form id="forgotpassForm" action="#" method="post">
+                                <div class="td-login-inputs"><input class="td-login-input" type="text" name="forgot_email" id="forgot_email" value="" required><label for="forgot_email">seu e-mail</label></div>
+                                <input type="button" name="forgot_button" id="forgot_button" class="wpb_button btn td-login-button" value="Enviar minha senha">
+                            </form>
+                            <div class="td-login-info-text">Uma senha será enviada por e-mail para você.</div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                        </div>
+    </div>
+
+    <div class="td-banner-wrap-full td-logo-wrap-full td-container-wrap ">
+        <div class="td-container td-header-row td-header-header">
+            <div class="td-header-sp-logo">
+                        <a class="td-main-logo" href="https://telaviva.com.br/">
+            <img data-od-xpath="/HTML/BODY/DIV[@id=&apos;td-outer-wrap&apos;]/*[1][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" class="td-retina-data" data-retina="https://cdn.telaviva.com.br/wp-content/uploads/2022/12/TelaViva2023_OK-544x180-1-300x99.png" src="https://cdn.telaviva.com.br/wp-content/uploads/2022/12/TelaViva2023_OK-272x90-1.png" alt=""  width="272" height="90"/>
+            <span class="td-visual-hidden">TELA VIVA News</span>
+        </a>
+                </div>
+                            <div class="td-header-sp-recs">
+                    <div class="td-header-rec-wrap">
+    <div class="td-a-rec td-a-rec-id-header  td-a-rec-no-translate tdi_1 td_block_template_12">
+<div class="td-visible-all">
+<!-- /21793188778/telavivasite_super1 -->
+<div id='div-gpt-ad-1549028763076-0'>
+<script type="text/rocketlazyloadscript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1549028763076-0'); });
+</script>
+</div>
+</div></div>
+</div>                </div>
+                    </div>
+    </div>
+
+    <div class="td-header-menu-wrap-full td-container-wrap ">
+        
+        <div class="td-header-menu-wrap td-header-gradient ">
+            <div class="td-container td-header-row td-header-main-menu">
+                <div id="td-header-menu" role="navigation">
+        <div id="td-top-mobile-toggle"><a href="#" role="button" aria-label="Menu"><i class="td-icon-font td-icon-mobile"></i></a></div>
+        <div class="td-main-menu-logo td-logo-in-header">
+        		<a class="td-mobile-logo td-sticky-disable" aria-label="Logo" href="https://telaviva.com.br/">
+			<img data-od-xpath="/HTML/BODY/DIV[@id=&apos;td-outer-wrap&apos;]/*[1][self::DIV]/*[1][self::DIV]/*[3][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::A]/*[1][self::IMG]" class="td-retina-data" data-retina="https://cdn.telaviva.com.br/wp-content/uploads/2022/12/TelaViva2023_OK-280x96-1.png" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20140%2048'%3E%3C/svg%3E" alt=""  width="140" height="48" data-lazy-src="https://cdn.telaviva.com.br/wp-content/uploads/2022/12/TelaViva2023_OK-140x48-1.png"/><noscript><img data-od-xpath="/HTML/BODY/DIV[@id=&apos;td-outer-wrap&apos;]/*[1][self::DIV]/*[1][self::DIV]/*[3][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::A]/*[1][self::IMG]" class="td-retina-data" data-retina="https://cdn.telaviva.com.br/wp-content/uploads/2022/12/TelaViva2023_OK-280x96-1.png" src="https://cdn.telaviva.com.br/wp-content/uploads/2022/12/TelaViva2023_OK-140x48-1.png" alt=""  width="140" height="48"/></noscript>
+		</a>
+			<a class="td-header-logo td-sticky-disable" aria-label="Logo" href="https://telaviva.com.br/">
+			<img data-od-added-fetchpriority data-od-xpath="/HTML/BODY/DIV[@id=&apos;td-outer-wrap&apos;]/*[1][self::DIV]/*[1][self::DIV]/*[3][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[2][self::A]/*[1][self::IMG]" fetchpriority="low" class="td-retina-data" data-retina="https://cdn.telaviva.com.br/wp-content/uploads/2022/12/TelaViva2023_OK-544x180-1-300x99.png" src="https://cdn.telaviva.com.br/wp-content/uploads/2022/12/TelaViva2023_OK-272x90-1.png" alt=""  width="140" height="48"/>
+		</a>
+	    </div>
+    <div class="menu-menu-tela-viva-container"><ul id="menu-menu-tela-viva-1" class="sf-menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-first td-menu-item td-normal-menu menu-item-396759"><a href="https://telaviva.com.br/telaviva/">Notícias</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-396760"><a href="https://telaviva.com.br/telaviva/paytv/">Pay-TV</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-400692"><a href="https://telaviva.com.br/telaviva/programacao/">Programação</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-400693"><a href="https://telaviva.com.br/telaviva/artigos-analises/">Artigos/Análises</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-396761"><a target="_blank" href="https://teletime.com.br/eventos">Eventos</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-397558"><a href="https://telaviva.com.br/anuncie/">Anuncie</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-400741"><a href="https://telaviva.com.br/cadastre-se/">Cadastre-se</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-397559"><a href="https://telaviva.com.br/quem-somos/">Quem Somos</a></li>
+</ul></div></div>
+
+
+    <div class="header-search-wrap">
+        <div class="td-search-btns-wrap">
+            <a id="td-header-search-button" href="#" role="button" aria-label="Search" class="dropdown-toggle " data-toggle="dropdown"><i class="td-icon-search"></i></a>
+                            <a id="td-header-search-button-mob" href="#" role="button" aria-label="Search" class="dropdown-toggle " data-toggle="dropdown"><i class="td-icon-search"></i></a>
+                    </div>
+
+        <div class="td-drop-down-search" aria-labelledby="td-header-search-button">
+            <form method="get" class="td-search-form" action="https://telaviva.com.br/">
+                <div role="search" class="td-head-form-search-wrap">
+                    <input id="td-header-search" type="text" value="" name="s" autocomplete="off" /><input class="wpb_button wpb_btn-inverse btn" type="submit" id="td-header-search-top" value="Buscar" />
+                </div>
+            </form>
+            <div id="td-aj-search"></div>
+        </div>
+    </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+            </div>
+
+            
+    <div  class="td-main-content-wrap td-container-wrap">
+
+        <div  class="td-container td-post-template-default ">
+            <div class="td-crumb-container"><div class="entry-crumbs"><span><a title="" class="entry-crumb" href="https://telaviva.com.br/">Início</a></span> <i class="td-icon-right td-bread-sep"></i> <span><a title="Ver todos os artigos em Newsletter (Tela Viva)" class="entry-crumb" href="https://telaviva.com.br/telaviva/newsletter-tela-viva/">Newsletter (Tela Viva)</a></span> <i class="td-icon-right td-bread-sep td-bred-no-url-last"></i> <span class="td-bred-no-url-last">&#034;Anatomia do Caos&#034;, de Dandara Ferreira, fica disponível gratuitamente no YouTube por...</span></div></div>
+
+            <div class="td-pb-row">
+                                        <div class="td-pb-span8 td-main-content" role="main">
+                            <div class="td-ss-main-content">
+                                
+    <article id="post-513212" class="post-513212 post type-post status-publish format-standard has-post-thumbnail category-newsletter-tela-viva category-telaviva tag-agenda tag-cinema tag-descoloniza-filmes" 0>
+        <div class="td-post-header">
+
+            <div class="td-post-category">CINEMA </div>
+            <header class="td-post-title">
+                <h1 class="entry-title">&#034;Anatomia do Caos&#034;, de Dandara Ferreira, fica disponível gratuitamente no YouTube por dez dias</h1>
+                
+
+                <div class="td-module-meta-info">
+                    <!-- author --><div class="td-post-author-name"><div class="td-author-by">Por</div> <a href="https://telaviva.com.br/author/redacao/">Redação</a><div class="td-author-line"> - </div> </div>                    <!-- date --><span class="td-post-date"><time itemprop="datePublished" class="entry-date updated td-module-date" content="2026-10-16T20:43:57+00:00" datetime="2026-10-16T20:43:57+00:00" >16 de outubro de 2026</time>&nbsp;&nbsp;&nbsp;<time itemprop="dateModified" class="entry-date updated td-module-date" content="2026-10-16T20:43:57+00:00" datetime="2026-10-16T20:43:57+00:00" >Atualizado em  16 de outubro de 2026</time></span>                    <!-- comments -->                    <!-- views -->                </div>
+
+            </header>
+
+        </div>
+
+        <div class="td-post-sharing-top"><div id="td_social_sharing_article_top" class="td-post-sharing td-ps-bg td-ps-notext td-post-sharing-style1 ">
+		
+
+		<div class="td-post-sharing-visible"><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ftelaviva.com.br%2F16%2F10%2F2026%2Fanatomia-do-caos-de-dandara-ferreira-fica-disponivel-gratuitamente-no-youtube-por-dez-dias%2F" title="Facebook" ><div class="td-social-but-icon"><i class="td-icon-facebook"></i></div><div class="td-social-but-text">Facebook</div></a><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-twitter" href="https://x.com/intent/post?text=%22Anatomia+do+Caos%22%2C+de+Dandara+Ferreira%2C+fica+dispon%C3%ADvel+gratuitamente+no+YouTube+por+dez+dias&url=https%3A%2F%2Ftelaviva.com.br%2F16%2F10%2F2026%2Fanatomia-do-caos-de-dandara-ferreira-fica-disponivel-gratuitamente-no-youtube-por-dez-dias%2F&via=telaviva" title="X" ><div class="td-social-but-icon"><i class="td-icon-twitter"></i></div><div class="td-social-but-text">X</div></a><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-whatsapp" href="https://api.whatsapp.com/send?text=%22Anatomia+do+Caos%22%2C+de+Dandara+Ferreira%2C+fica+dispon%C3%ADvel+gratuitamente+no+YouTube+por+dez+dias %0A%0A https://telaviva.com.br/16/10/2026/anatomia-do-caos-de-dandara-ferreira-fica-disponivel-gratuitamente-no-youtube-por-dez-dias/" title="WhatsApp" ><div class="td-social-but-icon"><i class="td-icon-whatsapp"></i></div><div class="td-social-but-text">WhatsApp</div></a><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://telaviva.com.br/16/10/2026/anatomia-do-caos-de-dandara-ferreira-fica-disponivel-gratuitamente-no-youtube-por-dez-dias/&title=%22Anatomia+do+Caos%22%2C+de+Dandara+Ferreira%2C+fica+dispon%C3%ADvel+gratuitamente+no+YouTube+por+dez+dias" title="Linkedin" ><div class="td-social-but-icon"><i class="td-icon-linkedin"></i></div><div class="td-social-but-text">Linkedin</div></a><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-mail" href="mailto:?subject=&#034;Anatomia do Caos&#034;, de Dandara Ferreira, fica disponível gratuitamente no YouTube por dez dias&body=https://telaviva.com.br/16/10/2026/anatomia-do-caos-de-dandara-ferreira-fica-disponivel-gratuitamente-no-youtube-por-dez-dias/" title="Email" ><div class="td-social-but-icon"><i class="td-icon-mail"></i></div><div class="td-social-but-text">Email</div></a><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-telegram" href="https://telegram.me/share/url?url=https://telaviva.com.br/16/10/2026/anatomia-do-caos-de-dandara-ferreira-fica-disponivel-gratuitamente-no-youtube-por-dez-dias/&text=%22Anatomia+do+Caos%22%2C+de+Dandara+Ferreira%2C+fica+dispon%C3%ADvel+gratuitamente+no+YouTube+por+dez+dias" title="Telegram" ><div class="td-social-but-icon"><i class="td-icon-telegram"></i></div><div class="td-social-but-text">Telegram</div></a><a class="td-social-sharing-button td-social-sharing-button-js td-social-network td-social-copy_url" href="https://telaviva.com.br/16/10/2026/anatomia-do-caos-de-dandara-ferreira-fica-disponivel-gratuitamente-no-youtube-por-dez-dias/" title="Copy URL" ><div class="td-social-but-icon"><div class="td-social-copy_url-check td-icon-check"></div><i class="td-icon-copy_url"></i></div><div class="td-social-but-text">Copy URL</div></a></div><div class="td-social-sharing-hidden"><ul class="td-pulldown-filter-list"></ul><a class="td-social-sharing-button td-social-handler td-social-expand-tabs" href="#" data-block-uid="td_social_sharing_article_top" title="More">
+                                    <div class="td-social-but-icon"><i class="td-icon-plus td-social-expand-tabs-icon"></i></div>
+                                </a></div></div></div>
+        <div class="td-post-content tagdiv-type">
+            <!-- image --><div class="td-post-featured-image"><figure><a href="https://cdn.telaviva.com.br/wp-content/uploads/2026/10/05.ADC-_Divulgacao_.webp" data-caption=" “Anatomia do Caos”, de Dandara Ferreira (Foto: Divulgação)"><img data-od-added-fetchpriority data-od-xpath="/HTML/BODY/DIV[@id=&apos;td-outer-wrap&apos;]/*[2][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::ARTICLE]/*[3][self::DIV]/*[1][self::DIV]/*[1][self::FIGURE]/*[1][self::A]/*[1][self::IMG]" fetchpriority="high" width="696" height="392" class="entry-thumb td-modal-image" src="https://cdn.telaviva.com.br/wp-content/uploads/2026/10/05.ADC-_Divulgacao_-696x392.webp" srcset="https://cdn.telaviva.com.br/wp-content/uploads/2026/10/05.ADC-_Divulgacao_-696x392.webp 696w, https://cdn.telaviva.com.br/wp-content/uploads/2026/10/05.ADC-_Divulgacao_-1392x783.webp 1392w" sizes="(-webkit-min-device-pixel-ratio: 2) 1392px, (min-resolution: 192dpi) 1392px, 696px" alt="" title="05.ADC-_Divulgac?a?o_"/></a><figcaption class="wp-caption-text"> “Anatomia do Caos”, de Dandara Ferreira (Foto: Divulgação)</figcaption></figure></div>
+            <!-- content --><p class="p1">De 16 a 25 de outubro, &#034;Anatomia do Caos&#034;, documentário dirigido por Dandara Ferreira, estará disponível gratuitamente e na íntegra no YouTube. Com distribuição da Descoloniza Filmes, a obra acompanha os bastidores da CPI da Covid no Senado para investigar as ações do governo de Jair Bolsonaro e a postura de parlamentares diante da pandemia de coronavírus, que resultou na morte de mais de 700 mil brasileiros.</p>
+<p class="p1">Após sua trajetória pelos cinemas, o filme revisita a pandemia de Covid-19 e a CPI da Covid, trazendo reflexões sobre memória, responsabilidade e a história recente do Brasil.</p>
+<p class="p1">As filmagens foram iniciadas em Brasília em abril de 2021, durante o andamento da comissão. A produção apresenta registros inéditos dos senadores na busca por documentos e respostas, além de expor as falhas estruturais na condução da emergência sanitária global. O roteiro foi escrito pela diretora e por Élcio Verçosa Filho, com produção da Movioca Content House, Las Margaridas e Labav.</p><div class="td-a-rec td-a-rec-id-content_inline  tdi_2 td_block_template_12">
+<div class="td-visible-all"  style="margin-bottom: 20px; max-width: fit-content; margin-left: auto; margin-right: auto;">
+<!-- /21793188778/telavivasite_full1 -->
+<div id='div-gpt-ad-1549028654107-0' style='height:60px; width:468px;'>
+<script type="text/rocketlazyloadscript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1549028654107-0'); });
+</script>
+</div>
+</div></div>
+<h1 class="p1">Mostra de São Paulo</h1>
+<p class="p1">Em paralelo, dois filmes distribuídos pela Descoloniza Filmes integram a programação da 50ª Mostra Internacional de Cinema em São Paulo: &#034;Dragões&#034; e &#034;Telúrica, a Íntima Utopia&#034;.</p>
+<p class="p1">&#034;Dragões&#034;, dirigido por Miguel Antunes Ramos, investiga a relação entre imagem e poder político no Brasil. Já &#034;Telúrica, a Íntima Utopia&#034;, dirigido por Mariana Lacerda, propõe reflexões sobre a vida na Terra e a relação entre os seres e seus territórios.</p>
+<p class="p1">Além disso, a Descoloniza estará presente no VI Encontro de Ideias Audiovisuais, que é realizado paralelamente à Mostra, de 20 a 23 de outubro. Dois projetos integram o programa Quase Lá, dedicado a filmes brasileiros em finalização: &#034;A Jovem Pajé&#034;, de Rodrigo Antonio Silva, e &#034;Flecha para um Coração de Pedra&#034;, de Luiza Calagian.</p>
+<p class="p1">A programação também conta com a participação de Ibirá Machado, da Descoloniza Filmes, na mesa &#034;Documentários &#8211; Novos Caminhos até o Público&#034;, que será promovida pelo Canal Brasil na quinta, 22, das 14h45 às 15h45, no Solar Fábio Prado.</p>
+        </div>
+
+        <footer>
+            <!-- post pagination -->            <!-- review -->
+            <div class="td-post-source-tags">
+                <!-- source via -->                <!-- tags --><ul class="td-tags td-post-small-box clearfix"><li><span>TAGS</span></li><li><a href="https://telaviva.com.br/tag/agenda/">Agenda</a></li><li><a href="https://telaviva.com.br/tag/cinema/">Cinema</a></li><li><a href="https://telaviva.com.br/tag/descoloniza-filmes/">Descoloniza Filmes</a></li></ul>            </div>
+
+            <div class="td-post-sharing-bottom"><div class="td-post-sharing-classic" style="display:inline-block !important;"><iframe loading="lazy" data-category="marketing" data-service="facebook" class="cmplz-iframe cmplz-iframe-styles cmplz-video " data-cmplz-target="data-lazy-src" data-src-cmplz="https://www.facebook.com/plugins/like.php?href=https://telaviva.com.br/16/10/2026/anatomia-do-caos-de-dandara-ferreira-fica-disponivel-gratuitamente-no-youtube-por-dez-dias/&amp;layout=button_count&amp;show_faces=false&amp;width=105&amp;action=like&amp;colorscheme=light&amp;height=21" frameBorder="0"  src="about:blank"  style="border:none; overflow:hidden; width:100px; height:21px; background-color:transparent;" data-rocket-lazyload="fitvidscompatible" data-lazy-src=""></iframe><noscript><iframe data-category="marketing" data-service="facebook" class="cmplz-iframe cmplz-iframe-styles cmplz-video " data-cmplz-target="data-lazy-src" data-src-cmplz="https://www.facebook.com/plugins/like.php?href=https://telaviva.com.br/16/10/2026/anatomia-do-caos-de-dandara-ferreira-fica-disponivel-gratuitamente-no-youtube-por-dez-dias/&amp;layout=button_count&amp;show_faces=false&amp;width=105&amp;action=like&amp;colorscheme=light&amp;height=21" frameBorder="0"  src="about:blank"  style="border:none; overflow:hidden; width:100px; height:21px; background-color:transparent;"></iframe></noscript></div><div id="botao-google-news">
+        <a href="https://news.google.com/publications/CAAqBwgKMPnmlQswvImtAw?oc=3&ceid=BR:pt-419" title="Siga nossas notícias pelo Google News" target="_blank">Siga nossas notícias pelo Google News <img data-od-added-loading data-od-xpath="/HTML/BODY/DIV[@id=&apos;td-outer-wrap&apos;]/*[2][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::ARTICLE]/*[4][self::FOOTER]/*[2][self::DIV]/*[2][self::DIV]/*[1][self::A]/*[1][self::IMG]" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Siga nossas notícias pelo Google News" data-lazy-src="https://teletime.com.br/wp-content/uploads/2020/06/botao-google-news.png"/><noscript><img data-od-added-loading data-od-xpath="/HTML/BODY/DIV[@id=&apos;td-outer-wrap&apos;]/*[2][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::ARTICLE]/*[4][self::FOOTER]/*[2][self::DIV]/*[2][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" src="https://teletime.com.br/wp-content/uploads/2020/06/botao-google-news.png" alt="Siga nossas notícias pelo Google News"/></noscript></a></div></div>            <!-- next prev -->            <!-- author box --><div class="td-author-name vcard author" style="display: none"><span class="fn"><a href="https://telaviva.com.br/author/redacao/">Redação</a></span></div>            <!-- meta -->        </footer>
+
+    </article> <!-- /.post PASSOU AQUI -->
+
+    <div class="td_block_wrap td_block_related_posts tdi_3 td_with_ajax_pagination td-pb-border-top td_block_template_12"  data-td-block-uid="tdi_3" ><script type="text/rocketlazyloadscript">var block_tdi_3 = new tdBlock();
+block_tdi_3.id = "tdi_3";
+block_tdi_3.atts = '{"limit":6,"ajax_pagination":"next_prev","live_filter":"cur_post_same_tags","td_ajax_filter_type":"td_custom_related","class":"tdi_3","td_column_number":3,"block_type":"td_block_related_posts","live_filter_cur_post_id":513212,"live_filter_cur_post_author":"15","block_template_id":"","header_color":"","ajax_pagination_infinite_stop":"","offset":"","td_ajax_preloading":"","td_filter_default_txt":"","td_ajax_filter_ids":"","el_class":"","color_preset":"","ajax_pagination_next_prev_swipe":"","border_top":"","css":"","tdc_css":"","tdc_css_class":"tdi_3","tdc_css_class_style":"tdi_3_rand_style"}';
+block_tdi_3.td_column_number = "3";
+block_tdi_3.block_type = "td_block_related_posts";
+block_tdi_3.post_count = "6";
+block_tdi_3.found_posts = "8459";
+block_tdi_3.header_color = "";
+block_tdi_3.ajax_pagination_infinite_stop = "";
+block_tdi_3.max_num_pages = "1410";
+tdBlocksArray.push(block_tdi_3);
+</script><h4 class="td-related-title td-block-title"><a id="tdi_4" class="td-related-left td-cur-simple-item" data-td_filter_value="" data-td_block_id="tdi_3" href="#">NOTÍCIAS RELACIONADAS</a><a id="tdi_5" class="td-related-right" data-td_filter_value="td_related_more_from_author" data-td_block_id="tdi_3" href="#">Mais do autor</a></h4><div id=tdi_3 class="td_block_inner">
+
+	<div class="td-related-row">
+
+	<div class="td-related-span4">
+
+        <div class="td_module_related_posts td-animation-stack td_mod_related_posts">
+            <div class="td-module-image">
+                <div class="td-module-thumb"><a href="https://telaviva.com.br/23/10/2026/secretaria-da-cultura-do-rs-lanca-editais-para-setor-audiovisual-com-investimento-de-r-196-milhoes/"  rel="bookmark" class="td-image-wrap " title="Secretaria da Cultura do RS lança editais para setor audiovisual com investimento de R$ 19,6 milhões" ><img data-od-added-loading data-od-replaced-sizes="(-webkit-min-device-pixel-ratio: 2) 436px, (min-resolution: 192dpi) 436px, 218px" data-od-xpath="/HTML/BODY/DIV[@id=&apos;td-outer-wrap&apos;]/*[2][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[3][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]"  width="218" height="150" class="entry-thumb" src="https://cdn.telaviva.com.br/wp-content/uploads/2026/10/audiovisual-magnific-218x150.webp"  srcset="https://cdn.telaviva.com.br/wp-content/uploads/2026/10/audiovisual-magnific-218x150.webp 218w, https://cdn.telaviva.com.br/wp-content/uploads/2026/10/audiovisual-magnific-436x300.webp 436w" sizes="auto, (-webkit-min-device-pixel-ratio: 2) 436px, (min-resolution: 192dpi) 436px, 218px"  alt="" title="Secretaria da Cultura do RS lança editais para setor audiovisual com investimento de R$ 19,6 milhões" /></a></div>                <div class="td-post-category">EDITAIS </div>            </div>
+            <div class="item-details">
+                <h3 class="entry-title td-module-title"><a href="https://telaviva.com.br/23/10/2026/secretaria-da-cultura-do-rs-lanca-editais-para-setor-audiovisual-com-investimento-de-r-196-milhoes/"  rel="bookmark" title="Secretaria da Cultura do RS lança editais para setor audiovisual com investimento de R$ 19,6 milhões">Secretaria da Cultura do RS lança editais para setor audiovisual com investimento de R$ 19,6 milhões</a></h3>            </div>
+        </div>
+        
+	</div> <!-- ./td-related-span4 -->
+
+	<div class="td-related-span4">
+
+        <div class="td_module_related_posts td-animation-stack td_mod_related_posts">
+            <div class="td-module-image">
+                <div class="td-module-thumb"><a href="https://telaviva.com.br/23/10/2026/sucesso-de-bilheteria-minha-melhor-amiga-chega-ao-circuito-spcine-com-sessoes-gratuitas-ou-por-ate-r-4/"  rel="bookmark" class="td-image-wrap " title="Sucesso de bilheteria, &#034;Minha Melhor Amiga&#034; chega ao Circuito Spcine com sessões gratuitas ou por até R$ 4" ><img data-od-added-loading data-od-replaced-sizes="(-webkit-min-device-pixel-ratio: 2) 436px, (min-resolution: 192dpi) 436px, 218px" data-od-xpath="/HTML/BODY/DIV[@id=&apos;td-outer-wrap&apos;]/*[2][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[3][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]"  width="218" height="150" class="entry-thumb" src="https://cdn.telaviva.com.br/wp-content/uploads/2026/10/minha-melhor-amiga-218x150.webp"  srcset="https://cdn.telaviva.com.br/wp-content/uploads/2026/10/minha-melhor-amiga-218x150.webp 218w, https://cdn.telaviva.com.br/wp-content/uploads/2026/10/minha-melhor-amiga-436x300.webp 436w" sizes="auto, (-webkit-min-device-pixel-ratio: 2) 436px, (min-resolution: 192dpi) 436px, 218px"  alt="" title="Sucesso de bilheteria, &#034;Minha Melhor Amiga&#034; chega ao Circuito Spcine com sessões gratuitas ou por até R$ 4" /></a></div>                <div class="td-post-category">CINEMA </div>            </div>
+            <div class="item-details">
+                <h3 class="entry-title td-module-title"><a href="https://telaviva.com.br/23/10/2026/sucesso-de-bilheteria-minha-melhor-amiga-chega-ao-circuito-spcine-com-sessoes-gratuitas-ou-por-ate-r-4/"  rel="bookmark" title="Sucesso de bilheteria, &#034;Minha Melhor Amiga&#034; chega ao Circuito Spcine com sessões gratuitas ou por até R$ 4">Sucesso de bilheteria, &#034;Minha Melhor Amiga&#034; chega ao Circuito Spcine com sessões gratuitas ou por até R$ 4</a></h3>            </div>
+        </div>
+        
+	</div> <!-- ./td-related-span4 -->
+
+	<div class="td-related-span4">
+
+        <div class="td_module_related_posts td-animation-stack td_mod_related_posts">
+            <div class="td-module-image">
+                <div class="td-module-thumb"><a href="https://telaviva.com.br/23/10/2026/9o-festival-lugar-de-mulher-e-no-cinema-reune-mais-de-30-filmes-de-13-estados-brasileiros-em-salvador/"  rel="bookmark" class="td-image-wrap " title="9º Festival Lugar de Mulher é no Cinema reúne mais de 30 filmes de 13 estados brasileiros em Salvador" ><img data-od-added-loading data-od-replaced-sizes="(-webkit-min-device-pixel-ratio: 2) 436px, (min-resolution: 192dpi) 436px, 218px" data-od-xpath="/HTML/BODY/DIV[@id=&apos;td-outer-wrap&apos;]/*[2][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[3][self::DIV]/*[1][self::DIV]/*[3][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]"  width="218" height="150" class="entry-thumb" src="https://cdn.telaviva.com.br/wp-content/uploads/2026/10/A-Cor-da-Patroa_Dir.-Milena-Anjos_Salvador-BA-218x150.webp"  srcset="https://cdn.telaviva.com.br/wp-content/uploads/2026/10/A-Cor-da-Patroa_Dir.-Milena-Anjos_Salvador-BA-218x150.webp 218w, https://cdn.telaviva.com.br/wp-content/uploads/2026/10/A-Cor-da-Patroa_Dir.-Milena-Anjos_Salvador-BA-436x300.webp 436w" sizes="auto, (-webkit-min-device-pixel-ratio: 2) 436px, (min-resolution: 192dpi) 436px, 218px"  alt="" title="9º Festival Lugar de Mulher é no Cinema reúne mais de 30 filmes de 13 estados brasileiros em Salvador" /></a></div>                <div class="td-post-category">AGENDA</div>            </div>
+            <div class="item-details">
+                <h3 class="entry-title td-module-title"><a href="https://telaviva.com.br/23/10/2026/9o-festival-lugar-de-mulher-e-no-cinema-reune-mais-de-30-filmes-de-13-estados-brasileiros-em-salvador/"  rel="bookmark" title="9º Festival Lugar de Mulher é no Cinema reúne mais de 30 filmes de 13 estados brasileiros em Salvador">9º Festival Lugar de Mulher é no Cinema reúne mais de 30 filmes de 13 estados brasileiros em Salvador</a></h3>            </div>
+        </div>
+        
+	</div> <!-- ./td-related-span4 --></div><!--./row-fluid-->
+
+	<div class="td-related-row">
+
+	<div class="td-related-span4">
+
+        <div class="td_module_related_posts td-animation-stack td_mod_related_posts">
+            <div class="td-module-image">
+                <div class="td-module-thumb"><a href="https://telaviva.com.br/22/10/2026/cinema-brasileiro-precisa-pensar-a-distribuicao-alem-do-obvio-para-chegar-ao-publico/"  rel="bookmark" class="td-image-wrap " title="Cinema brasileiro precisa pensar a distribuição além do óbvio para chegar ao público" ><img data-od-added-loading data-od-replaced-sizes="(-webkit-min-device-pixel-ratio: 2) 436px, (min-resolution: 192dpi) 436px, 218px" data-od-xpath="/HTML/BODY/DIV[@id=&apos;td-outer-wrap&apos;]/*[2][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[3][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]"  width="218" height="150" class="entry-thumb" src="https://cdn.telaviva.com.br/wp-content/uploads/2026/10/55605919555_c9e1c260dd_k-218x150.webp"  srcset="https://cdn.telaviva.com.br/wp-content/uploads/2026/10/55605919555_c9e1c260dd_k-218x150.webp 218w, https://cdn.telaviva.com.br/wp-content/uploads/2026/10/55605919555_c9e1c260dd_k-436x300.webp 436w" sizes="auto, (-webkit-min-device-pixel-ratio: 2) 436px, (min-resolution: 192dpi) 436px, 218px"  alt="" title="Cinema brasileiro precisa pensar a distribuição além do óbvio para chegar ao público" /></a></div>                <div class="td-post-category">ENCONTRO DE IDEIAS AUDIOVISUAIS</div>            </div>
+            <div class="item-details">
+                <h3 class="entry-title td-module-title"><a href="https://telaviva.com.br/22/10/2026/cinema-brasileiro-precisa-pensar-a-distribuicao-alem-do-obvio-para-chegar-ao-publico/"  rel="bookmark" title="Cinema brasileiro precisa pensar a distribuição além do óbvio para chegar ao público">Cinema brasileiro precisa pensar a distribuição além do óbvio para chegar ao público</a></h3>            </div>
+        </div>
+        
+	</div> <!-- ./td-related-span4 -->
+
+	<div class="td-related-span4">
+
+        <div class="td_module_related_posts td-animation-stack td_mod_related_posts">
+            <div class="td-module-image">
+                <div class="td-module-thumb"><a href="https://telaviva.com.br/22/10/2026/los-angeles-brazilian-film-festival-labrff-anuncia-sua-selecao-oficial-de-2026/"  rel="bookmark" class="td-image-wrap " title="Los Angeles Brazilian Film Festival (LABRFF) anuncia sua seleção oficial de 2026" ><img data-od-added-loading data-od-replaced-sizes="(-webkit-min-device-pixel-ratio: 2) 436px, (min-resolution: 192dpi) 436px, 218px" data-od-xpath="/HTML/BODY/DIV[@id=&apos;td-outer-wrap&apos;]/*[2][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[3][self::DIV]/*[2][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]"  width="218" height="150" class="entry-thumb" src="https://cdn.telaviva.com.br/wp-content/uploads/2026/06/5-TIPOS-218x150.webp"  srcset="https://cdn.telaviva.com.br/wp-content/uploads/2026/06/5-TIPOS-218x150.webp 218w, https://cdn.telaviva.com.br/wp-content/uploads/2026/06/5-TIPOS-436x300.webp 436w" sizes="auto, (-webkit-min-device-pixel-ratio: 2) 436px, (min-resolution: 192dpi) 436px, 218px"  alt="" title="Los Angeles Brazilian Film Festival (LABRFF) anuncia sua seleção oficial de 2026" /></a></div>                <div class="td-post-category">CINEMA </div>            </div>
+            <div class="item-details">
+                <h3 class="entry-title td-module-title"><a href="https://telaviva.com.br/22/10/2026/los-angeles-brazilian-film-festival-labrff-anuncia-sua-selecao-oficial-de-2026/"  rel="bookmark" title="Los Angeles Brazilian Film Festival (LABRFF) anuncia sua seleção oficial de 2026">Los Angeles Brazilian Film Festival (LABRFF) anuncia sua seleção oficial de 2026</a></h3>            </div>
+        </div>
+        
+	</div> <!-- ./td-related-span4 -->
+
+	<div class="td-related-span4">
+
+        <div class="td_module_related_posts td-animation-stack td_mod_related_posts">
+            <div class="td-module-image">
+                <div class="td-module-thumb"><a href="https://telaviva.com.br/22/10/2026/documentario-sobre-o-direito-a-memoria-no-brasil-e-selecionado-para-o-idfa/"  rel="bookmark" class="td-image-wrap " title="Documentário sobre o direito à memória no Brasil é selecionado para o IDFA" ><img data-od-added-loading data-od-replaced-sizes="(-webkit-min-device-pixel-ratio: 2) 436px, (min-resolution: 192dpi) 436px, 218px" data-od-xpath="/HTML/BODY/DIV[@id=&apos;td-outer-wrap&apos;]/*[2][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[3][self::DIV]/*[2][self::DIV]/*[3][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]"  width="218" height="150" class="entry-thumb" src="https://cdn.telaviva.com.br/wp-content/uploads/2026/10/SME_Still_16-218x150.webp"  srcset="https://cdn.telaviva.com.br/wp-content/uploads/2026/10/SME_Still_16-218x150.webp 218w, https://cdn.telaviva.com.br/wp-content/uploads/2026/10/SME_Still_16-436x300.webp 436w" sizes="auto, (-webkit-min-device-pixel-ratio: 2) 436px, (min-resolution: 192dpi) 436px, 218px"  alt="" title="Documentário sobre o direito à memória no Brasil é selecionado para o IDFA" /></a></div>                <div class="td-post-category">CINEMA </div>            </div>
+            <div class="item-details">
+                <h3 class="entry-title td-module-title"><a href="https://telaviva.com.br/22/10/2026/documentario-sobre-o-direito-a-memoria-no-brasil-e-selecionado-para-o-idfa/"  rel="bookmark" title="Documentário sobre o direito à memória no Brasil é selecionado para o IDFA">Documentário sobre o direito à memória no Brasil é selecionado para o IDFA</a></h3>            </div>
+        </div>
+        
+	</div> <!-- ./td-related-span4 --></div><!--./row-fluid--></div><div class="td-next-prev-wrap"><a href="#" class="td-ajax-prev-page ajax-page-disabled" aria-label="prev-page" id="prev-page-tdi_3" data-td_block_id="tdi_3"><i class="td-next-prev-icon td-icon-font td-icon-menu-left"></i></a><a href="#"  class="td-ajax-next-page" aria-label="next-page" id="next-page-tdi_3" data-td_block_id="tdi_3"><i class="td-next-prev-icon td-icon-font td-icon-menu-right"></i></a></div></div> <!-- ./block -->
+        <div class="comments" id="comments">
+        	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">DEIXE UMA RESPOSTA <small><a rel="nofollow" id="cancel-comment-reply-link" href="/16/10/2026/anatomia-do-caos-de-dandara-ferreira-fica-disponivel-gratuitamente-no-youtube-por-dez-dias/#respond" style="display:none;">Cancelar resposta</a></small></h3><form action="https://telaviva.com.br/wp-comments-post.php" method="post" id="commentform" class="comment-form"><div class="clearfix"></div>
+            <div class="comment-form-input-wrap td-form-comment">
+                <textarea placeholder="Comentário:" id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea>
+                <div class="td-warning-comment">Por favor digite seu comentário!</div>
+            </div><div class="comment-form-input-wrap td-form-author">
+			            <input class="" id="author" name="author" placeholder="Nome:*" type="text" value="" size="30"  aria-required='true' />
+			            <div class="td-warning-author">Por favor, digite seu nome aqui</div>
+			         </div>
+<div class="comment-form-input-wrap td-form-email">
+			            <input class="" id="email" name="email" placeholder="E-mail:*" type="text" value="" size="30"  aria-required='true' />
+			            <div class="td-warning-email-error">Você digitou um endereço de e-mail incorreto!</div>
+			            <div class="td-warning-email">Por favor, digite seu endereço de e-mail aqui</div>
+			         </div>
+<div class="comment-form-input-wrap td-form-url">
+			            <input class="" id="url" name="url" placeholder="Site:" type="text" value="" size="30" />
+                     </div>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Postar Comentário" /> <input type='hidden' name='comment_post_ID' value='513212' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="0119a41110" /></p><p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="229"/><script type="text/rocketlazyloadscript">
+document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );
+</script>
+</p></form>	</div><!-- #respond -->
+	    </div> <!-- /.content -->
+                                </div>
+                        </div>
+                        <div class="td-pb-span4 td-main-sidebar" role="complementary">
+                            <div class="td-ss-main-sidebar">
+                                <div class="td-a-rec td-a-rec-id-sidebar  tdi_6 td_block_template_12">
+<div class="td-all-devices">
+<div id='div-gpt-ad-1549028735199-0' style='height:90px; width:300px;'>
+<script type="text/rocketlazyloadscript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1549028735199-0'); });
+</script>
+</div>
+<br>
+<div id='div-gpt-ad-1549028293751-0' style='height:250px; width:300px;'>
+<script type="text/rocketlazyloadscript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1549028293751-0'); });
+</script>
+</div>
+<br>
+<div id='div-gpt-ad-1549028466320-0' style='height:250px; width:300px;'>
+<script type="text/rocketlazyloadscript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1549028466320-0'); });
+</script>
+</div>
+<br>
+<div id='div-gpt-ad-1549028493809-0' style='height:250px; width:300px;'>
+<script type="text/rocketlazyloadscript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1549028493809-0'); });
+</script>
+</div>
+<br>
+<div id='div-gpt-ad-1549028532173-0' style='height:250px; width:300px;'>
+<script type="text/rocketlazyloadscript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1549028532173-0'); });
+</script>
+</div>
+<br>
+<div id='div-gpt-ad-1549028592638-0' style='height:250px; width:300px;'>
+<script type="text/rocketlazyloadscript">
+googletag.cmd.push( function () { googletag.display( 'div-gpt-ad-1549028592638-0' ); } );
+</script>
+</div>
+<br>
+<div id='div-gpt-ad-1716993337871-0' style='height:250px; width:300px;'>
+<script type="text/rocketlazyloadscript">
+googletag.cmd.push( function () { googletag.display( 'div-gpt-ad-1716993337871-0' ); } );
+</script>
+</div>
+<br>
+<div id='div-gpt-ad-1549028704877-0' style='height:90px; width:300px;'>
+<script type="text/rocketlazyloadscript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1549028704877-0'); });
+</script>
+</div>
+<br>
+</div></div>                            </div>
+                        </div>
+                                    </div> <!-- /.td-pb-row -->
+        </div> <!-- /.td-container -->
+    </div> <!-- /.td-main-content-wrap -->
+
+
+	
+	
+            <div data-wpr-lazyrender="1" class="tdc-footer-wrap ">
+
+                <!-- Footer -->
+				<div  class="td-footer-wrapper td-footer-container td-container-wrap td-footer-template-14 ">
+    <div class="td-container td-footer-bottom-full">
+        <div class="td-pb-row">
+            <div class="td-pb-span3"><aside class="footer-logo-wrap"><a href="https://telaviva.com.br/"><img data-od-added-fetchpriority data-od-xpath="/HTML/BODY/DIV[@id=&apos;td-outer-wrap&apos;]/*[3][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::ASIDE]/*[1][self::A]/*[1][self::IMG]" fetchpriority="low" class="td-retina-data" src="https://cdn.telaviva.com.br/wp-content/uploads/2022/12/TelaViva2023_OK-272x90-1.png" data-retina="https://cdn.telaviva.com.br/wp-content/uploads/2022/12/TelaViva2023_OK-544x180-1-300x99.png" alt="TELA VIVA News" title=""  width="272" height="90" /></a></aside></div><div class="td-pb-span5"><aside class="footer-text-wrap"><div class="block-title"><span>SOBRE NÓS</span></div>DIRETOR GERAL: 
+<a href="mailto:samuca@teletime.com.br">Samuel Possebon</a><br><br>
+REDAÇÃO TELA VIVA e TELETIME: 
+<a href="mailto:samuca@teletime.com.br">Samuel Possebon</a> (Editor geral),
+<a href="mailto:fernando@telaviva.com.br">Fernando Lauterjung</a> (Editor Adjunto - TELA VIVA),
+<a href="mailto:henrique.juliao@teletime.com.br">Henrique Julião</a> (Editor adjunto - TELETIME)<br><br>
+Repórteres:<br>
+<a href="mailto:danilo.paulo@teletime.com.br">Danilo Paulo</a>,
+<a href="mailto:eduardo.vasconcelos@teletime.com.br">Eduardo Vasconcelos</a>,
+<a href="mailto:mariana@telaviva.com.br">Mariana Toledo</a>
+<br><br>
+EQUIPE COMPARTILHADA<br><br>
+Representante comercial de publicações e eventos: 
+<a href="mailto:patricia.linger@telaviva.com.br">Patrícia Linger</a> 
+(11) 3138-4623 / (11) 98245-3183, 
+<a href="mailto:comercial@teletime.com.br">comercial@teletime.com.br</a><br>
+<br>
+Representante de inscrições e circulação: 
+<a href="mailto:eventos@teletime.com.br">Andrea Sternadt</a>
+<br><br>
+Departamento administrativo: 
+<a href="mailto:financeiro@teletime.com.br">Cristini Mayumi</a>
+<br><br>
+Equipe de Internet: <a href="mailto:trafego@convergecom.com.br">Lúcio Pinotti</a> (tráfego) e <a href="mailto:pressi@pressi.com.br">Marcelo Roberto Pressi</a> (desenvolvimento, suporte)</aside></div><div class="td-pb-span4"><aside class="footer-social-wrap td-social-style-2"><div class="block-title"><span>SIGA-NOS</span></div>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="https://www.facebook.com/telavivanews" title="Facebook">
+                <i class="td-icon-font td-icon-facebook"></i>
+                <span style="display: none">Facebook</span>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="https://www.instagram.com/telavivanews/" title="Instagram">
+                <i class="td-icon-font td-icon-instagram"></i>
+                <span style="display: none">Instagram</span>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="https://www.linkedin.com/company/tela-viva-news/" title="Linkedin">
+                <i class="td-icon-font td-icon-linkedin"></i>
+                <span style="display: none">Linkedin</span>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="https://twitter.com/telaviva" title="X">
+                <i class="td-icon-font td-icon-twitter"></i>
+                <span style="display: none">X</span>
+            </a>
+        </span></aside></div>        </div>
+    </div>
+</div>
+                <!-- Sub Footer -->
+				    <div  class="td-sub-footer-container td-container-wrap ">
+        <div class="td-container">
+            <div class="td-pb-row">
+                <div class="td-pb-span td-sub-footer-menu">
+                                    </div>
+
+                <div class="td-pb-span td-sub-footer-copy">
+                    &copy; 2024 - Os artigos do site são propriedade de Save Produções Editoriais LTDA. A reprodução das matérias é livre desde que citada a fonte e com o link para a publicação original.                </div>
+            </div>
+        </div>
+    </div>
+            </div><!--close td-footer-wrap-->
+			
+
+</div><!--close td-outer-wrap-->
+
+
+<script type="speculationrules">
+{"prerender":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/telaviva/*","/wp-content/themes/Newspaper/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prerender, .no-prerender a"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"moderate"}]}
+</script>
+
+
+    <!--
+
+        Theme: Newspaper by tagDiv.com 2026
+        Version: 12.7.9 (rara)
+        Deploy mode: deploy
+        
+        uid: 6adcd4b522717
+    -->
+
+    
+<!-- Custom css from theme panel -->
+
+
+			<script data-category="functional">
+				window['gtag_enable_tcf_support'] = false;
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '', {
+	cookie_flags:'secure;samesite=none',
+	
+});
+							</script>
+			<script type="text/rocketlazyloadscript" data-minify="1" id="auto_image_alt-js" defer='defer' data-rocket-src="https://cdn.telaviva.com.br/wp-content/cache/min/1/wp-content/plugins/auto-image-alt/js/auto_image_alt.js?ver=1792764522"></script>
+<script type="text/rocketlazyloadscript" id="td-site-min-js" defer='defer' data-rocket-src="https://cdn.telaviva.com.br/wp-content/plugins/td-composer/legacy/Newspaper/js/tagdiv_theme.min.js?ver=12.7.9"></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="tdPostImages-js" defer='defer' data-rocket-src="https://cdn.telaviva.com.br/wp-content/cache/min/1/wp-content/plugins/td-composer/legacy/Newspaper/js/tdPostImages.js?ver=1792764522"></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="tdSocialSharing-js" defer='defer' data-rocket-src="https://cdn.telaviva.com.br/wp-content/cache/min/1/wp-content/plugins/td-composer/legacy/Newspaper/js/tdSocialSharing.js?ver=1792764522"></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="tdModalPostImages-js" defer='defer' data-rocket-src="https://cdn.telaviva.com.br/wp-content/cache/min/1/wp-content/plugins/td-composer/legacy/Newspaper/js/tdModalPostImages.js?ver=1792764522"></script>
+<script type="text/rocketlazyloadscript" async data-wp-strategy="async" fetchpriority="low" id="comment-reply-js" defer='defer' data-rocket-src="https://cdn.telaviva.com.br/wp-includes/js/comment-reply.min.js?ver=d53b7c1de12db08a1ede04706cbf1852"></script>
+
+<!-- Snippet do Reader Revenue Manager do Google adicionado pelo Site Kit -->
+<script type="text/rocketlazyloadscript" id="google_swgjs-js-before">
+(self.SWG_BASIC=self.SWG_BASIC||[]).push(basicSubscriptions=>{basicSubscriptions.init({"type":"NewsArticle","isPartOfType":["Product"],"isPartOfProductId":"CAowxeSVCw:openaccess","clientOptions":{"theme":"light","lang":"pt-BR"}});});
+//# sourceURL=google_swgjs-js-before
+</script>
+<script type="text/rocketlazyloadscript" data-minify="1" async data-wp-strategy="async" id="google_swgjs-js" defer='defer' data-rocket-src="https://cdn.telaviva.com.br/wp-content/cache/min/1/swg/js/v1/swg-basic.js?ver=1792764522"></script>
+
+<!-- Fim do código do Reader Revenue Manager do Google adicionado pelo Site Kit -->
+<script id="google-recaptcha-js" defer='defer' src="https://www.google.com/recaptcha/api.js?render=6Lc-ZNMqAAAAAKU_beMZ7iAThGMNxriyzkMFMokX&#038;ver=3.0"></script>
+<script type="text/rocketlazyloadscript" id="wp-polyfill-js" data-rocket-src="https://cdn.telaviva.com.br/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"></script>
+<script id="wpcf7-recaptcha-js-before">
+var wpcf7_recaptcha = {
+    "sitekey": "6Lc-ZNMqAAAAAKU_beMZ7iAThGMNxriyzkMFMokX",
+    "actions": {
+        "homepage": "homepage",
+        "contactform": "contactform"
+    }
+};
+//# sourceURL=wpcf7-recaptcha-js-before
+</script>
+<script data-minify="1" id="wpcf7-recaptcha-js" defer='defer' src="https://cdn.telaviva.com.br/wp-content/cache/min/1/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=1792764522"></script>
+<script type="text/rocketlazyloadscript" id="tdb_js_files_for_front-js" defer='defer' data-rocket-src="https://cdn.telaviva.com.br/wp-content/plugins/td-cloud-library/assets/js/js_files_for_front.min.js?ver=43473a7fc489321d36f8d15a34d1be14"></script>
+<script type="text/rocketlazyloadscript" data-minify="1" defer id="akismet-frontend-js" defer='defer' data-rocket-src="https://cdn.telaviva.com.br/wp-content/cache/min/1/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1792764522"></script>
+<script type="text/rocketlazyloadscript">
+jQuery(document).ready(function () {
+  jQuery(window).resize(function () {
+    googletag.cmd.push(function () {
+      googletag.pubads().refresh([slotsuper1]);
+      googletag.pubads().refresh([slotfull1]);
+    });
+  });
+});
+</script>
+
+<script type="text/rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://cdn.telaviva.com.br/wp-content/cache/min/1/wp-content/plugins/td-composer/legacy/Newspaper/js/tdAjaxSearch.js?ver=1792764522" id="tdAjaxSearch-js"></script>
+
+<script type="text/rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://cdn.telaviva.com.br/wp-content/cache/min/1/wp-content/plugins/td-composer/legacy/Newspaper/js/tdDatei18n.js?ver=1792764522" id="tdDatei18n-js"></script>
+
+<script type="text/rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://cdn.telaviva.com.br/wp-content/cache/min/1/wp-content/plugins/td-composer/legacy/Newspaper/js/tdLogin.js?ver=1792764522" id="tdLogin-js"></script>
+
+<script type="text/rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://cdn.telaviva.com.br/wp-content/cache/min/1/wp-content/plugins/td-composer/legacy/Newspaper/js/tdMenu.js?ver=1792764522" id="tdMenu-js"></script>
+
+<script type="text/rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://cdn.telaviva.com.br/wp-content/cache/min/1/wp-content/plugins/td-composer/legacy/Newspaper/js/tdLoadingBox.js?ver=1792764522" id="tdLoadingBox-js"></script>
+
+<script type="text/rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://cdn.telaviva.com.br/wp-content/cache/min/1/wp-content/plugins/td-composer/legacy/Newspaper/js/tdAjaxCount.js?ver=1792764522" id="tdAjaxCount-js"></script>
+<!-- JS generated by theme -->
+
+<script type="text/rocketlazyloadscript" data-rocket-type="text/javascript" id="td-generated-footer-js">
+    
+
+                    jQuery().ready(function jQuery_ready() {
+                        tdAjaxCount.tdGetViewsCountsAjax("post","[513212]");
+                    });
+                
+</script>
+
+
+<script type="text/rocketlazyloadscript">var td_res_context_registered_atts=[];</script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://cdn.telaviva.com.br/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script><script>function lazyLoadThumb(e,alt,l){var t='<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="Executar vídeo do YouTube"></button>';if(l){t=t.replace('data-lazy-','');t=t.replace('loading="lazy"','');t=t.replace(/<noscript>.*?<\/noscript>/g,'');}t=t.replace('alt=""','alt="'+alt+'"');return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?"":"&"+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var exclusions=["-741x486","-485x360","-218x150"];var e,t,p,u,l,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)(e=document.createElement("div")),(u='https://i.ytimg.com/vi/ID/hqdefault.jpg'),(u=u.replace('ID',a[t].dataset.id)),(l=exclusions.some(exclusion=>u.includes(exclusion))),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query",a[t].dataset.query),e.setAttribute("data-src",a[t].dataset.src),(e.innerHTML=lazyLoadThumb(a[t].dataset.id,a[t].dataset.alt,l)),a[t].appendChild(e),(p=e.querySelector(".play")),(p.onclick=lazyLoadYoutubeIframe)});</script>
+<script id="optimization-detective-detect-args" type="application/json">
+["https://telaviva.com.br/wp-content/plugins/optimization-detective/detect.min.js?ver=1.0.0-beta7",{"minViewportAspectRatio":0.40000000000000002220446049250313080847263336181640625,"maxViewportAspectRatio":2.5,"isDebug":false,"extensionModuleUrls":["https://telaviva.com.br/wp-content/plugins/image-prioritizer/detect.min.js?ver=1.0.0-beta4"],"restApiEndpoint":"https://telaviva.com.br/wp-json/optimization-detective/v1/url-metrics:store","currentETag":"bb0f2ecea171cde0f50c14c007506b1b","currentUrl":"https://telaviva.com.br/16/10/2026/anatomia-do-caos-de-dandara-ferreira-fica-disponivel-gratuitamente-no-youtube-por-dez-dias/","urlMetricSlug":"17e930cd9cd3e3fcaa0eb4b33fd3625c","cachePurgePostId":513212,"urlMetricHMAC":"cbad292995f492aef47f4f95fa4d7fcc","urlMetricGroupStatuses":[{"minimumViewportWidth":0,"maximumViewportWidth":480,"complete":false},{"minimumViewportWidth":480,"maximumViewportWidth":600,"complete":false},{"minimumViewportWidth":600,"maximumViewportWidth":782,"complete":false},{"minimumViewportWidth":782,"maximumViewportWidth":null,"complete":false}],"storageLockTTL":60,"freshnessTTL":604800,"webVitalsLibrarySrc":"https://telaviva.com.br/wp-content/plugins/optimization-detective/build/web-vitals.js?ver=6.1.0","gzdecodeAvailable":true,"maxUrlMetricSize":1048576}]
+</script>
+<script type="text/rocketlazyloadscript" data-rocket-type="module">
+async function load(){await new Promise(t=>{"complete"===document.readyState?t():window.addEventListener("load",()=>t(),{once:!0})}),"function"==typeof requestIdleCallback&&await new Promise(t=>{requestIdleCallback(t)});const t="script#optimization-detective-detect-args",e=document.querySelector(t);if(!(e instanceof HTMLScriptElement))throw new Error(`Missing: ${t}`);const o=JSON.parse(e.text);if(!Array.isArray(o)||2!==o.length||"string"!=typeof o[0]||"object"!=typeof o[1])throw new Error("SCRIPT#optimization-detective-detect-args is not [ string, object ]");const i=o[0],a=o[1],n=(await import(i)).default;await n(a)}load();
+//# sourceURL=https://telaviva.com.br/wp-content/plugins/optimization-detective/detect-loader.min.js?ver=1.0.0-beta7
+</script>
+</body>
+</html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1792857269 -->

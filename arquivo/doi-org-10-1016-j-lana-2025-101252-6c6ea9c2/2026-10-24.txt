@@ -1,0 +1,4 @@
+URL: https://doi.org/10.1016/j.lana.2025.101252
+Coletado em: 2026-10-24T23:10:07Z
+SHA-256: f5b9cc2eda3be1759e8a74b472a750a3dedad943bb908241e12896eddd8ad189
+

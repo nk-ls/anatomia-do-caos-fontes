@@ -1,0 +1,23 @@
+URL: https://www.cnnbrasil.com.br/politica/tcu-suspende-contrato-que-aumentou-repasse-a-vtclog/
+Coletado em: 2026-10-24T23:10:07Z
+SHA-256: 30e3fe189010672e69604ce3b70206e3025618a2103f3ecaa1f14634b795b21b
+
+TCU suspende aditivo de contrato que aumentou repasse à VTCLog
+Decisão do ministro Benjamin Zymler suspendeu pagamentos referentes ao aditivo e também cobra explicações da pasta e da empresa
+O ministro do Tribunal de Contas da União (TCU) Benjamin Zymler ordenou, nesta quinta-feira (9), que o Ministério da Saúde suspenda um termo aditivo do contrato firmado entre a pasta e a empresa VTCLog. As informações são da âncora da CNN Daniela Lima e da analista de política da CNN Renata Agostini.
+Além da suspensão do aditivo -- o 2º Termo Aditivo ao Contrato 59/2018 --, o tribunal ordenou também que a pasta “abstenha-se de realizar qualquer pagamento” que seja referente aos serviços prestados pela empresa na “Manipulação de Item para Atendimento (picking)”, “até que o Tribunal delibere sobre o mérito da matéria”.
+O ministro ainda determinou que a empresa e o ministério expliquem, em até 15 dias, o que justificou o aditivo, e pede que seja demonstrado, "por meio de planilhas, fotografias, vídeos e/ou outros meios como deve se dar, na prática, a mensuração e o pagamento" do serviço contratado.
+A decisão do ministro do TCU foi tomada em resposta a uma representação dos senadores Eliziane Gama (Cidadania-MA) e Alessandro Vieira (Cidadania-SE), que integram a CPI da Pandemia.
+Problemas identificados
+A empresa foi contratada para prestar “serviços contínuos de transporte e armazenagem dos Insumos Críticos de Saúde (ICS) do Ministério".
+O aditivo suspenso por ordem do TCU mudou a metodologia usada para medir um dos serviços prestados pela empresa, alterando o "conceito de manipulação de 'itens' e passando a adotar o conceito de 'volume expedido'".
+No último dia 3 de setembro, auditores terminaram o trabalho de análise do contrato, constataram diversos problemas e fizeram recomendações ao TCU. O ministro Zymler, então, acatou as indicações e decidiu pela suspensão do aditivo e dos pagamentos a serem feitos.
+Segundo a analista da CNN Renata Agostini, o TCU se prepara para, na semana que vem, analisar e ratificar essa medida cautelar. A avaliação nesse momento é que há uma série de indicações que podem complicar bastante a situação do ex-diretor de Logística do Ministério da Saúde Roberto Dias.
+Relação com o ex-diretor da Saúde
+A VTCLog é investigada na CPI da Pandemia. Os senadores suspeitam que a empresa pagou boletos bancários de Dias -- que foi desligado do Ministério da Saúde em 29 de junho, após ser acusado de pedir propina em negociações para a compra de vacinas --, depois de terem acesso a imagens que mostram o motoboy Ivanildo da Silva, que depôs à comissão, em uma agência bancária realizando pagamentos que coincidem com extratos de quitação de contas de Roberto Dias.
+Os pagamentos foram feitos em quatro datas entre maio e junho.
+A VTCLog faz parte do grupo empresarial Voetur, que, segundo o Portal da Transparência, já prestou serviços para superintendências estaduais do Instituto Brasileiro do Meio Ambiente (Ibama) e para a Fundação Alexandre de Gusmão, ligada ao Ministério de Relações Exteriores — que é o braço do Itamaraty na área de educação.
+Em nota, a empresa afirmou que está "absolutamente tranquila em relação à análise do Tribunal de Contas da União".
+"Cabe destacar que o segundo termo aditivo em voga foi extremamente benéfico para a Administração Pública e a Egrégia Corte de Contas está fazendo seu louvável papel e tem todo direito em requerer as partes envolvidas os devidos esclarecimentos técnicos. A suspensão não afeta a legalidade e a lisura com que o termo aditivo foi realizado. A empresa já apresentou à CPI todos os esclarecimentos devidos e fará da mesma forma ao TCU. A VTCLog ressalta seu compromisso com a integridade, legalidade, transparência e não lançará mão de seus direitos e sobretudo da justa remuneração dos seus serviços prestados -- já que a empresa até o momento não está sendo remunerado pela execução contratual", disse a empresa em nota.
+(*Com informações de Gustavo Uribe, Tainá Farfan e Rachel Vargas, da CNN, em Brasília)
+(Publicado por Daniel Fernandes)

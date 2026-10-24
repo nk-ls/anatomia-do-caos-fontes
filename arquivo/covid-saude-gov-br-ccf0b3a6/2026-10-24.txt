@@ -1,0 +1,4 @@
+URL: https://covid.saude.gov.br/
+Coletado em: 2026-10-24T23:10:07Z
+SHA-256: b1e1c763109ca128568c847b0c20ac47a13876426255e333c330412bea63096e
+

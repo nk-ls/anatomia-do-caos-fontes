@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="pt-BR">
+<!--<![endif]-->
+<head><meta charset="UTF-8" /><script type="f3f57294041317f3291c9cb9-text/javascript">if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script type="f3f57294041317f3291c9cb9-text/javascript">(()=>{class RocketLazyLoadScripts{constructor(){this.v="2.0.5",this.userEvents=["keydown","keyup","mousedown","mouseup","mousemove","mouseover","mouseout","touchmove","touchstart","touchend","touchcancel","wheel","click","dblclick","input"],this.attributeEvents=["onblur","onclick","oncontextmenu","ondblclick","onfocus","onmousedown","onmouseenter","onmouseleave","onmousemove","onmouseout","onmouseover","onmouseup","onmousewheel","onscroll","onsubmit"]}async t(){this.i(),this.o(),/iP(ad|hone)/.test(navigator.userAgent)&&this.h(),this.u(),this.l(this),this.m(),this.k(this),this.p(this),this._(),await Promise.all([this.R(),this.L()]),this.lastBreath=Date.now(),this.S(this),this.P(),this.D(),this.O(),this.M(),await this.C(this.delayedScripts.normal),await this.C(this.delayedScripts.defer),await this.C(this.delayedScripts.async),await this.T(),await this.F(),await this.j(),await this.A(),window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.lastTouchEnd&&await new Promise(t=>setTimeout(t,500-Date.now()+this.lastTouchEnd)),this.I(),this.H(),this.U(),this.W()}i(){this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))},{isRocket:!0})}o(){window.addEventListener("pageshow",t=>{this.persisted=t.persisted,this.realWindowLoadedFired=!0},{isRocket:!0}),window.addEventListener("pagehide",()=>{this.onFirstUserAction=null},{isRocket:!0})}h(){let t;function e(e){t=e}window.addEventListener("touchstart",e,{isRocket:!0}),window.addEventListener("touchend",function i(o){o.changedTouches[0]&&t.changedTouches[0]&&Math.abs(o.changedTouches[0].pageX-t.changedTouches[0].pageX)<10&&Math.abs(o.changedTouches[0].pageY-t.changedTouches[0].pageY)<10&&o.timeStamp-t.timeStamp<200&&(window.removeEventListener("touchstart",e,{isRocket:!0}),window.removeEventListener("touchend",i,{isRocket:!0}),"INPUT"===o.target.tagName&&"text"===o.target.type||(o.target.dispatchEvent(new TouchEvent("touchend",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new MouseEvent("mouseover",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new PointerEvent("click",{target:o.target,bubbles:!0,cancelable:!0,detail:1,clientX:o.changedTouches[0].clientX,clientY:o.changedTouches[0].clientY})),event.preventDefault()))},{isRocket:!0})}q(t){this.userActionTriggered||("mousemove"!==t.type||this.firstMousemoveIgnored?"keyup"===t.type||"mouseover"===t.type||"mouseout"===t.type||(this.userActionTriggered=!0,this.onFirstUserAction&&this.onFirstUserAction()):this.firstMousemoveIgnored=!0),"click"===t.type&&t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),"touchstart"===this.lastEvent&&"touchend"===t.type&&(this.lastTouchEnd=Date.now()),"click"===t.type&&(this.lastTouchEnd=0),this.lastEvent=t.type,t.composedPath&&t.composedPath()[0].getRootNode()instanceof ShadowRoot&&(t.rocketTarget=t.composedPath()[0]),this.savedUserEvents.push(t)}u(){this.savedUserEvents=[],this.userEventHandler=this.q.bind(this),this.userEvents.forEach(t=>window.addEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.addEventListener("visibilitychange",this.userEventHandler,{isRocket:!0})}U(){this.userEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.removeEventListener("visibilitychange",this.userEventHandler,{isRocket:!0}),this.savedUserEvents.forEach(t=>{(t.rocketTarget||t.target).dispatchEvent(new window[t.constructor.name](t.type,t))})}m(){const t="return false",e=Array.from(this.attributeEvents,t=>"data-rocket-"+t),i="["+this.attributeEvents.join("],[")+"]",o="[data-rocket-"+this.attributeEvents.join("],[data-rocket-")+"]",s=(e,i,o)=>{o&&o!==t&&(e.setAttribute("data-rocket-"+i,o),e["rocket"+i]=new Function("event",o),e.setAttribute(i,t))};new MutationObserver(t=>{for(const n of t)"attributes"===n.type&&(n.attributeName.startsWith("data-rocket-")||this.everythingLoaded?n.attributeName.startsWith("data-rocket-")&&this.everythingLoaded&&this.N(n.target,n.attributeName.substring(12)):s(n.target,n.attributeName,n.target.getAttribute(n.attributeName))),"childList"===n.type&&n.addedNodes.forEach(t=>{if(t.nodeType===Node.ELEMENT_NODE)if(this.everythingLoaded)for(const i of[t,...t.querySelectorAll(o)])for(const t of i.getAttributeNames())e.includes(t)&&this.N(i,t.substring(12));else for(const e of[t,...t.querySelectorAll(i)])for(const t of e.getAttributeNames())this.attributeEvents.includes(t)&&s(e,t,e.getAttribute(t))})}).observe(document,{subtree:!0,childList:!0,attributeFilter:[...this.attributeEvents,...e]})}I(){this.attributeEvents.forEach(t=>{document.querySelectorAll("[data-rocket-"+t+"]").forEach(e=>{this.N(e,t)})})}N(t,e){const i=t.getAttribute("data-rocket-"+e);i&&(t.setAttribute(e,i),t.removeAttribute("data-rocket-"+e))}k(t){Object.defineProperty(HTMLElement.prototype,"onclick",{get(){return this.rocketonclick||null},set(e){this.rocketonclick=e,this.setAttribute(t.everythingLoaded?"onclick":"data-rocket-onclick","this.rocketonclick(event)")}})}S(t){function e(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o,set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}e(document,"onreadystatechange"),e(window,"onload"),e(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}l(t){this.originalAddEventListener=EventTarget.prototype.addEventListener,this.originalRemoveEventListener=EventTarget.prototype.removeEventListener,this.savedEventListeners=[],EventTarget.prototype.addEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalAddEventListener.call(this,e,i,o):(t.savedEventListeners.push({target:this,remove:!1,type:e,func:i,options:o}),"mouseenter"!==e&&"mouseleave"!==e||t.originalAddEventListener.call(this,e,t.savedUserEvents.push,o))},EventTarget.prototype.removeEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalRemoveEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!0,type:e,func:i,options:o})}}J(t,e){this.savedEventListeners=this.savedEventListeners.filter(i=>{let o=i.type,s=i.target||window;return e!==o||t!==s||(this.B(o,s)&&(i.type="rocket-"+o),this.$(i),!1)})}H(){EventTarget.prototype.addEventListener=this.originalAddEventListener,EventTarget.prototype.removeEventListener=this.originalRemoveEventListener,this.savedEventListeners.forEach(t=>this.$(t))}$(t){t.remove?this.originalRemoveEventListener.call(t.target,t.type,t.func,t.options):this.originalAddEventListener.call(t.target,t.type,t.func,t.options)}p(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map(t=>"load"===t||t.startsWith("load.")?"rocket-jquery-load":t).join(" ")}function o(o){function s(e){const s=o.fn[e];o.fn[e]=o.fn.init.prototype[e]=function(){return this[0]===window&&t.userActionTriggered&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e})),s.apply(this,arguments),this}}if(o&&o.fn&&!t.allJQueries.includes(o)){const e={DOMContentLoaded:[],"rocket-DOMContentLoaded":[]};for(const t in e)document.addEventListener(t,()=>{e[t].forEach(t=>t())},{isRocket:!0});o.fn.ready=o.fn.init.prototype.ready=function(i){function s(){parseInt(o.fn.jquery)>2?setTimeout(()=>i.bind(document)(o)):i.bind(document)(o)}return"function"==typeof i&&(t.realDomReadyFired?!t.userActionTriggered||t.fauxDomReadyFired?s():e["rocket-DOMContentLoaded"].push(s):e.DOMContentLoaded.push(s)),this},s("on"),s("one"),s("off"),t.allJQueries.push(o)}e=o}t.allJQueries=[],o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}P(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript,o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async R(){return new Promise(t=>{this.userActionTriggered?t():this.onFirstUserAction=t})}async L(){return new Promise(t=>{document.addEventListener("DOMContentLoaded",()=>{this.realDomReadyFired=!0,t()},{isRocket:!0})})}async j(){return this.realWindowLoadedFired?Promise.resolve():new Promise(t=>{window.addEventListener("load",t,{isRocket:!0})})}M(){this.pendingScripts=[];this.scriptsMutationObserver=new MutationObserver(t=>{for(const e of t)e.addedNodes.forEach(t=>{"SCRIPT"!==t.tagName||!t.src||t.noModule||t.isWPRocket||this.pendingScripts.push({script:t,promise:new Promise(e=>{const i=()=>{const i=this.pendingScripts.findIndex(e=>e.script===t);i>=0&&this.pendingScripts.splice(i,1),e()};t.addEventListener("load",i,{isRocket:!0}),t.addEventListener("error",i,{isRocket:!0}),setTimeout(i,1e3)})})})}),this.scriptsMutationObserver.observe(document,{childList:!0,subtree:!0})}async F(){await this.X(),this.pendingScripts.length?(await this.pendingScripts[0].promise,await this.F()):this.scriptsMutationObserver.disconnect()}D(){this.delayedScripts={normal:[],async:[],defer:[]},document.querySelectorAll("script[type$=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _(){await this.L();let t=[];document.querySelectorAll("script[type$=rocketlazyloadscript][data-rocket-src]").forEach(e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){i.startsWith("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this.Y(t,"preconnect")}async G(t){if(await this.K(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise(e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.includes("Firefox/")||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))}),t.text&&(i.text=t.text),t.nonce&&(i.nonce=t.nonce),i.hasAttribute("src")?(i.addEventListener("load",o,{isRocket:!0}),i.addEventListener("error",()=>{i.setAttribute("data-rocket-status","failed-network"),e()},{isRocket:!0}),setTimeout(()=>{i.isConnected||e()},1)):(i.text=t.text,o()),i.isWPRocket=!0,t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o,{isRocket:!0}),t.addEventListener("error",i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: CSP fallback activated"),t.removeAttribute("src"),this.G(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())},{isRocket:!0}),s?(t.fetchPriority="high",t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}});t.setAttribute("data-rocket-status","skipped")}async C(t){const e=t.shift();return e?(e.isConnected&&await this.G(e),this.C(t)):Promise.resolve()}O(){this.Y([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}Y(t,e){this.trash=this.trash||[];let i=!0;var o=document.createDocumentFragment();t.forEach(t=>{const s=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(s&&!s.startsWith("data:")){const n=document.createElement("link");n.href=s,n.rel=e,"preconnect"!==e&&(n.as="script",n.fetchPriority=i?"high":"low"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),t.nonce&&(n.nonce=t.nonce),o.appendChild(n),this.trash.push(n),i=!1}}),document.head.appendChild(o)}W(){this.trash.forEach(t=>t.remove())}async T(){try{document.readyState="interactive"}catch(t){}this.fauxDomReadyFired=!0;try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(document,"DOMContentLoaded"),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.K(),this.J(window,"DOMContentLoaded"),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}catch(t){console.error(t)}}async A(){try{document.readyState="complete"}catch(t){}try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(window,"load"),window.dispatchEvent(new Event("rocket-load")),await this.K(),window.rocketonload&&window.rocketonload(),await this.K(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this.K(),this.J(window,"pageshow");const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.K(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}catch(t){console.error(t)}}async K(){Date.now()-this.lastBreath>45&&(await this.X(),this.lastBreath=Date.now())}async X(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}B(t,e=window){return e===document&&"readystatechange"===t||(e===document&&"DOMContentLoaded"===t||(e===window&&"DOMContentLoaded"===t||(e===window&&"load"===t||e===window&&"pageshow"===t)))}static run(){(new RocketLazyLoadScripts).t()}}RocketLazyLoadScripts.run()})();
+</script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1.0">
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.3 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<link rel="canonical" href="https://outraspalavras.net/outrasaude/mayra-pinheiro-na-cpi/" />
+	<meta property="og:locale" content="pt_BR" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="CPI: o depoimento da &quot;capitã cloroquina&quot;, além do folclore | Outras Palavras" />
+	<meta property="og:description" content="Fala de Mayra Pinheiro é coleção de mentiras e cinismo. Mas o senador Humberto Costa (na imagem) expôs como o governo desmobilizou. na pandemia, os Agentes Comunitários de Saúde. Eles teriam sido essenciais para evitar a tragédia" />
+	<meta property="og:url" content="https://outraspalavras.net/outrasaude/mayra-pinheiro-na-cpi/" />
+	<meta property="og:site_name" content="Outras Palavras" />
+	<meta property="article:publisher" content="https://www.facebook.com/outraspalavras" />
+	<meta property="article:modified_time" content="2021-05-26T11:56:39+00:00" />
+	<meta property="og:image" content="https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2021/05/210526-HumbertoCosta.jpg" />
+	<meta property="og:image:width" content="1280" />
+	<meta property="og:image:height" content="720" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@outraspalavrass" />
+	<meta name="twitter:label1" content="Est. tempo de leitura" />
+	<meta name="twitter:data1" content="12 minutos" />
+	<meta name="twitter:label2" content="Written by" />
+	<meta name="twitter:data2" content="Raquel Torres" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"NewsArticle","@id":"https:\/\/outraspalavras.net\/outrasaude\/mayra-pinheiro-na-cpi\/#article","isPartOf":{"@id":"https:\/\/outraspalavras.net\/outrasaude\/mayra-pinheiro-na-cpi\/"},"author":[{"@id":"https:\/\/outraspalavras.net\/#\/schema\/person\/image\/219827f97db2d11ba156c3653edc8bce"}],"headline":"CPI: o depoimento da &#8220;capitã cloroquina&#8221;, além do folclore","datePublished":"2021-05-26T10:16:00+00:00","dateModified":"2021-05-26T11:56:39+00:00","mainEntityOfPage":{"@id":"https:\/\/outraspalavras.net\/outrasaude\/mayra-pinheiro-na-cpi\/"},"wordCount":2388,"publisher":{"@id":"https:\/\/outraspalavras.net\/#organization"},"image":{"@id":"https:\/\/outraspalavras.net\/outrasaude\/mayra-pinheiro-na-cpi\/#primaryimage"},"thumbnailUrl":"https:\/\/outraspalavras.nyc3.cdn.digitaloceanspaces.com\/media\/2021\/05\/210526-HumbertoCosta.jpg","keywords":["Assembleia Mundial da Saúde","Covid-19","Covid-19 e vacinas","Covid-19 no Brasil","CPI da covid-19","distribuição de vacinas","Eduardo Pazuello","formação de trabalhadores","formação em Saúde","Humberto Costa","imunidade de rebanho","Jair Bolsonaro","Mayra Pinheiro","Otto Alencar","Rogério Carvalho","Sgtes"],"articleSection":["Boletim do dia"],"inLanguage":"pt-BR"},{"@type":"WebPage","@id":"https:\/\/outraspalavras.net\/outrasaude\/mayra-pinheiro-na-cpi\/","url":"https:\/\/outraspalavras.net\/outrasaude\/mayra-pinheiro-na-cpi\/","name":"CPI: o depoimento da \"capitã cloroquina\", além do folclore | Outras Palavras","isPartOf":{"@id":"https:\/\/outraspalavras.net\/#website"},"primaryImageOfPage":{"@id":"https:\/\/outraspalavras.net\/outrasaude\/mayra-pinheiro-na-cpi\/#primaryimage"},"image":{"@id":"https:\/\/outraspalavras.net\/outrasaude\/mayra-pinheiro-na-cpi\/#primaryimage"},"thumbnailUrl":"https:\/\/outraspalavras.nyc3.cdn.digitaloceanspaces.com\/media\/2021\/05\/210526-HumbertoCosta.jpg","datePublished":"2021-05-26T10:16:00+00:00","dateModified":"2021-05-26T11:56:39+00:00","breadcrumb":{"@id":"https:\/\/outraspalavras.net\/outrasaude\/mayra-pinheiro-na-cpi\/#breadcrumb"},"inLanguage":"pt-BR","potentialAction":[{"@type":"ReadAction","target":["https:\/\/outraspalavras.net\/outrasaude\/mayra-pinheiro-na-cpi\/"]}]},{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https:\/\/outraspalavras.net\/outrasaude\/mayra-pinheiro-na-cpi\/#primaryimage","url":"https:\/\/outraspalavras.nyc3.cdn.digitaloceanspaces.com\/media\/2021\/05\/210526-HumbertoCosta.jpg","contentUrl":"https:\/\/outraspalavras.nyc3.cdn.digitaloceanspaces.com\/media\/2021\/05\/210526-HumbertoCosta.jpg","width":1280,"height":720},{"@type":"BreadcrumbList","@id":"https:\/\/outraspalavras.net\/outrasaude\/mayra-pinheiro-na-cpi\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/outraspalavras.net\/"},{"@type":"ListItem","position":2,"name":"CPI: o depoimento da &#8220;capitã cloroquina&#8221;, além do folclore"}]},{"@type":"WebSite","@id":"https:\/\/outraspalavras.net\/#website","url":"https:\/\/outraspalavras.net\/","name":"Outras Palavras","description":"Jornalismo que não cabe no óbvio","publisher":{"@id":"https:\/\/outraspalavras.net\/#organization"},"alternateName":"OP","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/outraspalavras.net\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"pt-BR"},{"@type":"Organization","@id":"https:\/\/outraspalavras.net\/#organization","name":"Outras Palavras","alternateName":"OP","url":"https:\/\/outraspalavras.net\/","logo":{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https:\/\/outraspalavras.net\/#\/schema\/logo\/image\/","url":"https:\/\/outraspalavras.nyc3.cdn.digitaloceanspaces.com\/media\/2023\/03\/OUTRASPALAVRAS-logo.png","contentUrl":"https:\/\/outraspalavras.nyc3.cdn.digitaloceanspaces.com\/media\/2023\/03\/OUTRASPALAVRAS-logo.png","width":780,"height":84,"caption":"Outras Palavras"},"image":{"@id":"https:\/\/outraspalavras.net\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.facebook.com\/outraspalavras","https:\/\/x.com\/outraspalavrass","https:\/\/www.instagram.com\/outraspalavrasbr\/","https:\/\/bsky.app\/profile\/outraspalavras.net","https:\/\/www.youtube.com\/outraspalavrastv"]},{"@type":"Person","@id":"https:\/\/outraspalavras.net\/#\/schema\/person\/image\/219827f97db2d11ba156c3653edc8bce","name":"Raquel Torres","description":"Raquel Torres é editora de Outra Saúde.","url":"https:\/\/outraspalavras.net\/author\/raquel\/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//apis.google.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://outraspalavras.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Foutraspalavras.net%2Foutrasaude%2Fmayra-pinheiro-na-cpi%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://outraspalavras.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Foutraspalavras.net%2Foutrasaude%2Fmayra-pinheiro-na-cpi%2F&#038;format=xml" />
+<!-- outraspalavras.net is managing ads with Advanced Ads 2.0.26 – https://wpadvancedads.com/ --><!--noptimize--><script id="outra-ready" type="f3f57294041317f3291c9cb9-text/javascript">
+			window.advanced_ads_ready=function(e,a){a=a||"complete";var d=function(e){return"interactive"===a?"loading"!==e:"complete"===e};d(document.readyState)?e():document.addEventListener("readystatechange",(function(a){d(a.target.readyState)&&e()}),{once:"interactive"===a})},window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[];		</script>
+		<!--/noptimize--><style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="wp-block-image-inline-css">
+.wp-block-image>a,.wp-block-image>figure>a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@media not (prefers-reduced-motion){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radius]>a{border-radius:inherit}.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-image.aligncenter{text-align:center}.wp-block-image.alignfull>a,.wp-block-image.alignwide>a{width:100%}.wp-block-image.alignfull img,.wp-block-image.alignwide img{height:auto;width:100%}.wp-block-image .aligncenter,.wp-block-image .alignleft,.wp-block-image .alignright,.wp-block-image.aligncenter,.wp-block-image.alignleft,.wp-block-image.alignright{display:table}.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption,.wp-block-image.aligncenter>figcaption,.wp-block-image.alignleft>figcaption,.wp-block-image.alignright>figcaption{caption-side:bottom;display:table-caption}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-image.is-style-circle-mask img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{border-radius:0;-webkit-mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}:root :where(.wp-block-image.is-style-rounded img,.wp-block-image .is-style-rounded img){border-radius:9999px}.wp-block-image figure{margin:0}.wp-lightbox-container{display:flex;flex-direction:column;position:relative}.wp-lightbox-container img{cursor:zoom-in}.wp-lightbox-container img:hover+button{opacity:1}.wp-lightbox-container button{align-items:center;backdrop-filter:blur(16px) saturate(180%);background-color:#5a5a5a40;border:none;border-radius:4px;cursor:zoom-in;display:flex;height:20px;justify-content:center;opacity:0;padding:0;position:absolute;right:16px;text-align:center;top:16px;width:20px;z-index:100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3px auto -webkit-focus-ring-color;outline-offset:3px}.wp-lightbox-container button:hover{cursor:pointer;opacity:1}.wp-lightbox-container button:focus{opacity:1}.wp-lightbox-container button:focus,.wp-lightbox-container button:hover,.wp-lightbox-container button:not(:hover):not(:active):not(.has-background){background-color:#5a5a5a40;border:none}.wp-lightbox-overlay{box-sizing:border-box;cursor:zoom-out;height:100vh;left:0;overflow:hidden;position:fixed;top:0;visibility:hidden;width:100%;z-index:100000}.wp-lightbox-overlay .wp-lightbox-close-button{align-items:center;cursor:pointer;display:flex;font-family:inherit;gap:8px;justify-content:center;line-height:1;min-height:40px;min-width:40px;padding:0 4px;position:absolute;right:calc(env(safe-area-inset-right) + 16px);top:calc(env(safe-area-inset-top) + 16px);z-index:5000000}.wp-lightbox-overlay .wp-lightbox-close-button:focus,.wp-lightbox-overlay .wp-lightbox-close-button:hover,.wp-lightbox-overlay .wp-lightbox-close-button:not(:hover):not(:active):not(.has-background){background:none;border:none}.wp-lightbox-overlay .wp-lightbox-close-button:has(.wp-lightbox-close-text:not([hidden])) .wp-lightbox-close-icon svg{height:1em;width:1em}.wp-lightbox-overlay .wp-lightbox-close-icon svg{display:block}.wp-lightbox-overlay .wp-lightbox-navigation-button-next,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{align-items:center;bottom:16px;cursor:pointer;display:flex;font-family:inherit;gap:4px;justify-content:center;line-height:1;min-height:40px;min-width:40px;padding:0 8px;position:absolute;z-index:2000002}.wp-lightbox-overlay .wp-lightbox-navigation-button-next[hidden],.wp-lightbox-overlay .wp-lightbox-navigation-button-prev[hidden]{display:none}@media (min-width:960px){.wp-lightbox-overlay .wp-lightbox-navigation-button-next,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{bottom:50%;transform:translateY(-50%)}}.wp-lightbox-overlay .wp-lightbox-navigation-button-next:focus,.wp-lightbox-overlay .wp-lightbox-navigation-button-next:hover,.wp-lightbox-overlay .wp-lightbox-navigation-button-next:not(:hover):not(:active):not(.has-background),.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:focus,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:hover,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:not(:hover):not(:active):not(.has-background){background:none;border:none;padding:0 8px}.wp-lightbox-overlay .wp-lightbox-navigation-button-next:has(.wp-lightbox-navigation-text:not([hidden])) .wp-lightbox-navigation-icon svg,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:has(.wp-lightbox-navigation-text:not([hidden])) .wp-lightbox-navigation-icon svg{display:block;height:1.5em;width:1.5em}.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{left:calc(env(safe-area-inset-left) + 16px)}.wp-lightbox-overlay .wp-lightbox-navigation-button-next{right:calc(env(safe-area-inset-right) + 16px)}.wp-lightbox-overlay .wp-lightbox-navigation-icon svg{vertical-align:middle}.wp-lightbox-overlay .lightbox-image-container{height:var(--wp--lightbox-container-height);left:50%;overflow:hidden;position:absolute;top:50%;transform:translate(-50%,-50%);transform-origin:top left;width:var(--wp--lightbox-container-width);z-index:2000001}.wp-lightbox-overlay .wp-block-image{align-items:center;box-sizing:border-box;display:flex;height:100%;justify-content:center;margin:0;position:relative;transform-origin:0 0;width:100%;z-index:3000000}.wp-lightbox-overlay .wp-block-image img{height:var(--wp--lightbox-image-height);min-height:var(--wp--lightbox-image-height);min-width:var(--wp--lightbox-image-width);width:var(--wp--lightbox-image-width)}.wp-lightbox-overlay .wp-block-image figcaption{display:none}.wp-lightbox-overlay button{background:none;border:none}.wp-lightbox-overlay .scrim{background-color:#fff;height:100%;opacity:.9;position:absolute;width:100%;z-index:2000000}.wp-lightbox-overlay.active{visibility:visible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active) img{animation:turn-off-visibility .25s both}.wp-lightbox-overlay.zoom.active{animation:none;opacity:1;visibility:visible}.wp-lightbox-overlay.zoom.active .lightbox-image-container{animation:lightbox-zoom-in .4s}.wp-lightbox-overlay.zoom.active .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.active .scrim{animation:turn-on-visibility .4s forwards}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active){animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container{animation:lightbox-zoom-out .4s}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .scrim{animation:turn-off-visibility .4s forwards}}@keyframes show-content-image{0%{visibility:hidden}99%{visibility:hidden}to{visibility:visible}}@keyframes turn-on-visibility{0%{opacity:0}to{opacity:1}}@keyframes turn-off-visibility{0%{opacity:1;visibility:visible}99%{opacity:0;visibility:visible}to{opacity:0;visibility:hidden}}@keyframes lightbox-zoom-in{0%{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale))}to{transform:translate(-50%,-50%) scale(1)}}@keyframes lightbox-zoom-out{0%{transform:translate(-50%,-50%) scale(1);visibility:visible}99%{visibility:visible}to{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale));visibility:hidden}}
+/*# sourceURL=https://outraspalavras.net/wp-includes/blocks/image/style.min.css */
+</style>
+<style id="wp-block-paragraph-inline-css">
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://outraspalavras.net/wp-includes/blocks/paragraph/style.min.css */
+</style>
+
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link data-minify="1" rel='stylesheet' id='mailerlite_forms.css-css' href='https://outraspalavras.net/wp-content/cache/min/1/wp-content/plugins/official-mailerlite-sign-up-forms/assets/css/mailerlite_forms.css?ver=1791843781' media='all' />
+<link rel='stylesheet' id='foundation-css' href='https://outraspalavras.net/wp-content/themes/outraspalavras/dist/foundation.min.css?ver=7.0.7' media='all' />
+<link data-minify="1" rel='stylesheet' id='app-css' href='https://outraspalavras.net/wp-content/cache/min/1/wp-content/themes/outraspalavras/dist/app.css?ver=1791843781' media='all' />
+<link data-minify="1" rel='stylesheet' id='perfect-scrollbar-css-css' href='https://outraspalavras.net/wp-content/cache/min/1/wp-content/themes/outraspalavras/dist/perfect-scrollbar.css?ver=1791843781' media='all' />
+<link data-minify="1" rel='stylesheet' id='font-awesome-css' href='https://outraspalavras.net/wp-content/cache/min/1/wp-content/plugins/popup-anything-on-click/assets/css/font-awesome.min.css?ver=1791843781' media='all' />
+<link data-minify="1" rel='stylesheet' id='popupaoc-public-style-css' href='https://outraspalavras.net/wp-content/cache/min/1/wp-content/plugins/popup-anything-on-click/assets/css/popupaoc-public.css?ver=1791843781' media='all' />
+<link data-minify="1" rel='stylesheet' id='moove_gdpr_frontend-css' href='https://outraspalavras.net/wp-content/cache/min/1/wp-content/plugins/gdpr-cookie-compliance/dist/styles/gdpr-main.css?ver=1791843781' media='all' />
+<style id="moove_gdpr_frontend-inline-css">
+				#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton.moove-gdpr-infobar-settings-btn,
+				#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton.moove-gdpr-infobar-settings-btn {
+					background-color: transparent;
+					box-shadow: inset 0 0 0 1px currentColor;
+					opacity: .7;
+					color: #202020;
+				}
+
+				#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton.moove-gdpr-infobar-settings-btn:hover,
+				#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton.moove-gdpr-infobar-settings-btn:hover {
+					background-color: #202020;
+					box-shadow: none;
+					color: #fff;
+					opacity: 1;
+				}
+
+				#moove_gdpr_cookie_info_bar:not(.gdpr-full-screen-infobar).moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton.moove-gdpr-infobar-settings-btn, #moove_gdpr_cookie_info_bar:not(.gdpr-full-screen-infobar).moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton.moove-gdpr-infobar-settings-btn {
+					background-color: transparent;
+					box-shadow: inset 0 0 0 1px currentColor;
+					opacity: .7;
+					color: #fff;
+				}
+
+				#moove_gdpr_cookie_info_bar:not(.gdpr-full-screen-infobar).moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton.moove-gdpr-infobar-settings-btn:hover, #moove_gdpr_cookie_info_bar:not(.gdpr-full-screen-infobar).moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton.moove-gdpr-infobar-settings-btn:hover {
+					box-shadow: none;
+					opacity: 1;
+					color: #202020;
+					background-color: #fff;
+				}
+			#moove_gdpr_cookie_modal,#moove_gdpr_cookie_info_bar,.gdpr_cookie_settings_shortcode_content{font-family:&#039;Nunito&#039;,sans-serif}#moove_gdpr_save_popup_settings_button{background-color:#373737;color:#fff}#moove_gdpr_save_popup_settings_button:hover{background-color:#000}#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton,#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton{background-color:#346584}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder a.mgbutton,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder button.mgbutton,.gdpr_cookie_settings_shortcode_content .gdpr-shr-button.button-green,.gdpr-blocked-recaptcha .gdpr-shr-button.button-green{background-color:#346584;border-color:#346584}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder a.mgbutton:hover,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder button.mgbutton:hover,.gdpr_cookie_settings_shortcode_content .gdpr-shr-button.button-green:hover,.gdpr-blocked-recaptcha .gdpr-shr-button.button-green:hover{background-color:#fff;color:#346584}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close span.gdpr-icon{background-color:#346584;border:1px solid #346584}#moove_gdpr_cookie_info_bar span.moove-gdpr-infobar-allow-all.focus-g,#moove_gdpr_cookie_info_bar span.moove-gdpr-infobar-allow-all:focus,#moove_gdpr_cookie_info_bar button.moove-gdpr-infobar-allow-all.focus-g,#moove_gdpr_cookie_info_bar button.moove-gdpr-infobar-allow-all:focus,#moove_gdpr_cookie_info_bar span.moove-gdpr-infobar-reject-btn.focus-g,#moove_gdpr_cookie_info_bar span.moove-gdpr-infobar-reject-btn:focus,#moove_gdpr_cookie_info_bar button.moove-gdpr-infobar-reject-btn.focus-g,#moove_gdpr_cookie_info_bar button.moove-gdpr-infobar-reject-btn:focus,#moove_gdpr_cookie_info_bar span.change-settings-button.focus-g,#moove_gdpr_cookie_info_bar span.change-settings-button:focus,#moove_gdpr_cookie_info_bar button.change-settings-button.focus-g,#moove_gdpr_cookie_info_bar button.change-settings-button:focus{-webkit-box-shadow:0 0 1px 3px #346584;-moz-box-shadow:0 0 1px 3px #346584;box-shadow:0 0 1px 3px #346584}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close i:hover,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close span.gdpr-icon:hover,#moove_gdpr_cookie_info_bar span[data-href]>u.change-settings-button{color:#346584}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li.menu-item-selected a span.gdpr-icon,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li.menu-item-selected button span.gdpr-icon{color:inherit}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li a span.gdpr-icon,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li button span.gdpr-icon{color:inherit}#moove_gdpr_cookie_modal .gdpr-acc-link{line-height:0;font-size:0;color:transparent;position:absolute}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close:hover i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li a,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li button,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li button i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li a i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main .moove-gdpr-tab-main-content a:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content span.change-settings-button:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.change-settings-button:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content u.change-settings-button:hover,#moove_gdpr_cookie_info_bar span[data-href]>u.change-settings-button,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton:focus,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton:focus,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a:focus,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button:focus,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content span.change-settings-button.focus-g,span.change-settings-button:focus,button.change-settings-button.focus-g,button.change-settings-button:focus,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content u.change-settings-button.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content u.change-settings-button:focus{color:#346584}#moove_gdpr_cookie_modal .moove-gdpr-branding.focus-g span,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main a.focus-g,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main .gdpr-cd-details-toggle.focus-g{color:#346584}#moove_gdpr_cookie_modal.gdpr_lightbox-hide{display:none}
+/*# sourceURL=moove_gdpr_frontend-inline-css */
+</style>
+<script type="text/rocketlazyloadscript" id="jquery-core-js" data-rocket-src="https://outraspalavras.net/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="jquery-migrate-js" data-rocket-src="https://outraspalavras.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="featured-videos-js" data-rocket-src="https://outraspalavras.net/wp-content/cache/min/1/wp-content/themes/outraspalavras/library/pagebuilder-widgets/featured-videos/featured-videos.js?ver=1791843781" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="youtube-plataform-js" data-rocket-src="https://outraspalavras.net/wp-content/cache/min/1/js/platform.js?ver=1791843781" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="perfect-scrollbar-js" data-rocket-src="https://outraspalavras.net/wp-content/themes/outraspalavras/dist/perfect-scrollbar.min.js?ver=7.0.7" data-rocket-defer defer></script>
+<script id="mailerlite-boletim-js-extra" type="f3f57294041317f3291c9cb9-text/javascript">
+var mailerliteBoletim = {"ajaxurl":"https://outraspalavras.net/wp-admin/admin-ajax.php"};
+//# sourceURL=mailerlite-boletim-js-extra
+</script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="mailerlite-boletim-js" data-rocket-src="https://outraspalavras.net/wp-content/cache/min/1/wp-content/themes/outraspalavras/assets/javascript/mailerlite-boletim.js?ver=1791843781" data-rocket-defer defer></script>
+
+<!-- Snippet da tag do Google (gtag.js) adicionado pelo Site Kit -->
+<!-- Snippet do Google Analytics adicionado pelo Site Kit -->
+<script type="text/rocketlazyloadscript" id="google_gtagjs-js" data-rocket-src="https://www.googletagmanager.com/gtag/js?id=G-G99WP3Q2S5" async></script>
+<script type="text/rocketlazyloadscript" id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["outraspalavras.net"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "G-G99WP3Q2S5");
+//# sourceURL=google_gtagjs-js-after
+</script>
+<link rel="https://api.w.org/" href="https://outraspalavras.net/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://outraspalavras.net/wp-json/wp/v2/outrasaude/3048548" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://outraspalavras.net/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0.7" />
+<link rel='shortlink' href='https://outraspalavras.net/?p=3048548' />
+<meta name="generator" content="Site Kit by Google 1.185.0" />            <!-- MailerLite Universal -->
+            <script type="text/rocketlazyloadscript">
+                (function (m, a, i, l, e, r) {
+                    m['MailerLiteObject'] = e;
+
+                    function f() {
+                        var c = {a: arguments, q: []};
+                        var r = this.push(c);
+                        return "number" != typeof r ? r : f.bind(c.q);
+                    }
+
+                    f.q = f.q || [];
+                    m[e] = m[e] || f.bind(f.q);
+                    m[e].q = m[e].q || f.q;
+                    r = a.createElement(i);
+                    var _ = a.getElementsByTagName(i)[0];
+                    r.async = 1;
+                    r.src = l + '?' + (~~(new Date().getTime() / 10000000));
+                    _.parentNode.insertBefore(r, _);
+                })(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+                var ml_account = ml('accounts', '1339364', 'w6t5x9u6x9', 'load');
+            </script>
+            <!-- End MailerLite Universal -->
+        	<style>img#wpstats{display:none}</style>
+		<meta property="fediverse:creator" name="fediverse:creator" content="outraspalavras.net@outraspalavras.net" />
+
+		<script type="text/rocketlazyloadscript">
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:2540407,hjsv:5};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
+		
+<link rel="alternate" title="ActivityPub (JSON)" type="application/activity+json" href="https://outraspalavras.net/?p=3048548" />
+<link rel="icon" href="https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2026/01/cropped-O-outras-palavras-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2026/01/cropped-O-outras-palavras-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2026/01/cropped-O-outras-palavras-300x300.png" />
+<meta name="msapplication-TileImage" content="https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2026/01/cropped-O-outras-palavras-300x300.png" />
+<style id="wp-custom-css">
+.none {display:none}
+
+.single-format-standard h3, #single-the-excerpt, .single-format-standard h1, .outrasmidias-template-default h3 {color:#000}
+
+.post-content--author-biography {
+	font-size: 16px;
+	color: #000;
+		line-height: 20px;
+}
+
+body {color: #000 !important}
+
+.post-info .author, .post-info {
+	font-size: 15px;
+}
+
+ul.wp-block-list, ol.wp-block-list {
+	font-size: 20px;
+}
+
+@media (min-width: 320px) { 
+h3 {
+	font-size: 2rem !important;
+}
+
+}
+
+p.block-editor-rich-text__editable {
+    font-size: 1.2em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.page .text-center.mb-30 {
+    display: none !important;
+}
+</style>
+	<title>CPI: o depoimento da &quot;capitã cloroquina&quot;, além do folclore | Outras Palavras</title>
+<link data-rocket-prefetch href="https://outraspalavras.nyc3.cdn.digitaloceanspaces.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://stats.wp.com" rel="dns-prefetch"><link rel="preload" data-rocket-preload as="image" href="https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2021/05/210526-HumbertoCosta-1024x576.jpg" imagesrcset="https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2021/05/210526-HumbertoCosta-1024x576.jpg 1024w, https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2021/05/210526-HumbertoCosta-300x169.jpg 300w, https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2021/05/210526-HumbertoCosta-768x432.jpg 768w, https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2021/05/210526-HumbertoCosta.jpg 1280w" imagesizes="(max-width: 1024px) 100vw, 1024px" fetchpriority="high">
+	<link data-minify="1" rel="stylesheet" href="https://outraspalavras.net/wp-content/cache/min/1/releases/v5.5.0/css/all.css?ver=1791843781" crossorigin="anonymous">
+	<link rel="icon" href="https://outraspalavras.net/wp-content/themes/outraspalavras/assets/images/favicon.ico?v=2" />
+<style id="rocket-lazyrender-inline-css">[data-wpr-lazyrender] {content-visibility: auto;}</style><meta name="generator" content="WP Rocket 3.23.2.2" data-wpr-features="wpr_delay_js wpr_defer_js wpr_minify_js wpr_preconnect_external_domains wpr_automatic_lazy_rendering wpr_oci wpr_minify_css wpr_cdn wpr_preload_links wpr_host_fonts_locally wpr_desktop" /></head>
+
+<style>
+.logo {color: #585858 !important}
+</style>
+
+
+<body class="wp-singular outrasaude-template-default single single-outrasaude postid-3048548 wp-theme-outraspalavras aa-prefix-outra-" >
+	<header  class="menu-hamburger perfect-scrollbar">
+		<a href="javascript:void(0);" onclick="if (!window.__cfRLUnblockHandlers) return false; jQuery('.menu-hamburger').removeClass('active')" class="fa fa-times" data-cf-modified-f3f57294041317f3291c9cb9-=""><i></i></a>
+		<div  class="menu-institucional-container"><ul id="menu-institucional" class="menu"><li id="menu-item-754201" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-754201"><a href="#">Institucional</a>
+<ul class="sub-menu">
+	<li id="menu-item-3004249" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3004249"><a href="https://apoia.se/outraspalavras"><strong>APOIE</strong></a></li>
+	<li id="menu-item-754185" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-754185"><a href="https://outraspalavras.net/sobre/">Quem somos</a></li>
+	<li id="menu-item-754180" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-754180"><a href="https://outraspalavras.net/contato/">Contato</a></li>
+	<li id="menu-item-3004295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3004295"><a href="https://outraspalavras.net/outra-saude-quem-somos/">Sobre OUTRA SAÚDE</a></li>
+	<li id="menu-item-754184" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-754184"><a href="https://outraspalavras.net/equipe/">Equipe</a></li>
+</ul>
+</li>
+<li id="menu-item-754202" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-754202"><a href="#">Principais Categorias</a>
+<ul class="sub-menu">
+	<li id="menu-item-3109663" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3109663"><a href="https://outraspalavras.net/videos/">Vídeos</a></li>
+	<li id="menu-item-3004250" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3004250"><a href="https://outraspalavras.net/category/pos-capitalismo/">Pós-Capitalismo</a></li>
+	<li id="menu-item-3004257" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3004257"><a href="https://outraspalavras.net/category/trabalhoeprecariado/">Trabalho e Precariado</a></li>
+	<li id="menu-item-3004253" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3004253"><a href="https://outraspalavras.net/category/movimentoserebeldias/">Movimentos e Rebeldias</a></li>
+	<li id="menu-item-3004254" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3004254"><a href="https://outraspalavras.net/category/cidadesemtranse/">Cidades em Transe</a></li>
+	<li id="menu-item-3004255" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3004255"><a href="https://outraspalavras.net/category/descolonizacoes/">Descolonizações</a></li>
+	<li id="menu-item-3004256" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3004256"><a href="https://outraspalavras.net/category/feminismos/">Feminismos</a></li>
+	<li id="menu-item-3004258" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3004258"><a href="https://outraspalavras.net/category/tecnologiaemdisputa/">Tecnologia em Disputa</a></li>
+	<li id="menu-item-3004260" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3004260"><a href="https://outraspalavras.net/category/poeticas/">Poéticas</a></li>
+	<li id="menu-item-3004261" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3004261"><a href="https://outraspalavras.net/category/crise-brasileira/">Crise Brasileira</a></li>
+	<li id="menu-item-3004259" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3004259"><a href="https://outraspalavras.net/category/mercadovsdemocracia/">Mercado x Democracia</a></li>
+</ul>
+</li>
+</ul></div>
+		<div  class="menu-hamburger--canais row">
+			<div  class="column large-12 small-12 menu-hamburger--featured pr-15">
+				<div class="menu-title">Canais</div>
+				<ul class="">
+												<li><a href="/" class="menu-item ff-title fz-16"><strong class="text-outraspalavras">Outras</strong>Palavras</span></a></li>
+														<li><a href="https://outraspalavras.net/outrasmidias/" class="menu-item ff-title fz-16"><strong class="text-outrasmidias">Outras</strong>Mídias</span></a></li>
+														<li><a href="https://outraspalavras.net/blogdaredacao/" class="menu-item ff-title fz-16"><strong class="text-blog">Blog</strong>DaRedação</a></li>
+														<li><a href="https://outraspalavras.net/outrasaude/" class="menu-item ff-title fz-16">Outra<strong class="text-outrasaude">Saúde</strong></a></li>
+														<li><a href="/outrosquinhentos" class="menu-item ff-title fz-16"><strong class="text-outrosquinhentos">Outros</strong>Quinhentos</a></li>
+											</ul>
+			</div>
+		</div>
+
+		<div  class="menu-hamburguer--links row">
+			<div  class="column large-6 small-12 menu-hamburger--featured pr-15">
+				<div class="menu-title">Outros Blogs</div>
+				<ul class="">
+                                    </ul>
+			</div>
+			<div  class="column large-6 small-12 menu-hamburger--featured">
+				<div class="menu-title">Rede Parceira</div>
+				<ul class="">
+									</ul>
+
+				<div class="menu-title">Redes Sociais</div>
+				<div  class="main-header--share">
+					            <a href="https://www.facebook.com/outraspalavras" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/outraspalavrastv" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/outraspalavrasbr" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://t.me/outraspalavras" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="https://mastodon.social/@outraspalavras@organica.social" target="_blank"><i class="fab fa-mastodon"></i></a>
+                    <a href="https://outraspalavras.net/feed/" target="_blank"><i class="fas fa-rss"></i></a>
+        				</div>
+								<div class="menu-title">Acessibilidade</div>
+				<div class="main-header--accessibility">
+					<a href="#" class="js-font-size" data-step="-0.1">a<sup>-</sup></a>
+					<a href="#" class="js-font-size" data-step="0.1">A<sup>+</sup></a>
+					<!-- <a href="#"><i class="fab fa-youtube"></i></a> -->
+				</div>
+							</div>
+		</div>
+	</header>
+
+	<header  class="main-header">
+		<div  class="row">
+			<div  class="menu-hamburger-icon">
+				<a href="javascript:void(0);"><i class="fa fa-bars fz26" onclick="if (!window.__cfRLUnblockHandlers) return false; jQuery('.menu-hamburger').addClass('active')" data-cf-modified-f3f57294041317f3291c9cb9-=""></i></a>
+			</div>
+
+			<div  class="main-header--logo">
+<div style="display:none">
+<a href="https://outraspalavras.net/outrasaude/">
+    <h1 class="logo">
+        Outra<strong class="text-outrasaude">Saúde</strong>    </h1>
+</a>
+</div>
+
+<a href="https://outraspalavras.net/outrasaude/">
+    <h1 class="logo">
+Outra<strong class="text-outrasaude">Saúde</strong>    </h1> 
+</a>
+
+				<div class="slogan">SUS, Saúde Pública e Ciência</div>
+			</div>
+
+			<div class="main-header--share">
+				            <a href="https://www.facebook.com/outraspalavras" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/outraspalavrastv" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/outraspalavrasbr" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://t.me/outraspalavras" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="https://mastodon.social/@outraspalavras@organica.social" target="_blank"><i class="fab fa-mastodon"></i></a>
+                    <a href="https://outraspalavras.net/feed/" target="_blank"><i class="fas fa-rss"></i></a>
+        				<a href="https://apoia.se/outraspalavras" target="_blank" style="border-radius:15px;background-color:#c00;padding:3px 13px 3px 13px;font-size:13px;color:#fff !important">APOIE</a>
+			</div>
+
+			<div  class="main-header--search">
+				<form action="/" method="GET" id="searchForm">
+					<input type="text" name="s" autocomplete="off">
+					<i class="fa fa-search" onclick="if (!window.__cfRLUnblockHandlers) return false; jQuery('.main-header--search').toggleClass('active'); jQuery('.main-header--search input').focus()" data-cf-modified-f3f57294041317f3291c9cb9-=""></i>
+											<input type="hidden" name="cpts[]" value="outrasaude">
+									</form>
+			</div>
+		</div>
+
+	</header>
+
+	<nav class="menu-multisite">
+		<div  class="row">
+								<div class="column">
+						<a href="/"><strong class="text-outraspalavras">Outras</strong>Palavras</span></a>
+					</div>
+										<div class="column">
+						<a href="https://outraspalavras.net/outrasmidias/"><strong class="text-outrasmidias">Outras</strong>Mídias</span></a>
+					</div>
+										<div class="column">
+						<a href="https://outraspalavras.net/blogdaredacao/"><strong class="text-blog">Blog</strong>DaRedação</a>
+					</div>
+										<div class="column">
+						<a href="https://outraspalavras.net/outrasaude/">Outra<strong class="text-outrasaude">Saúde</strong></a>
+					</div>
+										<div class="column">
+						<a href="/outrosquinhentos"><strong class="text-outrosquinhentos">Outros</strong>Quinhentos</a>
+					</div>
+							</div>
+	</nav>
+
+	<div  id="app">
+
+<div  class="post-content" id="postContent">
+    <div  class="row">
+        <div id="single-the-title" class="column large-12 small-12 text-center mb-30">
+            <h1>CPI: o depoimento da &#8220;capitã cloroquina&#8221;, além do folclore</h1>
+        </div>
+    </div>
+    <div  class="row row-small">
+                <div id="single-the-excerpt" class="column large-12 small-12 text-center mb-30 ">
+            <div class="post-excerpt"><p>Fala de Mayra Pinheiro é coleção de mentiras e cinismo. Mas o senador Humberto Costa (na imagem)  expôs como o governo desmobilizou. na pandemia,  os Agentes Comunitários de Saúde. Eles teriam sido essenciais para evitar a tragédia</p>
+</div>
+        </div>
+                <div class="column large-12 small-12 mb-30 ">
+            <div class="post-info">
+                <div class="first-line img-item">
+<style>
+@media (min-width: 1025px) {
+.img-item img {
+	max-width: 100%;
+}
+}
+@media (max-width: 800px) {
+.img-item img {
+        max-width: 150px;
+}
+}
+
+</style>
+
+				    <div class="channel">Outra<strong class="text-outrasaude">Saúde</strong></div>
+
+<div class="category"><a href="https://outraspalavras.net/category/boletim-do-dia/" rel="category tag">Boletim do dia</a></div>
+                </div>
+				<div class="author">Por <a href="https://outraspalavras.net/author/raquel/" title="Posts por Raquel Torres" class="author url fn" rel="author">Raquel Torres</a></div>
+                <p class="date">
+                    Publicado 26/05/2021 às 07:16                                        - Atualizado 26/05/2021 às 08:56                                    </p>
+            </div>
+        </div>
+        <div id="single-the-content" class="column large-12 small-12">
+            
+
+<figure class="wp-block-image"><img fetchpriority="high" decoding="async" width="1024" height="576" src="https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2021/05/210526-HumbertoCosta-1024x576.jpg" alt="" class="wp-image-3048556" srcset="https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2021/05/210526-HumbertoCosta-1024x576.jpg 1024w, https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2021/05/210526-HumbertoCosta-300x169.jpg 300w, https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2021/05/210526-HumbertoCosta-768x432.jpg 768w, https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2021/05/210526-HumbertoCosta.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+
+
+
+
+<div id="boletious" class="outra-conteudo_2 outra-entity-placement"><style type="text/css">
+  @import url(https://static.mailerlite.com/assets/plugins/groot/modules/includes/groot_fonts/import.css?version=1649931);
+</style>
+<style type="text/css">
+  .ml-form-embedSubmitLoad{display:inline-block;width:20px;height:20px}.g-recaptcha{transform:scale(1);-webkit-transform:scale(1);transform-origin:0 0;-webkit-transform-origin:0 0}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}.ml-form-embedSubmitLoad:after{content:" ";display:block;width:11px;height:11px;margin:1px;border-radius:50%;border:4px solid #fff;border-color:#fff #fff #fff transparent;animation:ml-form-embedSubmitLoad 1.2s linear infinite}@keyframes ml-form-embedSubmitLoad{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}#mlb2-5648433.ml-form-embedContainer{box-sizing:border-box;display:table;margin:0 auto;position:static;width:100%!important}#mlb2-5648433.ml-form-embedContainer button,#mlb2-5648433.ml-form-embedContainer h4,#mlb2-5648433.ml-form-embedContainer p,#mlb2-5648433.ml-form-embedContainer span{text-transform:none!important;letter-spacing:normal!important}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper{background-color:#f6f6f6;border-width:0;border-color:transparent;border-radius:10px;border-style:solid;box-sizing:border-box;display:inline-block!important;margin:0;padding:0;position:relative}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper.embedDefault,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper.embedPopup{width:100%}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper.embedForm{max-width:100%;width:100%}#mlb2-5648433.ml-form-embedContainer .ml-form-align-left{text-align:left}#mlb2-5648433.ml-form-embedContainer .ml-form-align-center{text-align:center}#mlb2-5648433.ml-form-embedContainer .ml-form-align-default{display:table-cell!important;vertical-align:middle!important;text-align:center!important}#mlb2-5648433.ml-form-embedContainer .ml-form-align-right{text-align:right}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedHeader img{border-top-left-radius:10px;border-top-right-radius:10px;height:auto;margin:0 auto!important;max-width:100%;width:undefinedpx}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody{padding:20px 20px 0 20px}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody.ml-form-embedBodyHorizontal{padding-bottom:0}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent{text-align:left;margin:0 0 20px 0}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4{color:#00519e;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-size:20px;font-weight:700;margin:0 0 10px 0;text-align:center;word-break:break-word}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p{color:#000;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-size:14px;font-weight:400;line-height:20px;margin:0 0 10px 0;text-align:center}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ol,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ul,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ol,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ul{color:#000;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-size:14px}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ol ol,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ol ol{list-style-type:lower-alpha}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ol ol ol,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ol ol ol{list-style-type:lower-roman}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p a,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p a{color:#000;text-decoration:underline}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-block-form .ml-field-group{text-align:left!important}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-block-form .ml-field-group label{margin-bottom:5px;color:#d1d3d3;font-size:14px;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-weight:700;font-style:normal;text-decoration:none;display:inline-block;line-height:20px}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p:last-child,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p:last-child{margin:0}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody form{margin:0;width:100%}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent{margin:0 0 20px 0;width:100%}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow{float:left}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm{margin:0;padding:0 0 20px 0;width:100%;height:auto;float:left}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow{margin:0 0 10px 0;width:100%}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-last-item{margin:0}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-formfieldHorizintal{margin:0}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input{background-color:#fff!important;color:#333!important;border-color:#00519e;border-radius:10px!important;border-style:solid!important;border-width:1px!important;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-size:14px!important;height:auto;line-height:21px!important;margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;padding:10px 10px!important;width:100%!important;box-sizing:border-box!important;max-width:100%!important}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-webkit-input-placeholder,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input::-webkit-input-placeholder{color:#333}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-moz-placeholder,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input::-moz-placeholder{color:#333}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:-ms-input-placeholder,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input:-ms-input-placeholder{color:#333}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:-moz-placeholder,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input:-moz-placeholder{color:#333}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow textarea,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow textarea{background-color:#fff!important;color:#333!important;border-color:#00519e;border-radius:10px!important;border-style:solid!important;border-width:1px!important;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-size:14px!important;height:auto;line-height:21px!important;margin-bottom:0;margin-top:0;padding:10px 10px!important;width:100%!important;box-sizing:border-box!important;max-width:100%!important}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before{border-color:#00519e!important;background-color:#fff!important}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input.custom-control-input[type=checkbox]{box-sizing:border-box;padding:0;position:absolute;z-index:-1;opacity:0;margin-top:5px;margin-left:-1.5rem;overflow:visible}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before{border-radius:4px!important}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type=checkbox]:checked~.label-description::after,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox input[type=checkbox]:checked~.label-description::after,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input:checked~.custom-control-label::after,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input:checked~.custom-control-label::after,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox input[type=checkbox]:checked~.label-description::after{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e")}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input:checked~.custom-control-label::after{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e")}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type=checkbox]:checked~.label-description::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox input[type=checkbox]:checked~.label-description::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input:checked~.custom-control-label::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input:checked~.custom-control-label::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input:checked~.custom-control-label::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-input:checked~.custom-control-label::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox input[type=checkbox]:checked~.label-description::before{border-color:#00519e!important;background-color:#00519e!important;color:#fff!important}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::after,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label::after,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::after,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label::after,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label::before{top:2px;box-sizing:border-box}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::after,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before{top:0!important;box-sizing:border-box!important}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before{top:0!important;box-sizing:border-box!important}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::after{top:0!important;box-sizing:border-box!important;position:absolute;left:-1.5rem;display:block;width:1rem;height:1rem;content:""}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before{top:0!important;box-sizing:border-box!important}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-control-label::before{position:absolute;top:4px;left:-1.5rem;display:block;width:16px;height:16px;pointer-events:none;content:"";background-color:#fff;border:#adb5bd solid 1px;border-radius:50%}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-control-label::after{position:absolute;top:2px!important;left:-1.5rem;display:block;width:1rem;height:1rem;content:""}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before{position:absolute;top:4px;left:-1.5rem;display:block;width:16px;height:16px;pointer-events:none;content:"";background-color:#fff;border:#adb5bd solid 1px;border-radius:50%}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::after{position:absolute;top:0!important;left:-1.5rem;display:block;width:1rem;height:1rem;content:""}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after{position:absolute;top:0!important;left:-1.5rem;display:block;width:1rem;height:1rem;content:""}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-radio .custom-control-label::after{background:no-repeat 50%/50% 50%}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-checkbox .custom-control-label::after,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::after,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::after{background:no-repeat 50%/50% 50%}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-control,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-control{position:relative;display:block;min-height:1.5rem;padding-left:1.5rem}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-input{position:absolute;z-index:-1;opacity:0;box-sizing:border-box;padding:0}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label{color:#000;font-size:12px!important;font-family:'Open Sans',Arial,Helvetica,sans-serif;line-height:22px;margin-bottom:0;position:relative;vertical-align:top;font-style:normal;font-weight:700}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-select,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-select{background-color:#fff!important;color:#333!important;border-color:#00519e;border-radius:10px!important;border-style:solid!important;border-width:1px!important;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-size:14px!important;line-height:20px!important;margin-bottom:0;margin-top:0;padding:10px 28px 10px 12px!important;width:100%!important;box-sizing:border-box!important;max-width:100%!important;height:auto;display:inline-block;vertical-align:middle;background:url(https://cdn.mailerlite.com/images/default/dropdown.svg) no-repeat right .75rem center/8px 10px;-webkit-appearance:none;-moz-appearance:none;appearance:none}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow{height:auto;width:100%;float:left}.ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal{width:70%;float:left}.ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-button-horizontal{width:30%;float:left}.ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-button-horizontal.labelsOn{padding-top:25px}.ml-form-formContent.horozintalForm .ml-form-horizontalRow .horizontal-fields{box-sizing:border-box;float:left;padding-right:10px}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input{background-color:#fff;color:#333;border-color:#00519e;border-radius:10px;border-style:solid;border-width:1px;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-size:14px;line-height:20px;margin-bottom:0;margin-top:0;padding:10px 10px;width:100%;box-sizing:border-box;overflow-y:initial}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button{background-color:#00519e!important;border-color:#00519e;border-style:solid;border-width:1px;border-radius:10px;box-shadow:none;color:#fff!important;cursor:pointer;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-size:14px!important;font-weight:700;line-height:20px;margin:0!important;padding:10px!important;width:100%;height:auto}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover{background-color:#333!important;border-color:#333!important}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type=checkbox]{box-sizing:border-box;padding:0;position:absolute;z-index:-1;opacity:0;margin-top:5px;margin-left:-1.5rem;overflow:visible}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description{color:#000;display:block;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-size:12px;text-align:left;margin-bottom:0;position:relative;vertical-align:top}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label{font-weight:400;margin:0;padding:0;position:relative;display:block;min-height:24px;padding-left:24px}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label a{color:#000;text-decoration:underline}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label p{color:#000!important;font-family:'Open Sans',Arial,Helvetica,sans-serif!important;font-size:12px!important;font-weight:400!important;line-height:18px!important;padding:0!important;margin:0 5px 0 0!important}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label p:last-child{margin:0}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit{margin:0 0 20px 0;float:left;width:100%}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button{background-color:#00519e!important;border:none!important;border-radius:10px!important;box-shadow:none!important;color:#fff!important;cursor:pointer;font-family:'Open Sans',Arial,Helvetica,sans-serif!important;font-size:14px!important;font-weight:700!important;line-height:21px!important;height:auto;padding:10px!important;width:100%!important;box-sizing:border-box!important}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.loading{display:none}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover{background-color:#333!important}.ml-subscribe-close{width:30px;height:30px;background:url(https://cdn.mailerlite.com/images/default/modal_close.png) no-repeat;background-size:30px;cursor:pointer;margin-top:-10px;margin-right:-10px;position:absolute;top:0;right:0}.ml-error input,.ml-error select,.ml-error textarea{border-color:red!important}.ml-error .custom-checkbox-radio-list{border:1px solid red!important;border-radius:10px;padding:10px}.ml-error .label-description,.ml-error .label-description p,.ml-error .label-description p a,.ml-error label:first-child{color:red!important}#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow.ml-error .label-description p,#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow.ml-error .label-description p:first-letter{color:red!important}@media only screen and (max-width:400px){.ml-form-embedWrapper.embedDefault,.ml-form-embedWrapper.embedPopup{width:100%!important}.ml-form-formContent.horozintalForm{float:left!important}.ml-form-formContent.horozintalForm .ml-form-horizontalRow{height:auto!important;width:100%!important;float:left!important}.ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal{width:100%!important}.ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal>div{padding-right:0!important;padding-bottom:10px}.ml-form-formContent.horozintalForm .ml-button-horizontal{width:100%!important}.ml-form-formContent.horozintalForm .ml-button-horizontal.labelsOn{padding-top:0!important}}
+</style>
+<style type="text/css">
+  .ml-mobileButton-horizontal{display:none}#mlb2-5648433 .ml-mobileButton-horizontal button{background-color:#00519e!important;border-color:#00519e!important;border-style:solid!important;border-width:1px!important;border-radius:10px!important;box-shadow:none!important;color:#fff!important;cursor:pointer;font-family:'Open Sans',Arial,Helvetica,sans-serif!important;font-size:14px!important;font-weight:700!important;line-height:20px!important;padding:10px!important;width:100%!important}@media only screen and (max-width:400px){#mlb2-5648433.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm{padding:0 0 10px 0!important}.ml-hide-horizontal{display:none!important}.ml-form-formContent.horozintalForm .ml-button-horizontal{display:none!important}.ml-mobileButton-horizontal{display:inline-block!important;margin-bottom:20px;width:100%}.ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal>div{padding-bottom:0!important}}
+</style>
+<style type="text/css">
+  @media only screen and (max-width:400px){.ml-form-formContent.horozintalForm .ml-form-horizontalRow .horizontal-fields{margin-bottom:10px!important;width:100%!important}}
+</style>
+<div id="mlb2-5648433" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-5648433">
+  <div class="ml-form-align-center">
+    <div class="ml-form-embedWrapper embedForm">
+      <div class="ml-form-embedBody ml-form-embedBodyHorizontal row-form">
+        <div class="ml-form-embedContent" style="">
+          <h4>Receba o Boletim Outra Saúde</h4>
+          <p><em>De segunda a sexta, às 7h, as principais notícias de Saúde em seu email</em></p>
+        </div>
+        <form class="ml-block-form" action="https://static.mailerlite.com/webforms/submit/b2m3f9" data-code="b2m3f9" method="post" target="_blank">
+          <div class="ml-form-formContent horozintalForm">
+            <div class="ml-form-horizontalRow">
+              <div class="ml-input-horizontal">
+                <div style="width:100%" class="horizontal-fields">
+                  <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                    <input type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email">
+                  </div>
+                </div>
+              </div>
+              <div class="ml-button-horizontal primary">
+                <button type="submit" class="primary">Inscreva-se</button>
+                <button disabled="disabled" style="display:none" type="button" class="loading"> <div class="ml-form-embedSubmitLoad"></div> <span class="sr-only">Loading...</span> </button>
+              </div>
+            </div>
+          </div>
+          <input type="hidden" name="ml-submit" value="1">
+          <div class="ml-mobileButton-horizontal">
+            <button type="submit" class="primary">Inscreva-se</button>
+            <button disabled="disabled" style="display:none" type="button" class="loading"> <div class="ml-form-embedSubmitLoad"></div> <span class="sr-only">Loading...</span> </button>
+          </div>
+          <input type="hidden" name="anticsrf" value="true">
+        </form>
+      </div>
+      <div class="ml-form-successBody row-success" style="display:none">
+        <div class="ml-form-successContent">
+          <h4>Agradecemos!</h4>
+          <p>A partir de amanhã você já começa a receber o Boletim Outra Saúde.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/rocketlazyloadscript">window.addEventListener('DOMContentLoaded', function() {
+  function ml_webform_success_5648433(){var r=ml_jQuery||jQuery;r(".ml-subscribe-form-5648433 .row-success").show(),r(".ml-subscribe-form-5648433 .row-form").hide()}
+});</script>
+<img decoding="async" src="https://track.mailerlite.com/webforms/o/5648433/b2m3f9?v1649956212" width="1" height="1" style="max-width:1px;max-height:1px;visibility:hidden;padding:0;margin:0;display:block" alt="." border="0">
+<script type="text/rocketlazyloadscript" data-minify="1" data-rocket-src="https://outraspalavras.net/wp-content/cache/min/1/js/w/webforms.min.js?ver=1791843781" data-rocket-type="text/javascript" data-rocket-defer defer></script></div><p class="has-background has-very-light-gray-background-color wp-block-paragraph"><strong>ASSINE DE GRAÇA</strong><br>Esta é a edição do dia 26 de maio da nossa newsletter diária: um resumo interpretado das principais notícias sobre saúde do dia. Para&nbsp;recebê-la toda manhã em seu e-mail, é só&nbsp;<a href="https://bit.ly/NewsletterOutraSaude">clicar aqui.</a></p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>UMA ALCUNHA MERECIDA</strong></p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph">O&nbsp;<a href="https://www.youtube.com/watch?v=K0CMrZMgM2s" target="_blank" rel="noreferrer noopener">depoimento</a>&nbsp;de Mayra Pinheiro à CPI da Pandemia, ontem, girou em torno daquilo que já deveria ser um tema vencido: o uso de hidroxicloroquina contra a covid-19. A secretária&nbsp;de Gestão do Trabalho e da Educação em Saúde da pasta&nbsp;foi&nbsp;<a href="https://outraspalavras.net/outrasaude/o-dia-d-e-a-hora-h-de-pazuello-primeiro-round/" target="_blank" rel="noreferrer noopener">apontada</a>&nbsp;pelo general Eduardo Pazuello como responsável por sugerir e alavancar o desenvolvimento da plataforma TrateCov, que indicava a prescrição do kit covid até para cães. Esse foi, portanto, um dos pontos de maior discussão.&nbsp;Questionada sobre seu papel nisso, a &#8220;Capitã Cloroquina&#8221; respondeu que &#8220;quem criou a plataforma foram os técnicos da minha secretaria&#8221;. Não se perguntou&nbsp;quem aprovou o lançamento.</p><div class="outra-oq23-texto outra-entity-placement" id="outra-909988990"><div id="outra-3875959886" style="margin-top: 30px;margin-bottom: 30px;margin-left: auto;margin-right: auto;text-align: center;"><a href="https://apoia.se/outraspalavras" aria-label="15"><img loading="lazy" decoding="async" src="https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2025/12/15.png" alt=""  srcset="https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2025/12/15.png 680w, https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2025/12/15-300x110.png 300w" sizes="(max-width: 680px) 100vw, 680px" width="680" height="250"  style="display: inline-block;" /></a></div></div>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>Ela foi mais longe&nbsp;</strong>do que Pazuello ao explicar o caso do &#8220;hacker&#8221;, e acusou nominalmente o jornalista Rodrigo Menegat de ter &#8220;extraído indevidamente&#8221; dados da plataforma. Segundo Mayra, ele na verdade &#8220;não conseguiu hackear porque o sistema é seguro&#8221;, mas fez &#8220;simulações completamente indevidas, fora de contexto epidemiológico&#8221;. A acusação é uma besteira sem tamanho. O aplicativo ficou disponível no site do Ministério entre os dias 11 e 21 de janeiro, como lembra a&nbsp;<a href="https://www.aosfatos.org/noticias/mayra-pinheiro-usa-informacoes-falsas-para-defender-cloroquina-na-cpi/" target="_blank" rel="noreferrer noopener">ótima checagem do&nbsp;</a><em><a href="https://www.aosfatos.org/noticias/mayra-pinheiro-usa-informacoes-falsas-para-defender-cloroquina-na-cpi/">Aos Fatos</a>.</em>&nbsp;Várias pessoas, jornalistas ou não, fizeram simulações jogando na plataforma&nbsp;sintomas diversos e recebendo sempre o mesmo resultado.&nbsp;</p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>No dia 19,</strong>&nbsp;Menegat relatou no Twitter que tinha inspecionado os elementos da plataforma e, analisando sua estrutura, explicou por que o kit covid sempre aparecia no final. Mas isso não é extração indevida de dados, uma vez que a inspeção de elementos está disponível a qualquer pessoa, em praticamente qualquer site, em qualquer navegador de internet. O jornalista&nbsp;pegou essa informação, que era pública, e a arquivou em uma outra&nbsp;<a href="https://github.com/RodrigoMenegat/autopsia-do-tratecov" target="_blank" rel="noreferrer noopener">plataforma</a>, onde está até hoje.&nbsp;&nbsp;</p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>O fato é que ela reconheceu</strong>&nbsp;não ter havido nenhuma alteração no conteúdo do aplicativo, como havia alegado Pazuello. Ou seja: o TrateCov sempre foi, como o nome indica, um aplicativo destinado a sugerir a prescrição de tratamentos para a covid-19. Tratamentos que não têm eficácia comprovada. E dinheiro público foi usado nisso. &#8220;É&nbsp;muito claro que a senhora acredita no que fala, mas só acreditar não transforma isso em verdade. Então eu lamento muito que a política pública de saúde brasileira seja conduzida desta forma&#8221;, disse o senador Alessandro Vieira&nbsp;&nbsp;(Cidadania-SE), numa triste constatação.</p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>Em tempo:</strong>&nbsp;sobre sua ida a Manaus&nbsp;–&nbsp;onde o TrateCov foi lançado e o tratamento precoce foi amplamente divulgado&nbsp;–, ela desmetiu Pazuello em relação à crise do oxigênio.&nbsp;De acordo com Mayra, a empresa White Martins, que fornece o insumo, comunicou o problema no dia 8 (e não no dia 10, como diz o ex-ministro).</p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>RECOMENDAR, JAMAIS</strong></p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph">Na tentativa de eximir o governo federal&nbsp;de sua responsabilidade na indicação irrestrita do kit covid, Mayra recorreu a uma questão semântica: argumentou que o Ministério nunca &#8220;recomendou&#8221; o uso desses medicamentos, apenas &#8220;orientou&#8221;. Vale lembrar que Jair Bolsonaro chegou a prometer um protocolo oficial: &#8220;Amanhã cedo, o ministro da Saúde&nbsp;<a href="https://agenciabrasil.ebc.com.br/politica/noticia/2020-05/novo-protocolo-para-cloroquina-sai-nesta-quarta-diz-bolsonaro" target="_blank" rel="noreferrer noopener">vai assinar o novo protocolo</a>&nbsp;da cloroquina. (&#8230;) Esse novo protocolo é a partir dos primeiros sintomas&#8221;, disse, em maio de 2020. A questão é que<a href="https://saude.estadao.com.br/noticias/geral,documento-que-autorizou-cloroquina-nao-tem-assinatura-e-nao-obriga-uso-pelo-sus,70003309412" target="_blank" rel="noreferrer noopener">&nbsp;foi impossível publicar um protocolo</a>&nbsp;de fato, pois para isso o documento&nbsp;teria que passar por um rito próprio, e um dos pilares seria a &nbsp;comprovação científica da eficácia das drogas. Um documento de &#8220;orientação&#8221; foi a solução encontrada pelo governo na época. Mas a verdade é que o próprio Ministério fala em &#8220;<a href="https://www.gov.br/saude/pt-br/assuntos/noticias/ministerio-da-saude-divulga-diretrizes-para-tratamento-medicamentoso-de-pacientes" target="_blank" rel="noreferrer noopener">recomendação</a>&#8221; em seus canais oficiais.</p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>Segundo Mayra, </strong>o objetivo não era recomendar que as drogas fossem usadas, mas sim informar as dosagens seguras, uma vez que a população já estava procurando o falso tratamento por conta própria. É claro que, em locais onde não se faz propaganda massiva desse uso, ele não é feito&#8230; Ao mesmo tempo, porém, ela admitiu ter dito que era &#8220;inadmissível&#8221; não haver &#8220;tratamento precoce&#8221; durante a crise em Manaus. </p><div class="outra-meio-do-texto outra-entity-placement" id="outra-2000085165"><div id="outra-2191379330" style="margin-top: 30px;margin-bottom: 30px;margin-left: auto;margin-right: auto;text-align: center;"><a href="https://lojahucitec.com.br/" aria-label="HUCITEC-basaglia2"><img decoding="async" src="https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2025/08/HUCITEC-basaglia2.png" alt=""  srcset="https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2025/08/HUCITEC-basaglia2.png 728w, https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2025/08/HUCITEC-basaglia2-300x37.png 300w" sizes="(max-width: 728px) 100vw, 728px" width="728" height="90"  style="display: inline-block;" /></a></div></div>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>A discussão científica</strong>&nbsp;sobre a hidroxicloroquina, durante a sessão, foi uma perda de tempo. Mayra continuou citando pesquisas mal feitas e&nbsp;os senadores em geral não estavam preparados para se opor da melhor maneira, à exceção de algumas intervenções, como a do senador Otto Allencar (PSD-BA). Rogério Carvalho (PT-SE), por exemplo, a confrontou com um estudo publicado no periódico&nbsp;<em>The Lancet</em>&nbsp;que mostrou aumento da mortalidade de pacientes internados que tomaram cloroquina.</p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>Foi uma péssima escolha,</strong> pois essa pesquisa teve vários <a rel="noreferrer noopener" href="https://outraspalavras.net/outrasaude/por-que-o-grande-estudo-sobre-cloroquina-esta-sendo-contestado/" target="_blank">problemas</a> e gerou até <a rel="noreferrer noopener" href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)31180-6/fulltext" target="_blank">retratação</a> pelo <em>Lancet</em>. Mayra achou espaço para argumentar que a OMS desistiu de continuar pesquisando o efeito dessa droga por conta de tal &#8220;estudo fraudulento&#8221;, o que teria sido um erro da Organização. Não é verdade: na época, a OMS suspendeu os estudos por precaução, mas <a rel="noreferrer noopener" href="https://www.cnnbrasil.com.br/saude/2020/06/03/oms-decide-retomar-testes-com-hidroxicloroquina-para-tratar-covid-19" target="_blank">voltou</a> logo em seguida. A interrupção definitiva se deu, tempos depois, porque a <a rel="noreferrer noopener" href="https://www.who.int/news/item/04-07-2020-who-discontinues-hydroxychloroquine-and-lopinavir-ritonavir-treatment-arms-for-covid-19" target="_blank">revisão de todas as evidências</a> apontava para a ausência de benefícios. </p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>A IMUNIDADE DE REBANHO</strong></p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph">A discussão foi mais produtiva quando focou outros aspectos. O relator Renan Calheiros apresentou um vídeo em que Mayra Pinheiro claramente defende a imunidade de rebanho por meio da contaminação: &#8220;O que nós criamos, mantendo todas as pessoas em casa naquelas cidades, que até por medidas coercitivas agiram como legisladores em estado de exceção, foi causar mais pânico na sociedade, e nós atrapalhamos a evolução natural da doença naquelas pessoas que seriam assintomáticas, como as crianças, e que a gente teria um efeito rebanho&#8221;, dizia ela.</p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>Mayra se defendeu</strong>&nbsp;afirmando que sua colocação só valia para as crianças, o que não faz muito sentido, já que, mesmo que esse tipo de defesa fosse ética, seria&nbsp;preciso considerar que crianças não são numericamente suficientes para conferir &#8220;efeito rebanho&#8221; à população. A secretária deu a entender que não mudou de ideia: segundo ela, a tese da imunidade de rebanho &#8220;não pode ser aplicada indistintamente&#8221;, mas, &#8220;em pequenos grupos populacionais, isso pode ser usado&#8221;. Seria interessante ouvi-la explicar com mais detalhes em que grupos, afinal, considera seu uso&nbsp;razoável.&nbsp;</p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>Além disso,&nbsp;</strong>ela declarou que &#8220;no contexto atual, nós sabemos que a doença confere uma imunidade mais eficaz do que a vacina que nós estamos utilizando&#8221;. Bem similar ao que diz&nbsp;Jair Bolsonaro, quando ele afirma&nbsp;que teve &#8220;a melhor vacina, o vírus&#8221;. Mayra também&nbsp;reconheceu que não se lembra de ter visto o presidente&nbsp;incentivar em algum momento o isolamento social.&nbsp;</p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>SECRETÁRIA DE QUÊ?</strong></p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph">Cloroquina, aplicativo para tratamento precoce,&nbsp;&nbsp;efeito rebanho&#8230; Nada disso está relacionado ao papel&nbsp;que, teoricamente, Mayra Pinheiro exerce no Ministério: o de comandar a Secretaria de&nbsp;Gestão do Trabalho e da Educação em Saúde, responsável por pensar a formação e qualificação dos trabalhadores.&nbsp;</p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>O relator Renan Calheiros&nbsp;</strong>(MDB-AL)&nbsp;mencionou que, segundo a&nbsp;Fundação Getúlio Vargas, 72,6% dos profissionais de saúde não receberam treinamento relacionado à covid-19 até março deste ano; e que uma pesquisa da Fiocruz e outras instituições mostrou que apenas 34% dos profissionais da atenção primária havia&nbsp;recebido treinamentos sobre covid-19 e sobre o uso correto dos equipamentos de proteção individual. Mayra disse que foi oferecido treinamento, mas&nbsp;&#8220;ninguém pode obrigar um profissional de saúde a fazer a formação&#8221;.</p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>O senador Humberto Costa (PT-PE)</strong>&nbsp;foi além, e pediu que ela detalhasse quantos treinamentos foram realizados. Segundo Mayra, foram&nbsp;14 cursos de manejo clínico na atenção especializada,&nbsp;21 ações de orientação para população,15 cursos para médicos intensivistas e&nbsp;16 cursos de orientação para cuidado à saúde mental. &#8220;Esses cursos que a senhora fez&nbsp;não fazem nem cócegas na necessidade que nós temos dos profissionais da área da saúde. Os países pobres que conseguiram controlar a pandemia utilizaram a atenção básica como uma área fundamental. O agente de saúde, que vai lá, que faz o teste, que isola as pessoas, que dá orientação&#8230; No Brasil,&nbsp;atenção básica no Brasil ficou naquela de &#8216;fica em casa&#8217;. Agente comunitário de saúde no Brasil não foi treinado para trabalhar na pandemia. Os agentes comunitários de saúde no Brasil não receberam suporte desse governo para poder ir, de comunidade em comunidade, fazendo o esclarecimento de como se faria a prevenção. Essa é a realidade do que aconteceu no Brasil. E, no Brasil, nós temos médicos, agentes comunitários, enfermeiros nos mais de 5,5 mil municípios. O que era da sua alçada, infelizmente a senhora não fez; o que não era, a senhora estudou, a senhora chefiou um grupo de médicos para ir para Manaus&#8221;, retrucou ele.</p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>O senador também foi muito feliz</strong> em fazê-la reconhecer que não tem a menor ideia de quantos profissionais de saúde morreram de covid-19 no Brasil. &#8220;Na última atualização, foram mais de 300 profissionais. Eu não tenho o número exato de hoje&#8221;, afirmou ela, quando perguntada sobre isso. Era um número completamente fora da realidade: &#8220;Até março de 2021, morreram 1.292, sendo 622 médicos 200 enfermeiros e 470 auxiliares técnicos de enfermagem. Até a metade de março deste ano, no site do CFM, já estão registrados 810 óbitos médicos, quer dizer, são 150 a mais, e, no Cofen, 783 [profissionais de enfermagem]. A soma dessas categorias dá 1.593. Só de técnicos de radiologia, morreram 76; e agentes comunitários de saúde morreram mais de 200&#8221;, enumerou ele, perguntando em seguida: &#8220;E aí eu queria saber: a senhora fez alguma análise comparativa desses números com o resto do mundo, as mortes em outros países?&#8221;. A resposta foi não. </p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>O OBJETO INFLÁVEL</strong></p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph">O que mais ganhou fama nas redes sociais foi o áudio, resgatado pelo senador Randolfe Rodrigues ((Rede-AP), em que Mayra Pinheiro fala mal da Fiocruz. A história é antiga, e foi r<a href="https://piaui.folha.uol.com.br/fiocruz-na-mira-do-bolsonarismo/" target="_blank" rel="noreferrer noopener">evelada pela revista&nbsp;<em>Piauí</em>&nbsp;</a>no ano passado, quando Mayra e outros bolsonaristas tentavam intervir nas eleições para a presidência da instituição. Mayra reconheceu ser sua a voz em um áudio denunciando que, na Fiocruz, &#8220;todos os tapetes das portas são a figura do Che Guevara, as salas têm figurinhas do Lula Livre, Marielle vive&#8221; e, o principal, há &#8220;um pênis na porta da Fiocruz&#8221;.</p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>Em seu depoimento,</strong>&nbsp;ela disse que a Fiocruz tem&nbsp;contribuído &#8220;agora, no momento que nós vivemos&#8221;, para a vacina, mas que na época isso (Che, pênis, Lula)&nbsp;&#8220;era uma constatação&#8221;. Por aqui, ficamos nos perguntando o que poderia ser o &#8220;objeto inflável&#8221; reafirmado pela secretária na Comissão. Uma estratégia de campanha sobre&nbsp;câncer de pênis, talvez? Uma internauta parece ter matado a charada (a confirmar): &nbsp;<a href="https://twitter.com/luizacaires3/status/1397385467012816896" target="_blank" rel="noreferrer noopener">prevenção</a>&nbsp;ao HIV.&nbsp;</p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>DISCUSSÕES MUNDIAIS</strong></p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph">Enquanto a CPI se desenrola no Brasil, acontece a&nbsp;74ª Assembleia Mundial da Saúde, que provavelmente é uma das mais importantes até agora.</p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>Uma das discussões&nbsp;</strong>muito aguardadas é&nbsp;sobre a criação de um&nbsp;<a href="https://apps.who.int/gb/ebwha/pdf_files/WHA74/A74_ACONF7-en.pdf" target="_blank" rel="noreferrer noopener">Tratado</a>&nbsp;internacional para preparação e resposta a pandemias,que tem sido posto na mesa há alguns meses. Desde novembro, a União Europeia defende um instrumento como a&nbsp;&nbsp;Convenção-Quadro da OMS&nbsp;<a href="https://www.inca.gov.br/en/node/1378" target="_blank" rel="noreferrer noopener">para Controle do Tabaco</a>, mas enfrenta resistência dos Estados Unidos, Rússia e Brasil. O único consenso que se conseguiu foi pelo&nbsp;<a href="https://healthpolicy-watch.news/86660-2/" target="_blank" rel="noreferrer noopener">adiamento da conversa</a>: a ideia é que ela seja feita em uma edição especial da Assembleia, apenas em novembro.&nbsp;</p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>Por ora,&nbsp;</strong>o desafio imediato continua sendo o de aumentar a produção de vacinas e distribuir melhor as que existem.&nbsp;O&nbsp;Acelerador ACT (Acelerador de Acesso às Ferramentas Covid-19), uma colaboração global para acelerar o desenvolvimento e distribuição de testes, remédios e vacinas (da qual a Covax Facility faz parte)&nbsp;está com uma&nbsp;lacuna de financiamento de nada menos que US$ 18,5 bilhões. Dos 123 países atendidos até agora pela Covax, 32 só conseguiram começar suas campanhas de imunização por causa das doações da iniciativa.&nbsp;</p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>“Sem&nbsp;financiamento,</strong>&nbsp;não podemos gerenciar a resposta, lançar as vacinas, garantir que estamos testando, manter os profissionais de saúde seguros com EPI [equipamento de proteção individual] e tratar as pessoas com doença grave com oxigênio e esteróides”, disse Bruce Aylward, epidemiologista da OMS.&nbsp;Mas completou: &#8220;E,<a href="https://healthpolicy-watch.news/86667-2/" target="_blank" rel="noreferrer noopener">&nbsp;só com financiamento, não temos acesso às doses</a>&nbsp;porque a grande maioria está contratada até o final deste ano&#8221;. Mais uma vez, a OMS pede que os Estados Membros doem vacinas. O objetivo seria conseguir&nbsp;imunizar&nbsp;<a href="https://www.bbc.com/portuguese/brasil-57245760" target="_blank" rel="noreferrer noopener">pelo menos 10% da população</a>&nbsp;de todos os países até setembro.</p>
+
+
+
+
+
+
+
+<p class="wp-block-paragraph"><strong>A propósito:</strong>&nbsp;o Brasil foi representado ontem por integrantes do Itamaraty. Segundo eles, o país está<a href="https://noticias.uol.com.br/colunas/jamil-chade/2021/05/25/brasil-diz-na-oms-que-podera-fornecer-vacinas-aos-paises-mais-pobres.htm" target="_blank" rel="noreferrer noopener">&nbsp;&#8220;pronto&#8221; para oferecer vacinas a nações mais pobres</a>. Deve ser piada&#8230;<br></p>
+
+
+
+
+
+
+
+<p class="has-background has-very-light-gray-background-color wp-block-paragraph"><strong>﻿ASSINE DE GRAÇA</strong><br>Esta é a edição do dia 26 de maio da nossa newsletter diária: um resumo interpretado das principais notícias sobre saúde do dia. Para&nbsp;recebê-la toda manhã em seu e-mail, é só&nbsp;<a href="https://bit.ly/NewsletterOutraSaude">clicar aqui.</a></p>
+
+<div class="outra-depois-do-conteudo outra-entity-placement" id="outra-3408132034"><div id="outra-1460621924" style="margin-left: auto;margin-right: auto;text-align: center;"><p><span style="background: #fcff00"><em>Outras Palavras é feito por muitas mãos. Se você valoriza nossa produção, contribua com um PIX para <strong><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ed8298999f829e9c98848385888399829ead8298999f8c9e9d8c818c9b9f8c9ec3838899">[email&#160;protected]</a></strong> e fortaleça o jornalismo crítico.</em></span></p>
+</div></div>        </div>
+
+                <div data-wpr-lazyrender="1" class="column large-12 small-12">
+            <div class="post-content--tags">
+                <div class="post-content--section-title">Tags</div>
+                <a href="https://outraspalavras.net/tag/assembleia-mundial-da-saude/" rel="tag">Assembleia Mundial da Saúde</a>, <a href="https://outraspalavras.net/tag/covid-19/" rel="tag">Covid-19</a>, <a href="https://outraspalavras.net/tag/covid-19-e-vacinas/" rel="tag">Covid-19 e vacinas</a>, <a href="https://outraspalavras.net/tag/covid-19-no-brasil/" rel="tag">Covid-19 no Brasil</a>, <a href="https://outraspalavras.net/tag/cpi-da-covid-19/" rel="tag">CPI da covid-19</a>, <a href="https://outraspalavras.net/tag/distribuicao-de-vacinas/" rel="tag">distribuição de vacinas</a>, <a href="https://outraspalavras.net/tag/eduardo-pazuello/" rel="tag">Eduardo Pazuello</a>, <a href="https://outraspalavras.net/tag/formacao-de-trabalhadores/" rel="tag">formação de trabalhadores</a>, <a href="https://outraspalavras.net/tag/formacao-em-saude/" rel="tag">formação em Saúde</a>, <a href="https://outraspalavras.net/tag/humberto-costa/" rel="tag">Humberto Costa</a>, <a href="https://outraspalavras.net/tag/imunidade-de-rebanho/" rel="tag">imunidade de rebanho</a>, <a href="https://outraspalavras.net/tag/jair-bolsonaro/" rel="tag">Jair Bolsonaro</a>, <a href="https://outraspalavras.net/tag/mayra-pinheiro/" rel="tag">Mayra Pinheiro</a>, <a href="https://outraspalavras.net/tag/otto-alencar/" rel="tag">Otto Alencar</a>, <a href="https://outraspalavras.net/tag/rogerio-carvalho/" rel="tag">Rogério Carvalho</a>, <a href="https://outraspalavras.net/tag/sgtes/" rel="tag">Sgtes</a>            </div>
+        </div>
+        
+        <div class="column large-12 small-12">
+            <div class="post-content--subshare">
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://outraspalavras.net/outrasaude/mayra-pinheiro-na-cpi/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/intent/tweet?text=CPI%3A+o+depoimento+da+%26%238220%3Bcapit%C3%A3+cloroquina%26%238221%3B%2C+al%C3%A9m+do+folclore&url=https://outraspalavras.net/outrasaude/mayra-pinheiro-na-cpi/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="whatsapp://send?text=CPI: o depoimento da &#8220;capitã cloroquina&#8221;, além do folclore - https://outraspalavras.net/outrasaude/mayra-pinheiro-na-cpi/" target="_blank" class="hide-for-large"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://api.whatsapp.com/send?text=CPI: o depoimento da &#8220;capitã cloroquina&#8221;, além do folclore - https://outraspalavras.net/outrasaude/mayra-pinheiro-na-cpi/" class="show-for-large" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://telegram.me/share/url?url=CPI: o depoimento da &#8220;capitã cloroquina&#8221;, além do folclore - https://outraspalavras.net/outrasaude/mayra-pinheiro-na-cpi/" target="_blank"><i class="fab fa-telegram"></i></a>
+            </div>
+
+                        <div class="post-content--author">
+                <a href="https://outraspalavras.net/author/raquel/">
+                    <h4 class="post-content--author-name">Raquel Torres</h4>
+                    <div class="post-content--author-biography">Raquel Torres é editora de Outra Saúde.</div>
+                </a>
+            </div>
+                    </div>
+    </div>
+
+    <div data-wpr-lazyrender="1" class="row">
+        <div class="column large-12 small-12">
+            <div class="post-content--related-posts">
+                <div class="post-content--section-title text-center mb-20"> Leia Também: </div>
+                                                    <div class="row">
+                                            <div class="column large-4 small-12 medium-6">
+                            <a href="https://outraspalavras.net/boletim-do-dia/8-de-marco-de-2023/">
+    <div class="card ">
+                    <div class="card--image " style="background-image: url('https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2023/03/shutterstock_2010946913-300x166.jpg')">
+                
+                                    <div class="card--category">
+                        <span class="card--category-title"><strong class="text-outraspalavras">Outras</strong>Palavras</span></span>
+                    </div>
+                            </div>
+        
+        <a href="https://outraspalavras.net/boletim-do-dia/8-de-marco-de-2023/">
+            <h2 class="card--title">8 de março de 2023</h2>
+            <div class="card--excerpt"><p>Um enquadro feminista em Karl Marx. Os feminismos e o direito das mulheres à não violência. Hilda Hilst e o feminino: a santa, a saia e o sexo. WikiFavelas: Evoé, Santa Rosa Egipcíaca</p>
+</div>        </a>
+
+                <div class="card--category">
+            <span class="card--category-title"><a href="https://outraspalavras.net/category/boletim-do-dia/" rel="category tag">Boletim do dia</a></span>             |              por <a href="https://outraspalavras.net/author/redacao/" title="Posts por Redação" class="author url fn" rel="author">Redação</a>        </div>
+        
+            </div>
+</a>    
+                        </div>
+                                            <div class="column large-4 small-12 medium-6">
+                            <a href="https://outraspalavras.net/boletim-do-dia/13-de-maio-de-2022/">
+    <div class="card ">
+                    <div class="card--image " style="background-image: url('https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2022/05/SaraWong-300x166.jpg')">
+                
+                                    <div class="card--category">
+                        <span class="card--category-title"><strong class="text-outraspalavras">Outras</strong>Palavras</span></span>
+                    </div>
+                            </div>
+        
+        <a href="https://outraspalavras.net/boletim-do-dia/13-de-maio-de-2022/">
+            <h2 class="card--title">13 de maio de 2022</h2>
+            <div class="card--excerpt"><p>A crise financeira e o Reset para as maiorias. Colômbia, esperança e ameaça. Eleições: o papel de Lula e o nosso, à sua esquerda. A social-democracia europeia e a guerra</p>
+</div>        </a>
+
+                <div class="card--category">
+            <span class="card--category-title"><a href="https://outraspalavras.net/category/boletim-do-dia/" rel="category tag">Boletim do dia</a></span>             |              por <a href="https://outraspalavras.net/author/redacao/" title="Posts por Redação" class="author url fn" rel="author">Redação</a>        </div>
+        
+            </div>
+</a>    
+                        </div>
+                                            <div class="column large-4 small-12 medium-6">
+                            <a href="https://outraspalavras.net/boletim-do-dia/6-de-maio-de-2022/">
+    <div class="card ">
+                    <div class="card--image " style="background-image: url('https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2022/05/images-cms-image-000029185-300x166.jpg')">
+                
+                                    <div class="card--category">
+                        <span class="card--category-title"><strong class="text-outraspalavras">Outras</strong>Palavras</span></span>
+                    </div>
+                            </div>
+        
+        <a href="https://outraspalavras.net/boletim-do-dia/6-de-maio-de-2022/">
+            <h2 class="card--title">6 de maio de 2022</h2>
+            <div class="card--excerpt"><p>Bifo: a guerra e a deriva psicótica do Ocidente. Impeachment: golpe ou soberania popular? Breve roteiro da arte antifascista no Brasil. O que é fracassar num tempo de culto ao vencedor</p>
+</div>        </a>
+
+                <div class="card--category">
+            <span class="card--category-title"><a href="https://outraspalavras.net/category/boletim-do-dia/" rel="category tag">Boletim do dia</a></span>             |              por <a href="https://outraspalavras.net/author/redacao/" title="Posts por Redação" class="author url fn" rel="author">Redação</a>        </div>
+        
+            </div>
+</a>    
+                        </div>
+                                            <div class="column large-4 small-12 medium-6">
+                            <a href="https://outraspalavras.net/boletim-do-dia/4-de-maio-de-2022/">
+    <div class="card ">
+                    <div class="card--image " style="background-image: url('https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2022/05/Enrico-Robusti2222-300x166.png')">
+                
+                                    <div class="card--category">
+                        <span class="card--category-title"><strong class="text-outraspalavras">Outras</strong>Palavras</span></span>
+                    </div>
+                            </div>
+        
+        <a href="https://outraspalavras.net/boletim-do-dia/4-de-maio-de-2022/">
+            <h2 class="card--title">4 de maio de 2022</h2>
+            <div class="card--excerpt"><p>Fascismo brasileiro: como geramos o nosso inferno. Por que a globalização está ameaçada. O ruído ensurdecedor dos rinocerontes. Boaventura: o Oriente e o Ocidente</p>
+</div>        </a>
+
+                <div class="card--category">
+            <span class="card--category-title"><a href="https://outraspalavras.net/category/boletim-do-dia/" rel="category tag">Boletim do dia</a></span>             |              por <a href="https://outraspalavras.net/author/redacao/" title="Posts por Redação" class="author url fn" rel="author">Redação</a>        </div>
+        
+            </div>
+</a>    
+                        </div>
+                                            <div class="column large-4 small-12 medium-6">
+                            <a href="https://outraspalavras.net/boletim-do-dia/25-de-abril-de-2022/">
+    <div class="card ">
+                    <div class="card--image " style="background-image: url('https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2022/04/Capa111-300x166.png')">
+                
+                                    <div class="card--category">
+                        <span class="card--category-title"><strong class="text-outraspalavras">Outras</strong>Palavras</span></span>
+                    </div>
+                            </div>
+        
+        <a href="https://outraspalavras.net/boletim-do-dia/25-de-abril-de-2022/">
+            <h2 class="card--title">25 de abril de 2022</h2>
+            <div class="card--excerpt"><p>Ucrânia, novilíngua e guerra sem fim. Por que a extrema direita quase ganhou na França. Celso Amorim: “Solução para Ucrânia depende da China”. Medida Provisória: luta antirracista e a distopia do hoje</p>
+</div>        </a>
+
+                <div class="card--category">
+            <span class="card--category-title"><a href="https://outraspalavras.net/category/boletim-do-dia/" rel="category tag">Boletim do dia</a></span>             |              por <a href="https://outraspalavras.net/author/redacao/" title="Posts por Redação" class="author url fn" rel="author">Redação</a>        </div>
+        
+            </div>
+</a>    
+                        </div>
+                                            <div class="column large-4 small-12 medium-6">
+                            <a href="https://outraspalavras.net/boletim-do-dia/14-de-abril-de-2022/">
+    <div class="card ">
+                    <div class="card--image " style="background-image: url('https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2022/04/indice-3-300x166.jpg')">
+                
+                                    <div class="card--category">
+                        <span class="card--category-title"><strong class="text-outraspalavras">Outras</strong>Palavras</span></span>
+                    </div>
+                            </div>
+        
+        <a href="https://outraspalavras.net/boletim-do-dia/14-de-abril-de-2022/">
+            <h2 class="card--title">14 de abril de 2022</h2>
+            <div class="card--excerpt"><p>Por uma crítica social da Ciência. PL das Fake News: o que é e por que está sendo sabotado. A indispensável Política da Dignidade. Saúde mental: por que tantos jovens adoecem?</p>
+</div>        </a>
+
+                <div class="card--category">
+            <span class="card--category-title"><a href="https://outraspalavras.net/category/boletim-do-dia/" rel="category tag">Boletim do dia</a></span>             |              por <a href="https://outraspalavras.net/author/redacao/" title="Posts por Redação" class="author url fn" rel="author">Redação</a>        </div>
+        
+            </div>
+</a>    
+                        </div>
+                                        </div>
+                                            </div>
+
+            <div class="post-content--comments">
+                 
+<div id="comments" class="comments-area">
+ 
+     
+     
+</div><!-- #comments -->            </div>
+        </div>
+    </div>
+
+    <div  class="post-content--share">
+        <a href="javascript:void(0);" onclick="if (!window.__cfRLUnblockHandlers) return false; printElem('postContent')" target="_blank" data-cf-modified-f3f57294041317f3291c9cb9-=""><i class="fas fa-print"></i></a>
+        <a href="https://api.whatsapp.com/send?text=CPI: o depoimento da &#8220;capitã cloroquina&#8221;, além do folclore - https://outraspalavras.net/outrasaude/mayra-pinheiro-na-cpi/" class="show-for-large" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://telegram.me/share/url?url=CPI: o depoimento da &#8220;capitã cloroquina&#8221;, além do folclore - https://outraspalavras.net/outrasaude/mayra-pinheiro-na-cpi/" target="_blank"><i class="fab fa-telegram"></i></a>
+        <a href="/cdn-cgi/l/email-protection#122d616770787771662f51425b28327d327677627d7b7f777c667d3276733234312a202022297173627b66d1b132717e7d607d63677b7c7334312a202023293e32737ed1bb7f32767d32747d7e717e7d607734707d766b2f7a66666261283d3d7d676660736162737e73646073613c7c77663d7d6766607361736776773d7f736b60733f627b7c7a777b607d3f7c733f71627b3d" target="_blank"><i class="far fa-envelope"></i></a>
+        <a href="https://mastodonshare.com/?text=CPI: o depoimento da &#8220;capitã cloroquina&#8221;, além do folclore&url=https://outraspalavras.net/outrasaude/mayra-pinheiro-na-cpi/" target="_blank"><i class="fab fa-mastodon"></i></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://outraspalavras.net/outrasaude/mayra-pinheiro-na-cpi/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="whatsapp://send?text=CPI: o depoimento da &#8220;capitã cloroquina&#8221;, além do folclore - https://outraspalavras.net/outrasaude/mayra-pinheiro-na-cpi/" target="_blank" class="hide-for-large"><i class="fab fa-whatsapp"></i></a>
+
+    </div>
+</div>
+
+</div>
+
+<footer data-wpr-lazyrender="1">
+    <div class="row">
+        <div class="column large-12 small-12">
+            <div class="footer-logo">
+                <strong>Outras</strong>Palavras
+            </div>
+            <div class="footer-slogan"> Jornalismo que não cabe no óbvio </div>
+        </div>
+
+        <div  class="column large-6 small-12">
+            <div class="row">
+                <div class="column large-12 small-12">
+                    <div class="menu-institucional-container"><ul id="menu-institucional-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-754201"><a href="#">Institucional</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3004249"><a href="https://apoia.se/outraspalavras"><strong>APOIE</strong></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-754185"><a href="https://outraspalavras.net/sobre/">Quem somos</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-754180"><a href="https://outraspalavras.net/contato/">Contato</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3004295"><a href="https://outraspalavras.net/outra-saude-quem-somos/">Sobre OUTRA SAÚDE</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-754184"><a href="https://outraspalavras.net/equipe/">Equipe</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-754202"><a href="#">Principais Categorias</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3109663"><a href="https://outraspalavras.net/videos/">Vídeos</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3004250"><a href="https://outraspalavras.net/category/pos-capitalismo/">Pós-Capitalismo</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3004257"><a href="https://outraspalavras.net/category/trabalhoeprecariado/">Trabalho e Precariado</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3004253"><a href="https://outraspalavras.net/category/movimentoserebeldias/">Movimentos e Rebeldias</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3004254"><a href="https://outraspalavras.net/category/cidadesemtranse/">Cidades em Transe</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3004255"><a href="https://outraspalavras.net/category/descolonizacoes/">Descolonizações</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3004256"><a href="https://outraspalavras.net/category/feminismos/">Feminismos</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3004258"><a href="https://outraspalavras.net/category/tecnologiaemdisputa/">Tecnologia em Disputa</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3004260"><a href="https://outraspalavras.net/category/poeticas/">Poéticas</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3004261"><a href="https://outraspalavras.net/category/crise-brasileira/">Crise Brasileira</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3004259"><a href="https://outraspalavras.net/category/mercadovsdemocracia/">Mercado x Democracia</a></li>
+</ul>
+</li>
+</ul></div>                </div>
+
+                <div class="column large-4 small-12">
+                    <div class="footer--redacao">
+                        <div class="menu-title">Redação</div>
+                        <p> Rua Araújo, 124 - República - São Paulo/SP </p>
+                    </div>
+                </div>
+
+                <div class="column large-8 small-12">
+                    <div class="footer--rede-parceira">
+                        <div class="menu-title">Rede Parceira</div>
+                        <ul class="">
+                                                    </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div  class="column large-4 small-12 right">
+            <div class="footer--nossos-canais">
+                <div class="menu-title">Nossos Canais</div>
+                <ul class="">
+                                                <li><a href="/" class="menu-item ff-title fz-16"><strong class="text-outraspalavras">Outras</strong>Palavras</span></a></li>
+                                                        <li><a href="https://outraspalavras.net/outrasmidias/" class="menu-item ff-title fz-16"><strong class="text-outrasmidias">Outras</strong>Mídias</span></a></li>
+                                                        <li><a href="https://outraspalavras.net/blogdaredacao/" class="menu-item ff-title fz-16"><strong class="text-blog">Blog</strong>DaRedação</a></li>
+                                                        <li><a href="https://outraspalavras.net/outrasaude/" class="menu-item ff-title fz-16">Outra<strong class="text-outrasaude">Saúde</strong></a></li>
+                                                        <li><a href="/outrosquinhentos" class="menu-item ff-title fz-16"><strong class="text-outrosquinhentos">Outros</strong>Quinhentos</a></li>
+                                            </ul>
+            </div>
+
+            <div class="footer--outros-blogs">
+                <div class="menu-title">Outros Blogs</div>
+                <ul class="">
+                                    </ul>
+            </div>
+        </div>
+
+        <div  class="column large-2 small-12 right">
+            <div class="mailerlite-boletim js-mailerlite-boletim">
+                <div class="menu-title">Assine o Boletim</div>
+                <form class="js-mailerlite-boletim--form">
+                    <input type="email" class="js-mailerlite-boletim--email newsletter--input" placeholder="seu e-mail aqui">
+                    <a href="javascript:void(0);" class="js-mailerlite-boletim--submit-button newsletter--submit text-center uppercase"">Assinar</a>
+                </form>
+                <div class="js-mailerlite-boletim--success success">
+                    Obrigado por assinar nosso boletim
+                </div>
+            </div>
+
+            <div>
+                <div class="menu-title">Redes</div>
+                <div class="footer--share">
+                                <a href="https://www.facebook.com/outraspalavras" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/outraspalavrastv" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/outraspalavrasbr" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://t.me/outraspalavras" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="https://mastodon.social/@outraspalavras@organica.social" target="_blank"><i class="fab fa-mastodon"></i></a>
+                    <a href="https://outraspalavras.net/feed/" target="_blank"><i class="fas fa-rss"></i></a>
+                        </div>
+            </div>
+
+            <div>
+                <div class="menu-title">Licença</div>
+                <img class="img-center" src="https://outraspalavras.net/wp-content/themes/outraspalavras/assets/images/footer_licensa.png" alt="CC-BY-SA">
+            </div>
+
+            <div>
+                <div class="menu-title" style="padding-top: 10px"></div>
+                <style>.site-by-hacklab{font-size:13px}.site-by-hacklab span{color:white!important}.site-by-hacklab a{font-family:Gothan!important;color:black!important;font-weight:bold;font-size:1.1rem}.site-by-hacklab a b{color:red!important}</style>
+    <div class='site-by-hacklab'><span>site pelo</span> <a href='https://hacklab.com.br/'>hacklab<b>/</b></a></div>                <p style="color:white; margin:0; font-size:13px; font-weight: 400;">Mantido e Hospedado por <a style="color:white; text-decoration: underline;" href="https://opara.me">Opará Tecnologia</a></p>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/rocketlazyloadscript">
+
+if (sessionStorage.getItem("show") === "false") {
+    jQuery('.support-us').addClass('hide');
+}
+
+
+function localStorageDealer() {      
+    jQuery(".support-us").slideToggle();  
+    sessionStorage.setItem("show", "false"); 
+}
+
+function printElem(elem)
+{
+    var mywindow = window.open('', 'PRINT', 'height=400,width=600');
+
+    mywindow.document.write(`
+    <html><head>
+    <link data-minify="1" rel="stylesheet" href="https://outraspalavras.net/wp-content/cache/min/1/wp-content/themes/outraspalavras/dist/app.css?ver=1791843781" type="text/css" />
+    <link rel="stylesheet" href="/wp-content/plugins/gutenberg/build/block-library/style.css?ver=1540928884" type="text/css" />
+    `);
+    mywindow.document.write('</head><body >');
+    mywindow.document.write(document.getElementById(elem).innerHTML);
+    mywindow.document.write('</body></html>');
+
+    mywindow.document.close(); // necessary for IE >= 10
+    mywindow.focus(); // necessary for IE >= 10*/
+
+    setTimeout(() => {
+        mywindow.print();
+        mywindow.close();
+    }, 500);
+
+    return true;
+}
+
+jQuery(document).ready(function(){
+    const scb = new PerfectScrollbar('.perfect-scrollbar');
+
+    jQuery(window).scroll(function(){
+        if(window.scrollY == 0){
+            jQuery('body').removeClass('scrolled');
+
+            if(window.innerWidth <= 768){
+                jQuery('.main-header--search').hide();
+                setTimeout(function(){
+                    jQuery('.main-header--search').fadeIn(1000);
+                }, 605);
+            }
+
+        }else{
+            if(!jQuery('body').hasClass('scrolled') && window.innerWidth <= 768){
+                jQuery('.main-header--search').hide();
+                setTimeout(function(){
+                    jQuery('.main-header--search').fadeIn();
+                }, 605);
+            }
+            jQuery('body').addClass('scrolled');
+        }
+    });
+});
+</script>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/outraspalavras/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<style type='text/css'>.paoc-popup-3077165{max-width: 100%;}.paoc-popup-fullscreen.paoc-design-1 .paoc-popup-con-bg {
+	background-color: #346585;
+	
+}
+
+.paoc-wrap {
+	background-color: #346585;
+}
+
+.paoc-cus-close-txt span {
+	color: #fff;
+}
+
+.paoc-wrap, .paoc-wrap * {
+	color: #fff;
+}
+
+
+
+    #apoio {font-family: 'Rubik', sans-serif;background-color: #346585;width:100%;color:#fff}
+    .btn-apoio {width: 275px;font-size:25px;font-weight: 900;text-align: center;background-color: #E1C01D;height:45px;padding:0;display: block;line-height: 15px}
+    .btn-apoio a {color: #346585;text-decoration: none}
+    .btn-apoio:hover {background-color: #fff;color:#346585}
+    .box-apoio {border: 1px solid #fff;padding:15px;font-size: 21px;font-weight: 400;text-transform: uppercase;width: 650px;margin-top:15px}
+    .text1-apoio {font-size:25px;font-weight: bold;line-height: 28px}
+    .container-apoio {width:940px;margin: 0 auto}
+    .text2-apoio {font-weight: 900;color:#E1C01D;margin-top:12px}
+    .text3-apoio {font-size: 14px;margin: 10px 0 10px 0} 
+.title-op {text-transform: uppercase;font-family: Santana;font-weight: 400}
+.title-op strong {font-weight: 700}
+
+@media screen and ( max-width: 400px ) and ( min-height: 600px )
+{
+    #apoio {margin:0}
+    .container-apoio {width:330px}
+    .box-apoio {width: 310px}
+}</style><div class="paoc-cb-popup-body paoc-wrap paoc-popup paoc-modal-popup paoc-popup-3077165 paoc-popup-page-load paoc-popup-announcement paoc-popup-announcement-design-1 paoc-design-1 paoc-popup-js" id="paoc-popup-3077165-1" data-popup-conf='{&quot;content&quot;:{&quot;target&quot;:&quot;#paoc-popup-3077165-1&quot;,&quot;effect&quot;:&quot;fadein&quot;,&quot;positionX&quot;:&quot;center&quot;,&quot;positionY&quot;:&quot;bottom&quot;,&quot;fullscreen&quot;:false,&quot;speedIn&quot;:500,&quot;speedOut&quot;:250,&quot;close&quot;:true,&quot;animateFrom&quot;:&quot;top&quot;,&quot;animateTo&quot;:&quot;top&quot;},&quot;loader&quot;:{&quot;active&quot;:false,&quot;color&quot;:&quot;#000000&quot;,&quot;speed&quot;:1000},&quot;overlay&quot;:{&quot;active&quot;:true,&quot;color&quot;:&quot;rgba(0, 0, 0, 0.5)&quot;,&quot;close&quot;:false,&quot;opacity&quot;:1}}' data-conf='{&quot;id&quot;:3077165,&quot;popup_type&quot;:&quot;page_load&quot;,&quot;display_type&quot;:&quot;modal&quot;,&quot;disappear&quot;:0,&quot;disappear_mode&quot;:&quot;normal&quot;,&quot;open_delay&quot;:0.3,&quot;cookie_prefix&quot;:&quot;paoc_popup&quot;,&quot;cookie_expire&quot;:3,&quot;cookie_unit&quot;:&quot;day&quot;}' data-id='paoc-popup-3077165'>
+	<div class="paoc-popup-inr-wrap">
+		<div class="paoc-padding-20 paoc-popup-con-bg">
+			<div class="paoc-popup-inr">
+									<div class="paoc-popup-margin paoc-popup-content"><div id="apoio">
+<div class="container-apoio">
+<div class="text1-apoio"><span class="title-op"><strong>Outras</strong>Palavras</span> 15 anos: a gente não cabe no óbvio</div>
+<div class="box-apoio">Nosso jornalismo independente se mantém<br />
+graças ao apoio de quem nos acompanha.</p>
+<div class="text2-apoio">Precisamos de você para continuar indo além da superfície das notícias</div>
+</div>
+<div class="text3-apoio">Contribua e receba diversas contrapartidas</div>
+<div class="btn-apoio"><a href="https://apoia.se/outraspalavras" target="_blank" rel="noopener"><br />
+FAÇA PARTE ➤<br />
+</a></div>
+</div>
+</div>
+</div>
+							</div>
+		</div>
+	</div>
+
+			<a href="javascript:void(0);" class="paoc-close-popup paoc-popup-close">
+			<svg viewBox="0 0 1792 1792"><path d="M1490 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z"></path></svg>
+		</a>
+	</div>	<!--copyscapeskip-->
+	<aside id="moove_gdpr_cookie_info_bar" class="moove-gdpr-info-bar-hidden moove-gdpr-align-center moove-gdpr-dark-scheme gdpr_infobar_postion_bottom" aria-label="GDPR Cookie Banner" style="display: none;">
+	<div class="moove-gdpr-info-bar-container">
+		<div class="moove-gdpr-info-bar-content">
+		
+<div class="moove-gdpr-cookie-notice">
+  <p>Usamos cookies para melhorar sua experiência de navegação.</p>
+<p>Você pode ver mais sobre os dados armazenados e configurados clicando em <button  aria-haspopup="true" data-href="#moove_gdpr_cookie_modal" class="change-settings-button gdpr-settings-btn-style-2">configurações</button>.</p>
+</div>
+<!--  .moove-gdpr-cookie-notice -->
+		
+<div class="moove-gdpr-button-holder">
+			<button class="mgbutton moove-gdpr-infobar-allow-all gdpr-fbo-0" aria-label="Aceitar" >Aceitar</button>
+						<button class="mgbutton moove-gdpr-infobar-reject-btn gdpr-fbo-1 "  aria-label="Rejeitar">Rejeitar</button>
+			</div>
+<!--  .button-container -->
+		</div>
+		<!-- moove-gdpr-info-bar-content -->
+	</div>
+	<!-- moove-gdpr-info-bar-container -->
+	</aside>
+	<!-- #moove_gdpr_cookie_info_bar -->
+	<!--/copyscapeskip-->
+<script type="text/rocketlazyloadscript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+</script>
+<script id="rocket-preload-links-js-extra" type="f3f57294041317f3291c9cb9-text/javascript">
+var RocketPreloadLinksConfig = {"excludeUris":"/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://outraspalavras.net","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+</script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="main-app-js" data-rocket-src="https://outraspalavras.net/wp-content/cache/min/1/wp-content/themes/outraspalavras/dist/app.js?ver=1791843781" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="cookie-js" data-rocket-src="https://outraspalavras.net/wp-content/cache/min/1/wp-content/themes/outraspalavras/assets/javascript/js.cookie.js?ver=1791843781" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="acessibilidade-js" data-rocket-src="https://outraspalavras.net/wp-content/cache/min/1/wp-content/themes/outraspalavras/assets/javascript/acessibilidade.js?ver=1791843781" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="advanced-ads-find-adblocker-js" data-rocket-src="https://outraspalavras.net/wp-content/cache/min/1/wp-content/plugins/advanced-ads/admin/assets/js/advertisement.js?ver=1791843781" data-rocket-defer defer></script>
+<script id="jetpack-stats-js-before" type="f3f57294041317f3291c9cb9-text/javascript">
+_stq = window._stq || [];
+_stq.push([ "view", {"v":"ext","blog":"256695723","post":"3048548","tz":"-3","srv":"outraspalavras.net","j":"1:16.1.3"} ]);
+_stq.push([ "clickTrackerInit", "256695723", "3048548" ]);
+//# sourceURL=jetpack-stats-js-before
+</script>
+<script data-wp-strategy="defer" defer fetchpriority="low" id="jetpack-stats-js" src="https://stats.wp.com/e-202643.js" type="f3f57294041317f3291c9cb9-text/javascript"></script>
+<script id="moove_gdpr_frontend-js-extra" type="f3f57294041317f3291c9cb9-text/javascript">
+var moove_frontend_gdpr_scripts = {"ajaxurl":"https://outraspalavras.net/wp-admin/admin-ajax.php","post_id":"3048548","plugin_dir":"https://outraspalavras.net/wp-content/plugins/gdpr-cookie-compliance","show_icons":"all","is_page":"","ajax_cookie_removal":"false","strict_init":"2","enabled_default":{"strict":1,"third_party":0,"advanced":0,"performance":0,"preference":0},"geo_location":"false","force_reload":"false","is_single":"1","hide_save_btn":"false","current_user":"0","cookie_expiration":"365","script_delay":"2000","close_btn_action":"1","close_btn_rdr":"","scripts_defined":"{\"cache\":true,\"header\":\"\",\"body\":\"\",\"footer\":\"\",\"thirdparty\":{\"header\":\"\",\"body\":\"\",\"footer\":\"\"},\"strict\":{\"header\":\"\",\"body\":\"\",\"footer\":\"\"},\"advanced\":{\"header\":\"\",\"body\":\"\",\"footer\":\"\"}}","gdpr_scor":"true","wp_lang":"","wp_consent_api":"false","gdpr_nonce":"94f59542ad"};
+//# sourceURL=moove_gdpr_frontend-js-extra
+</script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="moove_gdpr_frontend-js" data-rocket-src="https://outraspalavras.net/wp-content/cache/min/1/wp-content/plugins/gdpr-cookie-compliance/dist/scripts/main.js?ver=1791843781" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="moove_gdpr_frontend-js-after">
+var gdpr_c=document.cookie.match(/(?:^|;\s*)moove_gdpr_popup=([^;]*)/);var gdpr_d=gdpr_c?JSON.parse(decodeURIComponent(gdpr_c[1])):{};var gdpr_consent__strict=gdpr_d.strict==="1"?"true":"false";var gdpr_consent__thirdparty=gdpr_d.thirdparty==="1"?"true":"false";var gdpr_consent__advanced=gdpr_d.advanced==="1"?"true":"false";var gdpr_consent__performance=gdpr_d.performance==="1"?"true":"false";var gdpr_consent__preference=gdpr_d.preference==="1"?"true":"false";var _cc=[];if(gdpr_d.strict==="1")_cc.push("strict");if(gdpr_d.thirdparty==="1")_cc.push("thirdparty");if(gdpr_d.advanced==="1")_cc.push("advanced");if(gdpr_d.performance==="1")_cc.push("performance");if(gdpr_d.preference==="1")_cc.push("preference");var gdpr_consent__cookies=_cc.join("|");
+//# sourceURL=moove_gdpr_frontend-js-after
+</script>
+<script type="text/rocketlazyloadscript" id="wpos-custombox-popup-js-js" data-rocket-src="https://outraspalavras.net/wp-content/plugins/popup-anything-on-click/assets/js/custombox.min.js?ver=2.9.1" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="popupaoc-public-js-js" data-rocket-src="https://outraspalavras.net/wp-content/cache/min/1/wp-content/plugins/popup-anything-on-click/assets/js/popupaoc-public.js?ver=1791843781" data-rocket-defer defer></script>
+
+    
+	<!--copyscapeskip-->
+	<!-- V1 -->
+		<dialog id="moove_gdpr_cookie_modal" class="gdpr_lightbox-hide" open aria-modal="true" aria-label="GDPR Settings Screen">
+	<div class="moove-gdpr-modal-content moove-clearfix logo-position-left moove_gdpr_modal_theme_v1">
+		    
+		<button class="moove-gdpr-modal-close" autofocus aria-label="Close GDPR Cookie Settings">
+			<span class="gdpr-sr-only">Close GDPR Cookie Settings</span>
+			<span class="gdpr-icon moovegdpr-arrow-close"></span>
+		</button>
+				<div class="moove-gdpr-modal-left-content">
+		
+<div class="moove-gdpr-company-logo-holder">
+	<img src="https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2024/10/LogoMakr_1DVtlE-300x73.png" alt=""   width="300"  height="73"  class="img-responsive" />
+</div>
+<!--  .moove-gdpr-company-logo-holder -->
+		<ul id="moove-gdpr-menu">
+			
+<li class="menu-item-on menu-item-privacy_overview menu-item-selected">
+	<button data-href="#privacy_overview" class="moove-gdpr-tab-nav" aria-label="Sobre a sua privacidade">
+	<span class="gdpr-nav-tab-title">Sobre a sua privacidade</span>
+	</button>
+</li>
+
+	<li class="menu-item-strict-necessary-cookies menu-item-off">
+	<button data-href="#strict-necessary-cookies" class="moove-gdpr-tab-nav" aria-label="Apenas os cookies necessários">
+		<span class="gdpr-nav-tab-title">Apenas os cookies necessários</span>
+	</button>
+	</li>
+
+
+
+
+
+		</ul>
+		
+<div class="moove-gdpr-branding-cnt">
+			<a href="https://wordpress.org/plugins/gdpr-cookie-compliance/" rel="noopener noreferrer" target="_blank" class='moove-gdpr-branding'>Feito Por&nbsp; <span>GDPR Cookie Compliance</span></a>
+		</div>
+<!--  .moove-gdpr-branding -->
+		</div>
+		<!--  .moove-gdpr-modal-left-content -->
+		<div class="moove-gdpr-modal-right-content">
+		<div class="moove-gdpr-modal-title">
+			 
+		</div>
+		<!-- .moove-gdpr-modal-ritle -->
+		<div class="main-modal-content">
+
+			<div class="moove-gdpr-tab-content">
+			
+<div id="privacy_overview" class="moove-gdpr-tab-main">
+		<span class="tab-title">Sobre a sua privacidade</span>
+		<div class="moove-gdpr-tab-main-content">
+	<p>Este site usa cookies para que possamos oferecer a melhor experiência de usuário possível. As informações dos cookies são armazenadas em seu navegador e executam funções como reconhecê-lo quando você retorna ao nosso site e ajudar nossa equipe a entender quais seções do site você considera mais interessantes e úteis.</p>
+		</div>
+	<!--  .moove-gdpr-tab-main-content -->
+
+</div>
+<!-- #privacy_overview -->
+			
+  <div id="strict-necessary-cookies" class="moove-gdpr-tab-main" style="display:none">
+    <span class="tab-title">Apenas os cookies necessários</span>
+    <div class="moove-gdpr-tab-main-content">
+      <p>Apenas os cookies necessários ao funcionamento do site serão ativados..</p>
+      <div class="moove-gdpr-status-bar ">
+        <div class="gdpr-cc-form-wrap">
+          <div class="gdpr-cc-form-fieldset">
+            <label class="cookie-switch" for="moove_gdpr_strict_cookies">    
+              <span class="gdpr-sr-only">Enable or Disable Cookies</span>        
+              <input type="checkbox" aria-label="Apenas os cookies necessários"  value="check" name="moove_gdpr_strict_cookies" id="moove_gdpr_strict_cookies">
+              <span class="cookie-slider cookie-round gdpr-sr" data-text-enable="Habilitado" data-text-disabled="Desabilitado">
+                <span class="gdpr-sr-label">
+                  <span class="gdpr-sr-enable">Habilitado</span>
+                  <span class="gdpr-sr-disable">Desabilitado</span>
+                </span>
+              </span>
+            </label>
+          </div>
+          <!-- .gdpr-cc-form-fieldset -->
+        </div>
+        <!-- .gdpr-cc-form-wrap -->
+      </div>
+      <!-- .moove-gdpr-status-bar -->
+                                              
+    </div>
+    <!--  .moove-gdpr-tab-main-content -->
+  </div>
+  <!-- #strict-necesarry-cookies -->
+			
+			
+									
+			</div>
+			<!--  .moove-gdpr-tab-content -->
+		</div>
+		<!--  .main-modal-content -->
+		<div class="moove-gdpr-modal-footer-content">
+			<div class="moove-gdpr-button-holder">
+						<button class="mgbutton moove-gdpr-modal-allow-all button-visible" aria-label="Habilitar Todos">Habilitar Todos</button>
+								<button class="mgbutton moove-gdpr-modal-save-settings button-visible" aria-label="Salvar">Salvar</button>
+				</div>
+<!--  .moove-gdpr-button-holder -->
+		</div>
+		<!--  .moove-gdpr-modal-footer-content -->
+		</div>
+		<!--  .moove-gdpr-modal-right-content -->
+
+		<div class="moove-clearfix"></div>
+
+	</div>
+	<!--  .moove-gdpr-modal-content -->
+	</dialog>
+	<!-- #moove_gdpr_cookie_modal -->
+	<!--/copyscapeskip-->
+<!--noptimize--><script type="text/rocketlazyloadscript">!function(){window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[],advanced_ads_ready_queue.push=window.advanced_ads_ready;for(var d=0,a=advanced_ads_ready_queue.length;d<a;d++)advanced_ads_ready(advanced_ads_ready_queue[d])}();</script><!--/noptimize-->
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="f3f57294041317f3291c9cb9-|49" defer></script></body>
+</html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1792873416 -->

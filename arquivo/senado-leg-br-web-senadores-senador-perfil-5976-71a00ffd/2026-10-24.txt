@@ -1,0 +1,51 @@
+URL: https://www25.senado.leg.br/web/senadores/senador/-/perfil/5976
+Coletado em: 2026-10-24T23:28:13Z
+SHA-256: 504a399384918a29f95a9c014454615dc57b1f2a0da66a1ed9d3318a1292582c
+
+Dados Pessoais
+- Nome civil:
+- Luis Eduardo Grangeiro Girão
+- Data de Nascimento:
+- 25/09/1972
+- Naturalidade:
+- Fortaleza (CE)
+| Nome | Chapa / Exercício | 
+|---|---|
+| Eduardo Girão (Luis Eduardo Grangeiro Girão) | Titular Licença com convocação de suplente (superior a 120 dias) | 
+| Sargento Reginauro (Reginauro Sousa Nascimento) | Primeiro(a) suplente Em exercício | 
+| Dr. Guimarães (Francisco José Alves Guimaraes) | Segundo(a) suplente | 
+- JJan
+- FFev
+- MMar
+- AAbr
+- MMai
+- JJun
+- JJul
+- AAgo
+- SSet
+- OOut
+- NNov
+- DDez
+- Ano
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+Para informações anteriores à 49ª legislatura, consultar a seção 'Biografia'.
+| Comissão | Início | Participação | 
+|---|---|---|
+| CMMPV 1358/2026 - Comissão Mista da Medida Provisória n° 1358, de 2026 | 18/05/2026 | Titular | 
+| CMMPV 1376/2026 - Comissão Mista da Medida Provisória n° 1376, de 2026 | 11/08/2026 | Suplente | 
+Missões no Exterior
+| Evento | Período | Documento | 
+|---|---|---|
+| Audiência no Congresso dos Estados Unidos.   Washington (ESTADOS UNIDOS)  | 07/05/2024 | REQ 285/2024 - CDIR | 
+Mandatos
+| Mandato | Início | Fim | 
+|---|---|---|
+| Senador - CE | 2019 | 2027 | 
+Fonte: Secretaria-Geral da Mesa, Coordenação de Arquivo e Coordenação de Biblioteca.
