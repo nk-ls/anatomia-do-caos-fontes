@@ -1,0 +1,18 @@
+URL: https://github.com/owid/covid-19-data
+Coletado em: 2026-10-25T06:01:28Z
+SHA-256: aa225dbb3cbd03238a892a28e286ec27f137e5fe6f2c0006cf6c2a1b666f54db
+
+Caution
+The data in this repository was last updated on 19 August 2024 (see announcement).
+Where to get latest COVID-19 data:
+- CSV: catalog.ourworldindata.org/garden/covid/latest/compact/compact.csv
+- Documentation & metadata: docs.owid.io/projects/etl/api/covid/
+- All OWID data: https://ourworldindata.org/search via the ETL
+For programmatic access to any OWID dataset, see our data access documentation.
+The project contains two independent directories:
+- public/data: Contains the final datasets. This is for people interested in consuming the data and
+understanding all the caveats about it and its metrics.
+- scripts: Contains all the code and intermediate files to produce the final dataset. This is for people interested in
+contributing to the project or better understanding our internal technical processes.
+If you are interested in the final dataset file, refer to this document. If you want to learn more about our processes, refer to our technical documentation.
+Thanks for considering contributing to this project! A good place to start is our contribution guideline.

@@ -1,0 +1,102 @@
+URL: https://github.com/herminiotorres/dossie-cidadao
+Coletado em: 2026-10-25T06:01:28Z
+SHA-256: 08dce1f33ffd5a81f4b41a9190dc0a17973b0e53e494f1b5402636ba447dcff2
+
+Site estático (HTML + Tailwind v4 + JavaScript puro, sem framework) que compara o que políticos brasileiros prometeram na campanha com os projetos de lei que apresentaram e os votos que deram depois de eleitos — usando dados abertos oficiais. Publicado via GitHub Pages e retroalimentado automaticamente por GitHub Actions.
+Metodologia e limitações → — leia antes de tirar conclusões dos "carimbos" que o site mostra.
+O GitHub Pages só serve arquivos estáticos — não roda servidor nem cron. Por isso a "retroalimentação" acontece assim:
+[GitHub Actions, todo dia]              [GitHub Pages, sempre no ar]
+  scripts/fetch-camara.js   ─┐
+  scripts/fetch-senado.js    ├─► docs/data/*.json ──► docs/index.html + docs/politico.html
+  scripts/fetch-sapl.js      │      (lidos por JS puro no navegador, sem backend)
+  scripts/fetch-tse-propostas.js ─┘
+  scripts/build-comparacoes.js  (cruza promessas x atuação)
+  npm run build:css             (compila o Tailwind v4)
+  git commit + git push automático
+Nenhuma chave de API é necessária — todas as fontes usadas são dados abertos públicos e sem autenticação.
+Nota sobre o User-Agent usado nas requisições: o CDN do TSE (e de outros sites .gov.br)
+bloqueia com HTTP 403 qualquer requisição cujo User-Agent pareça automatizado (contenha "bot",
+por exemplo) — mesmo para arquivos de dados abertos públicos, sem login. Por isso os scripts
+usam um User-Agent de navegador comum. Isso não contorna nenhuma restrição de acesso: os
+arquivos são os mesmos links públicos divulgados pelo próprio TSE em
+dadosabertos.tse.jus.br; é só para não cair num bloqueio genérico de bot que também impediria,
+por exemplo, abrir o arquivo via Excel/Power Query (forma que o próprio TSE recomenda no site).
+config/politicos.json        ← curadoria manual: quem acompanhar + promessas de campanha
+config/temas.json            ← dicionário de temas/palavras-chave (a régua de comparação)
+config/sapl-instancias.json  ← câmaras/assembleias municipais/estaduais em SAPL cadastradas
+scripts/fetch-camara.js      ← coleta Câmara dos Deputados (API oficial)
+scripts/fetch-senado.js      ← coleta Senado Federal (API oficial)
+scripts/fetch-sapl.js        ← coleta câmaras/assembleias que usam o sistema livre SAPL
+scripts/fetch-tse-propostas.js ← coleta dados de candidatura do TSE (executivo)
+scripts/fetch-tse-candidatos.js ← baixa a base COMPLETA de candidatos 2026 direto do TSE
+scripts/fetch-tse-planos-governo.js ← baixa e cataloga os PDFs de plano de governo (presidente/governador)
+scripts/build-comparacoes.js ← cruza promessas x atuação e publica em docs/data/
+src/input.css                ← tema visual do Tailwind v4 (tokens de cor/tipografia)
+docs/                        ← o site em si (raiz do GitHub Pages)
+  index.html, politico.html, metodologia.html, candidatos.html
+  js/app.js, js/dossie.js, js/candidatos.js
+  data/                      ← JSONs gerados automaticamente (não edite à mão)
+Além do cruzamento promessa x atuação (que depende de curadoria manual), o site também traz uma lista navegável de todos os candidatos oficialmente registrados nas Eleições Gerais de 2026 (presidente, governador, senador, deputado federal/estadual/distrital), direto da base de dados abertos do TSE — sem curadoria manual, 100% automatizado:
+npm run fetch:tse-candidatos
+Isso baixa consulta_cand_2026.zip (o pacote oficial em
+dadosabertos.tse.jus.br/dataset/candidatos-2026),
+processa e organiza em docs/data/tse/candidatos/<UF>/<cargo>.json — a página docs/candidatos.html
+lê esses arquivos sob demanda (nunca a base inteira de uma vez, que teria dezenas de milhares de
+linhas).
+Atenção a duas coisas importantes:
+- 2026 não tem eleição municipal. Prefeito e vereador são eleitos em 2024/2028 — em 2026 só presidente, governador, senador e deputados (federal/estadual/distrital).
+- O resultado da eleição só existe depois da votação (1º turno em 4/10/2026, 2º turno em
+25/10/2026, se houver). Até lá, a base traz candidatos registrados, não eleitos. Basta rodar
+npm run fetch:tse-candidatos de novo depois da apuração para que o campo de resultado
+(DS_SIT_TOT_TURNO) apareça preenchido — o próprio GitHub Actions já faz isso automaticamente
+todo dia.
+O TSE também publica, por UF, um pacote com os planos de governo em PDF que candidatos a cargo executivo são obrigados a registrar:
+npm run fetch:tse-planos-governo
+Isso baixa proposta_governo_2026_BR.zip (presidente) e proposta_governo_2026_<UF>.zip
+(governador, para cada UF de político executivo cadastrado em config/politicos.json), cataloga
+os arquivos encontrados e tenta ligar cada um ao político correspondente.
+Este script é deliberadamente cauteloso: o TSE já mudou o padrão de nomes de arquivo entre eleições, então, em vez de assumir uma correspondência, o script tenta várias heurísticas (índice CSV oficial → nome de arquivo com o SQ_CANDIDATO → nome do político no nome do arquivo) e marca explicitamente o nível de confiança de cada match:
+- alta — encontrado no índice CSV oficial do pacote, ligado por SQ_CANDIDATO. Exibido no site
+como um link direto para o PDF.
+- media/baixa — correspondência por nome de arquivo, sem confirmação oficial. Exibido no site
+como "possível correspondência, confira manualmente" — nunca como certeza.
+- nao_encontrado — nenhum arquivo correspondente localizado; confira o manifesto bruto em docs/data/tse/propostas-governo/<UF>.json para pesquisar manualmente.
+Isso é proposital: linkar o plano de governo errado a um político seria um erro sério num site que fala de pessoas reais, então preferimos mostrar incerteza a inventar certeza.
+npm install
+npm run fetch:camara       # ou fetch:senado / fetch:sapl / fetch:tse
+npm run build:comparacoes
+npm run dev                 # serve docs/ localmente
+O site usa o Tailwind v4 via Play CDN (<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">),
+que compila as classes direto no navegador — por isso não há passo de build de CSS no dia a dia.
+Isso é ótimo para simplicidade (zero configuração, funciona assim que você abre docs/index.html),
+mas a própria documentação do Tailwind recomenda um build via CLI para sites de alto tráfego. Se
+quiser migrar para isso depois, o projeto já vem com src/input.css e o script
+npm run build:css prontos — basta trocar a tag <script> pelo <link rel="stylesheet" href="css/style.css">
+gerado.
+- Suba este repositório para o GitHub (pode ser público, sem custo).
+- Em Settings → Pages, escolha Deploy from a branch, branch main, pasta /docs.
+- Em Settings → Actions → General, garanta que "Workflow permissions" está como Read and write permissions (necessário para o workflow commitar os dados atualizados).
+- Pronto — o workflow em .github/workflows/atualizar-dados.yml já roda todo dia às 06:00 UTC
+e também pode ser disparado manualmente na aba Actions.
+Isso é o coração do projeto — o site não tem nada para mostrar até que alguém preencha
+config/politicos.json com curadoria real. Passo a passo em
+config/politicos.json (seção "como_preencher").
+Resumindo:
+- Ache o ID do político na API oficial correspondente (Câmara/Senado) ou na instância SAPL.
+- Resuma as promessas de campanha em texto curto, com fonte, marcando os temas relevantes.
+- Rode npm run fetch:<fonte> e depois npm run build:comparacoes.
+- Confira o dossiê gerado em docs/politico.html?id=<id_interno>.
+| Nível | Fonte de dados | Cobertura | 
+|---|---|---|
+| Câmara dos Deputados | dadosabertos.camara.leg.br (API + arquivos oficiais) | Total — API pública e estável | 
+| Senado Federal | legis.senado.leg.br/dadosabertos (API oficial) | Total — API pública e estável | 
+| Assembleias estaduais | Sistema SAPL (quando a assembleia o utiliza) | Parcial — só assembleias em SAPL cadastradas | 
+| Câmaras municipais | Sistema SAPL (quando a câmara o utiliza) | Parcial — a maioria dos ~5.570 municípios não usa SAPL e não tem API própria | 
+| Prefeitos/governadores/presidente | Dados abertos do TSE + curadoria manual | Muito parcial — executivos não votam projetos de lei; promessas de governo (PDF) exigem leitura manual | 
+Cobrir 100% dos municípios brasileiros automaticamente não é viável sem um scraper específico por site (frágil e que quebra a cada mudança de layout). Este projeto prioriza fontes com API estável e documentada, e trata o resto como expansão incremental e manual.
+- Cruzar o objeto de cada votação nominal com seu tema (hoje só contamos o total de votos coletados; falta ligar cada voto a um tema para dizer "votou a favor/contra de pautas de segurança pública", por exemplo).
+-  Adicionar mais instâncias SAPL confirmadas em config/sapl-instancias.json.
+- Automatizar (com revisão humana) a extração de texto dos Planos de Governo em PDF do TSE.
+- Página de comparação lado a lado entre dois políticos do mesmo cargo.
+Erros de dado, de classificação de tema ou de metodologia podem ser corrigidos via Issue ou Pull Request. Como o conteúdo envolve pessoas públicas reais, priorize sempre precisão e cite a fonte de qualquer promessa de campanha que adicionar.
+MIT — ver LICENSE.

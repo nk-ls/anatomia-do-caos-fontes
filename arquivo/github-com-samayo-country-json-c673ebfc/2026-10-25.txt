@@ -1,0 +1,42 @@
+URL: https://github.com/samayo/country-json
+Coletado em: 2026-10-25T06:01:28Z
+SHA-256: b9645f8bbcdf7ab8457cfca4e77d834d4534a6ca7e36dd65966edfe9cdce2e97
+
+A simple data of the world (by country) each in JSON format.
+Using npm
+$ npm install country-json
+or composer
+$ composer require samayo/country-json
+or git
+$ git clone https://github.com/samayo/country-json
+Examples using various languages on how display/integrate the data.
+$file = file_get_contents("./src/country-by-capital-city.json");
+foreach (json_decode($file, true) as $key => $value) {
+  var_dump($value); // { country: 'Afghanistan', city: 'Kabul' ..}
+}var cities = require('./src/country-by-capital-city.json')
+console.log(cities[0]); // { country: 'Afghanistan', city: 'Kabul' }require 'json'
+file = File.read('./src/country-by-capital-city.json')
+json = JSON.parse(file)
+puts json[0] # {"country"=>"Afghanistan", "city"=>"Kabul"}import yaml
+with open('./src/country-by-capital-city.json') as json_file:
+    for line in yaml.safe_load(json_file):
+        print line # {'country': 'Afghanistan', 'city': 'Kabul'}package main
+import (
+  "encoding/json"
+  "fmt"
+  "io/ioutil"
+)
+func main() {
+  data, err := ioutil.ReadFile("path/to/country-by-capital-city.json")
+  if err != nil {
+    panic(err)
+  }
+  var entries []struct{ Country, City string }
+  if err = json.Unmarshal(data, &entries); err != nil {
+    panic(err)
+  }
+  for _, entry := range entries {
+    fmt.Println(entry.Country, entry.City)  # {'country': 'Afghanistan', 'city': 'Kabul'}
+  }
+}
+Feel free to send a PR to fix, update or add new entry anytime. For non-minor changes (ex: country: name, language, city, independence date..), please include a source, if possible.

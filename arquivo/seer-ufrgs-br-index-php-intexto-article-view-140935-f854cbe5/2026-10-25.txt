@@ -1,0 +1,56 @@
+URL: https://seer.ufrgs.br/index.php/intexto/article/view/140935
+Coletado em: 2026-10-25T06:01:28Z
+SHA-256: 6480b776699d3d712596d0f99595e22c418b8afcd01497aa47da301efb37db02
+
+Consórcio de Imprensa para dados de covid-19
+ferramentas digitais como impulsionadoras da cultura da colaboração no jornalismo
+DOI:
+https://doi.org/10.19132/1807-8583.57.140935
+Palavras-chave:
+ferramentas digitais, transparência pública digital, consórcio de imprensa, pandemia de covid-19, jornalismo de dados
+Resumo
+O artigo aborda a formação do Consórcio de Imprensa para dados de covid-19 no Brasil, quando em junho de 2020, um grupo de veículos se reuniu em trabalho colaborativo para suprir a ausência de informações do Ministério da Saúde. A metodologia é a análise categorial do conteúdo de entrevistas semiestruturadas com três jornalistas que estiveram na liderança da operação do consórcio nas suas respectivas redações, O Estado de São Paulo, G1 e Folha de S. Paulo. Os conceitos teóricos passam pela transparência de Estado na democracia e na imprensa e pela colaboração no jornalismo. O objetivo é identificar como o trabalho do consórcio foi operacionalizado destacando a intersecção de ferramentas digitais e a prática da produção colaborativa no jornalismo de dados. O resultado aponta para a centralidade de ferramentas digitais em nuvem para a colaboração no jornalismo.
+Downloads
+Referências
+ALMADA, Maria Paula et al. Democracia digital no Brasil: obrigação legal, pressão política e viabilidade tecnológica. MATRIZes, São Paulo, v. 13, n. 3, p. 161-181, 2019. Disponível em: https://doi.org/10.11606/issn.1982-8160.v13i3p161-181. Acesso em: 22 nov. 2024.
+BARBOSA, Suzana (org.). Jornalismo digital de terceira geração. Covilhã: Labcom, 2007.
+BELL, Emily J. et al. A imprensa nas plataformas: como o Vale Silício reestruturou o Jornalismo. Revista de Jornalismo ESPM [ed. brasileira da Columbia Journalism Review], São Paulo, n. 20, p. 48-83, 2017. Disponível em: https://doi.org/10.7916/D8D79PWH. Acesso em: 22 nov. 2024.
+BOBBIO, Norberto. Democracia e segredo. São Paulo: Ed. Unesp, 2015a.
+BOBBIO, Norberto. O futuro da democracia: uma defesa das regras do jogo. Rio de Janeiro: Paz e Terra, 2015b.
+BOUÇAS, Cibelle. Audiência de TV é a maior em cinco anos. O Valor, Rio de Janeiro, 2 abr. 2020.
+BRAMATTI, Daniel. [Currículo]. Brasil, 3 nov. 2021. Linkedin: Daniel Bramatti.
+BRENOL, Marlise Viegas. Jornalismo e transparência pública digital: aliados pela qualidade do debate público. Intexto, Porto Alegre, n. 52, p. 1-20, 2021. Disponível em: https://doi.org/10.19132/1807-8583202152.94992. Acesso em: 22 nov. 2024.
+BRENOL, Marlise Viegas; WEBER, Maria Helena. Interesse público e política na prática do jornalismo de dados no Brasil. In: ENCONTRO ANUAL - COMPÓS, 29., 2020, Campo Grande. Anais [...]. Brasília: Associação Nacional dos Programas de Pós-Graduação em Comunicação, 2020.
+CHARAUDEAU, Patrick. Discurso das mídias. São Paulo: Contexto, 2006.
+CNN BRASIL. Linha do tempo mostra batalha judicial do WikiLeaks. Portal CNN Brasil, São Paulo, 20 maio 2024.
+FARIA, Flávia. [Currículo]. Brasil, 6 nov. 2021 Linkedin: Flávia Faria.
+FENSTER, Mark. Transparency in search of a theory. European Journal of Social Theory, Thousand Oaks, v. 18, n. 2, p. 150-167, 2015. Disponível em: https://doi.org/10.1177/1368431014555257. Acesso em: 22 nov. 2024.
+FOUCAULT, Michel. Nascimento da biopolítica. Lisboa: Edições 70, 2021.
+G1. Veículos de comunicação formam parceria para dar transparência a dado de covid-19. Portal G1, Rio de Janeiro, 8 jun. 2020.
+GARCIA, Gustavo. “Acabou matéria do Jornal Nacional! diz Bolsonaro sobre atraso na divulgação de mortos por coronavírus. Portal G1, Rio de Janeiro, 5 jun. 2020.
+HILL, Steve; BRADSHAW, Paul. Mobile-first journalism: producing news for social and interactive media. London: Routledge, 2018.
+KOOPMAN, Colin. Infopolitics, biopolitics, anatomopolitics toward a genealogy of the power of data. Graduate Faculty Philosophy Journal, Charlottesville. 39, n. 1, p. 103-130, 2018. Disponível em: https://doi.org/10.5840/gfpj20183914. Acesso em: 22 nov. 2024.
+LIMA, Raíza Tourinho dos Reis Silva. E agora, em quem podemos confiar? A ciência nos especiais sobre a pandemia por covid-19 do Nexo Jornal. In: PATRÍCIO, Edgard. Transformações no mundo do trabalho do jornalismo. Florianópolis: Insular, 2022.
+NOVECK, Beth Simone. Open data: the future of transparency in the age of big data. In: POZEN, David E.; SCHUDSON, Michael (ed.). Troubling transparency: the history and future of freedom of information. New York: Columbia University Press, 2018.
+NOVECK, Beth Simone. Is open data the death of foia? The Yale Law Journal, New Haven, v. 126, p. 273, 2016.
+PORTER, Theodore. Focus article: measurement, objectivity, and trust, measurement. Interdisciplinary Research and Perspectives, London, v. 1, n. 4, p. 241-25, 2003. Disponível em: https://doi.org/ 10.1207/S15366359MEA0104_1. Acesso em: 22 nov. 2024.
+RAMOS, Giovanni Ricardo. Jornalismo de proximidade em rede: proposta para criação de modelos de negócios. 2023. Tese (Doutorado) - Universidade da Beira Interior, Covilhã, 2023.
+REIS, Thiago. [Currículo]. Brasil, 30 nov. 2021 Linkedin: Thiago Reis.
+SAMPAIO, Rafael Cardoso; LYCARIÃO, Diógenes. Análise de conteúdo categorial: manual de aplicação. Brasília: Escola Nacional de Administração Pública, 2021.
+SP1. Anúncio da primeira morte por covid-19 completa um ano. Portal G1, São Paulo, 17 mar. 2021.
+TRAQUINA, Nelson. Teorias do jornalismo: a tribo jornalística, uma comunidade interpretativa transnacional. Florianópolis: Insular, 2005.
+TRÄSEL, Marcelo. Dados - uso de dados na apuração. In: Zamin, Angela; Schwaab, Reges (org.). Tópicos em Jornalismo: redação e reportagem. Florianópolis: Insular, 2021.
+TRÄSEL, Marcelo. Hacks and hackers: the ethos and beliefs of a group of Data-Driven Journalism professionals in Brazil. Revista FAMECOS: mídia, cultura e tecnologia, Porto Alegre, v. 25, n. 1, p. 1-14, 2018. Disponível em: http://dx.doi.org/10.15448/1980-3729.2018.1.27589. Acesso em: 22 nov. 2024.
+VÁZQUEZ-HERRERO, Jorge et al. Total Journalism: models, techniques and challenges. New York: Springer, 2022.
+Downloads
+Publicado
+Como Citar
+Edição
+Seção
+Licença
+Copyright (c) 2025 Marlise Viegas Brenol, Carlos Augusto de França Rocha Júnior
+Este trabalho está licenciado sob uma licença Creative Commons Attribution-NonCommercial 4.0 International License.
+Os Direitos Autorais dos artigos publicados neste periódico pertencem aos autores, e os direitos da primeira publicação são garantidos à revista. Por serem publicados em uma revista de acesso livre, os artigos são de uso gratuito, com atribuições próprias, em atividades educacionais e não-comerciais.
+A revista utiliza a Licença de Atribuição Creative Commons (CC BY-NC 4.0), que permite o compartilhamento de trabalhos com reconhecimento de autoria.
+Auto-arquivamento (política de repositórios): autores têm permissão para depositar todas as versões de seus trabalhos em repositórios institucionais ou temáticos, sem embargo. Solicita-se, sempre que possível, que a referência bibliográfica completa da versão publicada na Intexto (incluindo o link DOI) seja adicionada ao texto arquivado.
+A Intexto não cobra qualquer taxa de processamento de artigos (article processing charge).

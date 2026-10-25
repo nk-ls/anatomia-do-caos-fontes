@@ -180,8 +180,6 @@ https://www12.senado.leg.br/radio/1/noticia/2021/06/11/especialistas-defendem-us
 https://www12.senado.leg.br/radio/1/noticia/2021/06/24/pedro-hallal-aponta-censura-na-divulgacao-de-dados-de-estudo-em-coletiva-no-palacio-do-planalto
 https://www12.senado.leg.br/radio/1/noticia/2024/03/22/senadores-da-cpi-da-pandemia-pedem-abertura-de-inqueritos-contra-bolsonaro-e-autoridades-do-antigo-governo
 https://www2.senado.leg.br/bdsf/handle/id/607974
-
-# Acrescentadas na revisão de cadeia de custódia (24/10/2026): fontes citadas no site ainda sem cópia
 https://abcdoabc.com.br/ministerio-anuncia-dose-de-reforco-contra-a-covid-a-todos-com-mais-de-18-anos/
 https://agenciabrasil.ebc.com.br/justica/noticia/2023-03/dias-toffoli-arquiva-investigacoes-contra-bolsonaro
 https://agenciabrasil.ebc.com.br/politica/noticia/2021-08/helcio-bruno-nega-envolvimento-em-irregularidade-na-compra-de-vacina
@@ -258,7 +256,8 @@ https://jornaldebrasilia.com.br/noticias/politica-e-poder/otto-alencar-questiona
 https://jornaldebrasilia.com.br/noticias/politica-e-poder/postagem-de-eduardo-bolsonaro-causa-crise-diplomatica-com-a-china/
 https://jornaldebrasilia.com.br/noticias/politica-e-poder/procuradores-querem-acao-de-improbidade-contra-secom-por-brasil-nao-pode-parar/
 https://jornaldebrasilia.com.br/noticias/politica-e-poder/queiroga-a-pedido-de-bolsonaro-pasta-estuda-possibilidade-de-desobrigar-mascara/
-https://jornaldebrasilia.com.br/noticias/politica-e-poder/secretaria-confirma-que-ministerio-recomendou-tratamento-precoce-em-manaus/ https://jovempan.com.br/brasil/stf-reconsidera-decisao-e-permite-que-capita-cloroquina-fique-em-silencio-sobre/
+https://jornaldebrasilia.com.br/noticias/politica-e-poder/secretaria-confirma-que-ministerio-recomendou-tratamento-precoce-em-manaus/
+https://jovempan.com.br/brasil/stf-reconsidera-decisao-e-permite-que-capita-cloroquina-fique-em-silencio-sobre/
 https://jornaldebrasilia.com.br/noticias/politica-e-poder/wilson-lima-governador-do-am-e-alvo-de-operacao-da-pf-em-acao-contra-desvios-na-saude/
 https://jovempan.com.br/noticias/arthur-weintraub-nega-gabinete-paralelo-e-diz-que-apenas-repassava-pesquisas-medicas-a-bolsonaro/
 https://jovempan.com.br/noticias/medicos-nao-tem-de-seguir-o-que-a-associacao-medica-esta-orientando-diz-presidente-do-cfm/
@@ -418,7 +417,8 @@ https://www.jornalopcao.com.br/ultimas-noticias/suspeito-e-preso-com-200-doses-f
 https://www.jornalopcao.com.br/ultimas-noticias/vendedor-da-davati-diz-que-foi-procurado-por-dominghetti-quando-era-incredulo-sobre-venda-de-vacinas-ao-governo-341034/
 https://www.lex.com.br/ministro-lewandowski-atende-pedido-da-pgr-e-arquiva-investigacao-da-cpi-contra-ministro-da-cgu/
 https://www.maisgoias.com.br/brasil/prevent-e-medicos-do-gabinete-paralelo-fizeram-pacto-para-validar-cloroquina-diz-advogada/
-https://www.metropoles.com/brasil/estudo-encomendado-por-queiroga-nao-recomenda-uso-do-kit-covid https://www.correiobraziliense.com.br/politica/2021/10/4954904-cpi-quer-ouvir-medico-que-condenou-kit-covid.html
+https://www.metropoles.com/brasil/estudo-encomendado-por-queiroga-nao-recomenda-uso-do-kit-covid
+https://www.correiobraziliense.com.br/politica/2021/10/4954904-cpi-quer-ouvir-medico-que-condenou-kit-covid.html
 https://www.metropoles.com/brasil/numero-2-informal-de-pazuello-entra-na-mira-da-cpi-da-covid
 https://www.metropoles.com/brasil/politica-brasil/danilo-trento-e-chefe-da-lavanderia-de-dinheiro-da-precisa-diz-randolfe
 https://www.metropoles.com/brasil/sem-negar-o-escrito-angotti-defende-parecer-sobre-cloroquina-e-vacina
@@ -439,10 +439,12 @@ https://www.opovo.com.br/noticias/politica/2021/07/06/regina-celia-diz-que-suspe
 https://www.planoaberto.com.br/critica/anatomia-do-caos/
 https://www.poder360.com.br/brasil/comissao-de-etica-pede-investigacao-de-mortes-em-estudo-com-proxalutamida/
 https://www.poder360.com.br/brasil/fundador-da-prevent-estudo-nao-prova-eficacia-da-cloroquina-contra-covid/
-https://www.poder360.com.br/brasil/queiroga-critica-estados-e-cidades-por-adiantarem-vacinacao-de-adolescentes/ https://www.poder360.com.br/governo/queiroga-diz-que-evento-adverso-nao-invalida-vacinacao-de-adolescentes/
+https://www.poder360.com.br/brasil/queiroga-critica-estados-e-cidades-por-adiantarem-vacinacao-de-adolescentes/
+https://www.poder360.com.br/governo/queiroga-diz-que-evento-adverso-nao-invalida-vacinacao-de-adolescentes/
 https://www.poder360.com.br/brasil/queiroga-evita-kit-covid-e-atribui-nota-tecnica-a-secretario/
 https://www.poder360.com.br/brasil/queiroga-vacina-flavio-bolsonaro-contra-a-covid-assista/
-https://www.poder360.com.br/congresso/cinico-diz-renan-calheiros-sobre-depoimento-de-ricardo-santana/ https://congressoemfoco.com.br/noticia/13799/ao-vivo-cpi-da-covid-ouve-participante-do-jantar-da-propina
+https://www.poder360.com.br/congresso/cinico-diz-renan-calheiros-sobre-depoimento-de-ricardo-santana/
+https://congressoemfoco.com.br/noticia/13799/ao-vivo-cpi-da-covid-ouve-participante-do-jantar-da-propina
 https://www.poder360.com.br/congresso/cpi-da-covid-relembre-as-previsoes-erradas-de-osmar-terra-sobre-a-pandemia/
 https://www.poder360.com.br/congresso/diante-de-silencio-cpi-transforma-advogado-da-precisa-em-investigado/
 https://www.poder360.com.br/congresso/em-7-horas-de-cpi-ernesto-nega-falas-contra-china-e-cita-bolsonaro-e-pazuello/
@@ -463,11 +465,11 @@ https://www.poder360.com.br/cpi-da-covid/stf-arquiva-acao-da-cpi-da-covid-contra
 https://www.poder360.com.br/cpi-da-covid/wagner-rosario-chama-senadora-de-descontrolada-e-cpi-passa-a-investiga-lo/
 https://www.poder360.com.br/economia/governo-vai-recorrer-de-decisao-que-permite-demissao-de-nao-vacinados/
 https://www.poder360.com.br/governo/arthur-weintraub-admite-conselhos-a-bolsonaro-e-defende-cloroquina/
-https://www.poder360.com.br/governo/com-governadores-pazuello-da-inicio-a-distribuicao-da-coronavac-historico/ https://ourworldindata.org/covid-vaccinations
+https://www.poder360.com.br/governo/com-governadores-pazuello-da-inicio-a-distribuicao-da-coronavac-historico/
+https://ourworldindata.org/covid-vaccinations
 https://www.poder360.com.br/governo/em-setembro-de-2020-virologista-propos-grupo-das-sombras-a-bolsonaro/
 https://www.poder360.com.br/governo/flavio-bolsonaro-diz-que-pai-recebera-relatorio-da-cpi-com-gargalhadas/
 https://www.poder360.com.br/governo/lider-do-governo-fala-em-enquadrar-anvisa-e-registrar-11-vacinas/
-https://www.poder360.com.br/governo/queiroga-diz-que-evento-adverso-nao-invalida-vacinacao-de-adolescentes/
 https://www.poder360.com.br/governo/queiroga-diz-ser-contra-uso-obrigatorio-de-mascara/
 https://www.poder360.com.br/governo/stf-da-5-dias-para-onyx-explicar-portaria-que-proibe-demissao-de-nao-vacinados/
 https://www.poder360.com.br/governo/virologista-paolo-zanotto-diz-que-gabinete-das-sombras-foi-so-metafora/
@@ -483,7 +485,7 @@ https://www.swissinfo.ch/por/governo-%C3%A9-acusado-de-querer-tornar-invis%C3%AD
 https://www.tnh1.com.br/noticia/nid/cpi-reverendo-amilton-de-paula-diz-que-nao-negociou-vacinas/
 https://www.tnh1.com.br/noticia/nid/ministerio-decide-cancelar-contrato-para-aquisicao-da-vacina-covaxin/
 https://www.youtube.com/watch?v=MG3XZYu0_No
-https://www.youtube.com/watch?v=MG3XZYu0_No https://www.poder360.com.br/brasil/omar-aziz-diz-que-nise-yamaguchi-mentiu-em-depoimento-a-cpi/
+https://www.poder360.com.br/brasil/omar-aziz-diz-que-nise-yamaguchi-mentiu-em-depoimento-a-cpi/
 https://www12.senado.leg.br/noticias/materias/2021/07/14/diretora-da-precisa-contradiz-outros-depoentes-sobre-data-de-fatura-da-covaxin
 https://www12.senado.leg.br/noticias/materias/2021/09/02/cpi-aprova-conducao-coercitiva-de-marconny-faria-lobista-que-faltou-ao-depoimento
 https://www12.senado.leg.br/noticias/materias/2021/10/26/veja-a-lista-dos-indiciados-da-cpi-no-relatorio-de-renan-calheiros
@@ -494,7 +496,6 @@ https://www25.senado.leg.br/web/senadores/senador/-/perfil/5523
 https://www25.senado.leg.br/web/senadores/senador/-/perfil/5525
 https://www25.senado.leg.br/web/senadores/senador/-/perfil/5894
 https://www25.senado.leg.br/web/senadores/senador/-/perfil/70
-# Acrescentadas na revisão de neutralidade (24/10/2026)
 https://github.com/nk-ls/anatomia-do-caos-fontes/blob/main/documentos/cpi_voto_separado_eduardo_braga_2021-10-25.rar
 https://github.com/nk-ls/anatomia-do-caos-fontes/blob/main/documentos/cpi_voto_separado_girao_2021-10-26.pdf
 https://github.com/nk-ls/anatomia-do-caos-fontes/blob/main/documentos/cpi_voto_separado_heinze_2021-10-26.pdf
@@ -503,7 +504,6 @@ https://www.agazeta.com.br/brasil/consorcio-do-nordeste-assina-acordo-por-37-mil
 https://www.agazeta.com.br/brasil/diretor-da-vtclog-diz-que-nao-houve-irregularidade-em-licitacao-1021
 https://www.cnnbrasil.com.br/saude/nao-sera-comprada-diz-bolsonaro-nas-redes-sobre-coronavac/
 https://www.correiobraziliense.com.br/politica/2021/03/4910166-bolsonaro-chega-de-frescura-de-mimimi--vao-ficar-chorando-ate-quando.html
-https://www.em.com.br/app/noticia/politica/2020/10/21/interna_politica,1196655/povo-brasileiro-nao-sera-cobaia-diz-bolsonaro-sobre-vacina-chinesa.shtml https://www.cnnbrasil.com.br/saude/nao-sera-comprada-diz-bolsonaro-nas-redes-sobre-coronavac/
 https://www.poder360.com.br/justica/rosa-weber-arquiva-inquerito-contra-bolsonaro-no-caso-covaxin/
 https://www.poder360.com.br/justica/stf-arquiva-pedido-para-incluir-luis-miranda-em-investigacao-contra-bolsonaro/
 https://www25.senado.leg.br/web/senadores/senador/-/perfil/1186
@@ -514,3 +514,6 @@ https://www25.senado.leg.br/web/senadores/senador/-/perfil/5350
 https://www25.senado.leg.br/web/senadores/senador/-/perfil/5422
 https://www25.senado.leg.br/web/senadores/senador/-/perfil/5976
 https://www.planalto.gov.br/ccivil_03/constituicao/hino.htm
+https://www.metropoles.com/sao-paulo/prevent-senior-mpsp-mortes-pandemia
+https://www.migalhas.com.br/quentes/408766/mp-sp-denuncia-diretores-da-prevent-senior-por-crimes-na-pandemia
+https://www.poder360.com.br/justica/mp-sp-denuncia-prevent-senior-por-crimes-na-pandemia-de-covid/
