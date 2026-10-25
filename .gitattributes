@@ -1,0 +1,10 @@
+# Este repositório é um acervo de prova: cada arquivo tem uma impressão digital
+# SHA-256 registrada, e o site instrui o leitor a conferi-la com sha256sum.
+#
+# Sem esta regra, o git converte as quebras de linha ao clonar no Windows
+# (core.autocrlf=true, que é o padrão lá). Os bytes mudam, o SHA-256 muda, e
+# 238 das 502 cópias arquivadas passam a falhar na própria verificação — o
+# leitor conclui que o acervo foi adulterado.
+#
+# Nenhum arquivo deste repositório pode ser convertido, nunca.
+* -text
