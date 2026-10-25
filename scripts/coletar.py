@@ -40,13 +40,24 @@ def ja_coletadas() -> set[str]:
         return {r["url"] for r in csv.DictReader(f) if r["status"] == "200"}
 
 
-def wayback(cliente: httpx.Client, url: str) -> str:
+def wayback(cliente: httpx.Client, url: str) -> tuple[str, str]:
+    """Pede ao Wayback que salve a URL. Devolve (url_do_snapshot, erro).
+
+    Nunca engula a falha: durante muito tempo esta função devolvia "" em
+    silêncio, e por isso o manifesto ficou com a coluna wayback vazia em
+    todas as linhas sem que ninguém percebesse. O Save Page Now anônimo é
+    limitado por taxa e costuma responder 429.
+    """
     try:
         r = cliente.get(f"https://web.archive.org/save/{url}", timeout=120)
         loc = r.headers.get("content-location") or ""
-        return f"https://web.archive.org{loc}" if loc.startswith("/web/") else str(r.url) if "/web/" in str(r.url) else ""
-    except Exception:  # noqa: BLE001
-        return ""
+        if loc.startswith("/web/"):
+            return f"https://web.archive.org{loc}", ""
+        if "/web/" in str(r.url):
+            return str(r.url), ""
+        return "", f"sem snapshot (HTTP {r.status_code})"
+    except Exception as e:  # noqa: BLE001
+        return "", f"{type(e).__name__}: {e}"
 
 
 def coletar(cliente: httpx.Client, url: str, agora: str) -> dict:
@@ -98,7 +109,9 @@ def main() -> int:
                 continue
             linha = coletar(cliente, url, agora)
             if linha["status"] == 200 and "--sem-wayback" not in sys.argv:
-                linha["wayback"] = wayback(cliente, url)
+                linha["wayback"], erro_wb = wayback(cliente, url)
+                if erro_wb:
+                    linha["erro"] = (linha["erro"] + " | " if linha["erro"] else "") + f"wayback: {erro_wb}"
             w.writerow(linha)
             f.flush()
             print(linha["status"] or "ERRO", url, linha["erro"])
