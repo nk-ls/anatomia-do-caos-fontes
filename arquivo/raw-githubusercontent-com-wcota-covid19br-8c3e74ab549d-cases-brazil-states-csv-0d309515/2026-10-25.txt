@@ -1,0 +1,4 @@
+URL: https://raw.githubusercontent.com/wcota/covid19br/8c3e74ab549d/cases-brazil-states.csv
+Coletado em: 2026-10-25T14:20:19Z
+SHA-256: 8f74f53d78cc0a6cd339628438fe9b8e417b848459b4f03779abde4297f930fd
+

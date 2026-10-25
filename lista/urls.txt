@@ -517,3 +517,5 @@ https://www.planalto.gov.br/ccivil_03/constituicao/hino.htm
 https://www.metropoles.com/sao-paulo/prevent-senior-mpsp-mortes-pandemia
 https://www.migalhas.com.br/quentes/408766/mp-sp-denuncia-diretores-da-prevent-senior-por-crimes-na-pandemia
 https://www.poder360.com.br/justica/mp-sp-denuncia-prevent-senior-por-crimes-na-pandemia-de-covid/
+https://github.com/wcota/covid19br
+https://raw.githubusercontent.com/wcota/covid19br/8c3e74ab549d/cases-brazil-states.csv

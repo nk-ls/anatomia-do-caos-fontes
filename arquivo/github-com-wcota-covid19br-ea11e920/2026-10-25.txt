@@ -1,0 +1,38 @@
+URL: https://github.com/wcota/covid19br
+Coletado em: 2026-10-25T14:20:19Z
+SHA-256: 49caee1c755d5dba243c5fbb67e5a62ef11c6f40614bf1fe61d811cf7b97860a
+
+DOI para citação: 10.1590/SciELOPreprints.362
+Descrição dos dados: DESCRIPTION.md e SciELOPreprints:362
+| ❗ IMPORTANTE: A atualização dos dados foi interrompida no dia 31 de março de 2023 | 
+|---|
+Com a mudança de metodologia pelo Ministério da Saúde para atualização semanal dos dados, nossa fonte principal não recebeu mais atualizações a partir do dia 18 de março de 2023. Para evitar inconsistências, foi decidida a não atualização dos dados a partir de tal data. O link para a nota oficial do Ministério da Saúde está disponível aqui.
+O meu trabalho voluntário de manutenção dessa base de dados foi ininterrupto desde março de 2020, quando foram confirmados os primeiros casos no país. Infelizmente, não posso mais assumir um compromisso de fornecer dados acessíveis e transparentes para a população, sendo esta tarefa totalmente fora da minha responsabilidade.
+Para maiores informações, favor me procurar nas redes sociais disponíveis em meu site pessoal wcota.me.
+Dica: ao clonar, é altamente recomendável usar uma profundidade de apenas 1 commit, já que há diversas atualizações diárias, com git clone --depth 1.
+Base de dados com números relacionados à COVID-19 no Brasil. Há dados de casos e óbitos por município, com informações oficiais do Ministério da Saúde, juntamente com os das Secretarias Estaduais de Saúde obtidos pelo Brasil.IO. Além disso, há dados de suspeitos e vacinados (primeira e segunda dose), a partir do painel do @coronavirusbra1. Outros dados, como de recuperados e testes eram extraídos do @coronavirusbra1 até outubro de 2020, e agora vem de Giscard, além de correções e atualizações próprias. Os números de casos e óbitos do dia atual para cada unidade federativa podem ser atualizados por dados de Giscard, enquanto a linha do tempo é exclusivamente pelo Ministério da Saúde (com devidas correções, veja _fixes_meta.csv) e Brasil.IO.
+Acesse o arquivo DESCRIPTION.md e SciELOPreprints:362 para mais informações sobre cada arquivo disponibilizado.
+É importante dizer que todos os dados aqui apresentados são por data de divulgação dos boletins de cada unidade federativa. Cuidado ao interpretar esses dados.
+Esse dataset é mantido exclusivamente por mim, Wesley Cota, com atualizações diárias por diferentes fontes. A página https://covid19br.wcota.me/ apresenta gráficos e mais informações tratadas a partir desta base.
+Mais informações: https://covid19br.wcota.me/
+Exemplo de acesso aos dados com pandas no Python: https://colab.research.google.com/drive/1H1N387IIAGV-3YRtyxzPz94vSiLrhE0M?usp=sharing
+💬 Observação sobre as licenças
+Em geral, os dados aqui disponibilizados seguem uma licença CC BY 4.0, ou compatíveis. No entanto, alguns dados, como os casos e óbitos confirmados por município das secretarias estaduais via Brasil.IO, seguem uma licença CC BY-SA 4.0. Ao utilizar dados que contenham essas últimas informações, siga a licença dada pela fonte inicial, que é CC BY-SA 4.0.
+Acesse o arquivo DESCRIPTION.md para mais informações sobre cada coluna disponível de cada arquivo e licenças de origem. Não é necessário pedir permissão para utilizar os dados, desde que as fontes sejam preservadas e citadas.
+Essa base de dados é parte do projeto de pós-doutorado "Monitoramento contínuo da COVID-19 no Brasil: coleta, análise e modelagem de dados epidêmicos", registrado na Pró-Reitoria de Pesquisa e Pós-Graduação da Universidade Federal de Viçosa, com bolsa da CAPES.
+Equipe atual do @coronavirusbra1
+Por favor, caso utilize esses dados em publicações acadêmicas, utilizar o seguinte DOI: 10.1590/SciELOPreprints.362
+W. Cota, “Monitoring the number of COVID-19 cases and deaths in brazil at municipal and federative units level”, SciELOPreprints:362 (2020), 10.1590/scielopreprints.362
+Em BibTeX:
+@article{CotaCovid19br2020,
+	doi = {10.1590/scielopreprints.362},
+	url = {https://doi.org/10.1590/scielopreprints.362},
+	year = {2020},
+	month = may,
+	journal={{SciELOPreprints:362}},
+	publisher = {{FapUNIFESP} ({SciELO})},
+	author = {Wesley Cota},
+	title = {Monitoring the number of {COVID}-19 cases and deaths in Brazil at municipal and federative units level}
+}
+Em geral, os dados aqui disponibilizados seguem uma licença CC BY 4.0, ou compatíveis. No entanto, alguns dados, como os casos e óbitos confirmados por município das secretarias estaduais via Brasil.IO, seguem uma licença CC BY-SA 4.0. Ao utilizar dados que contenham essas últimas informações, siga a licença dada pela fonte inicial, que é CC BY-SA 4.0.
+Acesse o arquivo DESCRIPTION.md para mais informações sobre cada coluna disponível de cada arquivo e licenças de origem. Não é necessário pedir permissão para utilizar os dados, desde que as fontes sejam preservadas e citadas.
